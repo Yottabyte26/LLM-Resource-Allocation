@@ -1,0 +1,33 @@
+random_state: 2026
+bootstrap_repetitions: 5000
+monte_carlo_repetitions: 10000
+days_per_month: 30.4375
+anchor_windows_days: [90, 120, 180]
+anchor_minimum_models: 20
+compute_recent_windows_months: [36, 48, 60]
+compute_minimum_models: 20
+compute_frontier_window_months: 6
+benchmark_frontier_window_days: 90
+compute_scenario_factors: {C0: 1.0, C1: 0.5, C2: 0.25, C3: 0.0}
+technology_scenario_factors: {T0: 0.0, T1: 0.5, T2: 1.0}
+direct_scenario_factors: {flat: 0.0, half_slope: 0.5, full_slope: 1.0}
+horizons_months: [12, 24]
+main_compute_scenario: C1
+main_technology_scenario: T1
+frontier_definition_warning_IQR_fraction: 0.10
+hindcast_minimum_training_months: 6
+hindcast_buffer_rule: 1.96_times_one_step_RMSE_times_sqrt_h_plus_structure_anchor_shift
+time_axis_warning_interval_width_fraction: 0.50
+risk_rule:
+  history_ratio: [0.5, 1.0, 2.0]
+  compute_excess_IQR: [0.0, 1.0, 2.0]
+  uncertainty_width_over_signal_or_IQR: [0.5, 1.0, 2.0]
+  frozen_time_axis_sensitive_severity: 2
+  frontier_definition_sensitive_severity: 2
+  anchor_below_minimum_severity: 2
+  exceeds_operational_ability_bound_severity: 3
+  overall: maximum_dimension_severity
+projection_positioning: scenario_based_frontier_projection_not_reliable_long_term_forecast
+frozen_ability_refit_allowed: false
+frozen_M2_refit_allowed: false
+loss_conversion_allowed: false

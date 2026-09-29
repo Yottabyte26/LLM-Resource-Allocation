@@ -1,0 +1,28 @@
+random_state: 2026
+fit_dataset: B6
+classical_parameters_source: outputs/scaling/phase1/classical_scaling_parameters.csv
+reference_scales: exp_median_log_unique_B6_levels
+models: [S1, S2, S3]
+multistart_count: 50
+bootstrap_repetitions: 2000
+bootstrap_unit: exact_ND_pair
+bootstrap_multistart_count: 50
+bootstrap_log_interval: 25
+bootstrap_workers: 2
+group_cv_folds: 5
+optimizer_tolerance: 1.0e-10
+max_nfev: 500
+parameter_bounds:
+  gamma0: [1.0e-6, 8.0]
+  C: [1.0e-6, 100.0]
+  u: [0.0, 1.0]
+  v: [0.0, 1.0]
+  eta: [1.0e-5, 5.0]
+  offset: [-10.0, 10.0]
+boundary_absolute_tolerance: 1.0e-6
+jacobian_rank_relative_tolerance: 1.0e-10
+source_offset_sensitivity: true
+source_offset_bootstrap: false
+selection_priority: [S3, S1, S2]
+figure_dpi: 160
+stop_after: question2_phase2C

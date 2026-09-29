@@ -1,0 +1,19 @@
+# Applies locked weights; no preprocessing or CRITIC parameter fitting.
+weight_source: outputs/quality/critic_weights_A1.csv
+spearman_weight_source: outputs/quality/critic_weights_spearman_sensitivity.csv
+random_state: 2026
+bootstrap_repetitions: 2000
+bootstrap_confidence: 0.95
+trim_fraction_per_tail: 0.10
+bootstrap_working_memory_mb: 32
+bootstrap_max_batch: 16
+feature_batch_size: 4096
+quantile_method: linear
+std_ddof: 1
+ks_method: asymp
+# Differences are extension minus A1 sample. Relative change uses trimmed mean.
+difference_direction: extended_minus_sample
+relative_difference_reference: sample_trimmed_mean
+text_review_top_bottom_count: 20
+figure_dpi: 160
+scatter_max_points: 15000

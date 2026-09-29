@@ -1,0 +1,11 @@
+# Research choices only. Official constants are parsed from Word OMML.
+random_state: 2026
+budget_log_grid_count: 41
+budget_extension_decades_per_side: 1
+baseline_primary: Q0_B
+mixture_primary_modes: [P0, P1]
+mixture_empirical_signature_decimal_places: 12
+main_bounds: intersection_B1_and_frozen_B6_numeric_support
+quality_cost_primary: null  # compare all three official families in Phase 2
+perform_optimization: false
+perform_structural_shift_detection: false

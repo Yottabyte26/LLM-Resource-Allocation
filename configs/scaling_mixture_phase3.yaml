@@ -1,0 +1,19 @@
+random_state: 2026
+bootstrap_repetitions: 2000
+main_mixture_model: M1_ElasticNet
+mixture_response: L_mean
+N_reference_B: 1.0
+scale_fitting_weights: equal_per_scale
+full_fit_starts: 16
+bootstrap_fit_starts: 3
+max_nfev: 500
+p2_bounds:
+  amplitude: [0.00001, 100.0]
+  slope: [0.00001, 10.0]
+  log_Nc_B: [-30.0, 30.0]
+boundary_tolerance: 0.000001
+critical_interval_min_valid_fraction: 0.95
+critical_interval_max_boundary_fraction: 0.05
+empirical_interpolation: linear_in_log_N
+extrapolation_policy: prohibited
+figure_dpi: 160

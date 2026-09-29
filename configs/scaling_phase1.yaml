@@ -1,0 +1,24 @@
+random_state: 2026
+main_fit_dataset: B1
+N_D_units: billions
+main_weighting: trajectory_balanced
+main_model: M0_N_D
+multistart_count: 32
+bootstrap_repetitions: 2000
+bootstrap_multistart_count: 32
+bootstrap_unit: trajectory
+least_squares_loss: linear
+max_nfev: 3000
+optimizer_tolerance: 1.0e-10
+parameter_bounds:
+  E: [1.0e-8, 10000.0]
+  A: [1.0e-8, 10000.0]
+  B: [1.0e-8, 10000.0]
+  alpha: [0.0001, 5.0]
+  beta: [0.0001, 5.0]
+initial_exponent_range: [0.03, 1.2]
+bootstrap_checkpoint_interval: 25
+bootstrap_workers: 2
+figure_dpi: 160
+validation_no_calibration: true
+stop_after: question2_phase1_classical_scaling

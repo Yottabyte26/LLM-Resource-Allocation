@@ -1,0 +1,33 @@
+random_state: 2026
+perturbation_steps: [0.005, 0.01, 0.02]
+primary_step: 0.01
+numerical_sign_tolerance: 1.0e-10
+monte_carlo_repetitions: 500
+monte_carlo_protocol: independent_inferred_domain_uniform_CI_draws_fixed_nested_selected_hyperparameters
+trim_fraction_per_tail: 0.1
+inferred_mapping:
+  dm_mathematics: {quality_domain: arxiv, rationale: '数学训练文本暂借学术域，格式与内容均非直接观测'}
+  freelaw: {quality_domain: wikipedia, rationale: '法律参考文本暂借知识参考域，法律语料质量未直接观测'}
+  nih_exporter: {quality_domain: arxiv, rationale: '科研项目文本暂借学术域'}
+  pubmed_central: {quality_domain: arxiv, rationale: '生物医学全文暂借学术论文域'}
+  philpapers: {quality_domain: arxiv, rationale: '哲学学术文本暂借学术论文域'}
+  enron_emails: {quality_domain: commoncrawl, rationale: '通信文本暂借一般网络文本，文体匹配较弱'}
+  ubuntu_irc: {quality_domain: stackexchange, rationale: '技术交流暂借技术问答域，聊天与问答文体不同'}
+  europarl: {quality_domain: wikipedia, rationale: '议会公共事务文本暂借知识参考域，文体匹配较弱'}
+  hackernews: {quality_domain: commoncrawl, rationale: '网络讨论暂借一般网络文本'}
+  pubmed_abstracts: {quality_domain: arxiv, rationale: '医学摘要暂借学术论文域，摘要与全文不同'}
+  uspto_backgrounds: {quality_domain: arxiv, rationale: '技术专利背景暂借学术技术文本'}
+# These are alternative assumptions, never selected by test performance.
+alternative_inferred_mapping:
+  dm_mathematics: stackexchange
+  freelaw: book
+  nih_exporter: wikipedia
+  pubmed_central: wikipedia
+  philpapers: book
+  enron_emails: c4
+  ubuntu_irc: commoncrawl
+  europarl: book
+  hackernews: stackexchange
+  pubmed_abstracts: wikipedia
+  uspto_backgrounds: wikipedia
+stop_after: question1_part3_final

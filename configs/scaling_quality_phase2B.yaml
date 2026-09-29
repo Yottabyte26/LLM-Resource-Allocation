@@ -1,0 +1,20 @@
+random_state: 2026
+fit_dataset: B6
+validation_dataset: B7_nonoverlap
+stress_test_dataset: B8
+units: N_B_D_B
+gamma_starts: [0.1, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0]
+gamma_bounds: [1.0e-8, 50.0]
+offset_bounds: [-10.0, 10.0]
+optimizer_tolerance: 1.0e-10
+max_nfev: 1000
+group_cv_folds: 5
+bootstrap_repetitions: 2000
+bootstrap_unit: exact_ND_pair
+bootstrap_models: [MQ1, MQ2, MQ1_offset, MQ2_offset]
+bootstrap_log_interval: 100
+figure_dpi: 160
+primary_candidate: MQ1
+primary_source_offset: false
+selection_evidence: B6_only
+stop_after: question2_phase2B

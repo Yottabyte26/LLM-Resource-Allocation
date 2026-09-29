@@ -1,0 +1,19 @@
+random_state: 2026
+bootstrap_repetitions: 5000
+days_per_month: 30.4375
+window_fractions: [0.3333333333333333, 0.25]
+primary_sample: S1
+primary_model_type: pretrained
+primary_time_axis: Submission Date
+main_model: M1_linear
+VIF_warning: 5.0
+VIF_high: 10.0
+time_axis_absolute_share_difference_warning: 0.10
+bootstrap_windows: fixed_original_calendar_bounds_with_resampled_endpoint_medians
+scale_endpoint_state: median_lnN_and_log_of_median_raw_D_and_C
+release_sensitivity: accepted_C4_identity_and_release_date_same_models_paired_submission
+bootstrap_invalid_policy: retain_all_draws_and_report_conditional_valid_intervals
+parameter_conflict_policy: retain_flagged_records_and_compare_exclusion_sensitivity
+organization_cluster_policy: exact_normalized_attachment_organization_string
+future_prediction_enabled: false
+loss_conversion_enabled: false

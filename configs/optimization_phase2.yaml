@@ -1,0 +1,25 @@
+random_state: 2026
+Q0_main: 0.7280227164978084
+Q0_sensitivity: [0.6925361864, 0.7215759820, 0.7475281056]
+grid_N_count: 121
+grid_Q_count: 81
+local_start_count: 10
+local_maxiter: 250
+local_ftol: 1.0e-12
+de_maxiter: 180
+de_popsize: 12
+de_tol: 1.0e-9
+active_tolerance: 1.0e-6
+budget_relative_tolerance: 2.0e-8
+loss_validation_tolerance: 2.0e-7
+transition_log10_bracket_tolerance: 1.0e-5
+transition_max_bisections: 24
+soft_transition_min_points_per_side: 5
+soft_transition_delta_BIC: 10
+soft_transition_bootstrap_repetitions: 300
+soft_transition_bootstrap_block_length: 3
+three_dimensional_check_count: 30
+candidate_enumeration_check_count: 20
+quality_departure_absolute: 0.01
+quality_thresholds: [0.9, 0.95, 0.99, 1.0]
+P2_enabled: false

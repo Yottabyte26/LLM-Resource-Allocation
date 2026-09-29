@@ -1,0 +1,20 @@
+random_state: 2026
+N_workpoints_B: [0.07, 1.0, 12.0, 70.0, 100.0, 1000.0]
+N_primary_B: [0.07, 1.0, 12.0]
+N_lambda_sensitivity_B: [100.0, 300.0, 1000.0, 3000.0, 10000.0]
+D_quantiles: [0.25, 0.5, 0.75]
+D_distribution: B6_unique_ND_blocks
+Q_representative: 0.7
+Q_gain: 0.1
+lambda_main: S-A
+lambda_sensitivity: [S-A, S-B, S-C]
+lambda_shrink_zero_B: 1000.0
+knot_derivative_main: right
+finite_difference_relative_step: 0.0001
+derivative_relative_tolerance: 0.00001
+derivative_absolute_tolerance: 0.00000001
+root_max_multiple: 100.0
+root_min_max_B: 10000.0
+root_xtol: 0.000000000001
+root_rtol: 0.000000000001
+figure_dpi: 160

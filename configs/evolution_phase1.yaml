@@ -1,0 +1,24 @@
+random_state: 2026
+benchmarks: [IFEval, BBH, MATH Lvl 5, GPQA, MUSR, MMLU-PRO]
+average_column: "Average ⬆️"
+main_sample: S1
+winsor_quantiles: [0.01, 0.99]
+display_quantiles: [0.01, 0.99]
+pca_min_explained_variance: 0.5
+parameter_conflict_relative_threshold: 0.25
+duplicate_model_policy: latest_submission_then_componentwise_median_of_tied_evaluations
+license_policy: attachment_explicit_grant_required_otherwise_license_unknown
+type_mapping:
+  "🟢 pretrained": pretrained
+  "🟩 continuously pretrained": pretrained
+  "💬 chat models (RLHF, DPO, IFT, ...)": chat_finetuned
+  "🔶 fine-tuned on domain-specific datasets": chat_finetuned
+  "🤝 base merges and moerges": other_unknown
+  "🌸 multimodal": other_unknown
+  "❓ other": other_unknown
+C8_normalization_reference: https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/normalization
+C8_fuzzy_auto_accept: false
+bridge_bootstrap_repetitions: 2000
+bridge_grid_points: 201
+future_prediction_enabled: false
+contribution_decomposition_enabled: false

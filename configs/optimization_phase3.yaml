@@ -1,0 +1,21 @@
+random_state: 2026
+dirichlet_samples: 100000
+dirichlet_concentrations: [0.05, 0.2, 1.0, 5.0]
+targeted_dirichlet_samples_per_extreme: 10000
+targeted_concentration: 1000
+targeted_alpha_floor: 0.001
+simplex_slsqp_starts: 32
+simplex_slsqp_maxiter: 1000
+simplex_slsqp_ftol: 1.0e-12
+simplex_DE_maxiter: 800
+simplex_DE_popsize: 12
+simplex_DE_tolerance: 1.0e-10
+optimizer_agreement_absolute: 1.0e-7
+random_witness_gap_tolerance: 0.01
+primary_transition_log10_distance: 0.5
+nearby_break_log10_distance: 0.5
+high_concentration_share: 0.8
+high_concentration_effective_domains: 2
+near_degenerate_share: 0.95
+P2_B_policy: diagnose_unbounded_positive_boundary_limits_without_new_floor
+question4_enabled: false
