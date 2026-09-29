@@ -1,0 +1,6 @@
+outputs/
+scripts/
+src/
+configs/
+*.csv
+*.xz

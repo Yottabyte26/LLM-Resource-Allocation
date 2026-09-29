@@ -1,0 +1,8 @@
+# Dependencies for quality inspection, preprocessing and scoring (CPU only).
+numpy>=1.24
+PyYAML>=6.0
+scipy>=1.10
+pypdf>=5.0
+matplotlib>=3.9
+scikit-learn>=1.6
+joblib>=1.3
