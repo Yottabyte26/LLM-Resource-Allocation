@@ -1,0 +1,25 @@
+{
+  "sample_counts": {
+    "S0": 4497,
+    "S1": 422,
+    "S2": 0,
+    "S1_N_submission": 422,
+    "all_joint_N_D_compute": 25,
+    "S1_joint_N_D_compute_submission_no_N_conflict": 23,
+    "S1_pretrained_joint": 20,
+    "S1_joint_with_nonnegative_release_lag": 23
+  },
+  "contribution_analysis_started": false,
+  "sufficient_for_descriptive_ability_analysis": true,
+  "full_N_D_compute_decomposition_strongly_supported": false,
+  "universal_loss_bridge_validated": false,
+  "strict_license_sample_available": false,
+  "recommended_phase2_scope": "conditional limited-sample/N-only sensitivity possible after human confirmation; no causal or precise contribution-ratio claim yet",
+  "unresolved": [
+    "small complete-scale sample and selection bias",
+    "single-family High bridge fails predictive validation",
+    "license grant not established from attachments",
+    "submission cohorts are not necessarily contemporaneous evaluation frontiers",
+    "release/submission discrepancies and conservative model identity joins"
+  ]
+}

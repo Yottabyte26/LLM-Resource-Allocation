@@ -1,0 +1,8 @@
+﻿method,frontier_definition,response,monthly_log_growth,annualized_multiplier,CI_low,CI_high,bootstrap_draws,window_months,recent_unique_models,context_models,nonempty_months,base_date,latest_compute_release,no_monotonic_envelope,solver_warnings
+TheilSen,P90,6-month rolling log compute frontier,0.12212221451804983,4.329562831505865,0.060104572071953,0.20176086821033873,5000,36,34,35,35,2025-03-13,2024-09-19,True,
+OLS,P90,6-month rolling log compute frontier,0.12296970686077406,4.373818745522405,0.07127116369566257,0.20369299372219074,5000,36,34,35,35,2025-03-13,2024-09-19,True,
+TheilSen,P95,6-month rolling log compute frontier,0.12846081955125999,4.671731783924052,0.06446239757120209,0.18877121106981054,5000,36,34,35,35,2025-03-13,2024-09-19,True,
+OLS,P95,6-month rolling log compute frontier,0.13236834137740547,4.896007595262935,,,0,36,34,35,35,2025-03-13,2024-09-19,True,
+TheilSen,Top3,6-month rolling log compute frontier,0.10985120410850505,3.7367432724296408,0.04856683481066275,0.18740334634203792,5000,36,34,35,35,2025-03-13,2024-09-19,True,
+OLS,Top3,6-month rolling log compute frontier,0.11723721270098271,4.08305936755519,,,0,36,34,35,35,2025-03-13,2024-09-19,True,
+QuantReg_tau0.9,conditional_P90,individual_model_log_compute,0.17081898257102068,7.766563517853224,,,0,36,34,35,34,2025-03-13,2024-09-19,,

@@ -1,0 +1,10 @@
+﻿N_params_B,within_B9_reported_N_range,exact_reported_scale_model_count,models_at_exact_scale,scope
+0.07,False,0,[],metadata scale anchor only; total/active parameters not harmonized
+1.0,False,0,[],metadata scale anchor only; total/active parameters not harmonized
+12.0,False,0,[],metadata scale anchor only; total/active parameters not harmonized
+70.0,False,0,[],metadata scale anchor only; total/active parameters not harmonized
+100.0,True,9,"[""Ling-flash-base-2.0-20T"", ""FaXin"", ""PLaMo-100B"", ""Yi-Large"", ""Hunyuan"", ""Luca 2.0"", ""xTrimoPGLM -100B"", ""YaLM"", ""DLRM-2020""]",metadata scale anchor only; total/active parameters not harmonized
+1000.0,True,5,"[""Kimi K2 Thinking"", ""Ling-1T"", ""Qwen3-Max"", ""Kimi K2"", ""DLRM-2021""]",metadata scale anchor only; total/active parameters not harmonized
+300.0,True,3,"[""ERNIE-4.5-300B-A47B"", ""EXAONE 1.0"", ""SB-LM""]",metadata scale anchor only; total/active parameters not harmonized
+3000.0,True,3,"[""Grok 4"", ""Grok 3"", ""DLRM-2022""]",metadata scale anchor only; total/active parameters not harmonized
+10000.0,True,1,"[""M6-10T""]",metadata scale anchor only; total/active parameters not harmonized

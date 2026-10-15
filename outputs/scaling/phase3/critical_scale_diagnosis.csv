@@ -1,0 +1,6 @@
+﻿fit,model,failure_fraction,valid_fraction,boundary_fraction,sign_change_bracket_available,Nc_B_median,Nc_B_CI_low,Nc_B_CI_high,CI_inside_sign_bracket,conditional_interval_stable,point_Nc_B
+A_real_only,P1,0.0,1.0,0.0,False,41.70898003196699,11.163733883493911,511.61808100780206,False,False,
+A_real_only,P2,0.0,1.0,0.004,False,4.671714106762559,2.1011437153209664,56.5590533223667,False,False,
+B_with_estimated,P1,0.0,1.0,0.0,True,3.4637202400279623,1.8468935805118694,6.892820436427878,True,True,
+B_with_estimated,P2,0.0,1.0,0.0,True,3.9494730505190203,2.469458601006905,6.846162070454172,True,True,
+B_with_estimated,empirical_log_linear,0.0,1.0,0.0,True,2.995118121766411,2.235527744623931,4.228050162763193,True,True,3.039275688876856

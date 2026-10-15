@@ -1,0 +1,20 @@
+{
+  "selected_lambda_form": "piecewise_linear_in_log_N",
+  "main_global_function_frozen": false,
+  "observed_only_support_B": [
+    0.001,
+    1.0
+  ],
+  "with_estimated_support_B": [
+    0.001,
+    70.0
+  ],
+  "extrapolation_prohibited": true,
+  "physical_critical_scale_identified": false,
+  "estimated_conditional_crossing": true,
+  "reason": "Only three positive observed scales; P2 Fit A saturated; large-scale sign reversal and crossing rely on estimated tables.",
+  "P1_preferred_over_P2_for_parsimony": true,
+  "generalized_model_status": "modular_candidate_pending_human_confirmation",
+  "next_stage_requires_human_confirmation": true,
+  "next_stage_requires_explicit_outside_knot_extrapolation_policy": true
+}

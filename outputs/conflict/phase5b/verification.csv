@@ -1,0 +1,75 @@
+﻿check,passed,detail
+A1 every record scalar formula,True,"n=51230,max_abs_error=3.3306690738754696e-16"
+A1 ordinary unchanged,True,46107 rows exact Q copy; original id/Q/K/metadata equality
+A2 every record scalar formula,True,"n=17523,max_abs_error=3.3306690738754696e-16"
+A2 ordinary unchanged,True,14638 rows exact Q copy; original id/Q/K/metadata equality
+A3 every record scalar formula,True,"n=203752,max_abs_error=3.3306690738754696e-16"
+A3 ordinary unchanged,True,156688 rows exact Q copy; original id/Q/K/metadata equality
+five user deltas,True,No additional deltas or extension retuning
+A1 delta=0.15 full Pearson/Spearman,True,independent scalar candidates and scipy ranks
+A1 delta=0.15 movement and directions,True,"high/extreme mean changes, max change and signs match"
+A1 delta=0.2 full Pearson/Spearman,True,independent scalar candidates and scipy ranks
+A1 delta=0.2 movement and directions,True,"high/extreme mean changes, max change and signs match"
+A1 delta=0.25 full Pearson/Spearman,True,independent scalar candidates and scipy ranks
+A1 delta=0.25 movement and directions,True,"high/extreme mean changes, max change and signs match"
+A1 delta=0.3 full Pearson/Spearman,True,independent scalar candidates and scipy ranks
+A1 delta=0.3 movement and directions,True,"high/extreme mean changes, max change and signs match"
+A1 delta=0.35 full Pearson/Spearman,True,independent scalar candidates and scipy ranks
+A1 delta=0.35 movement and directions,True,"high/extreme mean changes, max change and signs match"
+A2/full extension ranks and movement,True,"fixed A1 delta, exact saved nonoverlap row index"
+A2/nonoverlap extension ranks and movement,True,"fixed A1 delta, exact saved nonoverlap row index"
+A3/full extension ranks and movement,True,"fixed A1 delta, exact saved nonoverlap row index"
+A3/nonoverlap extension ranks and movement,True,"fixed A1 delta, exact saved nonoverlap row index"
+A1 original equal sensitivity,True,uses saved first-stage Delta_Q
+A1 robust equal sensitivity,True,"independent scalar equal candidate around saved Q_equal, same high mask and delta"
+A2 original equal sensitivity,True,uses saved first-stage Delta_Q
+A2 robust equal sensitivity,True,"independent scalar equal candidate around saved Q_equal, same high mask and delta"
+A3 original equal sensitivity,True,uses saved first-stage Delta_Q
+A3 robust equal sensitivity,True,"independent scalar equal candidate around saved Q_equal, same high mask and delta"
+case up/BkiUfI_xK1yAgXBVGnXn,True,original 22Z and content; scalar score and all local weights/coefficients
+case up/BkiUdcg4dbjiVCOrALlv,True,original 22Z and content; scalar score and all local weights/coefficients
+case up/BkiUabvxK0wg05VB4taD,True,original 22Z and content; scalar score and all local weights/coefficients
+case up/BkiUd885qoTBG9o64qmS,True,original 22Z and content; scalar score and all local weights/coefficients
+case up/BkiUbvjxK6wB9mn49q52,True,original 22Z and content; scalar score and all local weights/coefficients
+case up/BkiUd_E4uzlh53v23gzI,True,original 22Z and content; scalar score and all local weights/coefficients
+case up/BkiUdmg5qYVBXTJ3BsEF,True,original 22Z and content; scalar score and all local weights/coefficients
+case up/BkiUcV3xK6Ot9WA5gtvG,True,original 22Z and content; scalar score and all local weights/coefficients
+case up/BkiUc_g4eIZjkiQT3F92,True,original 22Z and content; scalar score and all local weights/coefficients
+case up/BkiUcsHxK7FjYCv2RUDM,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUdPY5qWTD6fkJfvzP,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUcC3xK6-gDz87O0dB,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUb1zxK19JmejM8KYA,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUbRzxK3xgpdbchQki,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUboE5qg5A5-klCrDP,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUdpU5qoYArXHsxfh_,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUdBY5jDKDyJ94W75k,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUainxK1Thg9qFa8nv,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUctk5qoTAhudwxeH1,True,original 22Z and content; scalar score and all local weights/coefficients
+case down/BkiUatvxaJJQnMsbx8XA,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUa-c4eIZijWO-ljYW,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUb7zxaJJQnKrAjVb7,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUc8nxaKgTvXx06mnP,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUcyg5qoYAmdCYN0tV,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUd-U4eIXh7gjUqssm,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUdOg5qhDBZQieouQK,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUd_3xaJJQnK0WJoXz,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUdlbxK7IDPjMdK1YM,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUdmw5qoYAwaI90jqY,True,original 22Z and content; scalar score and all local weights/coefficients
+case unchanged/BkiUduvxK7IAEwOJJChw,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUdwo5qhLBXeFpceh2,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUdBA5qYVBWXyirgbQ,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUdzo4eIXgu5sT-gAe,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUdn84eIXh8AOmA2GS,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUeVXxK6nrxrSHgg4t,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUgO7xK02iP1lCaIZh,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUeAY5qYVBfjdSHW7f,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUc_M5qWTA8JC6R0cf,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUfTrxK7kjXLSrHdha,True,original 22Z and content; scalar score and all local weights/coefficients
+case high_conflict_smallest_change/BkiUbGI241xg-Hfkrhkc,True,original 22Z and content; scalar score and all local weights/coefficients
+case count up,True,10 actual selected records
+case count down,True,10 actual selected records
+case count unchanged,True,10 actual selected records
+case count high_conflict_smallest_change,True,10 actual selected records
+policy B inactive candidate,True,Q/K remain final; no exponential penalty
+frozen file hashes,True,2182 frozen files unchanged
+four figure outputs,True,actual PNGs present

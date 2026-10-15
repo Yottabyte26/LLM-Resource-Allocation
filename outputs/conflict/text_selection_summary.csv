@@ -1,0 +1,9 @@
+﻿selection_group,eligible_n,requested_n,selected_n,definition
+top_K_30,51230,30,30,All A1; largest K
+highK_relative_lowQ,1708,20,20,K>A1P90; Q<=highK Q P33=0.5498055098597562
+highK_relative_middleQ,1707,20,20,K>A1P90; 0.5498055098597562<Q<=highK Q P67=0.60210251003734
+highK_relative_highQ,1708,20,20,K>A1P90; Q>highK Q P67=0.60210251003734; NOT globally high Q
+global_highQ_lowK,22464,5,5,"A1 Q median=0.7301786313275413; low K<=P50, high K>P90; middle K excluded"
+global_highQ_highK,3,5,3,"A1 Q median=0.7301786313275413; low K<=P50, high K>P90; middle K excluded"
+global_lowQ_lowK,3151,5,5,"A1 Q median=0.7301786313275413; low K<=P50, high K>P90; middle K excluded"
+global_lowQ_highK,5120,5,5,"A1 Q median=0.7301786313275413; low K<=P50, high K>P90; middle K excluded"

@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    {
+      "path": "real_attachments/B_scaling_laws/supplementary_NQ_experiment.csv",
+      "sha256": "c7450ce0d67d8692535fef4709e60e2da60b2c184738bf96df160a4be0a33a7f"
+    },
+    {
+      "path": "real_attachments/B_scaling_laws/supplementary_NQ_experiment_expanded.csv",
+      "sha256": "880fd265ca3e1d9bc93b4559af7ed7c18f89040634266c50bae03d88486e0f3a"
+    },
+    {
+      "path": "real_attachments/B_scaling_laws/supplementary_NQ_experiment_large.csv",
+      "sha256": "bda0d449f75c73bbd04141e5cffbf4bea7002073e34b7fa95a638570fa095ffe"
+    },
+    {
+      "path": "outputs/scaling/phase1/classical_scaling_parameters.csv",
+      "sha256": "85f9a0f461895bb37e419c2a1d7a4dabbca7d99d7635164a9fe4ed0edfdb2e6f"
+    },
+    {
+      "path": "configs/scaling_quality_phase2C.yaml",
+      "sha256": "f98258acbc99c71df2bfd4e17e52cc853071ef9e845d628f70c8c8d3475b114b"
+    },
+    {
+      "path": "outputs/quality/domain_quality_summary_A1.csv",
+      "sha256": "3d245655e43b4f61270b68845134895f2968e482a79f59e94d6b995ce8d6b406"
+    }
+  ],
+  "fitting_sources": [
+    "B6"
+  ],
+  "acceptance_sources": [
+    "B6_GroupCV",
+    "B7_nonoverlap"
+  ],
+  "pressure_sources": [
+    "B8"
+  ]
+}

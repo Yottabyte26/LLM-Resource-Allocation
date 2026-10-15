@@ -1,0 +1,10 @@
+2026-09-26 15:30:22,864 INFO Snapshot all frozen outputs and official source hashes
+2026-09-26 15:30:27,610 INFO A1 candidate delta=0.15; only 5123 high-conflict records adjusted
+2026-09-26 15:30:27,665 INFO A1 candidate delta=0.2; only 5123 high-conflict records adjusted
+2026-09-26 15:30:27,746 INFO A1 candidate delta=0.25; only 5123 high-conflict records adjusted
+2026-09-26 15:30:27,807 INFO A1 candidate delta=0.3; only 5123 high-conflict records adjusted
+2026-09-26 15:30:27,857 INFO A1 candidate delta=0.35; only 5123 high-conflict records adjusted
+2026-09-26 15:30:27,912 INFO Conservative A1 validation candidate selected: delta=0.35; not activated
+2026-09-26 15:30:28,905 INFO Apply fixed delta=0.35 to A2, no retuning
+2026-09-26 15:30:29,807 INFO Apply fixed delta=0.35 to A3, no retuning
+2026-09-26 15:30:45,598 INFO COMPLETED PHASE 5B; frozen files unchanged=2182; recommendation B; no exponent penalty or part 3

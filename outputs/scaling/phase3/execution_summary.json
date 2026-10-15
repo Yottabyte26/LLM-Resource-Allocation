@@ -1,0 +1,15 @@
+{
+  "completed": true,
+  "prior_files_unchanged": 2717,
+  "n_recipe_points": 702,
+  "bootstrap_repetitions": 2000,
+  "fitted_Question1": false,
+  "refitted_quality": false,
+  "refitted_classical": false,
+  "parsed_original_A_data": false,
+  "used_B9_B10": false,
+  "joint_global_fit": false,
+  "selected_lambda_form": "piecewise_linear_in_log_N",
+  "physical_Nc_identified": false,
+  "stopped_before_elasticity_parameter_equivalence_and_extrapolation": true
+}

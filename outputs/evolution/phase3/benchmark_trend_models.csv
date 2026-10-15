@@ -1,0 +1,4 @@
+﻿model_scope,monthly_slope,n_months,history_months,first_date,last_date,method,damped_k_identifiable,half_slope_is_assumption,used_M2
+F0_pretrained,-0.024194769172514022,10,9.13347022587269,2024-06-08,2025-03-13,Benchmark-only linear P95 of 90-day pooled models,False,True,False
+F1_chat,0.031323107386041826,10,9.100616016427105,2024-06-09,2025-03-13,Benchmark-only linear P95 of 90-day pooled models,False,True,False
+F2_overall,0.04659625738972015,10,9.13347022587269,2024-06-08,2025-03-13,Benchmark-only linear P95 of 90-day pooled models,False,True,False

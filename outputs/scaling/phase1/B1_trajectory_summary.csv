@@ -1,0 +1,9 @@
+﻿trajectory_id,N_params_B,n_checkpoints,N_fixed,unique_checkpoint_count,D_strictly_increasing,D_min,D_max,first_loss,last_loss,loss_decrease_first_to_last,loss_rebound_count,maximum_loss_rebound,matched_B12_nominal_size,nominal_match_rule,B12_matching_checkpoint_steps,B12_unmatched_B1_steps,B11_repo_metadata_present
+B1:N=0.070542,0.070542,147,True,147,True,0.134,299.893,4.7388,2.8131,1.9257000000000004,0,0.0,70m,"nearest log-scale B12 name; grouping is exact B1 N, not nominal value",147,[],True
+B1:N=0.162405,0.162405,147,True,147,True,0.134,299.893,4.5235,2.5978,1.9257000000000004,0,0.0,160m,"nearest log-scale B12 name; grouping is exact B1 N, not nominal value",147,[],True
+B1:N=0.409009,0.409009,147,True,147,True,0.134,299.893,4.3461,2.4209,1.9251999999999998,0,0.0,410m,"nearest log-scale B12 name; grouping is exact B1 N, not nominal value",147,[],True
+B1:N=1.040867,1.040867,147,True,147,True,0.134,299.893,4.2153,2.2904,1.9249,0,0.0,1b,"nearest log-scale B12 name; grouping is exact B1 N, not nominal value",147,[],True
+B1:N=1.416184,1.416184,147,True,147,True,0.134,299.893,4.1816,2.2558,1.9258000000000006,0,0.0,1.4b,"nearest log-scale B12 name; grouping is exact B1 N, not nominal value",147,[],True
+B1:N=11.965825,11.965825,147,True,147,True,0.134,299.893,4.0188,2.0933,1.9254999999999995,0,0.0,12b,"nearest log-scale B12 name; grouping is exact B1 N, not nominal value",147,[],True
+B1:N=2.782831,2.782831,147,True,147,True,0.134,299.893,4.1162,2.1911,1.9251,0,0.0,2.8b,"nearest log-scale B12 name; grouping is exact B1 N, not nominal value",147,[],True
+B1:N=6.86104,6.86104,147,True,147,True,0.134,299.893,4.0512,2.125,1.9261999999999997,0,0.0,6.9b,"nearest log-scale B12 name; grouping is exact B1 N, not nominal value",147,[],True

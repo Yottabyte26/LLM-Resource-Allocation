@@ -1,0 +1,13 @@
+﻿file,source,bytes
+outputs/figures/question4_phase2/01_ability_vs_parameter_scale.png,analysis_model_table.csv,87792
+outputs/figures/question4_phase2/02_technology_residual_vs_time.png,non_scale_technology_index.csv,77686
+outputs/figures/question4_phase2/03_pretrained_chat_time_trends.png,model_type_comparison.csv,78789
+outputs/figures/question4_phase2/04_observed_vs_predicted.png,model_predictions.csv,91729
+outputs/figures/question4_phase2/05_observed_vs_predicted.png,model_predictions.csv,64085
+outputs/figures/question4_phase2/06_endpoint_shapley_waterfall.png,contribution_decomposition.csv,77718
+outputs/figures/question4_phase2/07_bootstrap_contribution_ratios.png,contribution_bootstrap.csv; full tails retained in CSV,140123
+outputs/figures/question4_phase2/08_monthly_ability_frontier.png,monthly_ability_frontier.csv,135048
+outputs/figures/question4_phase2/09_monthly_technology_index.png,monthly_technology_frontier.csv,99303
+outputs/figures/question4_phase2/10_submission_release_sensitivity.png,time_axis_sensitivity.csv,48644
+outputs/figures/question4_phase2/11_M1_residual_diagnostics.png,model_predictions.csv,99657
+outputs/figures/question4_phase2/12_M1_influence_diagnostics.png,influence_diagnostics.csv,68687

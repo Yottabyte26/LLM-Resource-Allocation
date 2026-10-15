@@ -1,0 +1,4 @@
+﻿dataset,n,frozen_E,loss_below_E_count,loss_below_E_rate,condition
+B6,360,1.6897975629216038,0,0.0,Both frozen positive-coefficient candidate models imply predicted Loss >= E
+B7,450,1.6897975629216038,0,0.0,Both frozen positive-coefficient candidate models imply predicted Loss >= E
+B8,1704,1.6897975629216038,1095,0.6426056338028169,Both frozen positive-coefficient candidate models imply predicted Loss >= E

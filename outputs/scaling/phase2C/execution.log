@@ -1,0 +1,120 @@
+2026-09-26 18:30:33,469 INFO B6 S1 params={'gamma0': 1.2757163481594538, 'u': 0.11049800074987362, 'v': 0.16267720921829426} RMSE=0.0852121516 Jacobian rank=3 boundary=[]
+2026-09-26 18:30:33,831 INFO B6 S2 params={'C': 99.99999999999996, 'u': 0.16193291041759425, 'v': 4.465078941295762e-25, 'eta': 0.001703384836033802} RMSE=0.0696365921 Jacobian rank=4 boundary=['C', 'v']
+2026-09-26 18:30:34,035 INFO B6 S3 params={'C': 0.17064090046126643, 'u': 0.161903294252729, 'v': 1.2771771651498533e-20} RMSE=0.0695734995 Jacobian rank=3 boundary=['v']
+2026-09-26 18:30:34,827 INFO Group CV fold 1/5 completed, training groups=36 test groups=9
+2026-09-26 18:30:35,658 INFO Group CV fold 2/5 completed, training groups=36 test groups=9
+2026-09-26 18:30:36,533 INFO Group CV fold 3/5 completed, training groups=36 test groups=9
+2026-09-26 18:30:37,359 INFO Group CV fold 4/5 completed, training groups=36 test groups=9
+2026-09-26 18:30:38,121 INFO Group CV fold 5/5 completed, training groups=36 test groups=9
+2026-09-26 18:30:45,940 ERROR Phase 2C execution failed; existing data protected; no later stage started
+Traceback (most recent call last):
+  File "D:\code\F4.0\scripts\14_fit_scale_dependent_quality.py", line 206, in <module>
+    try:main()
+        ~~~~^^
+  File "D:\code\F4.0\scripts\14_fit_scale_dependent_quality.py", line 201, in main
+    if args.compute:compute(cfg,args.reuse_basics)
+                    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\F4.0\scripts\14_fit_scale_dependent_quality.py", line 71, in compute
+    bp,reps,corr=bootstrap_models(b6,p,ref,cfg,OUT)
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\code\F4.0\src\scaling\scale_quality_analysis.py", line 118, in bootstrap_models
+    executor=ProcessPoolExecutor(max_workers=cfg['bootstrap_workers'],initializer=initialize_worker,initargs=(t,p,reference,cfg))
+  File "D:\Python\Anaconda\Lib\concurrent\futures\process.py", line 721, in __init__
+    self._executor_manager_thread_wakeup = _ThreadWakeup()
+                                           ~~~~~~~~~~~~~^^
+  File "D:\Python\Anaconda\Lib\concurrent\futures\process.py", line 72, in __init__
+    self._reader, self._writer = mp.Pipe(duplex=False)
+                                 ~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Python\Anaconda\Lib\multiprocessing\context.py", line 63, in Pipe
+    return Pipe(duplex)
+  File "D:\Python\Anaconda\Lib\multiprocessing\connection.py", line 575, in Pipe
+    h2 = _winapi.CreateFile(
+        address, access, 0, _winapi.NULL, _winapi.OPEN_EXISTING,
+        _winapi.FILE_FLAG_OVERLAPPED, _winapi.NULL
+        )
+PermissionError: [WinError 5] 拒绝访问。
+2026-09-26 18:32:23,464 INFO Reusing completed B6 full fits/Group CV/Q-level fits; no refitting
+2026-09-26 18:32:54,972 INFO ND block bootstrap 25/2000, 75 model fits, 50 starts per model
+2026-09-26 18:33:26,874 INFO ND block bootstrap 50/2000, 150 model fits, 50 starts per model
+2026-09-26 18:34:04,358 INFO ND block bootstrap 75/2000, 225 model fits, 50 starts per model
+2026-09-26 18:34:29,024 INFO ND block bootstrap 100/2000, 300 model fits, 50 starts per model
+2026-09-26 18:34:53,262 INFO ND block bootstrap 125/2000, 375 model fits, 50 starts per model
+2026-09-26 18:35:20,950 INFO ND block bootstrap 150/2000, 450 model fits, 50 starts per model
+2026-09-26 18:35:50,590 INFO ND block bootstrap 175/2000, 525 model fits, 50 starts per model
+2026-09-26 18:36:18,732 INFO ND block bootstrap 200/2000, 600 model fits, 50 starts per model
+2026-09-26 18:36:53,787 INFO ND block bootstrap 225/2000, 675 model fits, 50 starts per model
+2026-09-26 18:37:20,892 INFO ND block bootstrap 250/2000, 750 model fits, 50 starts per model
+2026-09-26 18:37:44,983 INFO ND block bootstrap 275/2000, 825 model fits, 50 starts per model
+2026-09-26 18:38:10,116 INFO ND block bootstrap 300/2000, 900 model fits, 50 starts per model
+2026-09-26 18:38:34,716 INFO ND block bootstrap 325/2000, 975 model fits, 50 starts per model
+2026-09-26 18:38:56,205 INFO ND block bootstrap 350/2000, 1050 model fits, 50 starts per model
+2026-09-26 18:39:25,735 INFO ND block bootstrap 375/2000, 1125 model fits, 50 starts per model
+2026-09-26 18:39:48,285 INFO ND block bootstrap 400/2000, 1200 model fits, 50 starts per model
+2026-09-26 18:40:10,133 INFO ND block bootstrap 425/2000, 1275 model fits, 50 starts per model
+2026-09-26 18:40:37,856 INFO ND block bootstrap 450/2000, 1350 model fits, 50 starts per model
+2026-09-26 18:41:11,510 INFO ND block bootstrap 475/2000, 1425 model fits, 50 starts per model
+2026-09-26 18:42:36,607 INFO Reusing completed B6 full fits/Group CV/Q-level fits; no refitting
+2026-09-26 18:42:37,899 INFO Resuming from 475 completed draws, preserving 71250 start records; BLAS threads per worker=1
+2026-09-26 18:42:49,249 INFO ND block bootstrap 500/2000, 1500 model fits, 50 starts per model
+2026-09-26 18:42:56,200 INFO ND block bootstrap 525/2000, 1575 model fits, 50 starts per model
+2026-09-26 18:43:03,437 INFO ND block bootstrap 550/2000, 1650 model fits, 50 starts per model
+2026-09-26 18:43:10,516 INFO ND block bootstrap 575/2000, 1725 model fits, 50 starts per model
+2026-09-26 18:43:17,628 INFO ND block bootstrap 600/2000, 1800 model fits, 50 starts per model
+2026-09-26 18:43:24,940 INFO ND block bootstrap 625/2000, 1875 model fits, 50 starts per model
+2026-09-26 18:43:34,879 INFO ND block bootstrap 650/2000, 1950 model fits, 50 starts per model
+2026-09-26 18:43:45,234 INFO ND block bootstrap 675/2000, 2025 model fits, 50 starts per model
+2026-09-26 18:43:55,238 INFO ND block bootstrap 700/2000, 2100 model fits, 50 starts per model
+2026-09-26 18:44:04,510 INFO ND block bootstrap 725/2000, 2175 model fits, 50 starts per model
+2026-09-26 18:44:14,140 INFO ND block bootstrap 750/2000, 2250 model fits, 50 starts per model
+2026-09-26 18:44:23,992 INFO ND block bootstrap 775/2000, 2325 model fits, 50 starts per model
+2026-09-26 18:44:33,580 INFO ND block bootstrap 800/2000, 2400 model fits, 50 starts per model
+2026-09-26 18:44:43,729 INFO ND block bootstrap 825/2000, 2475 model fits, 50 starts per model
+2026-09-26 18:44:54,584 INFO ND block bootstrap 850/2000, 2550 model fits, 50 starts per model
+2026-09-26 18:45:05,674 INFO ND block bootstrap 875/2000, 2625 model fits, 50 starts per model
+2026-09-26 18:45:15,293 INFO ND block bootstrap 900/2000, 2700 model fits, 50 starts per model
+2026-09-26 18:45:24,797 INFO ND block bootstrap 925/2000, 2775 model fits, 50 starts per model
+2026-09-26 18:45:34,424 INFO ND block bootstrap 950/2000, 2850 model fits, 50 starts per model
+2026-09-26 18:45:44,445 INFO ND block bootstrap 975/2000, 2925 model fits, 50 starts per model
+2026-09-26 18:45:54,316 INFO ND block bootstrap 1000/2000, 3000 model fits, 50 starts per model
+2026-09-26 18:46:04,475 INFO ND block bootstrap 1025/2000, 3075 model fits, 50 starts per model
+2026-09-26 18:46:14,400 INFO ND block bootstrap 1050/2000, 3150 model fits, 50 starts per model
+2026-09-26 18:46:24,094 INFO ND block bootstrap 1075/2000, 3225 model fits, 50 starts per model
+2026-09-26 18:46:34,259 INFO ND block bootstrap 1100/2000, 3300 model fits, 50 starts per model
+2026-09-26 18:46:44,323 INFO ND block bootstrap 1125/2000, 3375 model fits, 50 starts per model
+2026-09-26 18:46:54,673 INFO ND block bootstrap 1150/2000, 3450 model fits, 50 starts per model
+2026-09-26 18:47:04,026 INFO ND block bootstrap 1175/2000, 3525 model fits, 50 starts per model
+2026-09-26 18:47:14,130 INFO ND block bootstrap 1200/2000, 3600 model fits, 50 starts per model
+2026-09-26 18:47:23,662 INFO ND block bootstrap 1225/2000, 3675 model fits, 50 starts per model
+2026-09-26 18:47:33,285 INFO ND block bootstrap 1250/2000, 3750 model fits, 50 starts per model
+2026-09-26 18:47:43,897 INFO ND block bootstrap 1275/2000, 3825 model fits, 50 starts per model
+2026-09-26 18:47:53,869 INFO ND block bootstrap 1300/2000, 3900 model fits, 50 starts per model
+2026-09-26 18:48:03,776 INFO ND block bootstrap 1325/2000, 3975 model fits, 50 starts per model
+2026-09-26 18:48:13,745 INFO ND block bootstrap 1350/2000, 4050 model fits, 50 starts per model
+2026-09-26 18:48:23,530 INFO ND block bootstrap 1375/2000, 4125 model fits, 50 starts per model
+2026-09-26 18:48:33,464 INFO ND block bootstrap 1400/2000, 4200 model fits, 50 starts per model
+2026-09-26 18:48:43,543 INFO ND block bootstrap 1425/2000, 4275 model fits, 50 starts per model
+2026-09-26 18:48:54,938 INFO ND block bootstrap 1450/2000, 4350 model fits, 50 starts per model
+2026-09-26 18:49:05,371 INFO ND block bootstrap 1475/2000, 4425 model fits, 50 starts per model
+2026-09-26 18:49:15,828 INFO ND block bootstrap 1500/2000, 4500 model fits, 50 starts per model
+2026-09-26 18:49:26,648 INFO ND block bootstrap 1525/2000, 4575 model fits, 50 starts per model
+2026-09-26 18:49:36,102 INFO ND block bootstrap 1550/2000, 4650 model fits, 50 starts per model
+2026-09-26 18:49:46,483 INFO ND block bootstrap 1575/2000, 4725 model fits, 50 starts per model
+2026-09-26 18:49:55,602 INFO ND block bootstrap 1600/2000, 4800 model fits, 50 starts per model
+2026-09-26 18:50:05,618 INFO ND block bootstrap 1625/2000, 4875 model fits, 50 starts per model
+2026-09-26 18:50:15,480 INFO ND block bootstrap 1650/2000, 4950 model fits, 50 starts per model
+2026-09-26 18:50:25,169 INFO ND block bootstrap 1675/2000, 5025 model fits, 50 starts per model
+2026-09-26 18:50:34,548 INFO ND block bootstrap 1700/2000, 5100 model fits, 50 starts per model
+2026-09-26 18:50:45,519 INFO ND block bootstrap 1725/2000, 5175 model fits, 50 starts per model
+2026-09-26 18:50:55,091 INFO ND block bootstrap 1750/2000, 5250 model fits, 50 starts per model
+2026-09-26 18:51:04,934 INFO ND block bootstrap 1775/2000, 5325 model fits, 50 starts per model
+2026-09-26 18:51:15,118 INFO ND block bootstrap 1800/2000, 5400 model fits, 50 starts per model
+2026-09-26 18:51:26,429 INFO ND block bootstrap 1825/2000, 5475 model fits, 50 starts per model
+2026-09-26 18:51:36,450 INFO ND block bootstrap 1850/2000, 5550 model fits, 50 starts per model
+2026-09-26 18:51:48,176 INFO ND block bootstrap 1875/2000, 5625 model fits, 50 starts per model
+2026-09-26 18:51:59,937 INFO ND block bootstrap 1900/2000, 5700 model fits, 50 starts per model
+2026-09-26 18:52:11,139 INFO ND block bootstrap 1925/2000, 5775 model fits, 50 starts per model
+2026-09-26 18:52:20,912 INFO ND block bootstrap 1950/2000, 5850 model fits, 50 starts per model
+2026-09-26 18:52:31,076 INFO ND block bootstrap 1975/2000, 5925 model fits, 50 starts per model
+2026-09-26 18:52:40,688 INFO ND block bootstrap 2000/2000, 6000 model fits, 50 starts per model
+2026-09-26 18:52:46,530 INFO B6 compute step complete: 2000 draws x 3 models x 50 starts
+2026-09-26 18:53:14,275 INFO Phase 2C complete. Selected=None; all B7 Delta-L failed=True. 2648 frozen files verified. Stop; no mixture stage.

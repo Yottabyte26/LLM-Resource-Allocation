@@ -1,0 +1,485 @@
+﻿Model,field,issue,values,action,selected_rows
+AtAndDev/Qwen2.5-1.5B-continuous-learnt,IFEval,repeated_evaluation,"[46.05214165081983, 45.105431366551855]",latest dated cohort; componentwise median of ties,[79]
+AtAndDev/Qwen2.5-1.5B-continuous-learnt,BBH,repeated_evaluation,"[19.53766599736009, 19.76640880407865]",latest dated cohort; componentwise median of ties,[79]
+AtAndDev/Qwen2.5-1.5B-continuous-learnt,MATH Lvl 5,repeated_evaluation,"[7.477341389728097, 14.72809667673716]",latest dated cohort; componentwise median of ties,[79]
+AtAndDev/Qwen2.5-1.5B-continuous-learnt,GPQA,repeated_evaluation,"[2.1252796420581683, 2.684563758389265]",latest dated cohort; componentwise median of ties,[79]
+AtAndDev/Qwen2.5-1.5B-continuous-learnt,MUSR,repeated_evaluation,"[3.789062500000001, 2.551822916666667]",latest dated cohort; componentwise median of ties,[79]
+AtAndDev/Qwen2.5-1.5B-continuous-learnt,MMLU-PRO,repeated_evaluation,"[20.12965425531915, 20.06501182033097]",latest dated cohort; componentwise median of ties,[79]
+BoltMonkey/NeuralDaredevil-SuperNova-Lite-7B-DARETIES-abliterated,IFEval,repeated_evaluation,"[79.98909559967552, 45.9023169634348]",latest dated cohort; componentwise median of ties,[135]
+BoltMonkey/NeuralDaredevil-SuperNova-Lite-7B-DARETIES-abliterated,BBH,repeated_evaluation,"[30.75990006920939, 30.793784752659278]",latest dated cohort; componentwise median of ties,[135]
+BoltMonkey/NeuralDaredevil-SuperNova-Lite-7B-DARETIES-abliterated,MATH Lvl 5,repeated_evaluation,"[11.933534743202417, 9.365558912386708]",latest dated cohort; componentwise median of ties,[135]
+BoltMonkey/NeuralDaredevil-SuperNova-Lite-7B-DARETIES-abliterated,GPQA,repeated_evaluation,"[4.138702460850116, 3.243847874720355]",latest dated cohort; componentwise median of ties,[135]
+BoltMonkey/NeuralDaredevil-SuperNova-Lite-7B-DARETIES-abliterated,MUSR,repeated_evaluation,"[9.467708333333327, 9.532552083333336]",latest dated cohort; componentwise median of ties,[135]
+BoltMonkey/NeuralDaredevil-SuperNova-Lite-7B-DARETIES-abliterated,MMLU-PRO,repeated_evaluation,"[30.37086288416076, 29.235002955082745]",latest dated cohort; componentwise median of ties,[135]
+Columbia-NLP/LION-Gemma-2b-dpo-v1.0,IFEval,repeated_evaluation,"[32.78312654866864, 31.02457036219453]",latest dated cohort; componentwise median of ties,"[169, 170]"
+Columbia-NLP/LION-Gemma-2b-dpo-v1.0,BBH,repeated_evaluation,"[14.585976093815775, 14.243045647726928]",latest dated cohort; componentwise median of ties,"[169, 170]"
+Columbia-NLP/LION-Gemma-2b-dpo-v1.0,MATH Lvl 5,repeated_evaluation,"[4.305135951661631, 5.362537764350453]",latest dated cohort; componentwise median of ties,"[169, 170]"
+Columbia-NLP/LION-Gemma-2b-dpo-v1.0,GPQA,repeated_evaluation,"[0.0, 0.4474272930648763]",latest dated cohort; componentwise median of ties,"[169, 170]"
+Columbia-NLP/LION-Gemma-2b-dpo-v1.0,MUSR,repeated_evaluation,"[9.834635416666668, 9.109114583333335]",latest dated cohort; componentwise median of ties,"[169, 170]"
+Columbia-NLP/LION-Gemma-2b-dpo-v1.0,MMLU-PRO,repeated_evaluation,"[7.395094562647753, 7.385859929078014]",latest dated cohort; componentwise median of ties,"[169, 170]"
+Daemontatox/AetherTOT,Type,conflicting_tied_metadata,"[""\ud83d\udd36 fine-tuned on domain-specific datasets"", ""\ud83c\udf38 multimodal""]",retain missing,
+Daemontatox/AetherTOT,IFEval,repeated_evaluation,"[43.97642699149368, 43.82904027979095]",latest dated cohort; componentwise median of ties,"[237, 238]"
+Daemontatox/AetherTOT,BBH,repeated_evaluation,"[29.43639149563461, 29.03185731417456]",latest dated cohort; componentwise median of ties,"[237, 238]"
+Daemontatox/AetherTOT,MATH Lvl 5,repeated_evaluation,"[14.879154078549847, 14.425981873111782]",latest dated cohort; componentwise median of ties,"[237, 238]"
+Daemontatox/AetherTOT,GPQA,repeated_evaluation,"[9.843400447427292, 9.843400447427292]",latest dated cohort; componentwise median of ties,"[237, 238]"
+Daemontatox/AetherTOT,MUSR,repeated_evaluation,"[9.781770833333336, 9.2484375]",latest dated cohort; componentwise median of ties,"[237, 238]"
+Daemontatox/AetherTOT,MMLU-PRO,repeated_evaluation,"[31.15580673758865, 30.86953309692671]",latest dated cohort; componentwise median of ties,"[237, 238]"
+Daemontatox/DocumentCogito,IFEval,repeated_evaluation,"[50.643403945974455, 77.70349339751859]",latest dated cohort; componentwise median of ties,[245]
+Daemontatox/DocumentCogito,BBH,repeated_evaluation,"[29.79360859597188, 31.184823044232704]",latest dated cohort; componentwise median of ties,[245]
+Daemontatox/DocumentCogito,MATH Lvl 5,repeated_evaluation,"[16.314199395770395, 21.978851963746223]",latest dated cohort; componentwise median of ties,[245]
+Daemontatox/DocumentCogito,GPQA,repeated_evaluation,"[8.83668903803132, 5.8165548098434]",latest dated cohort; componentwise median of ties,[245]
+Daemontatox/DocumentCogito,MUSR,repeated_evaluation,"[8.597395833333335, 7.548177083333336]",latest dated cohort; componentwise median of ties,[245]
+Daemontatox/DocumentCogito,MMLU-PRO,repeated_evaluation,"[31.13733747044917, 30.41703605200945]",latest dated cohort; componentwise median of ties,[245]
+Daemontatox/PathfinderAI,IFEval,repeated_evaluation,"[37.45173916319809, 48.55006937148987]",latest dated cohort; componentwise median of ties,[254]
+Daemontatox/PathfinderAI,BBH,repeated_evaluation,"[52.64654733435329, 52.32216296509384]",latest dated cohort; componentwise median of ties,[254]
+Daemontatox/PathfinderAI,MATH Lvl 5,repeated_evaluation,"[47.583081570996974, 48.413897280966765]",latest dated cohort; componentwise median of ties,[254]
+Daemontatox/PathfinderAI,GPQA,repeated_evaluation,"[19.239373601789712, 7.941834451901568]",latest dated cohort; componentwise median of ties,[254]
+Daemontatox/PathfinderAI,MUSR,repeated_evaluation,"[20.829166666666666, 11.59921875]",latest dated cohort; componentwise median of ties,[254]
+Daemontatox/PathfinderAI,MMLU-PRO,repeated_evaluation,"[51.03797281323877, 50.465425531914896]",latest dated cohort; componentwise median of ties,[254]
+DavieLion/Llama-3.2-1B-SPIN-iter0,IFEval,repeated_evaluation,"[15.067687070306786, 15.492338107332989]",latest dated cohort; componentwise median of ties,"[314, 315]"
+DavieLion/Llama-3.2-1B-SPIN-iter0,BBH,repeated_evaluation,"[2.1008283750749497, 2.330668557723352]",latest dated cohort; componentwise median of ties,"[314, 315]"
+DavieLion/Llama-3.2-1B-SPIN-iter0,MATH Lvl 5,repeated_evaluation,"[0.0, 0.6042296072507553]",latest dated cohort; componentwise median of ties,"[314, 315]"
+DavieLion/Llama-3.2-1B-SPIN-iter0,GPQA,repeated_evaluation,"[0.4474272930648763, 1.0067114093959737]",latest dated cohort; componentwise median of ties,"[314, 315]"
+DavieLion/Llama-3.2-1B-SPIN-iter0,MUSR,repeated_evaluation,"[2.734375, 3.0598958333333326]",latest dated cohort; componentwise median of ties,"[314, 315]"
+DavieLion/Llama-3.2-1B-SPIN-iter0,MMLU-PRO,repeated_evaluation,"[1.392582742316784, 1.4202866430260035]",latest dated cohort; componentwise median of ties,"[314, 315]"
+DavieLion/Llama-3.2-1B-SPIN-iter3,IFEval,repeated_evaluation,"[13.35910938531984, 13.239205308581232]",latest dated cohort; componentwise median of ties,"[318, 319]"
+DavieLion/Llama-3.2-1B-SPIN-iter3,BBH,repeated_evaluation,"[3.1395015434855087, 3.02851385306557]",latest dated cohort; componentwise median of ties,"[318, 319]"
+DavieLion/Llama-3.2-1B-SPIN-iter3,MATH Lvl 5,repeated_evaluation,"[0.6797583081570997, 0.0]",latest dated cohort; componentwise median of ties,"[318, 319]"
+DavieLion/Llama-3.2-1B-SPIN-iter3,GPQA,repeated_evaluation,"[0.4474272930648763, 1.9015659955257265]",latest dated cohort; componentwise median of ties,"[318, 319]"
+DavieLion/Llama-3.2-1B-SPIN-iter3,MUSR,repeated_evaluation,"[2.512760416666666, 2.0833333333333326]",latest dated cohort; componentwise median of ties,"[318, 319]"
+DavieLion/Llama-3.2-1B-SPIN-iter3,MMLU-PRO,repeated_evaluation,"[1.4202866430260035, 1.4295212765957446]",latest dated cohort; componentwise median of ties,"[318, 319]"
+DoppelReflEx/MN-12B-LilithFrame,Type,conflicting_tied_metadata,"[""\ud83d\udd36 fine-tuned on domain-specific datasets"", ""\ud83e\udd1d base merges and moerges""]",retain missing,
+DoppelReflEx/MN-12B-LilithFrame,IFEval,repeated_evaluation,"[45.095457829669726, 43.60419243163695]",latest dated cohort; componentwise median of ties,"[366, 367]"
+DoppelReflEx/MN-12B-LilithFrame,BBH,repeated_evaluation,"[27.49206445527077, 27.65349780577308]",latest dated cohort; componentwise median of ties,"[366, 367]"
+DoppelReflEx/MN-12B-LilithFrame,MATH Lvl 5,repeated_evaluation,"[11.555891238670696, 5.8912386706948645]",latest dated cohort; componentwise median of ties,"[366, 367]"
+DoppelReflEx/MN-12B-LilithFrame,GPQA,repeated_evaluation,"[9.284116331096197, 9.395973154362418]",latest dated cohort; componentwise median of ties,"[366, 367]"
+DoppelReflEx/MN-12B-LilithFrame,MUSR,repeated_evaluation,"[9.428645833333327, 8.73255208333333]",latest dated cohort; componentwise median of ties,"[366, 367]"
+DoppelReflEx/MN-12B-LilithFrame,MMLU-PRO,repeated_evaluation,"[25.070183215130022, 24.857786643026003]",latest dated cohort; componentwise median of ties,"[366, 367]"
+EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto,IFEval,repeated_evaluation,"[73.04984108831235, 72.0706614006392]",latest dated cohort; componentwise median of ties,[551]
+EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto,BBH,repeated_evaluation,"[24.58673708035273, 23.544253406580115]",latest dated cohort; componentwise median of ties,[551]
+EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto,MATH Lvl 5,repeated_evaluation,"[13.972809667673715, 13.141993957703926]",latest dated cohort; componentwise median of ties,[551]
+EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto,GPQA,repeated_evaluation,"[2.1252796420581683, 2.684563758389265]",latest dated cohort; componentwise median of ties,[551]
+EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto,MUSR,repeated_evaluation,"[1.2106770833333331, 4.171614583333335]",latest dated cohort; componentwise median of ties,[551]
+EpistemeAI/Fireball-Meta-Llama-3.1-8B-Instruct-Agent-0.003-128K-code-ds-auto,MMLU-PRO,repeated_evaluation,"[27.554299645390067, 26.150635342789595]",latest dated cohort; componentwise median of ties,[551]
+Etherll/Herplete-LLM-Llama-3.1-8b,IFEval,repeated_evaluation,"[46.71914963408201, 61.05976586568083]",latest dated cohort; componentwise median of ties,[602]
+Etherll/Herplete-LLM-Llama-3.1-8b,BBH,repeated_evaluation,"[28.952590926070883, 33.206608363709044]",latest dated cohort; componentwise median of ties,[602]
+Etherll/Herplete-LLM-Llama-3.1-8b,MATH Lvl 5,repeated_evaluation,"[2.794561933534743, 15.483383685800604]",latest dated cohort; componentwise median of ties,[602]
+Etherll/Herplete-LLM-Llama-3.1-8b,GPQA,repeated_evaluation,"[4.809843400447425, 8.612975391498878]",latest dated cohort; componentwise median of ties,[602]
+Etherll/Herplete-LLM-Llama-3.1-8b,MUSR,repeated_evaluation,"[6.683333333333335, 8.614843749999995]",latest dated cohort; componentwise median of ties,[602]
+Etherll/Herplete-LLM-Llama-3.1-8b,MMLU-PRO,repeated_evaluation,"[27.57276891252955, 30.583259456264773]",latest dated cohort; componentwise median of ties,[602]
+Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1,IFEval,repeated_evaluation,"[34.7189900574919, 34.16944817528602]",latest dated cohort; componentwise median of ties,"[662, 663]"
+Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1,BBH,repeated_evaluation,"[6.845785955173547, 7.2211690840719855]",latest dated cohort; componentwise median of ties,"[662, 663]"
+Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1,MATH Lvl 5,repeated_evaluation,"[8.91238670694864, 0.2265861027190332]",latest dated cohort; componentwise median of ties,"[662, 663]"
+Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1,GPQA,repeated_evaluation,"[0.2237136465324418, 1.0067114093959737]",latest dated cohort; componentwise median of ties,"[662, 663]"
+Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1,MUSR,repeated_evaluation,"[0.7812499999999996, 0.7812499999999996]",latest dated cohort; componentwise median of ties,"[662, 663]"
+Goekdeniz-Guelmez/Josiefied-Qwen2.5-0.5B-Instruct-abliterated-v1,MMLU-PRO,repeated_evaluation,"[7.127290189125294, 7.090351654846336]",latest dated cohort; componentwise median of ties,"[662, 663]"
+Goekdeniz-Guelmez/josie-7b-v6.0-step2000,IFEval,repeated_evaluation,"[76.27716680629618, 75.97740661444966]",latest dated cohort; componentwise median of ties,"[672, 673]"
+Goekdeniz-Guelmez/josie-7b-v6.0-step2000,BBH,repeated_evaluation,"[30.081094189593973, 30.39581290531489]",latest dated cohort; componentwise median of ties,"[672, 673]"
+Goekdeniz-Guelmez/josie-7b-v6.0-step2000,MATH Lvl 5,repeated_evaluation,"[0.0, 42.37160120845921]",latest dated cohort; componentwise median of ties,"[672, 673]"
+Goekdeniz-Guelmez/josie-7b-v6.0-step2000,GPQA,repeated_evaluation,"[4.026845637583895, 3.5794183445190177]",latest dated cohort; componentwise median of ties,"[672, 673]"
+Goekdeniz-Guelmez/josie-7b-v6.0-step2000,MUSR,repeated_evaluation,"[17.7421875, 17.208854166666665]",latest dated cohort; componentwise median of ties,"[672, 673]"
+Goekdeniz-Guelmez/josie-7b-v6.0-step2000,MMLU-PRO,repeated_evaluation,"[33.69533096926713, 33.46446513002365]",latest dated cohort; componentwise median of ties,"[672, 673]"
+GuilhermeNaturaUmana/Nature-Reason-1.2-reallysmall,IFEval,repeated_evaluation,"[49.85405391029136, 47.910654840268265]",latest dated cohort; componentwise median of ties,"[683, 684]"
+GuilhermeNaturaUmana/Nature-Reason-1.2-reallysmall,BBH,repeated_evaluation,"[37.752975371907866, 37.812775827443616]",latest dated cohort; componentwise median of ties,"[683, 684]"
+GuilhermeNaturaUmana/Nature-Reason-1.2-reallysmall,MATH Lvl 5,repeated_evaluation,"[25.755287009063444, 25.0]",latest dated cohort; componentwise median of ties,"[683, 684]"
+GuilhermeNaturaUmana/Nature-Reason-1.2-reallysmall,GPQA,repeated_evaluation,"[6.711409395973152, 6.599552572706939]",latest dated cohort; componentwise median of ties,"[683, 684]"
+GuilhermeNaturaUmana/Nature-Reason-1.2-reallysmall,MUSR,repeated_evaluation,"[13.960156249999995, 15.056249999999991]",latest dated cohort; componentwise median of ties,"[683, 684]"
+GuilhermeNaturaUmana/Nature-Reason-1.2-reallysmall,MMLU-PRO,repeated_evaluation,"[38.1002511820331, 37.8693853427896]",latest dated cohort; componentwise median of ties,"[683, 684]"
+Gunulhona/Gemma-Ko-Merge-PEFT,IFEval,repeated_evaluation,"[28.80390696684797, 44.41348954108432]",latest dated cohort; componentwise median of ties,[687]
+Gunulhona/Gemma-Ko-Merge-PEFT,BBH,repeated_evaluation,"[30.18627333134207, 26.015069295888747]",latest dated cohort; componentwise median of ties,[687]
+Gunulhona/Gemma-Ko-Merge-PEFT,MATH Lvl 5,repeated_evaluation,"[0.0, 0.0]",latest dated cohort; componentwise median of ties,[687]
+Gunulhona/Gemma-Ko-Merge-PEFT,GPQA,repeated_evaluation,"[9.955257270693512, 7.606263982102905]",latest dated cohort; componentwise median of ties,[687]
+Gunulhona/Gemma-Ko-Merge-PEFT,MUSR,repeated_evaluation,"[8.76796875, 7.056249999999999]",latest dated cohort; componentwise median of ties,[687]
+Gunulhona/Gemma-Ko-Merge-PEFT,MMLU-PRO,repeated_evaluation,"[31.303560874704488, 23.30636820330969]",latest dated cohort; componentwise median of ties,[687]
+HuggingFaceTB/SmolLM2-135M-Instruct,IFEval,repeated_evaluation,"[28.83138960181208, 5.925167444602544]",latest dated cohort; componentwise median of ties,[720]
+HuggingFaceTB/SmolLM2-135M-Instruct,BBH,repeated_evaluation,"[4.720807660805284, 4.796275744662444]",latest dated cohort; componentwise median of ties,[720]
+HuggingFaceTB/SmolLM2-135M-Instruct,MATH Lvl 5,repeated_evaluation,"[0.3021148036253776, 1.4350453172205435]",latest dated cohort; componentwise median of ties,[720]
+HuggingFaceTB/SmolLM2-135M-Instruct,GPQA,repeated_evaluation,"[0.0, 0.0]",latest dated cohort; componentwise median of ties,[720]
+HuggingFaceTB/SmolLM2-135M-Instruct,MUSR,repeated_evaluation,"[3.677343750000004, 6.059895833333335]",latest dated cohort; componentwise median of ties,[720]
+HuggingFaceTB/SmolLM2-135M-Instruct,MMLU-PRO,repeated_evaluation,"[1.2725325059101646, 1.0231973995271864]",latest dated cohort; componentwise median of ties,[720]
+HuggingFaceTB/SmolLM2-360M-Instruct,IFEval,repeated_evaluation,"[8.303191088533978, 38.41595854554804]",latest dated cohort; componentwise median of ties,[722]
+HuggingFaceTB/SmolLM2-360M-Instruct,BBH,repeated_evaluation,"[3.2990473293233173, 4.173863636363637]",latest dated cohort; componentwise median of ties,[722]
+HuggingFaceTB/SmolLM2-360M-Instruct,MATH Lvl 5,repeated_evaluation,"[0.8308157099697886, 1.5105740181268883]",latest dated cohort; componentwise median of ties,[722]
+HuggingFaceTB/SmolLM2-360M-Instruct,GPQA,repeated_evaluation,"[2.0134228187919474, 0.6711409395973182]",latest dated cohort; componentwise median of ties,[722]
+HuggingFaceTB/SmolLM2-360M-Instruct,MUSR,repeated_evaluation,"[2.751822916666668, 2.7656250000000004]",latest dated cohort; componentwise median of ties,[722]
+HuggingFaceTB/SmolLM2-360M-Instruct,MMLU-PRO,repeated_evaluation,"[1.4018173758865236, 1.300236406619384]",latest dated cohort; componentwise median of ties,[722]
+Isaak-Carter/JOSIEv4o-8b-stage1-v4,Type,conflicting_tied_metadata,"[""\ud83d\udcac chat models (RLHF, DPO, IFT, ...)"", ""\ud83d\udd36 fine-tuned on domain-specific datasets""]",retain missing,
+Isaak-Carter/JOSIEv4o-8b-stage1-v4,IFEval,repeated_evaluation,"[25.526602747376963, 24.76972211509905]",latest dated cohort; componentwise median of ties,"[739, 740]"
+Isaak-Carter/JOSIEv4o-8b-stage1-v4,BBH,repeated_evaluation,"[25.7872756997585, 25.91957835941345]",latest dated cohort; componentwise median of ties,"[739, 740]"
+Isaak-Carter/JOSIEv4o-8b-stage1-v4,MATH Lvl 5,repeated_evaluation,"[5.287009063444108, 4.531722054380665]",latest dated cohort; componentwise median of ties,"[739, 740]"
+Isaak-Carter/JOSIEv4o-8b-stage1-v4,GPQA,repeated_evaluation,"[5.592841163310966, 5.480984340044745]",latest dated cohort; componentwise median of ties,"[739, 740]"
+Isaak-Carter/JOSIEv4o-8b-stage1-v4,MUSR,repeated_evaluation,"[6.0796875, 6.346354166666667]",latest dated cohort; componentwise median of ties,"[739, 740]"
+Isaak-Carter/JOSIEv4o-8b-stage1-v4,MMLU-PRO,repeated_evaluation,"[25.7350768321513, 25.46727245862884]",latest dated cohort; componentwise median of ties,"[739, 740]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_IA,IFEval,repeated_evaluation,"[30.35512440325004, 30.664858131978704]",latest dated cohort; componentwise median of ties,"[1021, 1022]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_IA,BBH,repeated_evaluation,"[23.116920348203426, 23.177267229663997]",latest dated cohort; componentwise median of ties,"[1021, 1022]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_IA,MATH Lvl 5,repeated_evaluation,"[4.45619335347432, 4.45619335347432]",latest dated cohort; componentwise median of ties,"[1021, 1022]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_IA,GPQA,repeated_evaluation,"[6.823266219239373, 6.599552572706939]",latest dated cohort; componentwise median of ties,"[1021, 1022]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_IA,MUSR,repeated_evaluation,"[11.16796875, 11.309114583333333]",latest dated cohort; componentwise median of ties,"[1021, 1022]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_IA,MMLU-PRO,repeated_evaluation,"[14.764332151300236, 14.644281914893616]",latest dated cohort; componentwise median of ties,"[1021, 1022]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_XA,IFEval,repeated_evaluation,"[35.78815321125724, 37.97634720319862]",latest dated cohort; componentwise median of ties,"[1024, 1025]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_XA,BBH,repeated_evaluation,"[22.464434124386614, 22.728636272258512]",latest dated cohort; componentwise median of ties,"[1024, 1025]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_XA,MATH Lvl 5,repeated_evaluation,"[4.229607250755287, 4.003021148036254]",latest dated cohort; componentwise median of ties,"[1024, 1025]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_XA,GPQA,repeated_evaluation,"[7.941834451901568, 8.389261744966444]",latest dated cohort; componentwise median of ties,"[1024, 1025]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_XA,MUSR,repeated_evaluation,"[9.77578125, 10.183593750000002]",latest dated cohort; componentwise median of ties,"[1024, 1025]"
+LeroyDyer/SpydazWeb_AI_HumanAI_012_INSTRUCT_XA,MMLU-PRO,repeated_evaluation,"[15.290706264775414, 15.429225768321512]",latest dated cohort; componentwise median of ties,"[1024, 1025]"
+Magpie-Align/Llama-3-8B-Magpie-Align-v0.1,IFEval,repeated_evaluation,"[41.181177054659415, 40.27192294223771]",latest dated cohort; componentwise median of ties,"[1121, 1122]"
+Magpie-Align/Llama-3-8B-Magpie-Align-v0.1,BBH,repeated_evaluation,"[26.69176089392447, 26.289712088654472]",latest dated cohort; componentwise median of ties,"[1121, 1122]"
+Magpie-Align/Llama-3-8B-Magpie-Align-v0.1,MATH Lvl 5,repeated_evaluation,"[3.3987915407854987, 4.607250755287009]",latest dated cohort; componentwise median of ties,"[1121, 1122]"
+Magpie-Align/Llama-3-8B-Magpie-Align-v0.1,GPQA,repeated_evaluation,"[3.355704697986576, 3.5794183445190177]",latest dated cohort; componentwise median of ties,"[1121, 1122]"
+Magpie-Align/Llama-3-8B-Magpie-Align-v0.1,MUSR,repeated_evaluation,"[1.920572916666666, 1.920572916666666]",latest dated cohort; componentwise median of ties,"[1121, 1122]"
+Magpie-Align/Llama-3-8B-Magpie-Align-v0.1,MMLU-PRO,repeated_evaluation,"[22.2905585106383, 22.23515070921986]",latest dated cohort; componentwise median of ties,"[1121, 1122]"
+Omkar1102/code-yi,Type,conflicting_tied_metadata,"[""\ud83e\udd1d base merges and moerges"", ""\ud83d\udd36 fine-tuned on domain-specific datasets""]",retain missing,
+Omkar1102/code-yi,IFEval,repeated_evaluation,"[21.47745759030484, 22.54407195131141]",latest dated cohort; componentwise median of ties,"[1345, 1346]"
+Omkar1102/code-yi,BBH,repeated_evaluation,"[1.8441580122160068, 1.5813991446240263]",latest dated cohort; componentwise median of ties,"[1345, 1346]"
+Omkar1102/code-yi,MATH Lvl 5,repeated_evaluation,"[0.0, 0.0]",latest dated cohort; componentwise median of ties,"[1345, 1346]"
+Omkar1102/code-yi,GPQA,repeated_evaluation,"[0.1118568232662209, 1.0067114093959737]",latest dated cohort; componentwise median of ties,"[1345, 1346]"
+Omkar1102/code-yi,MUSR,repeated_evaluation,"[4.695312500000001, 4.524739583333332]",latest dated cohort; componentwise median of ties,"[1345, 1346]"
+Omkar1102/code-yi,MMLU-PRO,repeated_evaluation,"[1.4018173758865236, 1.3648788416075646]",latest dated cohort; componentwise median of ties,"[1345, 1346]"
+PrimeIntellect/INTELLECT-1,IFEval,repeated_evaluation,"[17.57315035217667, 17.57315035217667]",latest dated cohort; componentwise median of ties,[1419]
+PrimeIntellect/INTELLECT-1,BBH,repeated_evaluation,"[1.043500157895444, 1.043500157895444]",latest dated cohort; componentwise median of ties,[1419]
+PrimeIntellect/INTELLECT-1,MATH Lvl 5,repeated_evaluation,"[0.0, 0.0]",latest dated cohort; componentwise median of ties,[1419]
+PrimeIntellect/INTELLECT-1,GPQA,repeated_evaluation,"[0.4474272930648763, 0.0]",latest dated cohort; componentwise median of ties,[1419]
+PrimeIntellect/INTELLECT-1,MUSR,repeated_evaluation,"[2.408854166666666, 4.1421875]",latest dated cohort; componentwise median of ties,[1419]
+PrimeIntellect/INTELLECT-1,MMLU-PRO,repeated_evaluation,"[1.3648788416075646, 1.337174940898345]",latest dated cohort; componentwise median of ties,[1419]
+Quazim0t0/Casa-14b-sce,Type,conflicting_tied_metadata,"[""\ud83d\udd36 fine-tuned on domain-specific datasets"", ""\ud83e\udd1d base merges and moerges""]",retain missing,
+Quazim0t0/Casa-14b-sce,IFEval,repeated_evaluation,"[66.53523761397537, 67.1821877063968]",latest dated cohort; componentwise median of ties,"[1429, 1430]"
+Quazim0t0/Casa-14b-sce,BBH,repeated_evaluation,"[55.3984513931396, 55.32965321791952]",latest dated cohort; componentwise median of ties,"[1429, 1430]"
+Quazim0t0/Casa-14b-sce,MATH Lvl 5,repeated_evaluation,"[46.97885196374622, 49.848942598187314]",latest dated cohort; componentwise median of ties,"[1429, 1430]"
+Quazim0t0/Casa-14b-sce,GPQA,repeated_evaluation,"[11.0738255033557, 11.185682326621922]",latest dated cohort; componentwise median of ties,"[1429, 1430]"
+Quazim0t0/Casa-14b-sce,MUSR,repeated_evaluation,"[13.310937499999996, 13.436458333333327]",latest dated cohort; componentwise median of ties,"[1429, 1430]"
+Quazim0t0/Casa-14b-sce,MMLU-PRO,repeated_evaluation,"[49.17257683215129, 48.97864952718677]",latest dated cohort; componentwise median of ties,"[1429, 1430]"
+Qwen/Qwen2.5-0.5B-Instruct,IFEval,repeated_evaluation,"[30.712287840707106, 31.52912051135432]",latest dated cohort; componentwise median of ties,[1529]
+Qwen/Qwen2.5-0.5B-Instruct,BBH,repeated_evaluation,"[8.434863610588833, 8.169502268182768]",latest dated cohort; componentwise median of ties,[1529]
+Qwen/Qwen2.5-0.5B-Instruct,MATH Lvl 5,repeated_evaluation,"[0.0, 10.347432024169184]",latest dated cohort; componentwise median of ties,[1529]
+Qwen/Qwen2.5-0.5B-Instruct,GPQA,repeated_evaluation,"[1.0067114093959737, 1.230425055928408]",latest dated cohort; componentwise median of ties,[1529]
+Qwen/Qwen2.5-0.5B-Instruct,MUSR,repeated_evaluation,"[0.9440104166666662, 1.3734374999999996]",latest dated cohort; componentwise median of ties,[1529]
+Qwen/Qwen2.5-0.5B-Instruct,MMLU-PRO,repeated_evaluation,"[7.746010638297871, 7.99534574468085]",latest dated cohort; componentwise median of ties,[1529]
+Qwen/Qwen2.5-Coder-7B-Instruct,IFEval,repeated_evaluation,"[61.01477413263474, 61.47189457306614]",latest dated cohort; componentwise median of ties,"[1549, 1550]"
+Qwen/Qwen2.5-Coder-7B-Instruct,BBH,repeated_evaluation,"[28.938504045379137, 28.72657796895031]",latest dated cohort; componentwise median of ties,"[1549, 1550]"
+Qwen/Qwen2.5-Coder-7B-Instruct,MATH Lvl 5,repeated_evaluation,"[37.160120845921455, 3.096676737160121]",latest dated cohort; componentwise median of ties,"[1549, 1550]"
+Qwen/Qwen2.5-Coder-7B-Instruct,GPQA,repeated_evaluation,"[5.592841163310966, 5.8165548098434]",latest dated cohort; componentwise median of ties,"[1549, 1550]"
+Qwen/Qwen2.5-Coder-7B-Instruct,MUSR,repeated_evaluation,"[9.475520833333334, 9.875520833333336]",latest dated cohort; componentwise median of ties,"[1549, 1550]"
+Qwen/Qwen2.5-Coder-7B-Instruct,MMLU-PRO,repeated_evaluation,"[26.13216607565012, 26.15986997635934]",latest dated cohort; componentwise median of ties,"[1549, 1550]"
+Replete-AI/Replete-LLM-Qwen2-7b,IFEval,repeated_evaluation,"[9.047549391170982, 9.324813716494456]",latest dated cohort; componentwise median of ties,"[1570, 1571]"
+Replete-AI/Replete-LLM-Qwen2-7b,BBH,repeated_evaluation,"[2.8429334106486, 2.7249704476856373]",latest dated cohort; componentwise median of ties,"[1570, 1571]"
+Replete-AI/Replete-LLM-Qwen2-7b,MATH Lvl 5,repeated_evaluation,"[0.0, 0.0]",latest dated cohort; componentwise median of ties,"[1570, 1571]"
+Replete-AI/Replete-LLM-Qwen2-7b,GPQA,repeated_evaluation,"[0.4474272930648763, 0.0]",latest dated cohort; componentwise median of ties,"[1570, 1571]"
+Replete-AI/Replete-LLM-Qwen2-7b,MUSR,repeated_evaluation,"[5.861718749999999, 7.26171875]",latest dated cohort; componentwise median of ties,"[1570, 1571]"
+Replete-AI/Replete-LLM-Qwen2-7b,MMLU-PRO,repeated_evaluation,"[1.7527334515366433, 1.7434988179669018]",latest dated cohort; componentwise median of ties,"[1570, 1571]"
+Sao10K/L3-70B-Euryale-v2.1,IFEval,repeated_evaluation,"[73.84417789243652, 72.81003293483514]",latest dated cohort; componentwise median of ties,[1659]
+Sao10K/L3-70B-Euryale-v2.1,BBH,repeated_evaluation,"[48.70118672944805, 49.193003079898574]",latest dated cohort; componentwise median of ties,[1659]
+Sao10K/L3-70B-Euryale-v2.1,MATH Lvl 5,repeated_evaluation,"[21.37462235649547, 22.43202416918429]",latest dated cohort; componentwise median of ties,[1659]
+Sao10K/L3-70B-Euryale-v2.1,GPQA,repeated_evaluation,"[10.850111856823268, 10.850111856823268]",latest dated cohort; componentwise median of ties,[1659]
+Sao10K/L3-70B-Euryale-v2.1,MUSR,repeated_evaluation,"[12.247916666666669, 12.047916666666667]",latest dated cohort; componentwise median of ties,[1659]
+Sao10K/L3-70B-Euryale-v2.1,MMLU-PRO,repeated_evaluation,"[45.598773640661946, 45.50642730496454]",latest dated cohort; componentwise median of ties,[1659]
+UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3,IFEval,repeated_evaluation,"[68.34122350917787, 67.02981422625301]",latest dated cohort; componentwise median of ties,[1931]
+UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3,BBH,repeated_evaluation,"[29.73968358044069, 29.71670075746525]",latest dated cohort; componentwise median of ties,[1931]
+UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3,MATH Lvl 5,repeated_evaluation,"[9.59214501510574, 7.175226586102719]",latest dated cohort; componentwise median of ties,[1931]
+UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3,GPQA,repeated_evaluation,"[2.0134228187919474, 2.0134228187919474]",latest dated cohort; componentwise median of ties,[1931]
+UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3,MUSR,repeated_evaluation,"[3.0911458333333326, 2.891145833333335]",latest dated cohort; componentwise median of ties,[1931]
+UCLA-AGI/Llama-3-Instruct-8B-SPPO-Iter3,MMLU-PRO,repeated_evaluation,"[29.38275709219858, 29.53051122931442]",latest dated cohort; componentwise median of ties,[1931]
+VIRNECT/llama-3-Korean-8B,IFEval,repeated_evaluation,"[50.58345190760515, 50.21376614050719]",latest dated cohort; componentwise median of ties,"[1959, 1960]"
+VIRNECT/llama-3-Korean-8B,BBH,repeated_evaluation,"[27.322411613379888, 27.564318704783016]",latest dated cohort; componentwise median of ties,"[1959, 1960]"
+VIRNECT/llama-3-Korean-8B,MATH Lvl 5,repeated_evaluation,"[9.290030211480364, 10.80060422960725]",latest dated cohort; componentwise median of ties,"[1959, 1960]"
+VIRNECT/llama-3-Korean-8B,GPQA,repeated_evaluation,"[2.796420581655479, 2.796420581655479]",latest dated cohort; componentwise median of ties,"[1959, 1960]"
+VIRNECT/llama-3-Korean-8B,MUSR,repeated_evaluation,"[3.26953125, 3.032291666666666]",latest dated cohort; componentwise median of ties,"[1959, 1960]"
+VIRNECT/llama-3-Korean-8B,MMLU-PRO,repeated_evaluation,"[28.20995862884161, 28.1822547281324]",latest dated cohort; componentwise median of ties,"[1959, 1960]"
+ValiantLabs/Llama3.1-8B-Cobalt,IFEval,repeated_evaluation,"[34.96134700372789, 71.68346653545925]",latest dated cohort; componentwise median of ties,[1965]
+ValiantLabs/Llama3.1-8B-Cobalt,BBH,repeated_evaluation,"[27.41777700049443, 27.235483048638358]",latest dated cohort; componentwise median of ties,[1965]
+ValiantLabs/Llama3.1-8B-Cobalt,MATH Lvl 5,repeated_evaluation,"[12.68882175226586, 15.332326283987916]",latest dated cohort; componentwise median of ties,[1965]
+ValiantLabs/Llama3.1-8B-Cobalt,GPQA,repeated_evaluation,"[7.158836689038028, 4.809843400447425]",latest dated cohort; componentwise median of ties,[1965]
+ValiantLabs/Llama3.1-8B-Cobalt,MUSR,repeated_evaluation,"[9.82682291666667, 4.704947916666668]",latest dated cohort; componentwise median of ties,[1965]
+ValiantLabs/Llama3.1-8B-Cobalt,MMLU-PRO,repeated_evaluation,"[29.38275709219858, 29.58591903073286]",latest dated cohort; componentwise median of ties,[1965]
+ValiantLabs/Llama3.1-8B-Fireplace2,IFEval,repeated_evaluation,"[54.83240025354947, 53.28118281714739]",latest dated cohort; componentwise median of ties,[1970]
+ValiantLabs/Llama3.1-8B-Fireplace2,BBH,repeated_evaluation,"[24.07027321429611, 24.08995379001348]",latest dated cohort; componentwise median of ties,[1970]
+ValiantLabs/Llama3.1-8B-Fireplace2,MATH Lvl 5,repeated_evaluation,"[5.81570996978852, 8.761329305135952]",latest dated cohort; componentwise median of ties,[1970]
+ValiantLabs/Llama3.1-8B-Fireplace2,GPQA,repeated_evaluation,"[5.145413870246088, 5.257270693512303]",latest dated cohort; componentwise median of ties,[1970]
+ValiantLabs/Llama3.1-8B-Fireplace2,MUSR,repeated_evaluation,"[4.379427083333335, 4.216666666666668]",latest dated cohort; componentwise median of ties,[1970]
+ValiantLabs/Llama3.1-8B-Fireplace2,MMLU-PRO,repeated_evaluation,"[15.632387706855791, 15.817080378250589]",latest dated cohort; componentwise median of ties,[1970]
+ValiantLabs/Llama3.1-8B-ShiningValiant2,IFEval,repeated_evaluation,"[64.95653754260917, 26.780608784691285]",latest dated cohort; componentwise median of ties,[1972]
+ValiantLabs/Llama3.1-8B-ShiningValiant2,BBH,repeated_evaluation,"[26.346118640067065, 21.618149642278947]",latest dated cohort; componentwise median of ties,[1972]
+ValiantLabs/Llama3.1-8B-ShiningValiant2,MATH Lvl 5,repeated_evaluation,"[5.664652567975831, 5.211480362537765]",latest dated cohort; componentwise median of ties,[1972]
+ValiantLabs/Llama3.1-8B-ShiningValiant2,GPQA,repeated_evaluation,"[8.05369127516779, 6.935123042505594]",latest dated cohort; componentwise median of ties,[1972]
+ValiantLabs/Llama3.1-8B-ShiningValiant2,MUSR,repeated_evaluation,"[7.458072916666668, 10.789583333333333]",latest dated cohort; componentwise median of ties,[1972]
+ValiantLabs/Llama3.1-8B-ShiningValiant2,MMLU-PRO,repeated_evaluation,"[26.46461288416076, 21.413268321513]",latest dated cohort; componentwise median of ties,[1972]
+YOYO-AI/Qwen2.5-14B-YOYO-1010,IFEval,repeated_evaluation,"[58.98648918203699, 79.04737208384864]",latest dated cohort; componentwise median of ties,"[2013, 2014]"
+YOYO-AI/Qwen2.5-14B-YOYO-1010,BBH,repeated_evaluation,"[50.26771877763532, 48.6902938974714]",latest dated cohort; componentwise median of ties,"[2013, 2014]"
+YOYO-AI/Qwen2.5-14B-YOYO-1010,MATH Lvl 5,repeated_evaluation,"[45.090634441087616, 0.0]",latest dated cohort; componentwise median of ties,"[2013, 2014]"
+YOYO-AI/Qwen2.5-14B-YOYO-1010,GPQA,repeated_evaluation,"[17.785234899328863, 8.83668903803132]",latest dated cohort; componentwise median of ties,"[2013, 2014]"
+YOYO-AI/Qwen2.5-14B-YOYO-1010,MUSR,repeated_evaluation,"[19.29947916666666, 11.3578125]",latest dated cohort; componentwise median of ties,"[2013, 2014]"
+YOYO-AI/Qwen2.5-14B-YOYO-1010,MMLU-PRO,repeated_evaluation,"[48.6184988179669, 43.82572399527187]",latest dated cohort; componentwise median of ties,"[2013, 2014]"
+abhishek/autotrain-0tmgq-5tpbg,IFEval,repeated_evaluation,"[19.571514692128, 19.51654942219977]",latest dated cohort; componentwise median of ties,[2081]
+abhishek/autotrain-0tmgq-5tpbg,BBH,repeated_evaluation,"[4.268752154086201, 4.419022545347729]",latest dated cohort; componentwise median of ties,[2081]
+abhishek/autotrain-0tmgq-5tpbg,MATH Lvl 5,repeated_evaluation,"[0.0, 1.283987915407855]",latest dated cohort; componentwise median of ties,[2081]
+abhishek/autotrain-0tmgq-5tpbg,GPQA,repeated_evaluation,"[0.2237136465324418, 1.230425055928408]",latest dated cohort; componentwise median of ties,[2081]
+abhishek/autotrain-0tmgq-5tpbg,MUSR,repeated_evaluation,"[3.3968750000000014, 2.263541666666667]",latest dated cohort; componentwise median of ties,[2081]
+abhishek/autotrain-0tmgq-5tpbg,MMLU-PRO,repeated_evaluation,"[1.6788563829787229, 1.595744680851063]",latest dated cohort; componentwise median of ties,[2081]
+adriszmar/QAIMath-Qwen2.5-7B-TIES,IFEval,repeated_evaluation,"[17.463219812320197, 16.853725891745015]",latest dated cohort; componentwise median of ties,"[2088, 2089]"
+adriszmar/QAIMath-Qwen2.5-7B-TIES,BBH,repeated_evaluation,"[5.253690606033476, 5.019151283406914]",latest dated cohort; componentwise median of ties,"[2088, 2089]"
+adriszmar/QAIMath-Qwen2.5-7B-TIES,MATH Lvl 5,repeated_evaluation,"[0.0, 0.1510574018126888]",latest dated cohort; componentwise median of ties,"[2088, 2089]"
+adriszmar/QAIMath-Qwen2.5-7B-TIES,GPQA,repeated_evaluation,"[0.0, 0.0]",latest dated cohort; componentwise median of ties,"[2088, 2089]"
+adriszmar/QAIMath-Qwen2.5-7B-TIES,MUSR,repeated_evaluation,"[9.132552083333332, 7.169791666666668]",latest dated cohort; componentwise median of ties,"[2088, 2089]"
+adriszmar/QAIMath-Qwen2.5-7B-TIES,MMLU-PRO,repeated_evaluation,"[0.967789598108746, 0.7369237588652473]",latest dated cohort; componentwise median of ties,"[2088, 2089]"
+akjindal53244/Llama-3.1-Storm-8B,IFEval,repeated_evaluation,"[80.32631196336831, 80.50616807847622]",latest dated cohort; componentwise median of ties,[2112]
+akjindal53244/Llama-3.1-Storm-8B,BBH,repeated_evaluation,"[31.615695113850094, 31.494363445102696]",latest dated cohort; componentwise median of ties,[2112]
+akjindal53244/Llama-3.1-Storm-8B,MATH Lvl 5,repeated_evaluation,"[16.238670694864048, 17.220543806646525]",latest dated cohort; componentwise median of ties,[2112]
+akjindal53244/Llama-3.1-Storm-8B,GPQA,repeated_evaluation,"[7.941834451901568, 10.17897091722595]",latest dated cohort; componentwise median of ties,[2112]
+akjindal53244/Llama-3.1-Storm-8B,MUSR,repeated_evaluation,"[8.820833333333338, 9.116927083333328]",latest dated cohort; componentwise median of ties,[2112]
+akjindal53244/Llama-3.1-Storm-8B,MMLU-PRO,repeated_evaluation,"[31.24815307328605, 31.146572104018905]",latest dated cohort; componentwise median of ties,[2112]
+allenai/Llama-3.1-Tulu-3-70B,IFEval,repeated_evaluation,"[82.91167435737177, 83.79344583482937]",latest dated cohort; componentwise median of ties,"[2114, 2115]"
+allenai/Llama-3.1-Tulu-3-70B,BBH,repeated_evaluation,"[45.36556861740628, 45.25948099520497]",latest dated cohort; componentwise median of ties,"[2114, 2115]"
+allenai/Llama-3.1-Tulu-3-70B,MATH Lvl 5,repeated_evaluation,"[45.01510574018127, 38.29305135951662]",latest dated cohort; componentwise median of ties,"[2114, 2115]"
+allenai/Llama-3.1-Tulu-3-70B,GPQA,repeated_evaluation,"[16.442953020134222, 16.442953020134222]",latest dated cohort; componentwise median of ties,"[2114, 2115]"
+allenai/Llama-3.1-Tulu-3-70B,MUSR,repeated_evaluation,"[23.754166666666663, 24.316927083333336]",latest dated cohort; componentwise median of ties,"[2114, 2115]"
+allenai/Llama-3.1-Tulu-3-70B,MMLU-PRO,repeated_evaluation,"[40.50125591016548, 40.6213061465721]",latest dated cohort; componentwise median of ties,"[2114, 2115]"
+allenai/Llama-3.1-Tulu-3-8B,IFEval,repeated_evaluation,"[82.66687943545348, 82.54697535871487]",latest dated cohort; componentwise median of ties,[2119]
+allenai/Llama-3.1-Tulu-3-8B,BBH,repeated_evaluation,"[16.671812993247975, 16.858052069402785]",latest dated cohort; componentwise median of ties,[2119]
+allenai/Llama-3.1-Tulu-3-8B,MATH Lvl 5,repeated_evaluation,"[19.637462235649547, 21.148036253776432]",latest dated cohort; componentwise median of ties,[2119]
+allenai/Llama-3.1-Tulu-3-8B,GPQA,repeated_evaluation,"[6.487695749440718, 6.263982102908276]",latest dated cohort; componentwise median of ties,[2119]
+allenai/Llama-3.1-Tulu-3-8B,MUSR,repeated_evaluation,"[10.450260416666666, 10.516927083333336]",latest dated cohort; componentwise median of ties,[2119]
+allenai/Llama-3.1-Tulu-3-8B,MMLU-PRO,repeated_evaluation,"[20.295877659574465, 20.231235224586285]",latest dated cohort; componentwise median of ties,[2119]
+amd/AMD-Llama-135m,IFEval,repeated_evaluation,"[18.42245242622907, 19.18431982694805]",latest dated cohort; componentwise median of ties,[2235]
+amd/AMD-Llama-135m,BBH,repeated_evaluation,"[2.4854950529752244, 2.537952680477511]",latest dated cohort; componentwise median of ties,[2235]
+amd/AMD-Llama-135m,MATH Lvl 5,repeated_evaluation,"[0.5287009063444109, 0.7552870090634441]",latest dated cohort; componentwise median of ties,[2235]
+amd/AMD-Llama-135m,GPQA,repeated_evaluation,"[0.3355704697986553, 1.1185682326621946]",latest dated cohort; componentwise median of ties,[2235]
+amd/AMD-Llama-135m,MUSR,repeated_evaluation,"[4.912760416666667, 5.904947916666668]",latest dated cohort; componentwise median of ties,[2235]
+amd/AMD-Llama-135m,MMLU-PRO,repeated_evaluation,"[1.8727836879432624, 1.8727836879432624]",latest dated cohort; componentwise median of ties,[2235]
+arcee-ai/Arcee-Spark,Type,conflicting_tied_metadata,"[""\ud83d\udd36 fine-tuned on domain-specific datasets"", ""\ud83d\udcac chat models (RLHF, DPO, IFT, ...)""]",retain missing,
+arcee-ai/Arcee-Spark,IFEval,repeated_evaluation,"[56.208748343284704, 57.18294126251679]",latest dated cohort; componentwise median of ties,"[2255, 2256]"
+arcee-ai/Arcee-Spark,BBH,repeated_evaluation,"[37.13852245584468, 36.92439043586489]",latest dated cohort; componentwise median of ties,"[2255, 2256]"
+arcee-ai/Arcee-Spark,MATH Lvl 5,repeated_evaluation,"[29.531722054380666, 11.404833836858003]",latest dated cohort; componentwise median of ties,"[2255, 2256]"
+arcee-ai/Arcee-Spark,GPQA,repeated_evaluation,"[7.606263982102905, 7.494407158836691]",latest dated cohort; componentwise median of ties,"[2255, 2256]"
+arcee-ai/Arcee-Spark,MUSR,repeated_evaluation,"[8.595052083333334, 8.395052083333335]",latest dated cohort; componentwise median of ties,"[2255, 2256]"
+arcee-ai/Arcee-Spark,MMLU-PRO,repeated_evaluation,"[31.358968676122927, 31.257387706855795]",latest dated cohort; componentwise median of ties,"[2255, 2256]"
+bunnycore/Llama-3.2-3B-Deep-Test,IFEval,repeated_evaluation,"[17.75300646728458, 46.51679765245105]",latest dated cohort; componentwise median of ties,[2384]
+bunnycore/Llama-3.2-3B-Deep-Test,BBH,repeated_evaluation,"[2.5723233888621087, 22.914432093725296]",latest dated cohort; componentwise median of ties,[2384]
+bunnycore/Llama-3.2-3B-Deep-Test,MATH Lvl 5,repeated_evaluation,"[0.0, 12.83987915407855]",latest dated cohort; componentwise median of ties,[2384]
+bunnycore/Llama-3.2-3B-Deep-Test,GPQA,repeated_evaluation,"[0.2237136465324418, 1.9015659955257265]",latest dated cohort; componentwise median of ties,[2384]
+bunnycore/Llama-3.2-3B-Deep-Test,MUSR,repeated_evaluation,"[2.7500000000000018, 2.5578125000000003]",latest dated cohort; componentwise median of ties,[2384]
+bunnycore/Llama-3.2-3B-Deep-Test,MMLU-PRO,repeated_evaluation,"[0.542996453900708, 23.91585401891253]",latest dated cohort; componentwise median of ties,[2384]
+cognitivecomputations/dolphin-2.9.2-Phi-3-Medium-abliterated,IFEval,repeated_evaluation,"[36.12536957495002, 41.23614232458765]",latest dated cohort; componentwise median of ties,[2484]
+cognitivecomputations/dolphin-2.9.2-Phi-3-Medium-abliterated,BBH,repeated_evaluation,"[45.44126655093765, 48.38534691270737]",latest dated cohort; componentwise median of ties,[2484]
+cognitivecomputations/dolphin-2.9.2-Phi-3-Medium-abliterated,MATH Lvl 5,repeated_evaluation,"[12.386706948640484, 18.202416918429005]",latest dated cohort; componentwise median of ties,[2484]
+cognitivecomputations/dolphin-2.9.2-Phi-3-Medium-abliterated,GPQA,repeated_evaluation,"[10.402684563758392, 10.514541387024613]",latest dated cohort; componentwise median of ties,[2484]
+cognitivecomputations/dolphin-2.9.2-Phi-3-Medium-abliterated,MUSR,repeated_evaluation,"[10.363802083333336, 13.732552083333337]",latest dated cohort; componentwise median of ties,[2484]
+cognitivecomputations/dolphin-2.9.2-Phi-3-Medium-abliterated,MMLU-PRO,repeated_evaluation,"[38.820552600472816, 39.1622340425532]",latest dated cohort; componentwise median of ties,[2484]
+cpayne1303/llama-43m-beta,IFEval,repeated_evaluation,"[19.156837191983936, 19.489066787235643]",latest dated cohort; componentwise median of ties,[2496]
+cpayne1303/llama-43m-beta,BBH,repeated_evaluation,"[2.482040957520409, 2.496047806835478]",latest dated cohort; componentwise median of ties,[2496]
+cpayne1303/llama-43m-beta,MATH Lvl 5,repeated_evaluation,"[0.0, 0.4531722054380665]",latest dated cohort; componentwise median of ties,[2496]
+cpayne1303/llama-43m-beta,GPQA,repeated_evaluation,"[2.460850111856823, 2.460850111856823]",latest dated cohort; componentwise median of ties,[2496]
+cpayne1303/llama-43m-beta,MUSR,repeated_evaluation,"[6.163802083333335, 6.401041666666668]",latest dated cohort; componentwise median of ties,[2496]
+cpayne1303/llama-43m-beta,MMLU-PRO,repeated_evaluation,"[1.466459810874704, 1.2355939716312052]",latest dated cohort; componentwise median of ties,[2496]
+dfurman/Llama-3-8B-Orpo-v0.1,IFEval,repeated_evaluation,"[28.351773294857644, 30.00039894147528]",latest dated cohort; componentwise median of ties,"[2525, 2526]"
+dfurman/Llama-3-8B-Orpo-v0.1,BBH,repeated_evaluation,"[13.68074574746978, 13.773376256003464]",latest dated cohort; componentwise median of ties,"[2525, 2526]"
+dfurman/Llama-3-8B-Orpo-v0.1,MATH Lvl 5,repeated_evaluation,"[5.211480362537765, 4.154078549848943]",latest dated cohort; componentwise median of ties,"[2525, 2526]"
+dfurman/Llama-3-8B-Orpo-v0.1,GPQA,repeated_evaluation,"[1.45413870246085, 1.5659955257270708]",latest dated cohort; componentwise median of ties,"[2525, 2526]"
+dfurman/Llama-3-8B-Orpo-v0.1,MUSR,repeated_evaluation,"[2.24609375, 2.734375]",latest dated cohort; componentwise median of ties,"[2525, 2526]"
+dfurman/Llama-3-8B-Orpo-v0.1,MMLU-PRO,repeated_evaluation,"[14.42265070921986, 14.22872340425532]",latest dated cohort; componentwise median of ties,"[2525, 2526]"
+fblgit/TheBeagle-v2beta-32B-MGS,IFEval,repeated_evaluation,"[51.8074265171966, 45.03051902285935]",latest dated cohort; componentwise median of ties,[2629]
+fblgit/TheBeagle-v2beta-32B-MGS,BBH,repeated_evaluation,"[58.0279762011676, 58.06602977613295]",latest dated cohort; componentwise median of ties,[2629]
+fblgit/TheBeagle-v2beta-32B-MGS,MATH Lvl 5,repeated_evaluation,"[49.47129909365559, 39.42598187311178]",latest dated cohort; componentwise median of ties,[2629]
+fblgit/TheBeagle-v2beta-32B-MGS,GPQA,repeated_evaluation,"[17.67337807606264, 20.134228187919465]",latest dated cohort; componentwise median of ties,[2629]
+fblgit/TheBeagle-v2beta-32B-MGS,MUSR,repeated_evaluation,"[24.260416666666668, 24.49765625]",latest dated cohort; componentwise median of ties,[2629]
+fblgit/TheBeagle-v2beta-32B-MGS,MMLU-PRO,repeated_evaluation,"[54.61177600472813, 54.56560283687944]",latest dated cohort; componentwise median of ties,[2629]
+google/flan-t5-xl,IFEval,repeated_evaluation,"[22.374189373085635, 22.06944241279804]",latest dated cohort; componentwise median of ties,"[2712, 2713]"
+google/flan-t5-xl,BBH,repeated_evaluation,"[22.6950558112154, 22.837587663523298]",latest dated cohort; componentwise median of ties,"[2712, 2713]"
+google/flan-t5-xl,MATH Lvl 5,repeated_evaluation,"[0.7552870090634441, 0.0755287009063444]",latest dated cohort; componentwise median of ties,"[2712, 2713]"
+google/flan-t5-xl,GPQA,repeated_evaluation,"[0.3355704697986553, 0.0]",latest dated cohort; componentwise median of ties,"[2712, 2713]"
+google/flan-t5-xl,MUSR,repeated_evaluation,"[11.328385416666668, 11.85390625]",latest dated cohort; componentwise median of ties,"[2712, 2713]"
+google/flan-t5-xl,MMLU-PRO,repeated_evaluation,"[12.741947399527188, 12.686539598108748]",latest dated cohort; componentwise median of ties,"[2712, 2713]"
+google/gemma-2-2b,IFEval,repeated_evaluation,"[19.931226922343825, 20.176021844262117]",latest dated cohort; componentwise median of ties,"[2720, 2721]"
+google/gemma-2-2b,BBH,repeated_evaluation,"[11.755807532236112, 12.497306228573644]",latest dated cohort; componentwise median of ties,"[2720, 2721]"
+google/gemma-2-2b,MATH Lvl 5,repeated_evaluation,"[2.8700906344410875, 3.0211480362537766]",latest dated cohort; componentwise median of ties,"[2720, 2721]"
+google/gemma-2-2b,GPQA,repeated_evaluation,"[1.6778523489932915, 1.6778523489932915]",latest dated cohort; componentwise median of ties,"[2720, 2721]"
+google/gemma-2-2b,MUSR,repeated_evaluation,"[11.43046875, 11.267708333333331]",latest dated cohort; componentwise median of ties,"[2720, 2721]"
+google/gemma-2-2b,MMLU-PRO,repeated_evaluation,"[13.111332742316788, 13.51765661938534]",latest dated cohort; componentwise median of ties,"[2720, 2721]"
+google/gemma-2-2b-jpn-it,IFEval,repeated_evaluation,"[50.77826832803628, 52.88401441508531]",latest dated cohort; componentwise median of ties,[2724]
+google/gemma-2-2b-jpn-it,BBH,repeated_evaluation,"[18.525626449832732, 17.848086390818036]",latest dated cohort; componentwise median of ties,[2724]
+google/gemma-2-2b-jpn-it,MATH Lvl 5,repeated_evaluation,"[3.474320241691843, 4.758308157099698]",latest dated cohort; componentwise median of ties,[2724]
+google/gemma-2-2b-jpn-it,GPQA,repeated_evaluation,"[4.697986577181204, 3.355704697986576]",latest dated cohort; componentwise median of ties,[2724]
+google/gemma-2-2b-jpn-it,MUSR,repeated_evaluation,"[7.681510416666669, 4.928385416666668]",latest dated cohort; componentwise median of ties,[2724]
+google/gemma-2-2b-jpn-it,MMLU-PRO,repeated_evaluation,"[17.53472222222222, 16.297281323877066]",latest dated cohort; componentwise median of ties,[2724]
+gpt2,IFEval,repeated_evaluation,"[19.34168007553292, 8.333333333333332]",latest dated cohort; componentwise median of ties,"[2742, 2743]"
+gpt2,BBH,repeated_evaluation,"[2.714297847387736, 9.199754901960786]",latest dated cohort; componentwise median of ties,"[2742, 2743]"
+gpt2,MATH Lvl 5,repeated_evaluation,"[0.3021148036253776, 0.0]",latest dated cohort; componentwise median of ties,"[2742, 2743]"
+gpt2,GPQA,repeated_evaluation,"[1.342281879194629, 0.0]",latest dated cohort; componentwise median of ties,"[2742, 2743]"
+gpt2,MUSR,repeated_evaluation,"[12.985416666666667, 18.33333333333333]",latest dated cohort; componentwise median of ties,"[2742, 2743]"
+gpt2,MMLU-PRO,repeated_evaluation,"[1.6603871158392434, 0.0]",latest dated cohort; componentwise median of ties,"[2742, 2743]"
+jaspionjader/Kosmos-EVAA-Fusion-8B,IFEval,repeated_evaluation,"[44.17623018036588, 43.44683218305208]",latest dated cohort; componentwise median of ties,"[2958, 2959]"
+jaspionjader/Kosmos-EVAA-Fusion-8B,BBH,repeated_evaluation,"[34.45875710784809, 34.61065709067911]",latest dated cohort; componentwise median of ties,"[2958, 2959]"
+jaspionjader/Kosmos-EVAA-Fusion-8B,MATH Lvl 5,repeated_evaluation,"[13.51963746223565, 12.915407854984895]",latest dated cohort; componentwise median of ties,"[2958, 2959]"
+jaspionjader/Kosmos-EVAA-Fusion-8B,GPQA,repeated_evaluation,"[7.494407158836691, 7.829977628635347]",latest dated cohort; componentwise median of ties,"[2958, 2959]"
+jaspionjader/Kosmos-EVAA-Fusion-8B,MUSR,repeated_evaluation,"[12.225, 12.225]",latest dated cohort; componentwise median of ties,"[2958, 2959]"
+jaspionjader/Kosmos-EVAA-Fusion-8B,MMLU-PRO,repeated_evaluation,"[31.774527186761222, 31.709884751773053]",latest dated cohort; componentwise median of ties,"[2958, 2959]"
+kavonalds/BunderMaxx-0710,IFEval,repeated_evaluation,"[32.82556948895597, 27.0078946085276]",latest dated cohort; componentwise median of ties,"[3238, 3239]"
+kavonalds/BunderMaxx-0710,BBH,repeated_evaluation,"[51.57754755283705, 36.10977962702472]",latest dated cohort; componentwise median of ties,"[3238, 3239]"
+kavonalds/BunderMaxx-0710,MATH Lvl 5,repeated_evaluation,"[6.797583081570997, 6.797583081570997]",latest dated cohort; componentwise median of ties,"[3238, 3239]"
+kavonalds/BunderMaxx-0710,GPQA,repeated_evaluation,"[1.45413870246085, 4.026845637583895]",latest dated cohort; componentwise median of ties,"[3238, 3239]"
+kavonalds/BunderMaxx-0710,MUSR,repeated_evaluation,"[2.0833333333333326, 4.791406249999999]",latest dated cohort; componentwise median of ties,"[3238, 3239]"
+kavonalds/BunderMaxx-0710,MMLU-PRO,repeated_evaluation,"[3.4888445626477527, 4.994089834515365]",latest dated cohort; componentwise median of ties,"[3238, 3239]"
+llmat/Mistral-v0.3-7B-ORPO,IFEval,repeated_evaluation,"[37.70406964631621, 36.39764713183243]",latest dated cohort; componentwise median of ties,[3318]
+llmat/Mistral-v0.3-7B-ORPO,BBH,repeated_evaluation,"[14.86315851911541, 15.59149132338697]",latest dated cohort; componentwise median of ties,[3318]
+llmat/Mistral-v0.3-7B-ORPO,MATH Lvl 5,repeated_evaluation,"[2.416918429003021, 0.1510574018126888]",latest dated cohort; componentwise median of ties,[3318]
+llmat/Mistral-v0.3-7B-ORPO,GPQA,repeated_evaluation,"[2.2371364653243813, 2.572706935123044]",latest dated cohort; componentwise median of ties,[3318]
+llmat/Mistral-v0.3-7B-ORPO,MUSR,repeated_evaluation,"[2.973437500000001, 2.973437500000001]",latest dated cohort; componentwise median of ties,[3318]
+llmat/Mistral-v0.3-7B-ORPO,MMLU-PRO,repeated_evaluation,"[14.2010195035461, 14.45958924349882]",latest dated cohort; componentwise median of ties,[3318]
+meta-llama/Meta-Llama-3-8B-Instruct,IFEval,repeated_evaluation,"[74.08398604591373, 47.823220166934846]",latest dated cohort; componentwise median of ties,[3438]
+meta-llama/Meta-Llama-3-8B-Instruct,BBH,repeated_evaluation,"[28.24494957634361, 26.795283502573653]",latest dated cohort; componentwise median of ties,[3438]
+meta-llama/Meta-Llama-3-8B-Instruct,MATH Lvl 5,repeated_evaluation,"[8.685800604229607, 9.138972809667674]",latest dated cohort; componentwise median of ties,[3438]
+meta-llama/Meta-Llama-3-8B-Instruct,GPQA,repeated_evaluation,"[1.230425055928408, 5.7046979865771785]",latest dated cohort; componentwise median of ties,[3438]
+meta-llama/Meta-Llama-3-8B-Instruct,MUSR,repeated_evaluation,"[1.602864583333335, 5.401041666666668]",latest dated cohort; componentwise median of ties,[3438]
+meta-llama/Meta-Llama-3-8B-Instruct,MMLU-PRO,repeated_evaluation,"[29.604388297872337, 28.791740543735223]",latest dated cohort; componentwise median of ties,[3438]
+microsoft/Phi-3-mini-4k-instruct,IFEval,repeated_evaluation,"[56.12884923115112, 54.76746144673909]",latest dated cohort; componentwise median of ties,[3447]
+microsoft/Phi-3-mini-4k-instruct,BBH,repeated_evaluation,"[39.2693352377728, 36.55985530518785]",latest dated cohort; componentwise median of ties,[3447]
+microsoft/Phi-3-mini-4k-instruct,MATH Lvl 5,repeated_evaluation,"[11.63141993957704, 16.389728096676738]",latest dated cohort; componentwise median of ties,[3447]
+microsoft/Phi-3-mini-4k-instruct,GPQA,repeated_evaluation,"[9.284116331096197, 10.96196868008949]",latest dated cohort; componentwise median of ties,[3447]
+microsoft/Phi-3-mini-4k-instruct,MUSR,repeated_evaluation,"[7.644270833333336, 13.118749999999997]",latest dated cohort; componentwise median of ties,[3447]
+microsoft/Phi-3-mini-4k-instruct,MMLU-PRO,repeated_evaluation,"[31.848404255319146, 33.57528073286053]",latest dated cohort; componentwise median of ties,[3447]
+microsoft/phi-4,Type,conflicting_tied_metadata,"[""\ud83d\udfe2 pretrained"", ""\ud83d\udcac chat models (RLHF, DPO, IFT, ...)""]",retain missing,
+microsoft/phi-4,IFEval,repeated_evaluation,"[4.878500157360248, 5.852693076592331]",latest dated cohort; componentwise median of ties,"[3456, 3457]"
+microsoft/phi-4,BBH,repeated_evaluation,"[52.57567157258284, 52.42784845820486]",latest dated cohort; componentwise median of ties,"[3456, 3457]"
+microsoft/phi-4,MATH Lvl 5,repeated_evaluation,"[27.870090634441087, 31.64652567975831]",latest dated cohort; componentwise median of ties,"[3456, 3457]"
+microsoft/phi-4,GPQA,repeated_evaluation,"[20.134228187919465, 20.805369127516784]",latest dated cohort; componentwise median of ties,"[3456, 3457]"
+microsoft/phi-4,MUSR,repeated_evaluation,"[23.71927083333333, 23.7859375]",latest dated cohort; componentwise median of ties,"[3456, 3457]"
+microsoft/phi-4,MMLU-PRO,repeated_evaluation,"[47.722739361702125, 47.630393026004725]",latest dated cohort; componentwise median of ties,"[3456, 3457]"
+migtissera/Trinity-2-Codestral-22B-v0.2,IFEval,repeated_evaluation,"[43.44683218305208, 44.30112102554556]",latest dated cohort; componentwise median of ties,[3466]
+migtissera/Trinity-2-Codestral-22B-v0.2,BBH,repeated_evaluation,"[37.61424608895926, 37.78604101957199]",latest dated cohort; componentwise median of ties,[3466]
+migtissera/Trinity-2-Codestral-22B-v0.2,MATH Lvl 5,repeated_evaluation,"[8.38368580060423, 8.685800604229607]",latest dated cohort; componentwise median of ties,[3466]
+migtissera/Trinity-2-Codestral-22B-v0.2,GPQA,repeated_evaluation,"[6.711409395973152, 7.718120805369126]",latest dated cohort; componentwise median of ties,[3466]
+migtissera/Trinity-2-Codestral-22B-v0.2,MUSR,repeated_evaluation,"[9.059895833333336, 8.859895833333338]",latest dated cohort; componentwise median of ties,[3466]
+migtissera/Trinity-2-Codestral-22B-v0.2,MMLU-PRO,repeated_evaluation,"[26.002881205673763, 26.150635342789595]",latest dated cohort; componentwise median of ties,[3466]
+mistralai/Mistral-Small-Instruct-2409,IFEval,repeated_evaluation,"[66.69758463100129, 62.82829558903709]",latest dated cohort; componentwise median of ties,[3485]
+mistralai/Mistral-Small-Instruct-2409,BBH,repeated_evaluation,"[30.7920960925092, 40.5597130348992]",latest dated cohort; componentwise median of ties,[3485]
+mistralai/Mistral-Small-Instruct-2409,MATH Lvl 5,repeated_evaluation,"[14.350453172205436, 20.39274924471299]",latest dated cohort; componentwise median of ties,[3485]
+mistralai/Mistral-Small-Instruct-2409,GPQA,repeated_evaluation,"[9.843400447427292, 11.0738255033557]",latest dated cohort; componentwise median of ties,[3485]
+mistralai/Mistral-Small-Instruct-2409,MUSR,repeated_evaluation,"[3.001041666666666, 10.225]",latest dated cohort; componentwise median of ties,[3485]
+mistralai/Mistral-Small-Instruct-2409,MMLU-PRO,repeated_evaluation,"[32.89191784869976, 34.43410165484633]",latest dated cohort; componentwise median of ties,[3485]
+mistralai/Mixtral-8x7B-v0.1,IFEval,repeated_evaluation,"[24.152692633324023, 23.260947618984297]",latest dated cohort; componentwise median of ties,[3489]
+mistralai/Mixtral-8x7B-v0.1,BBH,repeated_evaluation,"[30.294194918961484, 30.4002992674255]",latest dated cohort; componentwise median of ties,[3489]
+mistralai/Mixtral-8x7B-v0.1,MATH Lvl 5,repeated_evaluation,"[10.196374622356496, 9.365558912386708]",latest dated cohort; componentwise median of ties,[3489]
+mistralai/Mixtral-8x7B-v0.1,GPQA,repeated_evaluation,"[8.501118568232664, 9.395973154362418]",latest dated cohort; componentwise median of ties,[3489]
+mistralai/Mixtral-8x7B-v0.1,MUSR,repeated_evaluation,"[12.58359375, 13.6640625]",latest dated cohort; componentwise median of ties,[3489]
+mistralai/Mixtral-8x7B-v0.1,MMLU-PRO,repeated_evaluation,"[31.663711583924343, 31.903812056737586]",latest dated cohort; componentwise median of ties,[3489]
+mlabonne/NeuralDaredevil-8B-abliterated,IFEval,repeated_evaluation,"[75.60772084735169, 41.6233371897676]",latest dated cohort; componentwise median of ties,[3508]
+mlabonne/NeuralDaredevil-8B-abliterated,BBH,repeated_evaluation,"[30.30798586214647, 29.763198395755456]",latest dated cohort; componentwise median of ties,[3508]
+mlabonne/NeuralDaredevil-8B-abliterated,MATH Lvl 5,repeated_evaluation,"[9.06344410876133, 8.534743202416918]",latest dated cohort; componentwise median of ties,[3508]
+mlabonne/NeuralDaredevil-8B-abliterated,GPQA,repeated_evaluation,"[7.494407158836691, 7.046979865771815]",latest dated cohort; componentwise median of ties,[3508]
+mlabonne/NeuralDaredevil-8B-abliterated,MUSR,repeated_evaluation,"[9.075520833333336, 10.903124999999996]",latest dated cohort; componentwise median of ties,[3508]
+mlabonne/NeuralDaredevil-8B-abliterated,MMLU-PRO,repeated_evaluation,"[31.57136524822695, 31.128102836879428]",latest dated cohort; componentwise median of ties,[3508]
+nazimali/Mistral-Nemo-Kurdish-Instruct,IFEval,repeated_evaluation,"[49.63917959901949, 48.60004787297703]",latest dated cohort; componentwise median of ties,"[3535, 3536]"
+nazimali/Mistral-Nemo-Kurdish-Instruct,BBH,repeated_evaluation,"[25.56142263482943, 26.02174135407743]",latest dated cohort; componentwise median of ties,"[3535, 3536]"
+nazimali/Mistral-Nemo-Kurdish-Instruct,MATH Lvl 5,repeated_evaluation,"[0.4531722054380665, 8.459214501510575]",latest dated cohort; componentwise median of ties,"[3535, 3536]"
+nazimali/Mistral-Nemo-Kurdish-Instruct,GPQA,repeated_evaluation,"[4.36241610738255, 4.586129753914992]",latest dated cohort; componentwise median of ties,"[3535, 3536]"
+nazimali/Mistral-Nemo-Kurdish-Instruct,MUSR,repeated_evaluation,"[8.40104166666667, 8.838281250000003]",latest dated cohort; componentwise median of ties,"[3535, 3536]"
+nazimali/Mistral-Nemo-Kurdish-Instruct,MMLU-PRO,repeated_evaluation,"[22.91851359338061, 23.186317966903072]",latest dated cohort; componentwise median of ties,"[3535, 3536]"
+nisten/franqwenstein-35b,Type,conflicting_tied_metadata,"[""\ud83e\udd1d base merges and moerges"", ""\ud83d\udd36 fine-tuned on domain-specific datasets""]",retain missing,
+nisten/franqwenstein-35b,IFEval,repeated_evaluation,"[37.98632074008077, 39.13538300597969]",latest dated cohort; componentwise median of ties,"[3667, 3668]"
+nisten/franqwenstein-35b,BBH,repeated_evaluation,"[52.227468077653526, 51.68027687329707]",latest dated cohort; componentwise median of ties,"[3667, 3668]"
+nisten/franqwenstein-35b,MATH Lvl 5,repeated_evaluation,"[34.06344410876133, 30.438066465256803]",latest dated cohort; componentwise median of ties,"[3667, 3668]"
+nisten/franqwenstein-35b,GPQA,repeated_evaluation,"[20.46979865771812, 14.5413870246085]",latest dated cohort; componentwise median of ties,"[3667, 3668]"
+nisten/franqwenstein-35b,MUSR,repeated_evaluation,"[22.119270833333328, 19.6796875]",latest dated cohort; componentwise median of ties,"[3667, 3668]"
+nisten/franqwenstein-35b,MMLU-PRO,repeated_evaluation,"[52.56168735224587, 51.23190011820331]",latest dated cohort; componentwise median of ties,"[3667, 3668]"
+ontocord/wide_3b_sft_stage1.1-ss1-with_generics_intr_math_stories.no_issue,IFEval,repeated_evaluation,"[11.283283908917229, 11.61551350416894]",latest dated cohort; componentwise median of ties,[3733]
+ontocord/wide_3b_sft_stage1.1-ss1-with_generics_intr_math_stories.no_issue,BBH,repeated_evaluation,"[4.415068812630222, 4.554520467313206]",latest dated cohort; componentwise median of ties,[3733]
+ontocord/wide_3b_sft_stage1.1-ss1-with_generics_intr_math_stories.no_issue,MATH Lvl 5,repeated_evaluation,"[1.1329305135951662, 0.7552870090634441]",latest dated cohort; componentwise median of ties,[3733]
+ontocord/wide_3b_sft_stage1.1-ss1-with_generics_intr_math_stories.no_issue,GPQA,repeated_evaluation,"[2.460850111856831, 1.789709172259505]",latest dated cohort; componentwise median of ties,[3733]
+ontocord/wide_3b_sft_stage1.1-ss1-with_generics_intr_math_stories.no_issue,MUSR,repeated_evaluation,"[2.45390625, 2.187239583333333]",latest dated cohort; componentwise median of ties,[3733]
+ontocord/wide_3b_sft_stage1.1-ss1-with_generics_intr_math_stories.no_issue,MMLU-PRO,repeated_evaluation,"[1.4387559101654843, 1.374113475177304]",latest dated cohort; componentwise median of ties,[3733]
+oopere/Llama-FinSent-S,IFEval,repeated_evaluation,"[21.18767093534045, 21.63980460733077]",latest dated cohort; componentwise median of ties,[3748]
+oopere/Llama-FinSent-S,BBH,repeated_evaluation,"[4.1560152972776905, 4.30733068735382]",latest dated cohort; componentwise median of ties,[3748]
+oopere/Llama-FinSent-S,MATH Lvl 5,repeated_evaluation,"[1.812688821752266, 1.283987915407855]",latest dated cohort; componentwise median of ties,[3748]
+oopere/Llama-FinSent-S,GPQA,repeated_evaluation,"[0.8948545861297527, 1.1185682326621946]",latest dated cohort; componentwise median of ties,[3748]
+oopere/Llama-FinSent-S,MUSR,repeated_evaluation,"[5.371614583333334, 5.363802083333334]",latest dated cohort; componentwise median of ties,[3748]
+oopere/Llama-FinSent-S,MMLU-PRO,repeated_evaluation,"[1.4479905437352243, 1.4849290780141835]",latest dated cohort; componentwise median of ties,[3748]
+openai-community/gpt2,IFEval,repeated_evaluation,"[17.925327021192658, 17.795449407571912]",latest dated cohort; componentwise median of ties,[3763]
+openai-community/gpt2,BBH,repeated_evaluation,"[2.674981367986987, 2.8159113095085133]",latest dated cohort; componentwise median of ties,[3763]
+openai-community/gpt2,MATH Lvl 5,repeated_evaluation,"[0.2265861027190332, 0.5287009063444109]",latest dated cohort; componentwise median of ties,[3763]
+openai-community/gpt2,GPQA,repeated_evaluation,"[1.1185682326621946, 1.1185682326621946]",latest dated cohort; componentwise median of ties,[3763]
+openai-community/gpt2,MUSR,repeated_evaluation,"[15.348177083333336, 13.9109375]",latest dated cohort; componentwise median of ties,[3763]
+openai-community/gpt2,MMLU-PRO,repeated_evaluation,"[1.7712027186761226, 1.8358451536643017]",latest dated cohort; componentwise median of ties,[3763]
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,Type,conflicting_tied_metadata,"[""\ud83d\udcac chat models (RLHF, DPO, IFT, ...)"", ""\ud83d\udd36 fine-tuned on domain-specific datasets""]",retain missing,
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,IFEval,repeated_evaluation,"[55.08218194390883, 39.77734632996006]",latest dated cohort; componentwise median of ties,"[3821, 3822]"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,BBH,repeated_evaluation,"[29.151153442911763, 28.66921858384416]",latest dated cohort; componentwise median of ties,"[3821, 3822]"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,MATH Lvl 5,repeated_evaluation,"[5.287009063444108, 5.81570996978852]",latest dated cohort; componentwise median of ties,"[3821, 3822]"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,GPQA,repeated_evaluation,"[4.809843400447425, 4.138702460850116]",latest dated cohort; componentwise median of ties,"[3821, 3822]"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,MUSR,repeated_evaluation,"[12.530729166666662, 12.091666666666663]",latest dated cohort; componentwise median of ties,"[3821, 3822]"
+princeton-nlp/Llama-3-8B-ProLong-512k-Instruct,MMLU-PRO,repeated_evaluation,"[24.793144208037827, 24.959367612293143]",latest dated cohort; componentwise median of ties,"[3821, 3822]"
+prithivMLmods/Calcium-Opus-14B-Elite,IFEval,repeated_evaluation,"[60.51521075191603, 60.63511482865464]",latest dated cohort; componentwise median of ties,"[3877, 3878]"
+prithivMLmods/Calcium-Opus-14B-Elite,BBH,repeated_evaluation,"[46.93415830006768, 46.53280917875986]",latest dated cohort; componentwise median of ties,"[3877, 3878]"
+prithivMLmods/Calcium-Opus-14B-Elite,MATH Lvl 5,repeated_evaluation,"[47.88519637462236, 37.08459214501511]",latest dated cohort; componentwise median of ties,"[3877, 3878]"
+prithivMLmods/Calcium-Opus-14B-Elite,GPQA,repeated_evaluation,"[16.554809843400445, 16.442953020134222]",latest dated cohort; componentwise median of ties,"[3877, 3878]"
+prithivMLmods/Calcium-Opus-14B-Elite,MUSR,repeated_evaluation,"[20.778124999999992, 20.948697916666664]",latest dated cohort; componentwise median of ties,"[3877, 3878]"
+prithivMLmods/Calcium-Opus-14B-Elite,MMLU-PRO,repeated_evaluation,"[47.796616430260045, 47.85202423167848]",latest dated cohort; componentwise median of ties,"[3877, 3878]"
+qingy2019/Oracle-14B,IFEval,repeated_evaluation,"[23.583203677353865, 24.007854714380063]",latest dated cohort; componentwise median of ties,[3988]
+qingy2019/Oracle-14B,BBH,repeated_evaluation,"[23.18463030799016, 23.30194605898976]",latest dated cohort; componentwise median of ties,[3988]
+qingy2019/Oracle-14B,MATH Lvl 5,repeated_evaluation,"[6.419939577039275, 7.250755287009064]",latest dated cohort; componentwise median of ties,[3988]
+qingy2019/Oracle-14B,GPQA,repeated_evaluation,"[1.0067114093959737, 1.45413870246085]",latest dated cohort; componentwise median of ties,[3988]
+qingy2019/Oracle-14B,MUSR,repeated_evaluation,"[10.491666666666667, 10.225]",latest dated cohort; componentwise median of ties,[3988]
+qingy2019/Oracle-14B,MMLU-PRO,repeated_evaluation,"[15.355348699763594, 15.318410165484634]",latest dated cohort; componentwise median of ties,[3988]
+qingy2019/Qwen2.5-Math-14B-Instruct,IFEval,repeated_evaluation,"[60.66259746361875, 60.05310354304357]",latest dated cohort; componentwise median of ties,"[3989, 3990]"
+qingy2019/Qwen2.5-Math-14B-Instruct,BBH,repeated_evaluation,"[47.0170855041099, 47.06557227198695]",latest dated cohort; componentwise median of ties,"[3989, 3990]"
+qingy2019/Qwen2.5-Math-14B-Instruct,MATH Lvl 5,repeated_evaluation,"[37.160120845921455, 27.64350453172205]",latest dated cohort; componentwise median of ties,"[3989, 3990]"
+qingy2019/Qwen2.5-Math-14B-Instruct,GPQA,repeated_evaluation,"[16.33109619686801, 15.883668903803136]",latest dated cohort; componentwise median of ties,"[3989, 3990]"
+qingy2019/Qwen2.5-Math-14B-Instruct,MUSR,repeated_evaluation,"[19.6328125, 19.425]",latest dated cohort; componentwise median of ties,"[3989, 3990]"
+qingy2019/Qwen2.5-Math-14B-Instruct,MMLU-PRO,repeated_evaluation,"[48.119828605200944, 48.21217494089834]",latest dated cohort; componentwise median of ties,"[3989, 3990]"
+recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp,IFEval,repeated_evaluation,"[76.48949232480928, 28.53650536133016]",latest dated cohort; componentwise median of ties,[4019]
+recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp,BBH,repeated_evaluation,"[42.25120987807252, 42.70379763449792]",latest dated cohort; componentwise median of ties,[4019]
+recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp,MATH Lvl 5,repeated_evaluation,"[1.7371601208459215, 10.045317220543806]",latest dated cohort; componentwise median of ties,[4019]
+recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp,GPQA,repeated_evaluation,"[10.738255033557047, 10.626398210290828]",latest dated cohort; componentwise median of ties,[4019]
+recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp,MUSR,repeated_evaluation,"[12.39322916666667, 16.415364583333332]",latest dated cohort; componentwise median of ties,[4019]
+recoilme/Gemma-2-Ataraxy-Gemmasutra-9B-slerp,MMLU-PRO,repeated_evaluation,"[35.63460401891253, 35.13593380614657]",latest dated cohort; componentwise median of ties,[4019]
+recoilme/recoilme-gemma-2-9B-v0.2,IFEval,repeated_evaluation,"[75.91745457608036, 27.469891000323585]",latest dated cohort; componentwise median of ties,[4022]
+recoilme/recoilme-gemma-2-9B-v0.2,BBH,repeated_evaluation,"[43.02796904930725, 43.56058143461737]",latest dated cohort; componentwise median of ties,[4022]
+recoilme/recoilme-gemma-2-9B-v0.2,MATH Lvl 5,repeated_evaluation,"[5.287009063444108, 8.308157099697885]",latest dated cohort; componentwise median of ties,[4022]
+recoilme/recoilme-gemma-2-9B-v0.2,GPQA,repeated_evaluation,"[10.514541387024613, 10.738255033557047]",latest dated cohort; componentwise median of ties,[4022]
+recoilme/recoilme-gemma-2-9B-v0.2,MUSR,repeated_evaluation,"[10.401041666666664, 17.807552083333327]",latest dated cohort; componentwise median of ties,[4022]
+recoilme/recoilme-gemma-2-9B-v0.2,MMLU-PRO,repeated_evaluation,"[35.145168439716315, 34.692671394799056]",latest dated cohort; componentwise median of ties,[4022]
+recoilme/recoilme-gemma-2-9B-v0.3,IFEval,repeated_evaluation,"[74.39371977464239, 57.60759229954299]",latest dated cohort; componentwise median of ties,[4024]
+recoilme/recoilme-gemma-2-9B-v0.3,BBH,repeated_evaluation,"[42.026279212829245, 43.326868296283614]",latest dated cohort; componentwise median of ties,[4024]
+recoilme/recoilme-gemma-2-9B-v0.3,MATH Lvl 5,repeated_evaluation,"[8.761329305135952, 18.882175226586103]",latest dated cohort; componentwise median of ties,[4024]
+recoilme/recoilme-gemma-2-9B-v0.3,GPQA,repeated_evaluation,"[9.843400447427292, 11.6331096196868]",latest dated cohort; componentwise median of ties,[4024]
+recoilme/recoilme-gemma-2-9B-v0.3,MUSR,repeated_evaluation,"[12.081510416666664, 17.03697916666666]",latest dated cohort; componentwise median of ties,[4024]
+recoilme/recoilme-gemma-2-9B-v0.3,MMLU-PRO,repeated_evaluation,"[34.13859338061466, 33.76920803782505]",latest dated cohort; componentwise median of ties,[4024]
+riaz/FineLlama-3.1-8B,IFEval,repeated_evaluation,"[43.734070045257695, 41.3660199382084]",latest dated cohort; componentwise median of ties,"[4033, 4034]"
+riaz/FineLlama-3.1-8B,BBH,repeated_evaluation,"[24.14877809167861, 23.77338959053972]",latest dated cohort; componentwise median of ties,"[4033, 4034]"
+riaz/FineLlama-3.1-8B,MATH Lvl 5,repeated_evaluation,"[5.13595166163142, 4.531722054380665]",latest dated cohort; componentwise median of ties,"[4033, 4034]"
+riaz/FineLlama-3.1-8B,GPQA,repeated_evaluation,"[3.355704697986576, 3.467561521252797]",latest dated cohort; componentwise median of ties,"[4033, 4034]"
+riaz/FineLlama-3.1-8B,MUSR,repeated_evaluation,"[7.76979166666667, 7.76979166666667]",latest dated cohort; componentwise median of ties,"[4033, 4034]"
+riaz/FineLlama-3.1-8B,MMLU-PRO,repeated_evaluation,"[21.81959219858156, 21.976580969267136]",latest dated cohort; componentwise median of ties,"[4033, 4034]"
+rombodawg/Rombos-LLM-V2.5.1-Qwen-3b,IFEval,repeated_evaluation,"[25.95125378440316, 25.664015922197542]",latest dated cohort; componentwise median of ties,[4046]
+rombodawg/Rombos-LLM-V2.5.1-Qwen-3b,BBH,repeated_evaluation,"[14.88140918445136, 15.057744482096084]",latest dated cohort; componentwise median of ties,[4046]
+rombodawg/Rombos-LLM-V2.5.1-Qwen-3b,MATH Lvl 5,repeated_evaluation,"[9.138972809667676, 12.084592145015106]",latest dated cohort; componentwise median of ties,[4046]
+rombodawg/Rombos-LLM-V2.5.1-Qwen-3b,GPQA,repeated_evaluation,"[3.243847874720355, 1.6778523489932915]",latest dated cohort; componentwise median of ties,[4046]
+rombodawg/Rombos-LLM-V2.5.1-Qwen-3b,MUSR,repeated_evaluation,"[7.822656250000001, 7.822656250000001]",latest dated cohort; componentwise median of ties,[4046]
+rombodawg/Rombos-LLM-V2.5.1-Qwen-3b,MMLU-PRO,repeated_evaluation,"[19.104609929078016, 19.34471040189125]",latest dated cohort; componentwise median of ties,[4046]
+sometimesanotion/Qwenvergence-14B-v3-Reason,Type,conflicting_tied_metadata,"[""\ud83d\udd36 fine-tuned on domain-specific datasets"", ""\ud83e\udd1d base merges and moerges""]",retain missing,
+sometimesanotion/Qwenvergence-14B-v3-Reason,IFEval,repeated_evaluation,"[53.66837768232734, 52.78161943642867]",latest dated cohort; componentwise median of ties,"[4169, 4170]"
+sometimesanotion/Qwenvergence-14B-v3-Reason,BBH,repeated_evaluation,"[50.69444798867054, 50.635776137274746]",latest dated cohort; componentwise median of ties,"[4169, 4170]"
+sometimesanotion/Qwenvergence-14B-v3-Reason,MATH Lvl 5,repeated_evaluation,"[35.80060422960725, 31.19335347432024]",latest dated cohort; componentwise median of ties,"[4169, 4170]"
+sometimesanotion/Qwenvergence-14B-v3-Reason,GPQA,repeated_evaluation,"[18.232662192393736, 17.897091722595075]",latest dated cohort; componentwise median of ties,"[4169, 4170]"
+sometimesanotion/Qwenvergence-14B-v3-Reason,MUSR,repeated_evaluation,"[18.45260416666667, 18.92708333333333]",latest dated cohort; componentwise median of ties,"[4169, 4170]"
+sometimesanotion/Qwenvergence-14B-v3-Reason,MMLU-PRO,repeated_evaluation,"[48.83089539007093, 48.84936465721041]",latest dated cohort; componentwise median of ties,"[4169, 4170]"
+spow12/ChatWaifu_v2.0_22B,IFEval,repeated_evaluation,"[65.10891102275296, 65.17384982956334]",latest dated cohort; componentwise median of ties,[4194]
+spow12/ChatWaifu_v2.0_22B,BBH,repeated_evaluation,"[42.28622796334265, 42.01979809251511]",latest dated cohort; componentwise median of ties,[4194]
+spow12/ChatWaifu_v2.0_22B,MATH Lvl 5,repeated_evaluation,"[18.580060422960727, 20.31722054380665]",latest dated cohort; componentwise median of ties,[4194]
+spow12/ChatWaifu_v2.0_22B,GPQA,repeated_evaluation,"[9.955257270693512, 9.843400447427292]",latest dated cohort; componentwise median of ties,[4194]
+spow12/ChatWaifu_v2.0_22B,MUSR,repeated_evaluation,"[5.59140625, 5.59140625]",latest dated cohort; componentwise median of ties,[4194]
+spow12/ChatWaifu_v2.0_22B,MMLU-PRO,repeated_evaluation,"[31.506722813238763, 31.24815307328605]",latest dated cohort; componentwise median of ties,[4194]
+tanliboy/lambda-gemma-2-9b-dpo,IFEval,repeated_evaluation,"[45.0080231563363, 18.29246399553185]",latest dated cohort; componentwise median of ties,"[4259, 4260]"
+tanliboy/lambda-gemma-2-9b-dpo,BBH,repeated_evaluation,"[35.554545346782085, 35.73966330720827]",latest dated cohort; componentwise median of ties,"[4259, 4260]"
+tanliboy/lambda-gemma-2-9b-dpo,MATH Lvl 5,repeated_evaluation,"[9.441087613293051, 0.0]",latest dated cohort; componentwise median of ties,"[4259, 4260]"
+tanliboy/lambda-gemma-2-9b-dpo,GPQA,repeated_evaluation,"[8.501118568232664, 8.05369127516779]",latest dated cohort; componentwise median of ties,"[4259, 4260]"
+tanliboy/lambda-gemma-2-9b-dpo,MUSR,repeated_evaluation,"[7.940364583333334, 8.569791666666665]",latest dated cohort; componentwise median of ties,"[4259, 4260]"
+tanliboy/lambda-gemma-2-9b-dpo,MMLU-PRO,repeated_evaluation,"[31.017287234042552, 31.165041371158388]",latest dated cohort; componentwise median of ties,"[4259, 4260]"
+yam-peleg/Hebrew-Mistral-7B-200K,IFEval,repeated_evaluation,"[18.55731680829089, 17.698041197356346]",latest dated cohort; componentwise median of ties,[4461]
+yam-peleg/Hebrew-Mistral-7B-200K,BBH,repeated_evaluation,"[17.49360317518456, 7.671323719331375]",latest dated cohort; componentwise median of ties,[4461]
+yam-peleg/Hebrew-Mistral-7B-200K,MATH Lvl 5,repeated_evaluation,"[2.3413897280966767, 3.096676737160121]",latest dated cohort; componentwise median of ties,[4461]
+yam-peleg/Hebrew-Mistral-7B-200K,GPQA,repeated_evaluation,"[3.467561521252797, 0.4474272930648763]",latest dated cohort; componentwise median of ties,[4461]
+yam-peleg/Hebrew-Mistral-7B-200K,MUSR,repeated_evaluation,"[4.5265625000000025, 4.416666666666667]",latest dated cohort; componentwise median of ties,[4461]
+yam-peleg/Hebrew-Mistral-7B-200K,MMLU-PRO,repeated_evaluation,"[17.47931442080378, 16.989878841607567]",latest dated cohort; componentwise median of ties,[4461]
+ycros/BagelMIsteryTour-v2-8x7B,IFEval,repeated_evaluation,"[59.9431730031871, 62.62095683896506]",latest dated cohort; componentwise median of ties,[4466]
+ycros/BagelMIsteryTour-v2-8x7B,BBH,repeated_evaluation,"[31.69928662894613, 31.36612301591548]",latest dated cohort; componentwise median of ties,[4466]
+ycros/BagelMIsteryTour-v2-8x7B,MATH Lvl 5,repeated_evaluation,"[7.854984894259818, 9.365558912386708]",latest dated cohort; componentwise median of ties,[4466]
+ycros/BagelMIsteryTour-v2-8x7B,GPQA,repeated_evaluation,"[7.270693512304249, 7.718120805369126]",latest dated cohort; componentwise median of ties,[4466]
+ycros/BagelMIsteryTour-v2-8x7B,MUSR,repeated_evaluation,"[11.303125, 10.31875]",latest dated cohort; componentwise median of ties,[4466]
+ycros/BagelMIsteryTour-v2-8x7B,MMLU-PRO,repeated_evaluation,"[27.480422576832154, 27.56353427895981]",latest dated cohort; componentwise median of ties,[4466]

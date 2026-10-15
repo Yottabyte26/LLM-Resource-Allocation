@@ -1,0 +1,12 @@
+{
+  "epsilon": 0.000499001996007984,
+  "intercept": 5.548909086611146,
+  "coefficient_sum": -1.0842021724855044e-17,
+  "P2_A_minM": 4.712606620808142,
+  "P2_A_maxM": 6.4932073061403495,
+  "random_samples_unbiased": 100000,
+  "targeted_samples": 20000,
+  "P2_B_status": "UNBOUNDED_NO_ATTAINED_OPTIMUM",
+  "P2_B_reason": "exact-zero replacement does not floor positive components",
+  "no_new_floor_or_refitting": true
+}

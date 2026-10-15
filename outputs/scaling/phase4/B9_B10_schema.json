@@ -1,0 +1,60 @@
+{
+  "B9": {
+    "path": "real_attachments/B_scaling_laws/supplementary_large_models.csv",
+    "columns": [
+      "model_name",
+      "N_params_B",
+      "D_tokens_B",
+      "FLOPs",
+      "publication_date",
+      "organization",
+      "accessibility",
+      "country"
+    ],
+    "n": 132,
+    "exact_duplicate_rows": 0,
+    "missing": {
+      "model_name": 0,
+      "N_params_B": 0,
+      "D_tokens_B": 0,
+      "FLOPs": 11,
+      "publication_date": 0,
+      "organization": 1,
+      "accessibility": 2,
+      "country": 1
+    },
+    "N_min": 100.0,
+    "N_max": 10000.0,
+    "D_min": 0.0,
+    "D_max": 36000.0,
+    "nonpositive_N": 0,
+    "nonpositive_D": 4,
+    "name_duplicates": 0
+  },
+  "B10": {
+    "path": "real_attachments/B_scaling_laws/supplementary_large_baseline.csv",
+    "columns": [
+      "family",
+      "N_params_B",
+      "D_tokens_B",
+      "val_loss",
+      "is_converged"
+    ],
+    "n": 128,
+    "exact_duplicate_rows": 0,
+    "missing": {
+      "family": 0,
+      "N_params_B": 0,
+      "D_tokens_B": 0,
+      "val_loss": 0,
+      "is_converged": 0
+    },
+    "N_min": 100.0,
+    "N_max": 10000.0,
+    "D_min": 0.1,
+    "D_max": 36000.0,
+    "nonpositive_N": 0,
+    "nonpositive_D": 0,
+    "name_duplicates": 0
+  }
+}

@@ -1,0 +1,7 @@
+﻿source,n,families,evaluation_dataset_provided,tokenizer_provided,loss_type_provided,absolute_loss_comparability
+Chowdhery et al. 2022,3,"[""PaLM""]",False,False,False,"unconfirmed; source-layer trend primary, pooled errors diagnostic only"
+Hoffmann et al. 2022,16,"[""Chinchilla"", ""Gopher""]",False,False,False,"unconfirmed; source-layer trend primary, pooled errors diagnostic only"
+Kaplan et al. 2020,9,"[""GPT-2"", ""GPT-3""]",False,False,False,"unconfirmed; source-layer trend primary, pooled errors diagnostic only"
+Scao et al. 2022,4,"[""BLOOM""]",False,False,False,"unconfirmed; source-layer trend primary, pooled errors diagnostic only"
+Touvron et al. 2023,7,"[""LLaMA"", ""LLaMA-2""]",False,False,False,"unconfirmed; source-layer trend primary, pooled errors diagnostic only"
+Zhang et al. 2022,5,"[""OPT""]",False,False,False,"unconfirmed; source-layer trend primary, pooled errors diagnostic only"

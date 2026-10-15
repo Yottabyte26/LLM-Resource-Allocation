@@ -1,0 +1,67 @@
+2026-09-26 15:56:28,211 INFO L_mean M0 outer fold 1/5
+2026-09-26 15:56:28,218 INFO L_mean M0 outer fold 2/5
+2026-09-26 15:56:28,223 INFO L_mean M0 outer fold 3/5
+2026-09-26 15:56:28,230 INFO L_mean M0 outer fold 4/5
+2026-09-26 15:56:28,235 INFO L_mean M0 outer fold 5/5
+2026-09-26 15:56:28,255 INFO L_mean M0 completed; nested RMSE=0.325398, full-training RMSE=0.324475
+2026-09-26 15:56:28,267 INFO L_mean M1_Ridge outer fold 1/5
+2026-09-26 15:56:28,494 ERROR STOPPED modeling; no official or previously locked file is repaired or changed
+Traceback (most recent call last):
+  File "D:\code\F4.0\scripts\08_model_mixture_loss.py", line 244, in <module>
+    try:main()
+        ~~~~^^
+  File "D:\code\F4.0\scripts\08_model_mixture_loss.py", line 183, in main
+    meta=metadata(estimator,model,names,[indices[i] for i in fit],parameters)
+  File "D:\code\F4.0\scripts\08_model_mixture_loss.py", line 45, in metadata
+    if hasattr(regression,'n_iter_') and int(regression.n_iter_)>=regression.max_iter:raise ValueError('Selected ElasticNet did not converge')
+                                         ~~~^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2026-09-26 15:56:52,722 INFO L_mean M0 outer fold 1/5
+2026-09-26 15:56:52,727 INFO L_mean M0 outer fold 2/5
+2026-09-26 15:56:52,731 INFO L_mean M0 outer fold 3/5
+2026-09-26 15:56:52,735 INFO L_mean M0 outer fold 4/5
+2026-09-26 15:56:52,739 INFO L_mean M0 outer fold 5/5
+2026-09-26 15:56:52,754 INFO L_mean M0 completed; nested RMSE=0.325398, full-training RMSE=0.324475
+2026-09-26 15:56:52,764 INFO L_mean M1_Ridge outer fold 1/5
+2026-09-26 15:56:52,978 INFO L_mean M1_Ridge outer fold 2/5
+2026-09-26 15:56:53,193 INFO L_mean M1_Ridge outer fold 3/5
+2026-09-26 15:56:53,400 INFO L_mean M1_Ridge outer fold 4/5
+2026-09-26 15:56:53,611 INFO L_mean M1_Ridge outer fold 5/5
+2026-09-26 15:56:54,096 INFO L_mean M1_Ridge completed; nested RMSE=0.280522, full-training RMSE=0.272215
+2026-09-26 15:56:54,115 INFO L_mean M1_ElasticNet outer fold 1/5
+2026-09-26 15:56:54,661 INFO L_mean M1_ElasticNet outer fold 2/5
+2026-09-26 15:56:55,159 INFO L_mean M1_ElasticNet outer fold 3/5
+2026-09-26 15:56:55,675 INFO L_mean M1_ElasticNet outer fold 4/5
+2026-09-26 15:56:56,261 INFO L_mean M1_ElasticNet outer fold 5/5
+2026-09-26 15:56:57,564 INFO L_mean M1_ElasticNet completed; nested RMSE=0.281252, full-training RMSE=0.272350
+2026-09-26 15:56:57,592 INFO L_mean M2_ElasticNet outer fold 1/5
+2026-09-26 15:56:58,503 INFO L_mean M2_ElasticNet outer fold 2/5
+2026-09-26 15:56:59,443 INFO L_mean M2_ElasticNet outer fold 3/5
+2026-09-26 15:57:00,375 INFO L_mean M2_ElasticNet outer fold 4/5
+2026-09-26 15:57:01,298 INFO L_mean M2_ElasticNet outer fold 5/5
+2026-09-26 15:57:03,594 INFO L_mean M2_ElasticNet completed; nested RMSE=0.288406, full-training RMSE=0.273070
+2026-09-26 15:57:03,631 INFO L_trim M0 outer fold 1/5
+2026-09-26 15:57:03,636 INFO L_trim M0 outer fold 2/5
+2026-09-26 15:57:03,640 INFO L_trim M0 outer fold 3/5
+2026-09-26 15:57:03,645 INFO L_trim M0 outer fold 4/5
+2026-09-26 15:57:03,650 INFO L_trim M0 outer fold 5/5
+2026-09-26 15:57:03,666 INFO L_trim M0 completed; nested RMSE=0.307486, full-training RMSE=0.306795
+2026-09-26 15:57:03,707 INFO L_trim M1_Ridge outer fold 1/5
+2026-09-26 15:57:03,939 INFO L_trim M1_Ridge outer fold 2/5
+2026-09-26 15:57:04,156 INFO L_trim M1_Ridge outer fold 3/5
+2026-09-26 15:57:04,384 INFO L_trim M1_Ridge outer fold 4/5
+2026-09-26 15:57:04,618 INFO L_trim M1_Ridge outer fold 5/5
+2026-09-26 15:57:05,131 INFO L_trim M1_Ridge completed; nested RMSE=0.272805, full-training RMSE=0.264965
+2026-09-26 15:57:05,178 INFO L_trim M1_ElasticNet outer fold 1/5
+2026-09-26 15:57:05,743 INFO L_trim M1_ElasticNet outer fold 2/5
+2026-09-26 15:57:06,266 INFO L_trim M1_ElasticNet outer fold 3/5
+2026-09-26 15:57:06,767 INFO L_trim M1_ElasticNet outer fold 4/5
+2026-09-26 15:57:07,297 INFO L_trim M1_ElasticNet outer fold 5/5
+2026-09-26 15:57:08,606 INFO L_trim M1_ElasticNet completed; nested RMSE=0.272892, full-training RMSE=0.265099
+2026-09-26 15:57:08,664 INFO L_trim M2_ElasticNet outer fold 1/5
+2026-09-26 15:57:09,591 INFO L_trim M2_ElasticNet outer fold 2/5
+2026-09-26 15:57:10,618 INFO L_trim M2_ElasticNet outer fold 3/5
+2026-09-26 15:57:11,612 INFO L_trim M2_ElasticNet outer fold 4/5
+2026-09-26 15:57:12,586 INFO L_trim M2_ElasticNet outer fold 5/5
+2026-09-26 15:57:15,217 INFO L_trim M2_ElasticNet completed; nested RMSE=0.280706, full-training RMSE=0.258561
+2026-09-26 15:57:22,475 INFO COMPLETED part 3 stage 1; selected M1_Ridge from train-only nested CV; no Q/K or 10B/70B prediction; frozen files 2239

@@ -1,0 +1,2 @@
+﻿fitting_dataset,source,n,dimensions,sha256_before,sha256_after,model_source,std_ddof,main_correlation
+A1,outputs/preprocess/A1_quality_features.csv,51230,22,27a2de665879a751e1362bedc923088841da07fa5deaa398c93f51b8f461ddbf,27a2de665879a751e1362bedc923088841da07fa5deaa398c93f51b8f461ddbf,outputs/preprocess/preprocessing_model_A1.json,1,pearson

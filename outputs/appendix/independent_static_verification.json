@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "raw_source_units_AST_parsed": 94,
+  "raw_source_definition_nodes": 607,
+  "full_listing_definition_nodes": 505,
+  "trace_rows_checked": 151,
+  "compact_tex_original_code_lines": {
+    "question1": 1250,
+    "question2": 1265,
+    "question3": 1004,
+    "question4": 1455
+  },
+  "original_models_executed": false,
+  "latex_rendered": false
+}

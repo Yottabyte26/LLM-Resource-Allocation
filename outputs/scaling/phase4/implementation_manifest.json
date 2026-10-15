@@ -1,0 +1,22 @@
+[
+  {
+    "path": "configs/scaling_phase4.yaml",
+    "sha256": "02e0e80c7432a24fafe82c713e11b565ce40ed19304679c1533133312cee55a6"
+  },
+  {
+    "path": "scripts/16_analyze_generalized_scaling.py",
+    "sha256": "6888f356934a38e124c92c5b1086e0e49a2f0901ea2411e9d8314d93e53bb097"
+  },
+  {
+    "path": "scripts/16_verify_generalized_scaling.py",
+    "sha256": "89877fffdb17411b4597c6891410804f58b9a7a56fb3bf0af494859dc1f8dd91"
+  },
+  {
+    "path": "src/scaling/marginal_analysis.py",
+    "sha256": "b72194b6f62780d5ca1a1d9c0fdb3199be755d0a51f9fa989d3360756de2e041"
+  },
+  {
+    "path": "src/scaling/marginal_reporting.py",
+    "sha256": "57dd3ea1a1ea489f17abadf5a1f28bf45b5623d8c8ebdf07cb4b7226722dc118"
+  }
+]

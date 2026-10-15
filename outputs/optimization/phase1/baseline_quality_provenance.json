@@ -1,0 +1,21 @@
+{
+  "primary": "Q0_B",
+  "Q0": 0.7280227164978084,
+  "proxy_mass": 0.48424183676177507,
+  "alternative": 0.6925361864057543,
+  "proxy_range_envelope": [
+    0.6512576874986107,
+    0.7376318233356024
+  ],
+  "envelope_is_confidence_interval": false,
+  "A1_sample_count": 51230,
+  "A1_sample_Q_range": [
+    0.30649962546558407,
+    0.9511217995313428
+  ],
+  "A1_domain_Q_range": [
+    0.5867366961905537,
+    0.7651065297732803
+  ],
+  "choice_status": "recommended_conditional_on_frozen_proxy_mapping_not_direct_measurement"
+}

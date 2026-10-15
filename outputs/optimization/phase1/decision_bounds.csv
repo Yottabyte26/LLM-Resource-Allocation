@@ -1,0 +1,9 @@
+﻿scheme,variable,lower,upper,unit,extrapolation,evidence_source,notes
+main,N,0.070542,11.965825,billion parameters,False,B1 ∩ B6 numeric support,连续矩形是插值可行域，不是所有点都观测；P1在N>1B使用Class D配比转移
+main,D,10.0,299.893,billion tokens,False,B1 ∩ B6 numeric support,D下界提高至质量模块数值下界；非改动Q2参数
+classical_only_reference,N,0.070542,11.965825,billion parameters,False,B1,只用于对照，不是第二套主域
+classical_only_reference,D,0.134,299.893,billion tokens,False,B1,D<10时质量模块外推，不能称联合支持
+extrapolation,N,0.070542,10000.0,billion parameters,True,B1 + B9/B10 envelope,跨缺口连续包络；没有密集大模型观测验证
+extrapolation,D,10.0,36000.0,billion tokens,True,B1 + positive B9/B10 upper extent,保留主下界；D=0未知不使用
+main,Q,0.7280227164978084,1.0,dimensionless,True,Q1 baseline + official Q≤1,整个区间不是全外推；上端超出Q1实际质量；具体子区间另表
+extrapolation,Q,0.7280227164978084,1.0,dimensionless,True,same frozen Q0,Q0和质量模块均不重新标定

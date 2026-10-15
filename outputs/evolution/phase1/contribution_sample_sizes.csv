@@ -1,0 +1,9 @@
+﻿sample,n,definition
+S0,4497,no interpolated N/D/compute; unit/source/conflict checks retained
+S1,422,no interpolated N/D/compute; unit/source/conflict checks retained
+S2,0,no interpolated N/D/compute; unit/source/conflict checks retained
+S1_N_submission,422,no interpolated N/D/compute; unit/source/conflict checks retained
+all_joint_N_D_compute,25,no interpolated N/D/compute; unit/source/conflict checks retained
+S1_joint_N_D_compute_submission_no_N_conflict,23,no interpolated N/D/compute; unit/source/conflict checks retained
+S1_pretrained_joint,20,no interpolated N/D/compute; unit/source/conflict checks retained
+S1_joint_with_nonnegative_release_lag,23,no interpolated N/D/compute; unit/source/conflict checks retained

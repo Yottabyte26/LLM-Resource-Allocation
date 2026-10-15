@@ -1,0 +1,10 @@
+﻿comparison,n,Spearman,diagnostic_ratio_estimated_over_1M,diagnostic_max_abs_scaling_deviation
+M1_ElasticNet_prediction_vs_estimated_10B,63,-0.5322580645161291,,
+M1_Ridge_prediction_vs_estimated_10B,63,-0.532018049155146,,
+M3_Qp_prediction_vs_estimated_10B,63,-0.5589477726574501,,
+observed_train_1M_vs_estimated_10B,63,-0.739247311827957,0.3327553036442271,0.5155015411676758
+M1_ElasticNet_prediction_vs_estimated_70B,63,-0.5806931643625192,,
+M1_Ridge_prediction_vs_estimated_70B,63,-0.5794450844854071,,
+M3_Qp_prediction_vs_estimated_70B,63,-0.6072388632872504,,
+observed_train_1M_vs_estimated_70B,63,-0.813892089093702,0.2614799390358158,0.4705024206991364
+estimated_10B_vs_estimated_70B_same_recipes,63,0.9900153609831028,,

@@ -1,0 +1,48 @@
+﻿id,domain,Q,K,Q_robust,change,annotation_status,inspection_scope,observation,content_excerpt
+BkiUfI_xK1yAgXBVGnXn,book,0.6515599164734311,0.3997730305371045,0.747022689182333,0.09546277270890191,AI辅助复核，非最终人工标注,开头片段,开头为瑞典语书籍简介。低分 DSIR/词数/句数被降低权重后上调；可能降低长度效用的影响，但不能据片段确认真实质量提高。,"
+Om boken:
+
+Macbéa lever ett innehållslöst liv i Rio de Janeiro. Hon har precis blivit uppsagd från sitt arbete som maskinskriverska, men får vara kvar då chefen tycker synd om henne. Fritiden ägnar Macabéa åt radiokanalen Radio UR, som ger »Rätt tid och kultur«, men ingen musik. Ibland äter hon ett hårdkokt ägg till lunch, en gång i månaden går hon på bio. Som enda lyx unnar hon sig en kall tår kaffe innan hon går och lägger sig (en lyx hon betalar med halsbränna på morgonen). Efter ett blekt och tafatt förhållande med »mettalurgen« Olïmpico de Jesus, som överger Macabëa för hennes arbetskamrat Glória, beslutar hon sig för att att besöka en spådam. Sierskan förutspår Macabéa en strålande framtid (explosion).
+
+Clarice Lispector föddes 1920 i Ukraina. När hon var drygt ett år gammal kom hon till Brasilien. Hon debuterade som portugisspråkig författare 1944 och producerade tretton romaner och novell­samlingar innan hon dog, 1977. Idag anses hon vara en av de största brasilianska nitton­hundratalsförfattarna. Hon ligger begravd på den judiska kyrkogården i Caju, Rio de Janeiro. Stjärnans ögonblick är kanske hennes mest berömda roman.
+
+# CLARICE
+
+# LISPECTOR
+
+# STJÄRNANS
+
+# ÖGONBLICK
+
+"
+BkiUbvjxK6wB9mn49q52,arxiv,0.6373612466896701,0.4112943843148108,0.7224431575653181,0.08508191087564798,AI辅助复核，非最终人工标注,开头片段,开头为含公式/引用的介子跃迁论文；词数、数值字符及 DSIR 低分被减权。专业用途可解释评分分歧，但不足以证明上调幅度正确。,"\section{Introduction }
+The mesonic transition form factors are important ingredients  in the study of weak and electromagnetic decays of mesons. There are many  approaches for evaluating  these nonperturbative quantities,  for instance, Wirbel-Stech-Bauer model~\cite{Wirbel:1985ji}, lattice calculations~\cite{Daniel:1990ah}, vector meson dominance model~\cite{Ametller:1993we,Gao:1999qn}, perturbative QCD  with some nonperturbative inputs~\cite{Lepage:1980fj,Li:1992nu}, QCD sum rules~\cite{Shifman:1978bx,Shifman:1978by} and light-front quark models~(LF QMs)~\cite{Terentev:1976jk,Berestetsky:1977zk,Cheng:1997au,Carbonell:1998rj,Jaus:1999zv}. In this paper, we will calculate the form factors of $V'\to V''$ transition~($V'$ and $V''$ denote vector mesons) within the standard and the covariant light-front approaches.
+
+The standard light-front quark model~(SLF QM) proposed by Terentev and Berestetsky~\cite{Terentev:1976jk,Berestetsky:1977zk} is a relativistic quark model based on the LF formalism~\cite{Dirac:1949cp} and LF quantization of QCD~\cite{Brodsky:1997de}. It provides a conceptually simple and phenomenologically feasible framework for the determination of nonperturbative quanti"
+BkiUdmg5qYVBXTJ3BsEF,arxiv,0.7361024562299012,0.33451300660154976,0.8156653793948365,0.0795629231649353,AI辅助复核，非最终人工标注,开头片段,开头为天文学 LaTeX 论文，词数/独特词/大写比例低分被减权；原K仅略高于阈值，却产生较大上调，提醒分段激活可能形成边界跳变。,"\section{Introduction}
+
+
+The formation and evolution of galaxies in the Universe is now being observed to redshifts z $\sim$ 8 \citep[e.g.][]{bou09,ouc09} using photometric imaging to wavelengths $\sim$ 1 \um in search of ""Lyman Break Galaxies"" (LBGs; Steidel et al. 1999).  These observations reveal the rest frame ultraviolet luminosity of star-forming galaxies and allow the measurement of changes in the star formation rate density of the Universe as a function of redshift \citep{mad98}.  (Because such star-forming galaxies are observationally characterised by indicators of young, massive, short-lived stars, we refer to them in the remainder of this paper as ""starburst"" galaxies.)  
+
+Observations of LBGs indicate an increase in the characteristic luminosity of starburst galaxies for 0 $<$ z $\la$ 2, and then a decrease in luminosity for z $\ga$ 2 until the observational limit at z $\sim$ 8 \citep{red09}.  Is this evolution of starburst galaxies determined correctly based on LBGs?  The most uncertain factor in quantifying the luminosities is determining an accurate correction for obscuration by dust, because this obscuration can be extreme in the rest frame ultraviolet.  
+
+
+The impo"
+BkiUdPY5qWTD6fkJfvzP,github,0.4342403758392968,0.44524098793006284,0.36869394610214035,-0.06554642973715646,AI辅助复核，非最终人工标注,完整短文本,全文为23字符的重复大写串；降低部分高分指标后下调，方向与缺乏自然语言内容的观察相符，但不等于已获独立准确性标签。,auLAAAAAAAAAAAAAAAAAAA!
+BkiUbRzxK3xgpdbchQki,github,0.4686559663808045,0.4579980600330077,0.4424081920681678,-0.026247774312636696,AI辅助复核，非最终人工标注,完整短文本,全文是短 PHP 配置语句。下调不一定改善代码用途评价，说明不能把偏离较远的指标自动视为错误。,<?php $system_configuration_links_sync_and_sounde_settings_enabled = true;?>
+BkiUainxK1Thg9qFa8nv,c4,0.4968603895204188,0.46212311987904003,0.47343797107815505,-0.023422418442263726,AI辅助复核，非最终人工标注,完整短文本,全文为重复沙发关键词行。部分高分格式/长度指标减权后下调，解释方向合理；只能作为案例线索。,"s red leather sectional sleeper sofa sas.
+sa sas red leather sectional sleeper sofa.
+red leather sectional sleeper sofa.
+red leather sectional sleeper sofa s.
+sa red leather sectional sleeper sofa.
+ll s red leather sectional sleeper sofa.
+s red leather sectional sleeper sofa.
+dian sprgs red leather sectional sleeper sofa.
+red leather sectional sleeper sofa contempary s.
+red leather sectional sleeper sofa lacque."
+BkiUdwo5qhLBXeFpceh2,github,0.4973851180105421,0.43658899628320025,0.49747875372255274,9.363571201065346e-05,AI辅助复核，非最终人工标注,完整短文本,全文为 Android XML 颜色选择配置，调整很小；两侧指标减权接近平衡，不足以验证代码实际质量。,"<?xml version=""1.0"" encoding=""utf-8""?>
+<selector
+  xmlns:android=""http://schemas.android.com/apk/res/android"">
+    <item android:state_enabled=""false"" android:color=""@color/item_title_disabled"" />
+    <item android:color=""@color/item_title_normal"" />
+</selector>"

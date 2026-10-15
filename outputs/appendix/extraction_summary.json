@@ -1,0 +1,48 @@
+{
+  "questions": {
+    "1": {
+      "main_file_count": 22,
+      "full_source_file_count": 35,
+      "source_lines": 3785,
+      "compact_lines": 1453,
+      "compact_original_lines": 1250
+    },
+    "2": {
+      "main_file_count": 18,
+      "full_source_file_count": 23,
+      "source_lines": 4065,
+      "compact_lines": 1470,
+      "compact_original_lines": 1265
+    },
+    "3": {
+      "main_file_count": 12,
+      "full_source_file_count": 17,
+      "source_lines": 2835,
+      "compact_lines": 1090,
+      "compact_original_lines": 1004
+    },
+    "4": {
+      "main_file_count": 15,
+      "full_source_file_count": 19,
+      "source_lines": 2629,
+      "compact_lines": 1572,
+      "compact_original_lines": 1455
+    }
+  },
+  "full_tex_estimate": {
+    "estimated_pages_low": 243,
+    "estimated_pages_high": 308,
+    "code_visual_lines_at_100_columns": 15841,
+    "listings": 154,
+    "assumptions": "A4, text area about160x235mm, scriptsize mono, 55-68 effective lines/page; UTF8/long-line wrap depends on actual thesis class; NOT rendered"
+  },
+  "compact_tex_estimate": {
+    "estimated_pages_low": 94,
+    "estimated_pages_high": 122,
+    "code_visual_lines_at_100_columns": 5969,
+    "listings": 100,
+    "assumptions": "A4, text area about160x235mm, scriptsize mono, 55-68 effective lines/page; UTF8/long-line wrap depends on actual thesis class; NOT rendered"
+  },
+  "original_files": 3161,
+  "models_rerun": false
+}

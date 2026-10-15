@@ -1,0 +1,3 @@
+﻿comparison,mean,P025,P975,fraction_positive,method
+MQ1_RMSE_gain_over_M0,0.09582095044874255,0.0808008814987046,0.10999657783863549,1.0,ND-block resampling of fixed OOF predictions; not a nested refit CI
+MQ2_RMSE_gain_over_MQ1,0.012753727283228272,0.008070176746330506,0.017324961225234355,1.0,ND-block resampling of fixed OOF predictions; not a nested refit CI

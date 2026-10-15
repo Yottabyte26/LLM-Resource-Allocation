@@ -1,0 +1,10 @@
+2026-09-26 19:47:10,656 INFO Phase 4 starts: 2756 prior files frozen; analyze only
+2026-09-26 19:47:10,739 INFO Schemas diagnosed: B9=132 metadata, B10=128 estimated Loss
+2026-09-26 19:47:11,325 INFO Workpoint grid 216; derivative checks 720 passed; equivalence statuses={'solved': 216}
+2026-09-26 19:47:17,621 INFO All 512 real training recipes checked for equivalence existence
+2026-09-26 19:47:25,669 INFO Question 2 Phase 4 completed normally; stopped before Question 3
+2026-09-26 19:53:05,094 INFO Phase 4 starts: 2756 prior files frozen; analyze only
+2026-09-26 19:53:05,212 INFO Schemas diagnosed: B9=132 metadata, B10=128 estimated Loss
+2026-09-26 19:53:05,919 INFO Workpoint grid 216; derivative checks 720 passed; equivalence statuses={'solved': 216}
+2026-09-26 19:53:14,670 INFO All 512 real training recipes checked for equivalence existence
+2026-09-26 19:53:23,904 INFO Question 2 Phase 4 completed normally; stopped before Question 3

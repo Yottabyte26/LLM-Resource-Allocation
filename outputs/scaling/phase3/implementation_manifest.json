@@ -1,0 +1,22 @@
+[
+  {
+    "path": "configs/scaling_mixture_phase3.yaml",
+    "sha256": "825a52d1451a2b37704bfb0011a40777829d090d8843f5524df9fa0575829634"
+  },
+  {
+    "path": "scripts/15_calibrate_mixture_scaling.py",
+    "sha256": "009f3a1a532dee48cad2de22c2b4ab665b1988c90e6809b80b61f53214a08d46"
+  },
+  {
+    "path": "scripts/15_verify_mixture_scaling.py",
+    "sha256": "7e8ee6cf553328aab1a360ce46701be6705bcbb26be87faea6fe2f4000197e6e"
+  },
+  {
+    "path": "src/scaling/mixture_transfer.py",
+    "sha256": "31e81427c704899d0022e4566690eb18075b1ff8e357674ba2e433ca0e7db574"
+  },
+  {
+    "path": "src/scaling/mixture_transfer_reporting.py",
+    "sha256": "629ca48b0f35e1e9f3cbeaa7ab8c2c3d632361518bd3ff3f94a5a157eba16f42"
+  }
+]

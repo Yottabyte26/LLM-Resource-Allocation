@@ -1,0 +1,5 @@
+﻿model,start,initial_gamma,initial_offset,gamma,offset,objective,successful,legal_solution,status,nfev,optimality,at_bound,message,n_starts,distinct_solution_gamma_range,n_training_rows,n_training_ND_groups,eta,fit_dataset,classical_parameters_frozen,role
+MQ1,5,2.0,0.0,1.0524307891449187,0.0,0.013682706126633224,True,True,2,8,3.626715443238018e-10,False,`ftol` termination condition is satisfied.,7,8.913678906097289e-08,360,45,0.2945523596880574,B6_only,True,main_candidate
+MQ2,2,0.25,0.0,2.354662307752358,0.0,0.010594863451438116,True,True,1,8,1.640942226277395e-11,False,`gtol` termination condition is satisfied.,7,4.967434374947288e-08,360,45,,B6_only,True,form_sensitivity
+MQ1_offset,7,8.0,0.0,0.8047071337667688,0.08340491848707479,0.009499315350394132,True,True,2,14,8.414156998765127e-09,False,`ftol` termination condition is satisfied.,7,4.463972647084091e-08,360,45,0.2252199266247202,B6_only,True,source_offset_sensitivity
+MQ2_offset,6,4.0,0.0,1.931530884206445,0.0574592221991835,0.009044587901353372,True,True,1,8,3.949449393062682e-11,False,`gtol` termination condition is satisfied.,7,1.538956220237253e-07,360,45,,B6_only,True,source_offset_sensitivity

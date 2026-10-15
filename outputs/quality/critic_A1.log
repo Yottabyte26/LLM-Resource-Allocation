@@ -1,0 +1,4 @@
+2026-09-26 14:12:34,999 INFO A1 loaded: 51230 rows x 22 finite normalized indicators
+2026-09-26 14:12:35,370 INFO Completed: 22 A1 Pearson weights, sum=1, H_norm=0.986358405
+2026-09-26 14:12:35,370 INFO Negative pairs=84, r<-0.2=24, r<-0.4=9
+2026-09-26 14:12:35,370 INFO STOP: weights and diagnostics only; no sample Q, no domain Q; no complete script 04 run

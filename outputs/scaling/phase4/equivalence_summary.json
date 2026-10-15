@@ -1,0 +1,13 @@
+{
+  "status_counts": {
+    "solved": 216
+  },
+  "n_main_rows": 9,
+  "approximation_relative_error_mean": -0.13323695347394462,
+  "approximation_absolute_relative_error_mean": 0.13326528423916748,
+  "approximation_absolute_relative_error_max": 0.26589127937158286,
+  "D_independence": "Exact under fixed additive D term; it cancels from both sides",
+  "max_equation_residual": 6.726841306203823e-13,
+  "quality_derivative_max_relative_error": 4.559636607029664e-11,
+  "derivative_max_relative_error": 8.370239540755731e-10
+}

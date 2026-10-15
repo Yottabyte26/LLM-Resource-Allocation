@@ -1,0 +1,164 @@
+2026-09-26 17:02:31,553 INFO M0_N_D full B1 objective 2.14611044e-08 params={'E': 1.6897975629216038, 'A': 0.35398032066343604, 'B': 1.2403055835502586, 'alpha': 0.3399765818976516, 'beta': 0.27987812854408783}
+2026-09-26 17:02:31,894 INFO M0_N_D leave-trajectory-out 1/8 RMSE 0.00022023037
+2026-09-26 17:02:32,234 INFO M0_N_D leave-trajectory-out 2/8 RMSE 0.00018181804
+2026-09-26 17:02:32,548 INFO M0_N_D leave-trajectory-out 3/8 RMSE 0.00013511027
+2026-09-26 17:02:32,870 INFO M0_N_D leave-trajectory-out 4/8 RMSE 0.00015459771
+2026-09-26 17:02:33,439 INFO M0_N_D leave-trajectory-out 5/8 RMSE 0.00013191675
+2026-09-26 17:02:33,800 INFO M0_N_D leave-trajectory-out 6/8 RMSE 0.00010197532
+2026-09-26 17:02:34,096 INFO M0_N_D leave-trajectory-out 7/8 RMSE 0.00011441463
+2026-09-26 17:02:34,410 INFO M0_N_D leave-trajectory-out 8/8 RMSE 0.0001350424
+2026-09-26 17:02:34,665 INFO M1_N_only full B1 objective 0.062628957 params={'E': 2.0695710751687457, 'A': 0.3539803206598623, 'alpha': 0.33997658190034974}
+2026-09-26 17:02:35,021 INFO M1_N_only leave-trajectory-out 1/8 RMSE 0.25024561
+2026-09-26 17:02:35,305 INFO M1_N_only leave-trajectory-out 2/8 RMSE 0.25029557
+2026-09-26 17:02:35,561 INFO M1_N_only leave-trajectory-out 3/8 RMSE 0.25025983
+2026-09-26 17:02:35,818 INFO M1_N_only leave-trajectory-out 4/8 RMSE 0.25020729
+2026-09-26 17:02:36,130 INFO M1_N_only leave-trajectory-out 5/8 RMSE 0.25029545
+2026-09-26 17:02:36,481 INFO M1_N_only leave-trajectory-out 6/8 RMSE 0.25027243
+2026-09-26 17:02:36,768 INFO M1_N_only leave-trajectory-out 7/8 RMSE 0.25023882
+2026-09-26 17:02:37,032 INFO M1_N_only leave-trajectory-out 8/8 RMSE 0.25024725
+2026-09-26 17:02:37,230 INFO M2_D_only full B1 objective 0.0543776645 params={'E': 2.097061181636941, 'B': 1.2403055835462213, 'beta': 0.27987812854557265}
+2026-09-26 17:02:37,440 INFO M2_D_only leave-trajectory-out 1/8 RMSE 0.53103055
+2026-09-26 17:02:37,743 INFO M2_D_only leave-trajectory-out 2/8 RMSE 0.28508072
+2026-09-26 17:02:37,985 INFO M2_D_only leave-trajectory-out 3/8 RMSE 0.082797389
+2026-09-26 17:02:38,233 INFO M2_D_only leave-trajectory-out 4/8 RMSE 0.066387736
+2026-09-26 17:02:38,439 INFO M2_D_only leave-trajectory-out 5/8 RMSE 0.10604012
+2026-09-26 17:02:38,695 INFO M2_D_only leave-trajectory-out 6/8 RMSE 0.29145658
+2026-09-26 17:02:38,929 INFO M2_D_only leave-trajectory-out 7/8 RMSE 0.17976758
+2026-09-26 17:02:39,152 INFO M2_D_only leave-trajectory-out 8/8 RMSE 0.25525679
+2026-09-26 17:02:39,643 ERROR Scaling phase1 failed; frozen files must remain unchanged
+Traceback (most recent call last):
+  File "D:\code\F4.0\scripts\11_fit_classical_scaling.py", line 409, in <module>
+    try:main()
+        ~~~~^^
+  File "D:\code\F4.0\scripts\11_fit_classical_scaling.py", line 378, in main
+    bootstrap_rows,boot_stats,boot_summary=cluster_bootstrap(b1,models['M0_N_D'],settings)
+                                           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\F4.0\scripts\11_fit_classical_scaling.py", line 116, in cluster_bootstrap
+    with ProcessPoolExecutor(max_workers=settings['bootstrap_workers'],initializer=initialize,initargs=(data,)) as pool:
+         ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Anaconda\Lib\concurrent\futures\process.py", line 721, in __init__
+    self._executor_manager_thread_wakeup = _ThreadWakeup()
+                                           ~~~~~~~~~~~~~^^
+  File "D:\Python\Anaconda\Lib\concurrent\futures\process.py", line 72, in __init__
+    self._reader, self._writer = mp.Pipe(duplex=False)
+                                 ~~~~~~~^^^^^^^^^^^^^^
+  File "D:\Python\Anaconda\Lib\multiprocessing\context.py", line 63, in Pipe
+    return Pipe(duplex)
+  File "D:\Python\Anaconda\Lib\multiprocessing\connection.py", line 575, in Pipe
+    h2 = _winapi.CreateFile(
+        address, access, 0, _winapi.NULL, _winapi.OPEN_EXISTING,
+        _winapi.FILE_FLAG_OVERLAPPED, _winapi.NULL
+        )
+PermissionError: [WinError 5] 拒绝访问。
+2026-09-26 17:03:44,868 INFO M0_N_D full B1 objective 2.14611044e-08 params={'E': 1.6897975629216038, 'A': 0.35398032066343604, 'B': 1.2403055835502586, 'alpha': 0.3399765818976516, 'beta': 0.27987812854408783}
+2026-09-26 17:03:45,209 INFO M0_N_D leave-trajectory-out 1/8 RMSE 0.00022023037
+2026-09-26 17:03:45,527 INFO M0_N_D leave-trajectory-out 2/8 RMSE 0.00018181804
+2026-09-26 17:03:45,811 INFO M0_N_D leave-trajectory-out 3/8 RMSE 0.00013511027
+2026-09-26 17:03:46,142 INFO M0_N_D leave-trajectory-out 4/8 RMSE 0.00015459771
+2026-09-26 17:03:46,443 INFO M0_N_D leave-trajectory-out 5/8 RMSE 0.00013191675
+2026-09-26 17:03:46,748 INFO M0_N_D leave-trajectory-out 6/8 RMSE 0.00010197532
+2026-09-26 17:03:47,045 INFO M0_N_D leave-trajectory-out 7/8 RMSE 0.00011441463
+2026-09-26 17:03:47,359 INFO M0_N_D leave-trajectory-out 8/8 RMSE 0.0001350424
+2026-09-26 17:03:47,646 INFO M1_N_only full B1 objective 0.062628957 params={'E': 2.0695710751687457, 'A': 0.3539803206598623, 'alpha': 0.33997658190034974}
+2026-09-26 17:03:48,058 INFO M1_N_only leave-trajectory-out 1/8 RMSE 0.25024561
+2026-09-26 17:03:48,399 INFO M1_N_only leave-trajectory-out 2/8 RMSE 0.25029557
+2026-09-26 17:03:48,704 INFO M1_N_only leave-trajectory-out 3/8 RMSE 0.25025983
+2026-09-26 17:03:49,056 INFO M1_N_only leave-trajectory-out 4/8 RMSE 0.25020729
+2026-09-26 17:03:49,503 INFO M1_N_only leave-trajectory-out 5/8 RMSE 0.25029545
+2026-09-26 17:03:49,925 INFO M1_N_only leave-trajectory-out 6/8 RMSE 0.25027243
+2026-09-26 17:03:50,223 INFO M1_N_only leave-trajectory-out 7/8 RMSE 0.25023882
+2026-09-26 17:03:50,520 INFO M1_N_only leave-trajectory-out 8/8 RMSE 0.25024725
+2026-09-26 17:03:50,730 INFO M2_D_only full B1 objective 0.0543776645 params={'E': 2.097061181636941, 'B': 1.2403055835462213, 'beta': 0.27987812854557265}
+2026-09-26 17:03:50,946 INFO M2_D_only leave-trajectory-out 1/8 RMSE 0.53103055
+2026-09-26 17:03:51,214 INFO M2_D_only leave-trajectory-out 2/8 RMSE 0.28508072
+2026-09-26 17:03:51,487 INFO M2_D_only leave-trajectory-out 3/8 RMSE 0.082797389
+2026-09-26 17:03:51,757 INFO M2_D_only leave-trajectory-out 4/8 RMSE 0.066387736
+2026-09-26 17:03:51,999 INFO M2_D_only leave-trajectory-out 5/8 RMSE 0.10604012
+2026-09-26 17:03:52,225 INFO M2_D_only leave-trajectory-out 6/8 RMSE 0.29145658
+2026-09-26 17:03:52,467 INFO M2_D_only leave-trajectory-out 7/8 RMSE 0.17976758
+2026-09-26 17:03:52,699 INFO M2_D_only leave-trajectory-out 8/8 RMSE 0.25525679
+2026-09-26 17:04:03,063 INFO Cluster bootstrap 25/2000, failures=0, elapsed=9.8s
+2026-09-26 17:04:09,448 INFO Cluster bootstrap 50/2000, failures=0, elapsed=16.2s
+2026-09-26 17:04:13,842 INFO Cluster bootstrap 75/2000, failures=0, elapsed=20.6s
+2026-09-26 17:04:19,357 INFO Cluster bootstrap 100/2000, failures=0, elapsed=26.1s
+2026-09-26 17:04:24,203 INFO Cluster bootstrap 125/2000, failures=0, elapsed=31.0s
+2026-09-26 17:04:30,713 INFO Cluster bootstrap 150/2000, failures=0, elapsed=37.5s
+2026-09-26 17:04:35,690 INFO Cluster bootstrap 175/2000, failures=0, elapsed=42.5s
+2026-09-26 17:04:40,404 INFO Cluster bootstrap 200/2000, failures=0, elapsed=47.2s
+2026-09-26 17:04:47,124 INFO Cluster bootstrap 225/2000, failures=0, elapsed=53.9s
+2026-09-26 17:04:51,500 INFO Cluster bootstrap 250/2000, failures=0, elapsed=58.3s
+2026-09-26 17:04:56,668 INFO Cluster bootstrap 275/2000, failures=0, elapsed=63.5s
+2026-09-26 17:05:02,180 INFO Cluster bootstrap 300/2000, failures=0, elapsed=69.0s
+2026-09-26 17:05:08,411 INFO Cluster bootstrap 325/2000, failures=0, elapsed=75.2s
+2026-09-26 17:05:15,840 INFO Cluster bootstrap 350/2000, failures=0, elapsed=82.6s
+2026-09-26 17:05:22,544 INFO Cluster bootstrap 375/2000, failures=0, elapsed=89.3s
+2026-09-26 17:05:31,985 INFO Cluster bootstrap 400/2000, failures=0, elapsed=98.8s
+2026-09-26 17:05:39,750 INFO Cluster bootstrap 425/2000, failures=0, elapsed=106.5s
+2026-09-26 17:05:49,391 INFO Cluster bootstrap 450/2000, failures=0, elapsed=116.2s
+2026-09-26 17:05:54,324 INFO Cluster bootstrap 475/2000, failures=0, elapsed=121.1s
+2026-09-26 17:06:01,770 INFO Cluster bootstrap 500/2000, failures=0, elapsed=128.6s
+2026-09-26 17:06:07,493 INFO Cluster bootstrap 525/2000, failures=0, elapsed=134.3s
+2026-09-26 17:06:12,836 INFO Cluster bootstrap 550/2000, failures=0, elapsed=139.6s
+2026-09-26 17:06:19,183 INFO Cluster bootstrap 575/2000, failures=0, elapsed=146.0s
+2026-09-26 17:06:28,537 INFO Cluster bootstrap 600/2000, failures=0, elapsed=155.3s
+2026-09-26 17:06:35,452 INFO Cluster bootstrap 625/2000, failures=0, elapsed=162.2s
+2026-09-26 17:06:40,357 INFO Cluster bootstrap 650/2000, failures=0, elapsed=167.1s
+2026-09-26 17:06:46,852 INFO Cluster bootstrap 675/2000, failures=0, elapsed=173.6s
+2026-09-26 17:06:52,046 INFO Cluster bootstrap 700/2000, failures=0, elapsed=178.8s
+2026-09-26 17:06:56,907 INFO Cluster bootstrap 725/2000, failures=0, elapsed=183.7s
+2026-09-26 17:07:02,981 INFO Cluster bootstrap 750/2000, failures=0, elapsed=189.8s
+2026-09-26 17:07:07,448 INFO Cluster bootstrap 775/2000, failures=0, elapsed=194.2s
+2026-09-26 17:07:13,633 INFO Cluster bootstrap 800/2000, failures=0, elapsed=200.4s
+2026-09-26 17:07:22,027 INFO Cluster bootstrap 825/2000, failures=0, elapsed=208.8s
+2026-09-26 17:07:31,333 INFO Cluster bootstrap 850/2000, failures=0, elapsed=218.1s
+2026-09-26 17:07:39,156 INFO Cluster bootstrap 875/2000, failures=0, elapsed=225.9s
+2026-09-26 17:07:46,614 INFO Cluster bootstrap 900/2000, failures=0, elapsed=233.4s
+2026-09-26 17:07:51,876 INFO Cluster bootstrap 925/2000, failures=0, elapsed=238.7s
+2026-09-26 17:07:58,363 INFO Cluster bootstrap 950/2000, failures=0, elapsed=245.2s
+2026-09-26 17:08:03,396 INFO Cluster bootstrap 975/2000, failures=0, elapsed=250.2s
+2026-09-26 17:08:09,293 INFO Cluster bootstrap 1000/2000, failures=0, elapsed=256.1s
+2026-09-26 17:08:13,876 INFO Cluster bootstrap 1025/2000, failures=0, elapsed=260.7s
+2026-09-26 17:08:19,275 INFO Cluster bootstrap 1050/2000, failures=0, elapsed=266.1s
+2026-09-26 17:08:23,731 INFO Cluster bootstrap 1075/2000, failures=0, elapsed=270.5s
+2026-09-26 17:08:30,617 INFO Cluster bootstrap 1100/2000, failures=0, elapsed=277.4s
+2026-09-26 17:08:35,921 INFO Cluster bootstrap 1125/2000, failures=0, elapsed=282.7s
+2026-09-26 17:08:42,058 INFO Cluster bootstrap 1150/2000, failures=0, elapsed=288.8s
+2026-09-26 17:08:46,346 INFO Cluster bootstrap 1175/2000, failures=0, elapsed=293.1s
+2026-09-26 17:08:52,596 INFO Cluster bootstrap 1200/2000, failures=0, elapsed=299.4s
+2026-09-26 17:08:58,438 INFO Cluster bootstrap 1225/2000, failures=0, elapsed=305.2s
+2026-09-26 17:09:03,946 INFO Cluster bootstrap 1250/2000, failures=0, elapsed=310.7s
+2026-09-26 17:09:09,539 INFO Cluster bootstrap 1275/2000, failures=0, elapsed=316.3s
+2026-09-26 17:09:16,108 INFO Cluster bootstrap 1300/2000, failures=0, elapsed=322.9s
+2026-09-26 17:09:21,678 INFO Cluster bootstrap 1325/2000, failures=0, elapsed=328.5s
+2026-09-26 17:09:27,612 INFO Cluster bootstrap 1350/2000, failures=0, elapsed=334.4s
+2026-09-26 17:09:33,260 INFO Cluster bootstrap 1375/2000, failures=0, elapsed=340.1s
+2026-09-26 17:09:37,906 INFO Cluster bootstrap 1400/2000, failures=0, elapsed=344.7s
+2026-09-26 17:09:43,240 INFO Cluster bootstrap 1425/2000, failures=0, elapsed=350.0s
+2026-09-26 17:09:47,781 INFO Cluster bootstrap 1450/2000, failures=0, elapsed=354.6s
+2026-09-26 17:09:53,086 INFO Cluster bootstrap 1475/2000, failures=0, elapsed=359.9s
+2026-09-26 17:09:57,209 INFO Cluster bootstrap 1500/2000, failures=0, elapsed=364.0s
+2026-09-26 17:10:03,418 INFO Cluster bootstrap 1525/2000, failures=0, elapsed=370.2s
+2026-09-26 17:10:08,499 INFO Cluster bootstrap 1550/2000, failures=0, elapsed=375.3s
+2026-09-26 17:10:14,952 INFO Cluster bootstrap 1575/2000, failures=0, elapsed=381.7s
+2026-09-26 17:10:19,350 INFO Cluster bootstrap 1600/2000, failures=0, elapsed=386.1s
+2026-09-26 17:10:27,558 INFO Cluster bootstrap 1625/2000, failures=0, elapsed=394.4s
+2026-09-26 17:10:34,197 INFO Cluster bootstrap 1650/2000, failures=0, elapsed=401.0s
+2026-09-26 17:10:42,410 INFO Cluster bootstrap 1675/2000, failures=0, elapsed=409.2s
+2026-09-26 17:10:47,891 INFO Cluster bootstrap 1700/2000, failures=0, elapsed=414.7s
+2026-09-26 17:10:57,772 INFO Cluster bootstrap 1725/2000, failures=0, elapsed=424.6s
+2026-09-26 17:11:08,489 INFO Cluster bootstrap 1750/2000, failures=0, elapsed=435.3s
+2026-09-26 17:11:15,657 INFO Cluster bootstrap 1775/2000, failures=0, elapsed=442.5s
+2026-09-26 17:11:23,031 INFO Cluster bootstrap 1800/2000, failures=0, elapsed=449.8s
+2026-09-26 17:11:30,621 INFO Cluster bootstrap 1825/2000, failures=0, elapsed=457.4s
+2026-09-26 17:11:41,234 INFO Cluster bootstrap 1850/2000, failures=0, elapsed=468.0s
+2026-09-26 17:11:49,672 INFO Cluster bootstrap 1875/2000, failures=0, elapsed=476.5s
+2026-09-26 17:11:56,133 INFO Cluster bootstrap 1900/2000, failures=0, elapsed=482.9s
+2026-09-26 17:12:03,001 INFO Cluster bootstrap 1925/2000, failures=0, elapsed=489.8s
+2026-09-26 17:12:09,065 INFO Cluster bootstrap 1950/2000, failures=0, elapsed=495.9s
+2026-09-26 17:12:15,037 INFO Cluster bootstrap 1975/2000, failures=0, elapsed=501.8s
+2026-09-26 17:12:21,085 INFO Cluster bootstrap 2000/2000, failures=0, elapsed=507.9s
+2026-09-26 17:12:23,234 INFO B3 frozen prediction RMSE=0.003821282 Spearman=0.9999897947960312
+2026-09-26 17:12:23,234 INFO B2 frozen prediction RMSE=1.243085 Spearman=0.7881022686524627
+2026-09-26 17:12:23,234 INFO B4 frozen prediction RMSE=0.2926667 Spearman=0.9829816454561005
+2026-09-26 17:12:23,234 INFO B5 frozen prediction RMSE=0.1975951 Spearman=0.9588075695723213
+2026-09-26 17:12:37,065 INFO COMPLETE: question2 phase1; bootstrap=2000; frozen files=2478; stopped for human confirmation

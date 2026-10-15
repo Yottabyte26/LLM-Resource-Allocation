@@ -1,0 +1,7 @@
+{
+  "selected": "M1_linear",
+  "reason": "quadratic lacks joint LOOCV/AICc/BIC improvement; month FE may have unidentifiable singleton-month folds",
+  "comparison_rule": "alternative requires >5% full-LOOCV RMSE reduction and both smaller AICc/BIC",
+  "AICc_parameter_convention": "p mean coefficients including intercept; matches statsmodels OLS AIC convention",
+  "environment_note": "statsmodels.api and statsmodels.stats.diagnostic fail with installed pandas decorator API; direct OLS/RLM imports and independently implemented Koenker BP/Cook/VIF used; no installed package modified"
+}

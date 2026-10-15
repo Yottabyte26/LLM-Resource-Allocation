@@ -1,0 +1,601 @@
+﻿response,model,phase,outer_fold,parameters,mean_CV_RMSE,std_CV_RMSE,mean_training_RMSE,selection_rank
+L_mean,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 0.001}",0.2860587743067404,0.019535956058334348,0.2729378103747337,5
+L_mean,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 0.01}",0.2860583829939923,0.019535659401239747,0.2729378104738345,4
+L_mean,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 0.1}",0.28605448083899276,0.019532694413542332,0.27293782037522474,3
+L_mean,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 1.0}",0.2860165466243744,0.019503201988198497,0.272938801896578,2
+L_mean,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 10.0}",0.28573673579975334,0.019223191516979734,0.27302895113688747,1
+L_mean,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 100.0}",0.28777176562583756,0.017374188804385376,0.27758537485216334,6
+L_mean,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 1000.0}",0.3114212277335068,0.013916670119553129,0.3068604483771681,7
+L_mean,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 10000.0}",0.32578909045096116,0.012753720030980631,0.323648207102487,8
+L_mean,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 0.001}",0.2724130468732141,0.02517757459525778,0.2586642889144006,5
+L_mean,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 0.01}",0.27241256888309245,0.025177732507809105,0.2586642890101917,4
+L_mean,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 0.1}",0.2724078000305267,0.025179310487057592,0.2586642985811448,3
+L_mean,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 1.0}",0.27236120690424725,0.02519497620791846,0.25866524758301157,2
+L_mean,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 10.0}",0.2719960093083252,0.02534076414907167,0.25875262489465745,1
+L_mean,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 100.0}",0.27342920669159004,0.02609661881014099,0.2632597487356758,6
+L_mean,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 1000.0}",0.2974325684961462,0.025671663888865492,0.2938210360516132,7
+L_mean,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 10000.0}",0.31277062993012994,0.02474308129688038,0.3119943314266328,8
+L_mean,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 0.001}",0.285502484170743,0.029871676759246624,0.2676290879762686,5
+L_mean,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 0.01}",0.2855019636871027,0.02987094247101232,0.2676290880733075,4
+L_mean,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 0.1}",0.2854967692639713,0.029863602576272096,0.26762909776841043,3
+L_mean,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 1.0}",0.28544585712062354,0.02979050136704752,0.26763005856532707,2
+L_mean,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 10.0}",0.2850313990381257,0.029088257321400083,0.2677180888645074,1
+L_mean,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 100.0}",0.28565344985409574,0.024154579055578294,0.2721477910770459,6
+L_mean,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 1000.0}",0.3059292675914759,0.015630544201823263,0.30160160042968237,7
+L_mean,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 10000.0}",0.31992447298713594,0.01396905144411567,0.31917607745938525,8
+L_mean,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 0.001}",0.2921477458862616,0.014878621416233346,0.2768613888670707,6
+L_mean,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 0.01}",0.29214701100934487,0.014877956502809599,0.2768613889768651,5
+L_mean,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 0.1}",0.2921396767031198,0.014871310749172348,0.27686139994555187,4
+L_mean,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 1.0}",0.292067766284633,0.014805189686563337,0.2768624861572776,3
+L_mean,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 10.0}",0.2914793416557122,0.014176131545261676,0.2769613122662232,1
+L_mean,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 100.0}",0.2919195554233346,0.01011439137948404,0.28170891720994495,2
+L_mean,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 1000.0}",0.31383985517685226,0.0067725457745756,0.31092703625871404,7
+L_mean,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 10000.0}",0.3282016915691728,0.007597615662660457,0.32777903565549193,8
+L_mean,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 0.001}",0.2823488152502437,0.0064251249280747715,0.2699241014352971,5
+L_mean,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 0.01}",0.2823484136392959,0.006424760963079406,0.26992410152652835,4
+L_mean,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 0.1}",0.2823444075603394,0.006421122892921938,0.2699241106420709,3
+L_mean,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 1.0}",0.2823053413689116,0.006384899743092722,0.2699250146677382,2
+L_mean,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 10.0}",0.2820062623428481,0.006038009354361079,0.27000840830815215,1
+L_mean,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 100.0}",0.28367113977879366,0.003798522540848476,0.2743666718344399,6
+L_mean,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 1000.0}",0.3081366057925754,0.005403814297907847,0.30505081623772956,7
+L_mean,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 10000.0}",0.32446059186889686,0.007220344113545122,0.32411001916207016,8
+L_mean,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 0.001}",0.28163859157447096,0.01606419486607599,0.2710529560610282,5
+L_mean,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 0.01}",0.28163825747079585,0.016064442721493023,0.2710529561145567,4
+L_mean,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 0.1}",0.2816349228156737,0.01606692186925827,0.27105296146386815,3
+L_mean,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 1.0}",0.28160221012895614,0.016091771056038887,0.27105349286882674,2
+L_mean,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 10.0}",0.2813344078409594,0.01634453780560807,0.27110330390165266,1
+L_mean,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 100.0}",0.2820421598695019,0.018640178141919046,0.27400814116237066,6
+L_mean,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 1000.0}",0.30345781764718033,0.022826571289676165,0.3003935138877688,7
+L_mean,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 10000.0}",0.3212674013821494,0.022644558970609685,0.32071336163494435,8
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.2860401076405066,0.019519063712061444,0.2729380268500074,10
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.28601877481186794,0.019491855516615038,0.27293919187684523,9
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.28599853339282344,0.019464775870306514,0.2729414395036259,7
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.2860041470358285,0.019485478405599454,0.2729397479906625,8
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.28594730646017574,0.01940499868930979,0.2729502052253937,6
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2859029716209718,0.019346907320931146,0.27296991357023,5
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.28589319120813683,0.019370661655336595,0.27295893142580346,4
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.2857793898872176,0.01919006662208193,0.2730708715236276,3
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.28577022366808147,0.019045248839293816,0.2732873102591162,2
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.2856878838626696,0.019080052930027708,0.2731174249300421,1
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2860449281608418,0.018670062175353257,0.2740745573137879,11
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2868856911687328,0.018363448899440638,0.27580953466604957,13
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.2860633651533246,0.018319849207100745,0.2746012225215661,12
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.29097528849650056,0.01713883744300819,0.2824605131456707,15
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2967353500288874,0.015557051576922717,0.2911815505203931,16
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2909460013945699,0.017069645932651888,0.2824054389679479,14
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.3097526084497104,0.01366127023530985,0.3061319034759322,18
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3233741392868407,0.013000334887692718,0.3212794939792619,19
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.30952663261202884,0.013900045207389279,0.305801986100473,17
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3281024891744226,0.01258933133574871,0.3263331622018013,20
+L_mean,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3281024891744226,0.01258933133574871,0.3263331622018013,20
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.2723931524897972,0.025191828053083256,0.25866449631873895,13
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.2723786275490896,0.02522766424071294,0.2586656160669362,12
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.272365156638991,0.025263545039083412,0.25866778391052425,11
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.27235467127764246,0.025220229285725117,0.25866614550924794,10
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.2723177666303704,0.02532765881985288,0.25867619376075823,8
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.27224186754798496,0.025441497167477505,0.25869439346754414,7
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.2722344456966338,0.025318137385502877,0.25868453200184227,6
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.272017513150733,0.025682542684727767,0.2587880264005144,5
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.2718791065596487,0.026037146861623582,0.2589875795812301,3
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.2718872282170461,0.025575876662983894,0.25883387241561306,4
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.27179015417343344,0.02649890412543713,0.2597178747552638,2
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.27235404392103774,0.02701717977796066,0.26136336347093825,9
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.2717327610628678,0.026303034559677495,0.26024183300666165,1
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.27578634219710385,0.026585073829249094,0.267728791859562,14
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2811830675634972,0.02625409968476175,0.2763230385655387,16
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.27600389400419534,0.026824808925987494,0.26784948014071885,15
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.2937966911614843,0.02522950071085882,0.2915322872123012,17
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3087655384208649,0.02526651984950091,0.3077206616853585,19
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.2945068819674118,0.025744498955487954,0.2921600236271094,18
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3152513035831075,0.024572647994202418,0.3149205443165911,20
+L_mean,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3152513035831075,0.024572647994202418,0.3149205443165911,20
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.28547066386679604,0.029844978563944684,0.2676293001898894,13
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.2854145624591451,0.029838157883297623,0.2676304485966824,12
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.2853594624383052,0.029831249594539422,0.2676326709784184,10
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.2854083387347828,0.029791584103941036,0.26763098687148934,11
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.28524687151208517,0.029770698158276963,0.2676412936167344,9
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2850944808955461,0.029749029081097177,0.26766131215184386,7
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.2852048318203737,0.02960644383693616,0.26764976908949406,8
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.2847344531215962,0.02953731649135892,0.267761869306947,5
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.28425811184554484,0.029425008136880062,0.26796568994136144,4
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.28473977555969965,0.029092189571220256,0.26780510997624324,6
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2836481087912227,0.028731029153181906,0.2687200791329195,2
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.283547559074293,0.02826377577954436,0.2703632337028823,1
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.28392020596654366,0.02736942390044683,0.2692148711852753,3
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.28732988005833016,0.025268834191383073,0.27641578130355576,15
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2916152689448344,0.02157285987050582,0.28468171700811395,16
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.28686376233703476,0.023482535296560983,0.2765579903382809,14
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.30395965335692154,0.0161351030694534,0.2993181741828942,18
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.31721490435988037,0.014117439020942753,0.3150739913074434,19
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.3034571166136035,0.015950375673531317,0.29988575639284204,17
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3222515127690291,0.013810996548816047,0.3220227338352324,20
+L_mean,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3222515127690291,0.013810996548816047,0.3220227338352324,20
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.2921116783923531,0.014849100174472834,0.27686162316589175,13
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.292067458009261,0.014821494575869133,0.2768628271474952,12
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.29202430658535816,0.014794154828134004,0.27686512995749685,10
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.29204114650521684,0.014790289678688296,0.27686348472977407,11
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.29191589876666957,0.014709115671677986,0.276874290089937,9
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2918003290482311,0.014630396325465578,0.27689503451754005,7
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.29181231879280534,0.014588328319134513,0.2768841917614317,8
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.2914723609876179,0.01433941400969733,0.2770025317202796,6
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.29117660104357523,0.014058481698495997,0.277218962371124,3
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.2913014925499082,0.014043202967141179,0.2770549233335509,4
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2908896014311313,0.013107989423079,0.27800202857281264,2
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.29138545052194037,0.012264029653115738,0.2797196905758873,5
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.29061263560461387,0.012363522215081711,0.2786045320630907,1
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2943916833151123,0.009612443090318347,0.28633787814485556,15
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2998551202493152,0.007964320291633666,0.2956744685336804,16
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2943597651861336,0.00885853608064671,0.28651929993690584,14
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.31349857027701933,0.006629237726901942,0.3115052433691493,18
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3289363988145064,0.00804357517512641,0.3283644789775798,19
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.31236468707684606,0.007421674869369542,0.31050739764929514,17
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.33055407931031167,0.0077460062127587,0.3304929379876513,20
+L_mean,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.33055407931031167,0.0077460062127587,0.3304929379876513,20
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.28233363651900645,0.006398181711889024,0.2699243035622101,9
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.2823279360971333,0.006340047400118481,0.26992540422543165,8
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.2823232700634772,0.006281964730581835,0.26992753118853297,7
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.2823045288924313,0.006344444567046351,0.26992591116780873,6
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.28229410671525956,0.00617076043170076,0.2699357920273575,5
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2822930394314423,0.005997615986857199,0.2699549497256938,4
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.28221633460531875,0.006158777477475156,0.2699438477211036,2
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.28225399822537994,0.00559253393298988,0.27005247307098285,3
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.2823542995336897,0.00507124959899201,0.27026330626031103,10
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.2820734369342253,0.005648964477094081,0.2700929955208182,1
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.28270925739556835,0.0041704791495595145,0.2710368339445738,12
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2839949191669533,0.003207712907285348,0.27279904646590475,13
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.28251019500353175,0.004180327069792269,0.2715071670885552,11
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.28742635991773613,0.003098486409234358,0.27879016665489653,14
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2922091014222773,0.004044736992188796,0.2865651457613395,16
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.287469080458906,0.0028760472200541525,0.27904380159700665,15
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.30649440775250536,0.006691697749265653,0.30454795610878765,18
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3239151579241706,0.008145376001553687,0.32327135402650947,19
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.3063471349992944,0.005749432680764179,0.30356651308304905,17
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3271657182345889,0.0074607889699045945,0.3272396885546114,20
+L_mean,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3271657182345889,0.0074607889699045945,0.3272396885546114,20
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.2816207894828045,0.01607120034771859,0.27105316562715637,10
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.2816103524779135,0.016054286589951294,0.271054285477859,9
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.2816008422012325,0.016037632222990122,0.2710564251939812,8
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.2815865639959362,0.016085647347529982,0.2710548295958156,7
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.28156190202884945,0.01603724087372036,0.2710648127662469,6
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2815468236394016,0.015992325190178906,0.271084086491542,4
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.28148150828896457,0.01613958579985579,0.27107328782289386,3
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.2814658774908872,0.01601647881020317,0.2711826753702306,2
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.2815566451600439,0.015944421645320547,0.27138804086182744,5
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.28129950387072733,0.016323096719289668,0.2712261907498964,1
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.28180742308442336,0.01628600110944594,0.2721268825399036,12
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2828364287087801,0.01662058595726208,0.2738215901139357,13
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.2816968419963297,0.01719113602086694,0.27264230619677166,11
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2862817553227167,0.01936225834901177,0.27993056132885313,14
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2915280074113059,0.021113234013529547,0.28816548172162254,16
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.28650711039130783,0.019888341860391102,0.2800733106624085,15
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.305327892231153,0.02410059394392816,0.3036843002686901,18
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3198045558103407,0.022647868036804557,0.3196871645121397,19
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.304836123596003,0.023062496542654163,0.30319014677619316,17
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3244569270136678,0.02248899874244182,0.32433750904266745,20
+L_mean,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3244569270136678,0.02248899874244182,0.32433750904266745,20
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.38874166538524624,0.019693809428090046,0.21606896705874673,21
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.38470895508171615,0.018764264901322172,0.2161376111280272,20
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.38080508937612356,0.017917750110399505,0.21626350280332154,18
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.38304123012200253,0.01785524822607291,0.21619223276902838,19
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.3725530232945331,0.015684541514129173,0.21673736790439527,17
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.3638353253801805,0.014423001149213055,0.2175603311508951,15
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.3681763050733037,0.013930326997110594,0.21717073347211543,16
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.3452580702266176,0.010886784059725573,0.22089386659975463,14
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.3293590457547647,0.008586769611152576,0.2261259836835206,12
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.34482457866043137,0.010068562195013007,0.22148703715398088,13
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.3148426181171082,0.009355808325748971,0.23633656149192744,7
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.3034933594701822,0.01214836329021762,0.2491557346838571,4
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.31689457706778973,0.010328929005468931,0.23586817524944229,8
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2966388618242799,0.01475669875900198,0.26887198756731484,1
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.29956613103088797,0.015603049562289395,0.2870812272461863,2
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2995918713597683,0.01388235618603452,0.2609035445460561,3
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.31008457381814747,0.013388536912080919,0.3057270540884135,6
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3233741392868407,0.013000334887692718,0.3212794939792619,9
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.3090514904865982,0.01372433713381075,0.3013812046332648,5
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3281024891744226,0.01258933133574871,0.3263331622018013,10
+L_mean,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3281024891744226,0.01258933133574871,0.3263331622018013,10
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.3578637105920063,0.007695305298506127,0.19540223136584695,21
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.35438356772380264,0.007480105657489644,0.19546750572815033,20
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.35103917513119276,0.007325107815340481,0.19558614091788945,18
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.3532481045185991,0.0073703768935128805,0.19550621830799636,19
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.3437537427661661,0.007575394120951509,0.1960266092119083,17
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.3351350756920045,0.008412253832072142,0.19695982814921298,15
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.3401347143991437,0.007991300933187909,0.19637746018434143,16
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.3178768823910678,0.010867251697633787,0.20023261163450612,14
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.30382807099127446,0.01355282471856992,0.20520798284969757,9
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.3173063214267325,0.011367419769567058,0.20033378095917792,13
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.28675363476408494,0.018662258029887784,0.21432990717570408,5
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.27476167747017805,0.024509763608182147,0.22746219456234767,2
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.28763657306865864,0.017992567504221697,0.21365730223404794,6
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.27542493473042307,0.027005202143222308,0.2504344203543781,3
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2814502056681992,0.02773029504168989,0.271555285726712,4
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2745774176268,0.027181065947845584,0.24056771077284864,1
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.29353185683396893,0.025191238529929088,0.2909580388776857,8
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3087655384208649,0.02526651984950091,0.3077206616853585,10
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.2933491755734581,0.02621589815814675,0.286672035186473,7
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3152513035831075,0.024572647994202418,0.3149205443165911,11
+L_mean,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3152513035831075,0.024572647994202418,0.3149205443165911,11
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.366655956964617,0.023412220780980007,0.20844810190415483,21
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.3629568417863348,0.02349812777209198,0.20851306043792944,20
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.3594656078166035,0.023644669145777213,0.20862997847604367,18
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.3621045998830165,0.023079931741637576,0.20854416104552376,19
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.3526268389313991,0.023473769411051816,0.20902689675383407,17
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.3449580850183323,0.023975812749001624,0.2098658155549155,15
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.3497212152461686,0.022618922524323442,0.209339171766165,16
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.3307137290909328,0.024902198883721933,0.2128901917839919,14
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.31832116170109653,0.026657236693902794,0.21764550365952348,10
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.3299776312568998,0.022677081547021128,0.21314335084610908,13
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.30443932738302326,0.027950462692698474,0.22612109591477417,8
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2961793418373205,0.028483555944131135,0.23842318797592937,4
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.30422337330552734,0.024096794568224448,0.22593087256313363,6
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.29224738789995613,0.025854196099455756,0.25821750265485055,2
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.29310344864377913,0.0219278552528682,0.2770062569440155,3
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2912645221961111,0.023905179657122994,0.25065804327058183,1
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.30437257861942907,0.016596822159881217,0.2986399310100479,7
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.31721490435988037,0.014117439020942753,0.3150739913074434,9
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.3018610841011701,0.016544219611254955,0.2937651031957137,5
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3222515127690291,0.013810996548816047,0.3220227338352324,11
+L_mean,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3222515127690291,0.013810996548816047,0.3220227338352324,11
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.3830695266041645,0.030854274693274123,0.2129268546861914,21
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.3790561142628176,0.030182312235491657,0.2130162094457286,20
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.37525277036137294,0.02948753377737706,0.21317421483814727,18
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.3767051389863067,0.029996768547381255,0.2131025573238325,19
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.36620384812960116,0.02791497713152851,0.21383275600076113,17
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.3573530291377168,0.02688625493598485,0.2150368319850401,15
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.3599686238401899,0.027519893536937012,0.21449868797940025,16
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.3383019391788089,0.024352299039943535,0.21936791817409415,14
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.3264380177837528,0.02145502563682618,0.22487829870158094,9
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.33532029708703065,0.024047645931563704,0.22005089091052668,13
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.31148125310352626,0.016470250792568496,0.23465958319935942,7
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.30154246565586235,0.011166053964631113,0.24820781284893462,4
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.3109144975424811,0.016434667865442246,0.23514750728339945,6
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2959933903178189,0.009678249830068758,0.2688257144796486,1
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.29855967672343703,0.00717807296374503,0.28785655947245725,2
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.29937170100582666,0.009714580764516348,0.26129215253800564,3
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.3133191660761691,0.0066251453795310765,0.3108003093800679,8
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3289363988145064,0.00804357517512641,0.3283644789775798,10
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.31017832033647896,0.00661783972612119,0.3042634937306245,5
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.33055407931031167,0.0077460062127587,0.3304929379876513,11
+L_mean,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.33055407931031167,0.0077460062127587,0.3304929379876513,11
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.36659768139676774,0.0214685637968014,0.20936568981518147,21
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.3632010754207643,0.021498769219522058,0.2094338665440965,20
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.3600553921094923,0.021512910689751336,0.20955708920536897,18
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.36219125235368915,0.0207741820176728,0.20947152898220556,19
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.3535841336399191,0.02079607524493693,0.2100138291845715,17
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.34622896406150405,0.020403257697792443,0.21093964403465315,15
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.35015110535757665,0.01869754023345651,0.21039196979638325,16
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.33082780562704395,0.0163999026162535,0.2143568625242786,14
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.31802821566454975,0.012705977978293152,0.21909180165007933,9
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.3296622388496968,0.014453376447228848,0.21466378683409845,13
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.30318674489340613,0.008540667924707517,0.22861148526545183,5
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2938549652423025,0.007776400302757781,0.24286558754635942,4
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.30353844191239,0.007051148310609593,0.22826982535112345,6
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.28931780515449546,0.007511003163331894,0.26320077859252794,1
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.29207596211226605,0.005700124883638312,0.2815291628695495,3
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2902532751480286,0.007866087814631422,0.25492309807777214,2
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.3058100214254626,0.006225739545493667,0.3036010924042795,8
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3239151579241706,0.008145376001553687,0.32327135402650947,10
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.30366990447087977,0.005874583977201781,0.2976453984817927,7
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3271657182345889,0.0074607889699045945,0.3272396885546114,11
+L_mean,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3271657182345889,0.0074607889699045945,0.3272396885546114,11
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.3363537230938987,0.028110067822640288,0.22669191958771986,21
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.33398219277970387,0.027867624609324033,0.22673570773951823,20
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.33177221935530643,0.027592986428991554,0.22681857096518235,18
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.33355818632141865,0.027500862194525886,0.22675368701570423,19
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.3273313807112342,0.02673529839478907,0.22711741334317895,17
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.3219274008540622,0.025691847285246903,0.2277577066322693,13
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.3255056465990883,0.02572731483659834,0.22730953223113898,16
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.31130496784029893,0.022162430282959875,0.23013643985214877,10
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.30156713811488195,0.018485588481499966,0.23391796306758553,7
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.3113213155446729,0.02176310555885265,0.23017482455429064,11
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.29042825829352326,0.014399157959278415,0.24153866988912007,4
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2873269951276149,0.014946892106449707,0.2528029102236634,2
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.291920000770991,0.015515837523960446,0.2408471480113079,5
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2866645364662495,0.018061379425969852,0.2695314271226478,1
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2922005133120494,0.020943050930711526,0.2849755707963994,6
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2879686191899483,0.017484421423035676,0.26250228213791715,3
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.3052816946784837,0.02400103483656185,0.30307028163833494,9
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3198045558103407,0.022647868036804557,0.3196871645121397,12
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.3034607099096949,0.022946247643115324,0.2992614759741949,8
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3244569270136678,0.02248899874244182,0.32433750904266745,14
+L_mean,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3244569270136678,0.02248899874244182,0.32433750904266745,14
+L_trim,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 0.001}",0.2803137904966804,0.017184464043444217,0.26683480144907057,5
+L_trim,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 0.01}",0.2803134472301665,0.017184469285755042,0.2668348015412433,4
+L_trim,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 0.1}",0.2803100243588973,0.01718452310526494,0.2668348107497678,3
+L_trim,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 1.0}",0.28027676544004587,0.017185198960150107,0.2668357229213366,2
+L_trim,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 10.0}",0.28003230131766177,0.01720390651873117,0.26691892153006097,1
+L_trim,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 100.0}",0.2816614845394371,0.017707118383539174,0.27093265718827264,6
+L_trim,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 1000.0}",0.2994019887591398,0.018039817700757754,0.2947078283347039,7
+L_trim,M1_Ridge,outer_inner,1,"{""regressor__regression__alpha"": 10000.0}",0.30999550698670986,0.017475053538889344,0.3079803945676169,8
+L_trim,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 0.001}",0.265111439965767,0.02461556575476478,0.2507442148725679,5
+L_trim,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 0.01}",0.26511092596252517,0.024615982918522534,0.25074421496654886,4
+L_trim,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 0.1}",0.2651057972478278,0.02462015039092072,0.2507442243557971,3
+L_trim,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 1.0}",0.26505563130427445,0.024661411632196602,0.2507451545071403,2
+L_trim,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 10.0}",0.26465631225341035,0.02503555075997633,0.2508300645631846,1
+L_trim,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 100.0}",0.26557080231405406,0.026681267288386774,0.2549582483922662,6
+L_trim,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 1000.0}",0.2837298624502082,0.02655772404118702,0.27993623989921507,7
+L_trim,M1_Ridge,outer_inner,2,"{""regressor__regression__alpha"": 10000.0}",0.29482403890314884,0.025799966730570334,0.2939520639048492,8
+L_trim,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 0.001}",0.2774144827255999,0.02476439827887833,0.26128552108404723,5
+L_trim,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 0.01}",0.277414002875563,0.024763977153907615,0.26128552117700826,4
+L_trim,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 0.1}",0.2774092145255103,0.024759767383937356,0.26128553046357883,3
+L_trim,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 1.0}",0.27736233583338676,0.024717817616514426,0.2612864496834126,2
+L_trim,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 10.0}",0.27698465251013793,0.024313002962322004,0.26136972315375256,1
+L_trim,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 100.0}",0.27745311095326364,0.02142769219537877,0.2652547612377686,6
+L_trim,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 1000.0}",0.2920166028034898,0.015780002565134687,0.2879446182796679,7
+L_trim,M1_Ridge,outer_inner,3,"{""regressor__regression__alpha"": 10000.0}",0.30175484515138606,0.014044386062863004,0.30090871352783294,8
+L_trim,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 0.001}",0.28395700613131436,0.012622083830820764,0.2692463777221798,6
+L_trim,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 0.01}",0.2839563143735284,0.012621734386209501,0.2692463778334204,5
+L_trim,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 0.1}",0.2839494110143793,0.012618241676101842,0.2692463889457416,4
+L_trim,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 1.0}",0.28388178493865585,0.012583486917641098,0.2692474885458812,3
+L_trim,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 10.0}",0.28333309438391163,0.012252064090476833,0.26934680236679487,1
+L_trim,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 100.0}",0.28374367852645854,0.01002308270529088,0.27386997505304816,2
+L_trim,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 1000.0}",0.30122343017855935,0.007884854547856791,0.29851619300288407,7
+L_trim,M1_Ridge,outer_inner,4,"{""regressor__regression__alpha"": 10000.0}",0.31194297588876063,0.008336113608971643,0.3116509154987525,8
+L_trim,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 0.001}",0.27417566546076544,0.007503713864318593,0.26222701405393256,5
+L_trim,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 0.01}",0.27417531207498624,0.007503437722770065,0.2622270141392029,4
+L_trim,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 0.1}",0.2741717873614946,0.0075006795678751684,0.26222702265856085,3
+L_trim,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 1.0}",0.27413744632377174,0.0074734221139246505,0.26222786697518824,2
+L_trim,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 10.0}",0.27387692182736223,0.007231377764830025,0.2623052418581733,1
+L_trim,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 100.0}",0.27530004331924335,0.0065811661637109236,0.26617538801681584,6
+L_trim,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 1000.0}",0.29457307938710814,0.009256140672065179,0.29150612486871635,7
+L_trim,M1_Ridge,outer_inner,5,"{""regressor__regression__alpha"": 10000.0}",0.307203530570371,0.010381391807522821,0.30692679245922977,8
+L_trim,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 0.001}",0.2737236299105667,0.013425565578565087,0.2639002803442799,5
+L_trim,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 0.01}",0.2737233108152889,0.013425629559691751,0.2639002803961576,4
+L_trim,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 0.1}",0.27372012617102437,0.013426271111674324,0.26390028558014367,3
+L_trim,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 1.0}",0.2736889059335736,0.013432858470217754,0.26390080021721546,2
+L_trim,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 10.0}",0.2734349516046238,0.013513855438210529,0.26394872811521014,1
+L_trim,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 100.0}",0.2740650161231068,0.01478538215954522,0.2666112759965063,6
+L_trim,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 1000.0}",0.29108209119129186,0.018362411171967925,0.28820923455927394,7
+L_trim,M1_Ridge,final_training_CV,,"{""regressor__regression__alpha"": 10000.0}",0.30434554162964667,0.018823750428789348,0.30390387897060245,8
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.280296925387322,0.01717889939052305,0.26683500342734234,10
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.28027624403105045,0.017155964213494763,0.2668360815387583,9
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.2802565624828727,0.01713317525645486,0.2668381535334263,7
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.2802644519863715,0.017168052041572856,0.2668366088286097,8
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.280209013316744,0.01710056559318636,0.26684628607037053,6
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2801626268474729,0.017034392429941227,0.2668649499824397,4
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.28016438126482285,0.017132934062650356,0.2668544853183844,5
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.28006132830127967,0.016922597866042728,0.26696079946721074,2
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.28010878886384194,0.01676897612093018,0.26716528353502883,3
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.2799859817200752,0.01705466547696907,0.2670022950979613,1
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2804545140975156,0.016703199557174076,0.2679178099151547,12
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.28189765820733076,0.01664639045285922,0.26970190626734103,13
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.2803447873538841,0.01697150832099444,0.2683820256508047,11
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.28590688207262455,0.01794826069665428,0.27621364535179177,15
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2906429930286179,0.01766125874339228,0.28530972079982786,16
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.28528274405065673,0.017833283721870496,0.2755879397402488,14
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.2986928530513531,0.018581237907762786,0.2960165825819995,18
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.30719562060774963,0.017530600237251823,0.3052735254716445,19
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.29869110445022895,0.01795614380954512,0.29566938186147307,17
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3117216858942667,0.01736347004139503,0.3101158340045935,20
+L_trim,M1_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3117216858942667,0.01736347004139503,0.3101158340045935,20
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.26509027937817,0.024636274299885557,0.25074441830110433,11
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.265076129306891,0.024662954032721545,0.2507454823358505,10
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.2650666191208703,0.024690772750516104,0.2507474931995146,9
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.26504929393483995,0.024677367338498752,0.25074603515778987,8
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.26502353342919405,0.02475977574574048,0.2507554782827357,7
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2650078598397428,0.024841478839732693,0.250773592479297,5
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.26492913979503985,0.02481977437811637,0.25076394931678664,4
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.26492389708381053,0.02508231761259399,0.2508677927231955,3
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.2650228666667888,0.025330083279133997,0.2510695661765256,6
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.26470486096706414,0.02519148639233565,0.2509118993157133,1
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.26515780884382706,0.025899226682018342,0.251788669599726,12
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2659349053790833,0.02676856807014871,0.2534188898354621,13
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.26487268699443645,0.026109811034677945,0.2522799022772651,2
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.26903985982794104,0.026997481897848084,0.25961660818377713,15
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2742683865970702,0.026437767393906967,0.2688842531308092,16
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2686622602574288,0.02754328535286877,0.25934260648601354,14
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.28272686747257963,0.027027669486854523,0.28080532884266174,17
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.2910923783706549,0.02624223271739551,0.29002250808319574,19
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.28322053160125527,0.026579000971242404,0.28057093763513286,18
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.2966116726666425,0.025659379367370314,0.2961917208523419,20
+L_trim,M1_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.2966116726666425,0.025659379367370314,0.2961917208523419,20
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.2773911921718472,0.024741466095064897,0.2612857327047278,13
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.27736367850323196,0.024706906652532702,0.261286901388762,12
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.27733722510398584,0.02467203655189632,0.261289155448031,10
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.27734591262248676,0.024695506815860843,0.2612874134066936,11
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.2772654191574299,0.024589320678213348,0.26129777567027307,9
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2771754706158037,0.024476731629520777,0.2613172246813794,7
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.27719614910079726,0.024533598294005518,0.2613059454935235,8
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.2769434193990593,0.024150483934754198,0.2614166978213666,6
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.2767625361076152,0.023775555186887485,0.2616284235086408,4
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.27683473371629885,0.024063893405403398,0.2614562022626463,5
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2764021319571014,0.02315910807833367,0.2623655039262733,2
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.27644154740672844,0.02241224112572263,0.2640537101451058,3
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.27637981678528,0.02278478063854204,0.26280437592685835,1
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2786598852058186,0.020195362800926587,0.270032060496168,15
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.28212519138047243,0.01713637327819829,0.277686729274096,16
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.27863954743119124,0.020156528008639076,0.2695926155712041,14
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.2889920673897788,0.013917839682910708,0.2881523296842903,17
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.2984092907528868,0.013893371872420688,0.2976095546886993,19
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.29021172487107194,0.01467845656427816,0.2881475940266909,18
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.30339458560688026,0.01382125568721781,0.3030213695251984,20
+L_trim,M1_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.30339458560688026,0.01382125568721781,0.3030213695251984,20
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.28392500025476153,0.012610892325592983,0.2692466107773509,12
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.2838911087806474,0.01261371882438825,0.26924776559764974,11
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.28385820883016993,0.012616774048626685,0.26924995701472065,9
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.2838625255956547,0.01258865928473173,0.26924846186340656,10
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.2837677421463187,0.012598447723770903,0.26925882615050584,8
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2836819443878438,0.012610278261329643,0.26927856795737437,7
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.28366110222083873,0.012513122113787984,0.2692690299444741,6
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.2834247452640068,0.012560451758802922,0.2693830484760639,5
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.2833555572918308,0.012530835795571882,0.26959931610398047,4
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.2832217032205553,0.012315098336286027,0.26943808183294793,2
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2832674033086948,0.012191768578460119,0.2704103667465739,3
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.28417070173649006,0.011878678638173289,0.27218132639754,13
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.2829852112710094,0.011639323997555332,0.2709838139545401,1
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2874972057405128,0.011048775063804738,0.27890048973962367,15
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.292742520370041,0.009785972038091109,0.2890623076834124,16
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.28712355562239533,0.0102153613403273,0.27867194034549847,14
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.30090210461233535,0.008311795846657309,0.2998701394457698,17
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3123455023097423,0.0083984003669821,0.31194465478803524,19
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.30112525673791035,0.008614959183433305,0.29968237186970553,18
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.31368265527937295,0.008432309098952021,0.31373526675418645,20
+L_trim,M1_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.31368265527937295,0.008432309098952021,0.31373526675418645,20
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.2741607004224412,0.007487365260456844,0.2622272060912124,10
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.2741520339106447,0.007461257451645073,0.26222826334875227,8
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.2741448130301546,0.007435688275210354,0.262230311985168,7
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.27413384288090276,0.007456158249388748,0.26222872055089785,6
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.2741154426795359,0.007380511041490141,0.26223811946589126,5
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.2741035771076244,0.007305822494929776,0.2622555463064163,4
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.27405399300890304,0.007352382316860832,0.26224555211574646,2
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.2740558390466598,0.007116038433280237,0.2623447032193843,3
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.2741527996275174,0.006904078731030671,0.26253877180596086,9
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.27391745271591883,0.0070873715190722985,0.2623821937696745,1
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2744993855083067,0.006562728802390037,0.2632501364288143,12
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.27577332189856896,0.006249446246448252,0.2649293422803155,13
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.2743483204350145,0.006538593036139194,0.2636730098836828,11
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.27984617132028244,0.006554829454938684,0.27099559069990564,15
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2840078595055805,0.008407646728135064,0.27866886551811776,16
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.27912303612100503,0.006939638485708101,0.27063694937683475,14
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.29250423548840665,0.010067486080340311,0.29102006031947647,17
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3064989597534089,0.01062689140691727,0.30606666133162047,19
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.2935148623715745,0.009682585926190899,0.29107744878589914,18
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.30931176274067573,0.010517536259309172,0.30947376044016095,20
+L_trim,M1_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.30931176274067573,0.010517536259309172,0.30947376044016095,20
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.27370527143810575,0.013425509042228376,0.26390048360667756,10
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.27369129029642436,0.013411997207176942,0.26390156534387627,9
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.2736806213582554,0.013395759465070699,0.26390362622343455,8
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.27366993077241275,0.013425895531352433,0.2639020988708378,7
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.2736414584401778,0.013378745925563963,0.26391173911482213,5
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.27362835878544695,0.013329911111323391,0.26393013989249153,4
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.2735684631115292,0.013422512387907051,0.26391999199753646,2
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.27357275825596106,0.013277501825563016,0.2640251827555516,3
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.2736533808192946,0.013200550496111222,0.2642264237287239,6
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.2733993402820478,0.013448567718189537,0.26406749076545827,1
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.27392169421897117,0.013362537604684638,0.2649667894454791,12
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.27502318746197846,0.013537122897822726,0.2666501356885244,13
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.2737929144172903,0.013937411463853773,0.2654278568297867,11
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2790118937690154,0.01561931349002799,0.2729289676485601,15
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2842252246206785,0.0178192010334496,0.28148550340492007,16
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.27879829208870865,0.015817542074869347,0.2724285195478305,14
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.2924237391288001,0.01938906304561713,0.2920248214339454,17
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3025756576274756,0.018986564100883407,0.3025382865489169,19
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.29307528531961546,0.019077479127483518,0.2918765841777772,18
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3067129316852748,0.018807061477804803,0.30669551356198144,20
+L_trim,M1_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3067129316852748,0.018807061477804803,0.30669551356198144,20
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.37878948545562896,0.022095459999808966,0.2109759657542548,21
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.375365847484551,0.021008701439426895,0.21103951268542953,20
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.37211259785080125,0.01987663530364804,0.21115302999036523,18
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.3733335259507198,0.020269799187327492,0.2110960444759035,19
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.3646326292480744,0.01747729902448251,0.2115936270737918,17
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.35738931143238445,0.015956958680217743,0.21236619117180222,15
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.35943102723436016,0.016283104512978527,0.21204423072772416,16
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.34067425253263883,0.01289000558413894,0.21557980350518913,14
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.3259946512416721,0.008973932355670223,0.22063007147701966,12
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.3374442539445085,0.011925453340329807,0.21616869940549455,13
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.3116637270477474,0.0073712442618936586,0.2303324597347256,9
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2998011700167954,0.010759583665808576,0.24294267647230072,6
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.3109897237163667,0.009330979157126428,0.22982786433577831,8
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.29086589225934806,0.014574989654601987,0.26192518010269106,1
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2918558083457126,0.017721512500924207,0.2800602297833296,2
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2925353120918649,0.01416278924749963,0.2540260379852838,3
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.29892574916549003,0.0186911453415887,0.2951111435323863,5
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.30719562060774963,0.017530600237251823,0.3052735254716445,7
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.2970454849649796,0.01799760472418737,0.2905931276091043,4
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3117216858942667,0.01736347004139503,0.3101158340045935,10
+L_trim,M2_ElasticNet,outer_inner,1,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3117216858942667,0.01736347004139503,0.3101158340045935,10
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.34628157810424537,0.004868181733239185,0.18801468001061777,21
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.3426201342553707,0.005271489030016145,0.18807243389649542,20
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.3391054280625245,0.005707669152711147,0.1881776979845642,18
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.3415453167431062,0.004955290858892444,0.18811030595849496,19
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.33172210527727036,0.006736212558777083,0.18857774796719556,17
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.3228526655997639,0.008802613073267584,0.18942823786325663,15
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.32835352153358144,0.00707360255741406,0.1889237593191397,16
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.30617237993290536,0.011931173404197777,0.19248068162445753,14
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.2924191218287263,0.01560129064475329,0.1971291654297928,10
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.30599360991807556,0.01217486721609898,0.1926406868760893,13
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2767073841974958,0.020962783363181876,0.20619704886356988,5
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.26592281964110126,0.0260348887634452,0.21933188101239756,2
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.27741748601878763,0.02053141945262844,0.20528077426982957,6
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.26631625049852115,0.028197271695872626,0.2409215590517833,3
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2728599401959889,0.028673024814641394,0.2619036189041353,4
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2643305812672905,0.028634094649011232,0.23132777996394904,1
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.2820893304593082,0.02725089769657314,0.2794008174629694,8
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.2910923783706549,0.02624223271739551,0.29002250808319574,9
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.2804345178892207,0.027520103105062695,0.2745947332868652,7
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.2966116726666425,0.025659379367370314,0.2961917208523419,11
+L_trim,M2_ElasticNet,outer_inner,2,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.2966116726666425,0.025659379367370314,0.2961917208523419,11
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.35546944516814444,0.020720661812426197,0.20249885268352233,21
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.35205061739970334,0.02108325329765205,0.20255782183271853,20
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.34881432150587416,0.021455746947811646,0.20266679966266773,18
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.3511858363434849,0.020697963204387514,0.2025828527432993,19
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.34199392526651673,0.021709075409830927,0.20303903024238093,17
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.33446342476967145,0.02291597036433381,0.20378337040630778,15
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.3390268010693207,0.02092326085742794,0.20329596203685682,16
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.3188414816024829,0.023287079863157013,0.2065266123454062,14
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.3062660898839337,0.02446664360798796,0.21062208638770807,12
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.31845785976648516,0.02156045068261331,0.2066285293714926,13
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.29317457795910473,0.0257744440535699,0.21843559950459074,8
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2833600403828148,0.024785905096684456,0.23044484309472046,4
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.29272996345339325,0.022855933364524735,0.21813471038780757,7
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2802254008701719,0.023063263196564942,0.2499861165600878,2
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2820585500666808,0.017503719759122432,0.26901081953607786,3
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2785659097551378,0.02173649888610241,0.24173635204413127,1
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.28899927716835927,0.014294106868051548,0.28694318271572655,6
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.2984092907528868,0.013893371872420688,0.2976095546886993,9
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.28720375692577094,0.01542065497714457,0.28118163352479697,5
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.30339458560688026,0.01382125568721781,0.3030213695251984,10
+L_trim,M2_ElasticNet,outer_inner,3,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.30339458560688026,0.01382125568721781,0.3030213695251984,10
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.3734381548970253,0.029001385763990636,0.20684703111023411,21
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.3695271517243265,0.028279072101194,0.206932170028582,20
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.3658480428624449,0.027571335074775553,0.207081944736516,18
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.3671210120935299,0.027769086394509885,0.20701573513546406,19
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.3571087821713472,0.02574168157615453,0.20768871515058718,17
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.3481051932766562,0.024137032015689376,0.2088195993158279,15
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.35021797531120435,0.0242717863401936,0.20834050783018335,16
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.3298885009483165,0.020220433894074404,0.21281138176036912,14
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.3178323774834384,0.0166601477817893,0.2178185935987043,12
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.32571201505284664,0.019582436386243816,0.21345113294339005,13
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.30295380482297035,0.012616136530448845,0.22727202630419926,8
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2927403444394142,0.009691526344626776,0.23960862472147218,4
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.30109914423606565,0.012906942213403777,0.22766928398316102,7
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.288221383856033,0.010357585938922319,0.2596720987974571,1
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2895748274273941,0.009580668791399854,0.2793946774223792,2
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2896760046062443,0.010111151909845692,0.25219372053313455,3
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.300019534111445,0.00805877157383974,0.2982412379533675,6
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3123455023097423,0.0083984003669821,0.31194465478803524,9
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.2976220508059936,0.008839373242937156,0.2925355014729463,5
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.31368265527937295,0.008432309098952021,0.31373526675418645,10
+L_trim,M2_ElasticNet,outer_inner,4,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.31368265527937295,0.008432309098952021,0.31373526675418645,10
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.35395855010164834,0.016726016109522724,0.20321113780641298,21
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.35091030101154264,0.01692315262357252,0.20327302276494946,20
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.34800735081451406,0.01716909759142507,0.20338686946072146,18
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.34977742673474777,0.016304876813428938,0.20330794917814823,19
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.3415963712487198,0.01679194721009337,0.20380769928503983,17
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.33409815531071496,0.01607040610740264,0.20463329076605208,15
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.3380285299109186,0.015176465653508928,0.20414444724784087,16
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.3191200750858901,0.013001220871761487,0.20760939588695598,14
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.3072076873835934,0.012036242773083485,0.21219718739470797,10
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.3178369372705344,0.011810815498608043,0.20794153697823914,13
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2941615079206263,0.00931400565144087,0.22125922229097833,8
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2848590956522398,0.009694607090145205,0.23472150767417543,4
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.29367348960775064,0.008151366807525106,0.2208508615381184,7
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.28052475451481373,0.009525507665199504,0.2544709627081799,2
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.28353339749173523,0.008673964398499767,0.27312472906060115,3
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2803480917712058,0.009750001641680437,0.24606536578507393,1
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.29178652313078923,0.009628928163965251,0.2897007384343784,6
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3064989597534089,0.01062689140691727,0.30606666133162047,9
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.2904469105814097,0.009813394739973766,0.2851128298677296,5
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.30931176274067573,0.010517536259309172,0.30947376044016095,11
+L_trim,M2_ElasticNet,outer_inner,5,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.30931176274067573,0.010517536259309172,0.30947376044016095,11
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.1}",0.3253576261524407,0.027123122946025063,0.21996025149013265,21
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.5}",0.3232193572795533,0.026640541955105887,0.2200021406799162,20
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.001, ""regressor__regression__l1_ratio"": 0.9}",0.3211375920094775,0.02623531992231125,0.22007901261992985,18
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.1}",0.3227469754116172,0.026297777531376777,0.22001655980571408,19
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.5}",0.3168854928522561,0.025099248262486995,0.2203381593734292,17
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.003, ""regressor__regression__l1_ratio"": 0.9}",0.3118077998860116,0.023902122982554484,0.22089953633706125,15
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.1}",0.3150805744493468,0.024019254678303036,0.22050814614274752,16
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.5}",0.3016952304567567,0.020761469142647357,0.22303780515535038,11
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.01, ""regressor__regression__l1_ratio"": 0.9}",0.29287000021782833,0.01773641744704494,0.226395993038267,9
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.3013356897922701,0.01991450845363956,0.2230520935153065,10
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.5}",0.2838537547924701,0.013567946035565456,0.23375444204538742,5
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.9}",0.2805609606927377,0.011829992270504498,0.24473724510637423,3
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.1}",0.28348409189681867,0.014631559072326817,0.23287509774793386,4
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2794966481146902,0.013899253800047558,0.2609443703489222,2
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.9}",0.2840239514426483,0.01725080795097708,0.276558973514168,6
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2790383277446248,0.014414101292930442,0.2537992970798407,1
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.5}",0.29238120615550667,0.019279235062180756,0.2910119833368367,8
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.9}",0.3025756576274756,0.018986564100883407,0.3025382865489169,12
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.1}",0.29081693449437096,0.018824508575135956,0.2870804739739269,7
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.5}",0.3067129316852748,0.018807061477804803,0.30669551356198144,13
+L_trim,M2_ElasticNet,final_training_CV,,"{""regressor__regression__alpha"": 1.0, ""regressor__regression__l1_ratio"": 0.9}",0.3067129316852748,0.018807061477804803,0.30669551356198144,13

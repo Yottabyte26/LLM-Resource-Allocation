@@ -1,0 +1,5 @@
+﻿scope,n,unique_id_count,missing_id_count,exact_duplicate_groups,exact_duplicate_records,exact_duplicate_excess_records,duplicated_id_groups,duplicated_id_records,duplicated_id_excess_records,SAME_ID_SAME_DATA_groups,SAME_ID_DIFFERENT_DATA_groups,SAME_ID_SAME_DATA_pairs,SAME_ID_DIFFERENT_DATA_pairs,same_id_same_quality_groups,same_id_different_quality_groups,same_id_same_quality_pairs,same_id_different_quality_pairs,content_not_comparable_pairs,raw_quality_duplicate_groups,raw_quality_duplicate_excess_records,comparison_basis
+A1,51230,51230,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,raw_22_quality_fields_and_comparable_content_sub_path_resolved_domain
+A2,17523,17523,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,raw_22_quality_fields_and_comparable_content_sub_path_resolved_domain
+A3,203752,203752,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,raw_22_quality_fields_and_comparable_content_sub_path_resolved_domain
+A1+A2+A3,272505,261086,0,0,0,0,11419,22838,11419,11419,0,11419,0,11419,0,11419,0,11419,11420,11420,raw_22_quality_fields_and_comparable_content_sub_path_resolved_domain

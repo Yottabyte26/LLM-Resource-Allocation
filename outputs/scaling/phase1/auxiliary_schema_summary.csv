@@ -1,0 +1,3 @@
+﻿path,rows,columns,field_names
+real_attachments/B_scaling_laws/open_model_family_metadata.csv,18,8,"[""family"", ""model_repo"", ""config_bytes"", ""readme_bytes"", ""weight_file_count"", ""weight_total_bytes"", ""source_url"", ""error""]"
+real_attachments/B_scaling_laws/pythia_checkpoint_index.csv,1386,5,"[""model_repo"", ""model_size"", ""step"", ""branch"", ""commit""]"

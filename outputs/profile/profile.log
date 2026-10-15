@@ -1,0 +1,59 @@
+2026-09-26 13:06:21,186 INFO Reading A1: real_attachments/A_data_value/slimpajama_quality_signal_sample.jsonl.xz
+2026-09-26 13:06:25,121 INFO A1: 5000 records scalarized
+2026-09-26 13:06:26,410 INFO A1: 10000 records scalarized
+2026-09-26 13:06:28,043 INFO A1: 15000 records scalarized
+2026-09-26 13:06:29,721 INFO A1: 20000 records scalarized
+2026-09-26 13:06:31,079 INFO A1: 25000 records scalarized
+2026-09-26 13:06:32,389 INFO A1: 30000 records scalarized
+2026-09-26 13:06:33,568 INFO A1: 35000 records scalarized
+2026-09-26 13:06:34,710 INFO A1: 40000 records scalarized
+2026-09-26 13:06:36,062 INFO A1: 45000 records scalarized
+2026-09-26 13:06:37,323 INFO A1: 50000 records scalarized
+2026-09-26 13:06:37,721 INFO Reading A2: real_attachments/A_data_value/slimpajama_quality_extended/arxiv_part-6777d8857c6e-000486.jsonl.xz
+2026-09-26 13:06:38,625 INFO A2: 5000 records scalarized
+2026-09-26 13:06:39,525 INFO A2: 10000 records scalarized
+2026-09-26 13:06:40,460 INFO A2: 15000 records scalarized
+2026-09-26 13:06:40,924 INFO Reading A3: real_attachments/A_data_value/slimpajama_quality_extended/github_part-6777d8857c6e-000275.jsonl.xz
+2026-09-26 13:06:41,772 INFO A3: 5000 records scalarized
+2026-09-26 13:06:42,675 INFO A3: 10000 records scalarized
+2026-09-26 13:06:43,529 INFO A3: 15000 records scalarized
+2026-09-26 13:06:44,448 INFO A3: 20000 records scalarized
+2026-09-26 13:06:45,328 INFO A3: 25000 records scalarized
+2026-09-26 13:06:46,222 INFO A3: 30000 records scalarized
+2026-09-26 13:06:47,114 INFO A3: 35000 records scalarized
+2026-09-26 13:06:48,070 INFO A3: 40000 records scalarized
+2026-09-26 13:06:48,950 INFO A3: 45000 records scalarized
+2026-09-26 13:06:49,830 INFO A3: 50000 records scalarized
+2026-09-26 13:06:50,682 INFO A3: 55000 records scalarized
+2026-09-26 13:06:51,554 INFO A3: 60000 records scalarized
+2026-09-26 13:06:52,506 INFO A3: 65000 records scalarized
+2026-09-26 13:06:53,379 INFO A3: 70000 records scalarized
+2026-09-26 13:06:54,283 INFO A3: 75000 records scalarized
+2026-09-26 13:06:55,173 INFO A3: 80000 records scalarized
+2026-09-26 13:06:56,041 INFO A3: 85000 records scalarized
+2026-09-26 13:06:56,877 INFO A3: 90000 records scalarized
+2026-09-26 13:06:57,699 INFO A3: 95000 records scalarized
+2026-09-26 13:06:58,538 INFO A3: 100000 records scalarized
+2026-09-26 13:06:59,405 INFO A3: 105000 records scalarized
+2026-09-26 13:07:00,240 INFO A3: 110000 records scalarized
+2026-09-26 13:07:01,062 INFO A3: 115000 records scalarized
+2026-09-26 13:07:01,879 INFO A3: 120000 records scalarized
+2026-09-26 13:07:02,697 INFO A3: 125000 records scalarized
+2026-09-26 13:07:03,529 INFO A3: 130000 records scalarized
+2026-09-26 13:07:04,356 INFO A3: 135000 records scalarized
+2026-09-26 13:07:05,184 INFO A3: 140000 records scalarized
+2026-09-26 13:07:06,008 INFO A3: 145000 records scalarized
+2026-09-26 13:07:06,827 INFO A3: 150000 records scalarized
+2026-09-26 13:07:07,643 INFO A3: 155000 records scalarized
+2026-09-26 13:07:08,477 INFO A3: 160000 records scalarized
+2026-09-26 13:07:09,297 INFO A3: 165000 records scalarized
+2026-09-26 13:07:10,121 INFO A3: 170000 records scalarized
+2026-09-26 13:07:10,955 INFO A3: 175000 records scalarized
+2026-09-26 13:07:11,777 INFO A3: 180000 records scalarized
+2026-09-26 13:07:12,608 INFO A3: 185000 records scalarized
+2026-09-26 13:07:13,445 INFO A3: 190000 records scalarized
+2026-09-26 13:07:14,264 INFO A3: 195000 records scalarized
+2026-09-26 13:07:15,101 INFO A3: 200000 records scalarized
+2026-09-26 13:07:16,808 INFO Configuration SHA-256: e2bb689dce10005e494225b2138dec027ebce2b57c1c88fe2af44a5b01aec41b
+2026-09-26 13:07:16,809 INFO Completed: 272505 records × 22 scalar indicators, 7 domains, 19 actual missing scalar events
+2026-09-26 13:07:16,809 INFO STOP: no imputation, feature normalization, CRITIC or Q; scripts 03/04 not run.

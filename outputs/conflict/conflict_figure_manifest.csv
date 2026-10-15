@@ -1,0 +1,10 @@
+﻿path,statistics_scope
+outputs/figures/question1_part2/01_A1_K_distribution.png,full records; scatter displays fixed-seed subset
+outputs/figures/question1_part2/02_domain_K_boxplots.png,full records; scatter displays fixed-seed subset
+outputs/figures/question1_part2/03_domain_high_conflict_rates.png,full records; scatter displays fixed-seed subset
+outputs/figures/question1_part2/04_pair_conflict_heatmap.png,full records; scatter displays fixed-seed subset
+outputs/figures/question1_part2/05_top20_pair_conflicts.png,full records; scatter displays fixed-seed subset
+outputs/figures/question1_part2/06_Q_vs_K.png,full records; scatter displays fixed-seed subset
+outputs/figures/question1_part2/07_K_vs_weighting_sensitivity.png,full records; scatter displays fixed-seed subset
+outputs/figures/question1_part2/08_arxiv_sample_extended_K.png,full records; scatter displays fixed-seed subset
+outputs/figures/question1_part2/09_github_sample_extended_K.png,full records; scatter displays fixed-seed subset

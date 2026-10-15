@@ -1,0 +1,36 @@
+2026-09-26 13:35:37,242 INFO Indexing A1: real_attachments/A_data_value/slimpajama_quality_signal_sample.jsonl.xz
+2026-09-26 13:35:45,549 INFO A1: 10000 rows indexed
+2026-09-26 13:35:51,727 INFO A1: 20000 rows indexed
+2026-09-26 13:35:56,882 INFO A1: 30000 rows indexed
+2026-09-26 13:36:02,286 INFO A1: 40000 rows indexed
+2026-09-26 13:36:07,693 INFO A1: 50000 rows indexed
+2026-09-26 13:36:08,362 INFO Indexing A2: real_attachments/A_data_value/slimpajama_quality_extended/arxiv_part-6777d8857c6e-000486.jsonl.xz
+2026-09-26 13:36:11,970 INFO A2: 10000 rows indexed
+2026-09-26 13:36:15,201 INFO Indexing A3: real_attachments/A_data_value/slimpajama_quality_extended/github_part-6777d8857c6e-000275.jsonl.xz
+2026-09-26 13:36:18,668 INFO A3: 10000 rows indexed
+2026-09-26 13:36:21,956 INFO A3: 20000 rows indexed
+2026-09-26 13:36:25,071 INFO A3: 30000 rows indexed
+2026-09-26 13:36:28,363 INFO A3: 40000 rows indexed
+2026-09-26 13:36:31,744 INFO A3: 50000 rows indexed
+2026-09-26 13:36:35,222 INFO A3: 60000 rows indexed
+2026-09-26 13:36:38,518 INFO A3: 70000 rows indexed
+2026-09-26 13:36:41,469 INFO A3: 80000 rows indexed
+2026-09-26 13:36:44,781 INFO A3: 90000 rows indexed
+2026-09-26 13:36:48,240 INFO A3: 100000 rows indexed
+2026-09-26 13:36:51,756 INFO A3: 110000 rows indexed
+2026-09-26 13:36:55,136 INFO A3: 120000 rows indexed
+2026-09-26 13:36:58,504 INFO A3: 130000 rows indexed
+2026-09-26 13:37:01,801 INFO A3: 140000 rows indexed
+2026-09-26 13:37:05,230 INFO A3: 150000 rows indexed
+2026-09-26 13:37:08,576 INFO A3: 160000 rows indexed
+2026-09-26 13:37:12,307 INFO A3: 170000 rows indexed
+2026-09-26 13:37:15,733 INFO A3: 180000 rows indexed
+2026-09-26 13:37:18,926 INFO A3: 190000 rows indexed
+2026-09-26 13:37:22,073 INFO A3: 200000 rows indexed
+2026-09-26 13:37:25,786 INFO Index complete: 272505 records; analyzing all same-ID pairs
+2026-09-26 13:37:25,975 INFO A1: exact groups=0, duplicated-ID groups=0, different-data groups=0
+2026-09-26 13:37:26,034 INFO A2: exact groups=0, duplicated-ID groups=0, different-data groups=0
+2026-09-26 13:37:27,412 INFO A3: exact groups=0, duplicated-ID groups=0, different-data groups=0
+2026-09-26 13:37:29,874 INFO ALL: exact groups=0, duplicated-ID groups=11419, different-data groups=0
+2026-09-26 13:37:37,396 INFO Completed: 272505 records; 0 ID conflict pairs; missing summary={"scalar_missing_events": 19, "source_occurrence_records": 19, "unique_ids": 19, "unique_exact_records": 19, "unique_quality_records": 19, "missing_count_distribution": {"1": 19}, "both_reasoning_and_professionalism_records": 0, "missing_rate_gt_20pct_records": 0, "threshold": 0.2}
+2026-09-26 13:37:37,396 INFO STOP: all records retained, no imputation, scripts 03/04 not run, no CRITIC or Q.

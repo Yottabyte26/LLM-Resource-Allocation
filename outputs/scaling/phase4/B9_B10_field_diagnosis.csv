@@ -1,0 +1,14 @@
+﻿dataset,field,missing,dtype
+B9,model_name,0,str
+B9,N_params_B,0,float64
+B9,D_tokens_B,0,float64
+B9,FLOPs,11,float64
+B9,publication_date,0,str
+B9,organization,1,str
+B9,accessibility,2,str
+B9,country,1,str
+B10,family,0,str
+B10,N_params_B,0,float64
+B10,D_tokens_B,0,float64
+B10,val_loss,0,float64
+B10,is_converged,0,int64

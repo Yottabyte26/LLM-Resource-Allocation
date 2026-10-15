@@ -1,0 +1,65 @@
+2026-09-26 16:24:10,153 INFO Protected 2351 original/locked files
+2026-09-26 16:24:10,761 INFO Frozen effects: 9 stable domains, 56 stable joint deviations
+2026-09-26 16:24:11,708 ERROR Analysis failed; prior frozen files must remain unchanged
+Traceback (most recent call last):
+  File "D:\code\F4.0\scripts\09_analyze_mixture_effects.py", line 536, in <module>
+    main()
+    ~~~~^^
+  File "D:\code\F4.0\scripts\09_analyze_mixture_effects.py", line 448, in main
+    single=single_loss_models(train,bases,names,loss_names,settings)
+  File "D:\code\F4.0\scripts\09_analyze_mixture_effects.py", line 197, in single_loss_models
+    if hasattr(reg,'n_iter_') and reg.n_iter_>=reg.max_iter:raise RuntimeError('Single-loss model did not converge')
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'NoneType' and 'NoneType'
+2026-09-26 16:24:28,679 INFO Protected 2351 original/locked files
+2026-09-26 16:24:29,407 INFO Frozen effects: 9 stable domains, 56 stable joint deviations
+2026-09-26 16:24:30,586 INFO Single-loss diagnostic 1/13: arxiv
+2026-09-26 16:24:31,645 INFO Single-loss diagnostic 2/13: freelaw
+2026-09-26 16:24:32,697 INFO Single-loss diagnostic 3/13: pubmed_central
+2026-09-26 16:24:33,730 INFO Single-loss diagnostic 4/13: wikipedia_en
+2026-09-26 16:24:34,852 INFO Single-loss diagnostic 5/13: dm_mathematics
+2026-09-26 16:24:35,992 INFO Single-loss diagnostic 6/13: github
+2026-09-26 16:24:37,113 INFO Single-loss diagnostic 7/13: stackexchange
+2026-09-26 16:24:38,233 INFO Single-loss diagnostic 8/13: gutenberg_pg_19
+2026-09-26 16:24:39,429 INFO Single-loss diagnostic 9/13: pile_cc
+2026-09-26 16:24:40,519 INFO Single-loss diagnostic 10/13: ubuntu_irc
+2026-09-26 16:24:41,577 INFO Single-loss diagnostic 11/13: hackernews
+2026-09-26 16:24:42,599 INFO Single-loss diagnostic 12/13: pubmed_abstracts
+2026-09-26 16:24:43,590 INFO Single-loss diagnostic 13/13: uspto_backgrounds
+2026-09-26 16:24:43,640 INFO Starting M3 nested CV on A4/A5 only
+2026-09-26 16:24:44,139 INFO M3_Qp outer fold 1/5 RMSE 0.265258
+2026-09-26 16:24:44,601 INFO M3_Qp outer fold 2/5 RMSE 0.315229
+2026-09-26 16:24:45,125 INFO M3_Qp outer fold 3/5 RMSE 0.288124
+2026-09-26 16:24:45,634 INFO M3_Qp outer fold 4/5 RMSE 0.246410
+2026-09-26 16:24:46,112 INFO M3_Qp outer fold 5/5 RMSE 0.282317
+2026-09-26 16:24:48,586 INFO Mapping conditional MC 25/500
+2026-09-26 16:24:49,868 INFO Mapping conditional MC 50/500
+2026-09-26 16:24:51,230 INFO Mapping conditional MC 75/500
+2026-09-26 16:24:52,505 INFO Mapping conditional MC 100/500
+2026-09-26 16:24:53,630 INFO Mapping conditional MC 125/500
+2026-09-26 16:24:54,711 INFO Mapping conditional MC 150/500
+2026-09-26 16:24:55,782 INFO Mapping conditional MC 175/500
+2026-09-26 16:24:56,890 INFO Mapping conditional MC 200/500
+2026-09-26 16:24:57,983 INFO Mapping conditional MC 225/500
+2026-09-26 16:24:59,123 INFO Mapping conditional MC 250/500
+2026-09-26 16:25:00,192 INFO Mapping conditional MC 275/500
+2026-09-26 16:25:01,414 INFO Mapping conditional MC 300/500
+2026-09-26 16:25:02,716 INFO Mapping conditional MC 325/500
+2026-09-26 16:25:04,134 INFO Mapping conditional MC 350/500
+2026-09-26 16:25:05,294 INFO Mapping conditional MC 375/500
+2026-09-26 16:25:06,329 INFO Mapping conditional MC 400/500
+2026-09-26 16:25:07,501 INFO Mapping conditional MC 425/500
+2026-09-26 16:25:08,617 INFO Mapping conditional MC 450/500
+2026-09-26 16:25:09,765 INFO Mapping conditional MC 475/500
+2026-09-26 16:25:11,005 INFO Mapping conditional MC 500/500
+2026-09-26 16:25:11,523 INFO M3_alternative_mapping outer fold 1/5 RMSE 0.264334
+2026-09-26 16:25:11,998 INFO M3_alternative_mapping outer fold 2/5 RMSE 0.316294
+2026-09-26 16:25:12,543 INFO M3_alternative_mapping outer fold 3/5 RMSE 0.288670
+2026-09-26 16:25:13,108 INFO M3_alternative_mapping outer fold 4/5 RMSE 0.248033
+2026-09-26 16:25:13,650 INFO M3_alternative_mapping outer fold 5/5 RMSE 0.283760
+2026-09-26 16:25:15,787 INFO M4_Qp_Kp outer fold 1/5 RMSE 0.258318
+2026-09-26 16:25:16,346 INFO M4_Qp_Kp outer fold 2/5 RMSE 0.307098
+2026-09-26 16:25:17,066 INFO M4_Qp_Kp outer fold 3/5 RMSE 0.277076
+2026-09-26 16:25:17,751 INFO M4_Qp_Kp outer fold 4/5 RMSE 0.243628
+2026-09-26 16:25:18,397 INFO M4_Qp_Kp outer fold 5/5 RMSE 0.282816
+2026-09-26 16:25:27,134 INFO COMPLETE: question1 part3 final; selected=M1_ElasticNet; protected=2351; MC=500; stopped before question2

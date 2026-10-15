@@ -1,0 +1,4 @@
+﻿model,accepted,B6_absolute_CV_improves_M0,B6_DeltaL_CV_positive_R2,B7_absolute_improves_M0,B7_DeltaL_positive_R2,B7_DeltaL_positive_correlations,bootstrap_without_failure_or_boundary_flags,strictly_decreasing_Q,source_offset_not_used_in_main,boundary_interpretation,B7_DeltaL_R2,B7_DeltaL_Pearson,B7_DeltaL_Spearman
+S1,False,True,True,True,False,True,True,True,True,No boundary flags,-0.5308660381687262,0.6089173538989373,0.5962102005404322
+S2,False,True,True,True,False,True,False,True,True,Boundary-limited parameter inference; numerical full rank does not establish interior/positive effect identification,-0.042758157731485724,0.6073916521617425,0.5951214200163151
+S3,False,True,True,True,False,True,False,True,True,Boundary-limited parameter inference; numerical full rank does not establish interior/positive effect identification,-0.04086804581379355,0.6073976427229895,0.5957353317138947

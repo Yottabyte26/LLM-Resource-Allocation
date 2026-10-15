@@ -1,0 +1,4 @@
+﻿dataset,source_file,record_count,domain_counts,sha256_before,sha256_after,source_unchanged
+A1,real_attachments/A_data_value/slimpajama_quality_signal_sample.jsonl.xz,51230,"{""arxiv"": 1419, ""book"": 171, ""c4"": 10000, ""commoncrawl"": 9640, ""github"": 10000, ""stackexchange"": 10000, ""wikipedia"": 10000}",14a4eeec4c7d98efd78942ddd9c1329640527f2108e73227be449bc1a8dbe579,14a4eeec4c7d98efd78942ddd9c1329640527f2108e73227be449bc1a8dbe579,True
+A2,real_attachments/A_data_value/slimpajama_quality_extended/arxiv_part-6777d8857c6e-000486.jsonl.xz,17523,"{""arxiv"": 17523}",ae1e3399f84f605d994fc60b46984d742e14abb3355d8e7a91822eae1b99e16a,ae1e3399f84f605d994fc60b46984d742e14abb3355d8e7a91822eae1b99e16a,True
+A3,real_attachments/A_data_value/slimpajama_quality_extended/github_part-6777d8857c6e-000275.jsonl.xz,203752,"{""github"": 203752}",7af069c71c6027a10f2013cc14dd9d5d17855c264734f69c955544ff6cff7382,7af069c71c6027a10f2013cc14dd9d5d17855c264734f69c955544ff6cff7382,True

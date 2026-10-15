@@ -1,0 +1,15 @@
+﻿check,equal,C1_value,C2_value,numerically_consistent,maximum_absolute_difference,mismatched_rows
+row_count,True,4576,4576,,,
+Model_set,True,4497,4497,,,
+Model,True,4576,4576,True,,0.0
+#Params (B),True,4576,4576,True,0.0,0.0
+Submission Date,True,4576,4576,True,,0.0
+Hub License,True,4576,4576,True,,0.0
+Type,True,4576,4576,True,,0.0
+Average ⬆️,False,4576,4576,True,7.105427357601002e-15,785.0
+IFEval,False,4576,4576,True,7.105427357601002e-15,547.0
+BBH,False,4576,4576,True,7.105427357601002e-15,748.0
+MATH Lvl 5,False,4576,4576,True,7.105427357601002e-15,678.0
+GPQA,False,4576,4576,True,3.552713678800501e-15,744.0
+MUSR,False,4576,4576,True,3.552713678800501e-15,987.0
+MMLU-PRO,False,4576,4576,True,7.105427357601002e-15,704.0

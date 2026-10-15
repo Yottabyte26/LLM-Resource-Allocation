@@ -1,0 +1,29 @@
+2026-09-26 20:18:37,656 INFO NumExpr defaulting to 16 threads.
+2026-09-26 20:18:39,190 INFO Audit official Word OMML and relevant data-description pages
+2026-09-26 20:18:39,214 ERROR Phase 1 setup failed; no optimizer has been invoked
+Traceback (most recent call last):
+  File "D:\code\F4.0\scripts\17_setup_compute_optimization.py", line 67, in main
+    run(PROJECT_ROOT)
+    ~~~^^^^^^^^^^^^^^
+  File "D:\code\F4.0\src\optimization\setup.py", line 634, in run
+    official,paths=audit_official(root,out)
+                   ~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\code\F4.0\src\optimization\setup.py", line 80, in audit_official
+    raise ValueError(f'Official formula ambiguous: {key}: {found}')
+ValueError: Official formula ambiguous: increment: [(56, 'C_{Q}=D\u2009[g(Q)-g(Q_{0})]_{+},'), (78, 'B.1数据质量成本函数（供问题三选取、比较或改进；C_{Q}=D\u2009[g(Q)-g(Q_{0})]_{+}）：')]
+2026-09-26 20:18:49,213 INFO NumExpr defaulting to 16 threads.
+2026-09-26 20:18:50,184 INFO Audit official Word OMML and relevant data-description pages
+2026-09-26 20:18:51,497 INFO Diagnose actual C7 schema and observed contexts
+2026-09-26 20:18:51,546 INFO Read frozen objective full precision; no refit
+2026-09-26 20:18:53,469 INFO Generate six figures from diagnostics and official formulas
+2026-09-26 20:18:54,238 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:18:54,238 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:18:55,751 INFO PHASE 1 setup complete: Q0=0.728022716498, empirical candidates=832; no optimization
+2026-09-26 20:22:27,231 INFO NumExpr defaulting to 16 threads.
+2026-09-26 20:22:29,052 INFO Audit official Word OMML and relevant data-description pages
+2026-09-26 20:22:30,504 INFO Diagnose actual C7 schema and observed contexts
+2026-09-26 20:22:30,563 INFO Read frozen objective full precision; no refit
+2026-09-26 20:22:32,543 INFO Generate six figures from diagnostics and official formulas
+2026-09-26 20:22:33,307 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:22:33,308 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:22:34,916 INFO PHASE 1 setup complete: Q0=0.728022716498, empirical candidates=832; no optimization

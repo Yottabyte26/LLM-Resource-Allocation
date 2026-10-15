@@ -1,0 +1,16 @@
+deltas:
+- 0.15
+- 0.2
+- 0.25
+- 0.3
+- 0.35
+epsilon: 1.0e-08
+direction_equality_tolerance: 1.0e-10
+significant_weight_ratio: 0.5
+case_count_per_direction: 10
+case_high_conflict_smallest_change_count: 10
+selection_rule: largest_delta_if_conservative_in_tested_grid
+activation_policy: retain_Q_and_K_until_explanatory_improvement_is_verified
+random_state: 2026
+scatter_max_points: 15000
+figure_dpi: 160

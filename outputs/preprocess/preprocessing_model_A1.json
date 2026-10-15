@@ -1,0 +1,1122 @@
+{
+  "schema_version": 1,
+  "fitting_dataset": "A1",
+  "fit_record_count": 51230,
+  "metric_order": [
+    "fineweb_edu",
+    "dsir_books",
+    "dsir_wiki",
+    "dsir_math",
+    "qurater",
+    "modernbert_cleanliness",
+    "modernbert_readability",
+    "modernbert_reasoning",
+    "modernbert_professionalism",
+    "fluency_en",
+    "ad_en",
+    "rps_doc_word_count",
+    "rps_doc_num_sentences",
+    "rps_doc_unigram_entropy",
+    "rps_doc_frac_unique_words",
+    "rps_doc_frac_no_alph_words",
+    "rps_doc_frac_chars_top_2gram",
+    "rps_doc_frac_chars_top_3gram",
+    "rps_lines_uppercase_letter_fraction",
+    "rps_lines_ending_with_terminal_punctuation_mark",
+    "rps_lines_numerical_chars_fraction",
+    "rps_doc_mean_word_length"
+  ],
+  "field_aliases": {
+    "rps_lines_ending_with_terminal_punctuation_mark": [
+      "rps_lines_ending_with_terminal_punctution_mark"
+    ]
+  },
+  "metric_definitions": [
+    {
+      "name": "fineweb_edu",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "single_value",
+      "expected_length": 1
+    },
+    {
+      "name": "dsir_books",
+      "kind": "scalar",
+      "direction": "positive"
+    },
+    {
+      "name": "dsir_wiki",
+      "kind": "scalar",
+      "direction": "positive"
+    },
+    {
+      "name": "dsir_math",
+      "kind": "scalar",
+      "direction": "positive"
+    },
+    {
+      "name": "qurater",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "component_winsor_minmax_mean",
+      "expected_length": 4
+    },
+    {
+      "name": "modernbert_cleanliness",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_scaled",
+      "expected_length": 6,
+      "divisor": 5.0
+    },
+    {
+      "name": "modernbert_readability",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_scaled",
+      "expected_length": 6,
+      "divisor": 5.0
+    },
+    {
+      "name": "modernbert_reasoning",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_scaled",
+      "expected_length": 6,
+      "divisor": 5.0
+    },
+    {
+      "name": "modernbert_professionalism",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_scaled",
+      "expected_length": 6,
+      "divisor": 5.0
+    },
+    {
+      "name": "fluency_en",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_index",
+      "expected_length": 2,
+      "index_labels": [
+        "not_fluent",
+        "fluent"
+      ]
+    },
+    {
+      "name": "ad_en",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_index",
+      "expected_length": 2,
+      "index_labels": [
+        "has_ad",
+        "no_ad"
+      ]
+    },
+    {
+      "name": "rps_doc_word_count",
+      "kind": "scalar",
+      "direction": "moderate"
+    },
+    {
+      "name": "rps_doc_num_sentences",
+      "kind": "scalar",
+      "direction": "moderate"
+    },
+    {
+      "name": "rps_doc_unigram_entropy",
+      "kind": "scalar",
+      "direction": "positive"
+    },
+    {
+      "name": "rps_doc_frac_unique_words",
+      "kind": "scalar",
+      "direction": "positive"
+    },
+    {
+      "name": "rps_doc_frac_no_alph_words",
+      "kind": "scalar",
+      "direction": "negative"
+    },
+    {
+      "name": "rps_doc_frac_chars_top_2gram",
+      "kind": "scalar",
+      "direction": "negative"
+    },
+    {
+      "name": "rps_doc_frac_chars_top_3gram",
+      "kind": "scalar",
+      "direction": "negative"
+    },
+    {
+      "name": "rps_lines_uppercase_letter_fraction",
+      "kind": "scalar",
+      "direction": "negative"
+    },
+    {
+      "name": "rps_lines_ending_with_terminal_punctuation_mark",
+      "raw_aliases": [
+        "rps_lines_ending_with_terminal_punctution_mark"
+      ],
+      "kind": "scalar",
+      "direction": "positive"
+    },
+    {
+      "name": "rps_lines_numerical_chars_fraction",
+      "kind": "scalar",
+      "direction": "negative"
+    },
+    {
+      "name": "rps_doc_mean_word_length",
+      "kind": "scalar",
+      "direction": "moderate"
+    }
+  ],
+  "settings": {
+    "fitting_dataset": "A1",
+    "random_state": 2026,
+    "quantile_method": "linear",
+    "historical_pooled_role": "pooled descriptive / sensitivity analysis",
+    "winsor_lower_quantile": 0.01,
+    "winsor_upper_quantile": 0.99,
+    "bounded_scalarization_methods": [
+      "argmax_scaled",
+      "argmax_index",
+      "component_winsor_minmax_mean"
+    ],
+    "moderate_plateau_lower_quantile": 0.1,
+    "moderate_plateau_upper_quantile": 0.9,
+    "constant_minmax_value": 0.5,
+    "high_missing_rate_threshold": 0.2,
+    "large_clip_rate_threshold": 0.1,
+    "progress_every": 10000
+  },
+  "indicator_directions": {
+    "positive": [
+      "fineweb_edu",
+      "dsir_books",
+      "dsir_wiki",
+      "dsir_math",
+      "qurater",
+      "modernbert_cleanliness",
+      "modernbert_readability",
+      "modernbert_reasoning",
+      "modernbert_professionalism",
+      "fluency_en",
+      "ad_en",
+      "rps_doc_unigram_entropy",
+      "rps_doc_frac_unique_words",
+      "rps_lines_ending_with_terminal_punctuation_mark"
+    ],
+    "negative": [
+      "rps_doc_frac_no_alph_words",
+      "rps_doc_frac_chars_top_2gram",
+      "rps_doc_frac_chars_top_3gram",
+      "rps_lines_uppercase_letter_fraction",
+      "rps_lines_numerical_chars_fraction"
+    ],
+    "moderate": [
+      "rps_doc_word_count",
+      "rps_doc_num_sentences",
+      "rps_doc_mean_word_length"
+    ]
+  },
+  "classification_conversion_rules": {
+    "modernbert_cleanliness": {
+      "name": "modernbert_cleanliness",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_scaled",
+      "expected_length": 6,
+      "divisor": 5.0
+    },
+    "modernbert_readability": {
+      "name": "modernbert_readability",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_scaled",
+      "expected_length": 6,
+      "divisor": 5.0
+    },
+    "modernbert_reasoning": {
+      "name": "modernbert_reasoning",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_scaled",
+      "expected_length": 6,
+      "divisor": 5.0
+    },
+    "modernbert_professionalism": {
+      "name": "modernbert_professionalism",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_scaled",
+      "expected_length": 6,
+      "divisor": 5.0
+    },
+    "fluency_en": {
+      "name": "fluency_en",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_index",
+      "expected_length": 2,
+      "index_labels": [
+        "not_fluent",
+        "fluent"
+      ]
+    },
+    "ad_en": {
+      "name": "ad_en",
+      "kind": "list",
+      "direction": "positive",
+      "scalarization": "argmax_index",
+      "expected_length": 2,
+      "index_labels": [
+        "has_ad",
+        "no_ad"
+      ]
+    }
+  },
+  "argmax_tie_policy": "first_index",
+  "qurater_parameters": [
+    {
+      "component_index": 0,
+      "component_name": "Writing Style",
+      "fit_scope": "A1",
+      "total_count": 51230,
+      "valid_count": 51230,
+      "missing_count": 0,
+      "P01": -5.32421875,
+      "P99": 5.609375,
+      "min_before": -7.74609375,
+      "max_before": 9.4921875,
+      "min_after_winsorization": -5.32421875,
+      "max_after_winsorization": 5.609375,
+      "L": -5.32421875,
+      "U": 5.609375,
+      "clipped_lower_count": 511,
+      "clipped_upper_count": 511,
+      "constant_component": false,
+      "constant_component_value": 0.5,
+      "quantile_method": "linear"
+    },
+    {
+      "component_index": 1,
+      "component_name": "Required Expertise",
+      "fit_scope": "A1",
+      "total_count": 51230,
+      "valid_count": 51230,
+      "missing_count": 0,
+      "P01": -5.11328125,
+      "P99": 8.234375,
+      "min_before": -8.375,
+      "max_before": 10.875,
+      "min_after_winsorization": -5.11328125,
+      "max_after_winsorization": 8.234375,
+      "L": -5.11328125,
+      "U": 8.234375,
+      "clipped_lower_count": 512,
+      "clipped_upper_count": 508,
+      "constant_component": false,
+      "constant_component_value": 0.5,
+      "quantile_method": "linear"
+    },
+    {
+      "component_index": 2,
+      "component_name": "Facts and Trivia",
+      "fit_scope": "A1",
+      "total_count": 51230,
+      "valid_count": 51230,
+      "missing_count": 0,
+      "P01": -4.2176171875,
+      "P99": 5.045742187499997,
+      "min_before": -6.73828125,
+      "max_before": 7.78125,
+      "min_after_winsorization": -4.2176171875,
+      "max_after_winsorization": 5.045742187499997,
+      "L": -4.2176171875,
+      "U": 5.045742187499997,
+      "clipped_lower_count": 513,
+      "clipped_upper_count": 513,
+      "constant_component": false,
+      "constant_component_value": 0.5,
+      "quantile_method": "linear"
+    },
+    {
+      "component_index": 3,
+      "component_name": "Educational Value",
+      "fit_scope": "A1",
+      "total_count": 51230,
+      "valid_count": 51230,
+      "missing_count": 0,
+      "P01": -4.671875,
+      "P99": 8.4375,
+      "min_before": -7.828125,
+      "max_before": 12.8203125,
+      "min_after_winsorization": -4.671875,
+      "max_after_winsorization": 8.4375,
+      "L": -4.671875,
+      "U": 8.4375,
+      "clipped_lower_count": 511,
+      "clipped_upper_count": 512,
+      "constant_component": false,
+      "constant_component_value": 0.5,
+      "quantile_method": "linear"
+    }
+  ],
+  "imputation_medians": {
+    "fineweb_edu": {
+      "overall": 1.2148745656013489,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 2.1787147521972656,
+        "book": 1.4135386943817139,
+        "c4": 0.9851182103157043,
+        "commoncrawl": 1.2250388860702515,
+        "github": 1.1357712149620056,
+        "stackexchange": 1.47291898727417,
+        "wikipedia": 1.1078880429267883
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "dsir_books": {
+      "overall": -2104.2264163600003,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": -33433.10005919,
+        "book": -42714.16883246,
+        "c4": -1340.533638925,
+        "commoncrawl": -3044.159594605,
+        "github": -2239.86508058,
+        "stackexchange": -2091.014139665,
+        "wikipedia": -1462.41192789
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "dsir_wiki": {
+      "overall": -2129.006429995,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": -32999.96830962,
+        "book": -67472.84583924,
+        "c4": -1366.717009045,
+        "commoncrawl": -3079.7541164149998,
+        "github": -2250.5721458850003,
+        "stackexchange": -2165.976723345,
+        "wikipedia": -1441.253076695
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "dsir_math": {
+      "overall": -2126.0061405899996,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": -22776.58759846,
+        "book": -86116.1771647,
+        "c4": -1396.3612362049998,
+        "commoncrawl": -3274.082369675,
+        "github": -2114.3303472750003,
+        "stackexchange": -2014.28329511,
+        "wikipedia": -1493.87919442
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "qurater": {
+      "overall": 0.4063532793559461,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 0.7999560093598126,
+        "book": 0.4355544132610995,
+        "c4": 0.4531000546355046,
+        "commoncrawl": 0.4867442397928561,
+        "github": 0.34845197386501825,
+        "stackexchange": 0.4005888376449578,
+        "wikipedia": 0.37283791164123137
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "modernbert_cleanliness": {
+      "overall": 0.8,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 1.0,
+        "book": 1.0,
+        "c4": 0.8,
+        "commoncrawl": 0.8,
+        "github": 0.4,
+        "stackexchange": 0.8,
+        "wikipedia": 0.8
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "modernbert_readability": {
+      "overall": 0.8,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 1.0,
+        "book": 1.0,
+        "c4": 0.8,
+        "commoncrawl": 1.0,
+        "github": 0.8,
+        "stackexchange": 0.8,
+        "wikipedia": 0.8
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "modernbert_reasoning": {
+      "overall": 0.2,
+      "overall_valid_count": 51217,
+      "domains": {
+        "arxiv": 1.0,
+        "book": 1.0,
+        "c4": 0.2,
+        "commoncrawl": 0.2,
+        "github": 0.2,
+        "stackexchange": 0.4,
+        "wikipedia": 0.2
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 9987
+      }
+    },
+    "modernbert_professionalism": {
+      "overall": 0.6,
+      "overall_valid_count": 51225,
+      "domains": {
+        "arxiv": 1.0,
+        "book": 0.4,
+        "c4": 0.2,
+        "commoncrawl": 0.4,
+        "github": 0.8,
+        "stackexchange": 0.8,
+        "wikipedia": 0.4
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9636,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 9999
+      }
+    },
+    "fluency_en": {
+      "overall": 1.0,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 1.0,
+        "book": 1.0,
+        "c4": 1.0,
+        "commoncrawl": 1.0,
+        "github": 1.0,
+        "stackexchange": 1.0,
+        "wikipedia": 1.0
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "ad_en": {
+      "overall": 1.0,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 1.0,
+        "book": 1.0,
+        "c4": 1.0,
+        "commoncrawl": 1.0,
+        "github": 1.0,
+        "stackexchange": 1.0,
+        "wikipedia": 1.0
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_doc_word_count": {
+      "overall": 253.0,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 5310.0,
+        "book": 69024.0,
+        "c4": 205.0,
+        "commoncrawl": 660.0,
+        "github": 115.0,
+        "stackexchange": 223.0,
+        "wikipedia": 175.0
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_doc_num_sentences": {
+      "overall": 20.0,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 334.0,
+        "book": 4397.0,
+        "c4": 13.0,
+        "commoncrawl": 34.0,
+        "github": 23.0,
+        "stackexchange": 20.0,
+        "wikipedia": 11.0
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_doc_unigram_entropy": {
+      "overall": 4.60656079,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 5.92790847,
+        "book": 6.60434536,
+        "c4": 4.53099923,
+        "commoncrawl": 5.240156765,
+        "github": 3.920187395,
+        "stackexchange": 4.51415478,
+        "wikipedia": 4.430807815
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_doc_frac_unique_words": {
+      "overall": 55.73770491803278,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 24.555388900792803,
+        "book": 10.666436265192097,
+        "c4": 60.396039603960396,
+        "commoncrawl": 49.040325671567366,
+        "github": 59.68992248062015,
+        "stackexchange": 55.00000000000001,
+        "wikipedia": 62.5
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_doc_frac_no_alph_words": {
+      "overall": 23.4567901234568,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 29.575698920000875,
+        "book": 22.653311666651362,
+        "c4": 20.283484965125822,
+        "commoncrawl": 20.657084648166823,
+        "github": 34.815413877282055,
+        "stackexchange": 28.574096803458026,
+        "wikipedia": 23.70536037855021
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_doc_frac_chars_top_2gram": {
+      "overall": 2.2703260536077874,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 0.9997093868061611,
+        "book": 0.6856390613144159,
+        "c4": 2.468627958824037,
+        "commoncrawl": 1.7720023752867646,
+        "github": 2.0,
+        "stackexchange": 2.602582350012403,
+        "wikipedia": 3.046060792112332
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_doc_frac_chars_top_3gram": {
+      "overall": 1.7534460126347866,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 0.6724949562878278,
+        "book": 0.17115651968627862,
+        "c4": 1.642822925077199,
+        "commoncrawl": 1.5888882513722544,
+        "github": 1.0,
+        "stackexchange": 2.634641151351352,
+        "wikipedia": 1.0
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_lines_uppercase_letter_fraction": {
+      "overall": 18.14584024424503,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 17.503021377626336,
+        "book": 51.729926859947604,
+        "c4": 3.4077113247950876,
+        "commoncrawl": 7.48440693316058,
+        "github": 21.221826479573622,
+        "stackexchange": 27.542307889757378,
+        "wikipedia": 36.93411892308441
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_lines_ending_with_terminal_punctuation_mark": {
+      "overall": 50.0,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 33.57664233576642,
+        "book": 79.08064616728,
+        "c4": 100.0,
+        "commoncrawl": 52.63157894736842,
+        "github": 21.875,
+        "stackexchange": 41.17647058823529,
+        "wikipedia": 52.94117647058824
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_lines_numerical_chars_fraction": {
+      "overall": 1.197585613397965,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 3.0318052468503027,
+        "book": 1.5397346169714534,
+        "c4": 0.4907375196540671,
+        "commoncrawl": 1.8253663810770866,
+        "github": 0.5999236833836159,
+        "stackexchange": 1.2180710878361496,
+        "wikipedia": 2.1287085766542275
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    },
+    "rps_doc_mean_word_length": {
+      "overall": 5.322730202758136,
+      "overall_valid_count": 51230,
+      "domains": {
+        "arxiv": 5.734962644042041,
+        "book": 4.503931562091016,
+        "c4": 4.815275246080933,
+        "commoncrawl": 4.958840465731361,
+        "github": 9.00947926442106,
+        "stackexchange": 5.174843768777791,
+        "wikipedia": 5.631578947368421
+      },
+      "domain_valid_counts": {
+        "arxiv": 1419,
+        "book": 171,
+        "c4": 10000,
+        "commoncrawl": 9640,
+        "github": 10000,
+        "stackexchange": 10000,
+        "wikipedia": 10000
+      }
+    }
+  },
+  "winsor_thresholds": {
+    "fineweb_edu": {
+      "P01": 0.034469933509826654,
+      "P99": 3.2404500007629395,
+      "min_before": -0.652137815952301,
+      "max_before": 4.375569820404053,
+      "min_after_winsorization": 0.034469933509826654,
+      "max_after_winsorization": 3.2404500007629395
+    },
+    "dsir_books": {
+      "P01": -56918.4092252888,
+      "P99": -232.54878165960002,
+      "min_before": -1242823.60370116,
+      "max_before": -24.02237722,
+      "min_after_winsorization": -56918.4092252888,
+      "max_after_winsorization": -232.54878165960002
+    },
+    "dsir_wiki": {
+      "P01": -60860.8279476777,
+      "P99": -228.26818290040012,
+      "min_before": -1561611.03426511,
+      "max_before": -25.0120389,
+      "min_after_winsorization": -60860.8279476777,
+      "max_after_winsorization": -228.26818290040012
+    },
+    "dsir_math": {
+      "P01": -45615.732442883906,
+      "P99": -227.74308688770012,
+      "min_before": -1668348.05111975,
+      "max_before": -22.86740911,
+      "min_after_winsorization": -45615.732442883906,
+      "max_after_winsorization": -227.74308688770012
+    },
+    "rps_doc_word_count": {
+      "P01": 10.0,
+      "P99": 10201.969999999994,
+      "min_before": 1.0,
+      "max_before": 552671.0,
+      "min_after_winsorization": 10.0,
+      "max_after_winsorization": 10201.969999999994
+    },
+    "rps_doc_num_sentences": {
+      "P01": 1.0,
+      "P99": 758.1299999999974,
+      "min_before": 1.0,
+      "max_before": 25078.0,
+      "min_after_winsorization": 1.0,
+      "max_after_winsorization": 758.1299999999974
+    },
+    "rps_doc_unigram_entropy": {
+      "P01": 2.1371304051999997,
+      "P99": 6.325648439699999,
+      "min_before": 0.0,
+      "max_before": 7.84673154,
+      "min_after_winsorization": 2.1371304051999997,
+      "max_after_winsorization": 6.325648439699999
+    },
+    "rps_doc_frac_unique_words": {
+      "P01": 17.204759645793803,
+      "P99": 100.0,
+      "min_before": 5.088363331179848,
+      "max_before": 100.0,
+      "min_after_winsorization": 17.204759645793803,
+      "max_after_winsorization": 100.0
+    },
+    "rps_doc_frac_no_alph_words": {
+      "P01": 16.636897675691845,
+      "P99": 99.90756177631864,
+      "min_before": 4.347826086956516,
+      "max_before": 100.0,
+      "min_after_winsorization": 16.636897675691845,
+      "max_after_winsorization": 99.90756177631864
+    },
+    "rps_doc_frac_chars_top_2gram": {
+      "P01": 0.0,
+      "P99": 21.0,
+      "min_before": 0.0,
+      "max_before": 135.13338722716247,
+      "min_after_winsorization": 0.0,
+      "max_after_winsorization": 21.0
+    },
+    "rps_doc_frac_chars_top_3gram": {
+      "P01": 0.0,
+      "P99": 20.63594320725811,
+      "min_before": 0.0,
+      "max_before": 201.6814874696847,
+      "min_after_winsorization": 0.0,
+      "max_after_winsorization": 20.63594320725811
+    },
+    "rps_lines_uppercase_letter_fraction": {
+      "P01": 1.1270577141703508,
+      "P99": 52.7577506193827,
+      "min_before": 0.0,
+      "max_before": 86.95652173913044,
+      "min_after_winsorization": 1.1270577141703508,
+      "max_after_winsorization": 52.7577506193827
+    },
+    "rps_lines_ending_with_terminal_punctuation_mark": {
+      "P01": 0.4300563580039559,
+      "P99": 100.0,
+      "min_before": 0.0,
+      "max_before": 100.0,
+      "min_after_winsorization": 0.4300563580039559,
+      "max_after_winsorization": 100.0
+    },
+    "rps_lines_numerical_chars_fraction": {
+      "P01": 0.0,
+      "P99": 19.177330331870227,
+      "min_before": 0.0,
+      "max_before": 72.34424037417816,
+      "min_after_winsorization": 0.0,
+      "max_after_winsorization": 19.177330331870227
+    },
+    "rps_doc_mean_word_length": {
+      "P01": 3.9545454545454546,
+      "P99": 16.64097402597402,
+      "min_before": 1.9272030651340997,
+      "max_before": 83.0,
+      "min_after_winsorization": 3.9545454545454546,
+      "max_after_winsorization": 16.64097402597402
+    }
+  },
+  "moderate_utility_thresholds": {
+    "rps_doc_word_count": {
+      "P01": 10.0,
+      "P05": 30.0,
+      "P10": 48.0,
+      "P20": 87.0,
+      "P50": 253.0,
+      "P80": 698.0,
+      "P90": 1289.0,
+      "P95": 2669.0999999999913,
+      "P99": 10201.969999999994,
+      "a": 10.0,
+      "b": 48.0,
+      "c": 1289.0,
+      "d": 10201.969999999994,
+      "plateau_lower_quantile": 0.1,
+      "plateau_upper_quantile": 0.9
+    },
+    "rps_doc_num_sentences": {
+      "P01": 1.0,
+      "P05": 3.0,
+      "P10": 4.0,
+      "P20": 7.0,
+      "P50": 20.0,
+      "P80": 56.0,
+      "P90": 109.0,
+      "P95": 219.0,
+      "P99": 758.1299999999974,
+      "a": 1.0,
+      "b": 4.0,
+      "c": 109.0,
+      "d": 758.1299999999974,
+      "plateau_lower_quantile": 0.1,
+      "plateau_upper_quantile": 0.9
+    },
+    "rps_doc_mean_word_length": {
+      "P01": 3.9545454545454546,
+      "P05": 4.271979539528923,
+      "P10": 4.458578247082285,
+      "P20": 4.708317338451695,
+      "P50": 5.322730202758136,
+      "P80": 6.9411764705882355,
+      "P90": 9.222388059701489,
+      "P95": 11.449855460385438,
+      "P99": 16.64097402597402,
+      "a": 3.9545454545454546,
+      "b": 4.458578247082285,
+      "c": 9.222388059701489,
+      "d": 16.64097402597402,
+      "plateau_lower_quantile": 0.1,
+      "plateau_upper_quantile": 0.9
+    }
+  },
+  "minmax_bounds": {
+    "fineweb_edu": {
+      "L": 0.034469933509826654,
+      "U": 3.2404500007629395,
+      "direction": "positive",
+      "constant": false
+    },
+    "dsir_books": {
+      "L": -56918.4092252888,
+      "U": -232.54878165960002,
+      "direction": "positive",
+      "constant": false
+    },
+    "dsir_wiki": {
+      "L": -60860.8279476777,
+      "U": -228.26818290040012,
+      "direction": "positive",
+      "constant": false
+    },
+    "dsir_math": {
+      "L": -45615.732442883906,
+      "U": -227.74308688770012,
+      "direction": "positive",
+      "constant": false
+    },
+    "rps_doc_unigram_entropy": {
+      "L": 2.1371304051999997,
+      "U": 6.325648439699999,
+      "direction": "positive",
+      "constant": false
+    },
+    "rps_doc_frac_unique_words": {
+      "L": 17.204759645793803,
+      "U": 100.0,
+      "direction": "positive",
+      "constant": false
+    },
+    "rps_doc_frac_no_alph_words": {
+      "L": 16.636897675691845,
+      "U": 99.90756177631864,
+      "direction": "negative",
+      "constant": false
+    },
+    "rps_doc_frac_chars_top_2gram": {
+      "L": 0.0,
+      "U": 21.0,
+      "direction": "negative",
+      "constant": false
+    },
+    "rps_doc_frac_chars_top_3gram": {
+      "L": 0.0,
+      "U": 20.63594320725811,
+      "direction": "negative",
+      "constant": false
+    },
+    "rps_lines_uppercase_letter_fraction": {
+      "L": 1.1270577141703508,
+      "U": 52.7577506193827,
+      "direction": "negative",
+      "constant": false
+    },
+    "rps_lines_ending_with_terminal_punctuation_mark": {
+      "L": 0.4300563580039559,
+      "U": 100.0,
+      "direction": "positive",
+      "constant": false
+    },
+    "rps_lines_numerical_chars_fraction": {
+      "L": 0.0,
+      "U": 19.177330331870227,
+      "direction": "negative",
+      "constant": false
+    }
+  },
+  "quantile_fitting_order": "A1 scalarization -> observed-value medians -> imputation -> quantiles",
+  "moderate_quantiles_source": "A1 imputed scalars before Winsorization",
+  "constant_indicator_policy": {
+    "minmax": 0.5,
+    "moderate": "outer zero endpoints take precedence; zero-width ramps are steps"
+  },
+  "fitting_inputs": [
+    {
+      "dataset": "A1",
+      "source_file": "real_attachments/A_data_value/slimpajama_quality_signal_sample.jsonl.xz",
+      "n": 51230,
+      "sha256_before": "14a4eeec4c7d98efd78942ddd9c1329640527f2108e73227be449bc1a8dbe579",
+      "sha256_after": "14a4eeec4c7d98efd78942ddd9c1329640527f2108e73227be449bc1a8dbe579",
+      "source_unchanged": true
+    }
+  ],
+  "fitting_config_sha256": "2ade4eaebf719d5b514ef01dd293650b87977172b59be2b261612f31fb2cfb81",
+  "historical_pooled_role": "pooled descriptive / sensitivity analysis"
+}

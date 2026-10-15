@@ -1,0 +1,5 @@
+{
+  "preserved_replicates": 475,
+  "preserved_multistart_records": 71250,
+  "change": "BLAS threads per worker reduced to 1; model/bounds/seed/starts/resamples unchanged"
+}

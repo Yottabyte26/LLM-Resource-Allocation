@@ -1,0 +1,4 @@
+﻿model,n,analytic_violation_count,numerical_violation_count,analytic_violation_rate,numerical_violation_rate,max_abs_analytic_numeric_discrepancy,min_derivative,max_derivative
+S1,360,0,0,0.0,0.0,0.00039585886508763934,-4.94811923791215,-0.07039182081974504
+S2,360,0,0,0.0,0.0,0.00013173861196147385,-2.6304666328177033,-0.1139551227432096
+S3,360,0,0,0.0,0.0,0.0001312220253839591,-2.624614755279798,-0.11416583035286766

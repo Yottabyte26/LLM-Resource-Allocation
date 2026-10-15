@@ -1,0 +1,10 @@
+﻿variable_1,variable_2,log_correlation,n
+N_B,N_B,1.0,23
+N_B,D_tokens,0.5157542766493239,23
+N_B,training_compute,0.8573167032424717,23
+D_tokens,N_B,0.5157542766493239,23
+D_tokens,D_tokens,1.0,23
+D_tokens,training_compute,0.8280825729122215,23
+training_compute,N_B,0.8573167032424717,23
+training_compute,D_tokens,0.8280825729122215,23
+training_compute,training_compute,1.0,23

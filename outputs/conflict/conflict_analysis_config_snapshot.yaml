@@ -1,0 +1,29 @@
+threshold_fitting_dataset: A1
+threshold_quantiles:
+- 0.5
+- 0.75
+- 0.9
+- 0.95
+- 0.99
+quantile_method: linear
+high_conflict_quantile: 0.9
+extreme_conflict_quantile: 0.95
+low_conflict_quantile: 0.5
+severe_pair_difference: 0.5
+top_pair_sort: severe_pair_conflict_rate_desc_then_mean_abs_difference_desc
+deviation_ties: fractional_all_tied_max_min_combinations
+text_representative_tie_rule: largest_locked_weight_then_metric_order
+random_state: 2026
+std_ddof: 1
+text_top_K_count: 30
+text_per_conditional_Q_band: 20
+conditional_Q_band_quantiles:
+- 0.3333333333333333
+- 0.6666666666666666
+quadrant_Q_boundary_quantile: 0.5
+quadrant_low_K_boundary_quantile: 0.5
+quadrant_high_K_boundary_quantile: 0.9
+text_per_quadrant_max: 5
+figure_dpi: 160
+scatter_max_points: 15000
+stage_stop: diagnostics_only_no_Q_star

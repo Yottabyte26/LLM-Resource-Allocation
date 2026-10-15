@@ -1,0 +1,150 @@
+2026-09-26 22:37:53,541 INFO Final tiers: [{'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T0', 'n': 321, 'parameter_conflict_n': 1, 'release_date_n': 73}, {'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T1', 'n': 39, 'parameter_conflict_n': 1, 'release_date_n': 39}, {'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T2', 'n': 26, 'parameter_conflict_n': 1, 'release_date_n': 26}, {'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T3', 'n': 22, 'parameter_conflict_n': 1, 'release_date_n': 22}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T0', 'n': 2433, 'parameter_conflict_n': 0, 'release_date_n': 240}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T1', 'n': 5, 'parameter_conflict_n': 0, 'release_date_n': 5}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T2', 'n': 6, 'parameter_conflict_n': 0, 'release_date_n': 6}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T3', 'n': 2, 'parameter_conflict_n': 0, 'release_date_n': 2}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T0', 'n': 1728, 'parameter_conflict_n': 0, 'release_date_n': 129}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T1', 'n': 3, 'parameter_conflict_n': 0, 'release_date_n': 3}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T2', 'n': 1, 'parameter_conflict_n': 0, 'release_date_n': 1}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T3', 'n': 1, 'parameter_conflict_n': 0, 'release_date_n': 1}]
+2026-09-26 22:37:55,415 INFO Question 4 PHASE 2 models complete; no future forecasting or Loss conversion
+2026-09-26 22:38:25,458 INFO M1_linear bootstrap 1000/5000
+2026-09-26 22:38:26,689 INFO M1_linear bootstrap 2000/5000
+2026-09-26 22:38:27,849 INFO M1_linear bootstrap 3000/5000
+2026-09-26 22:38:29,024 INFO M1_linear bootstrap 4000/5000
+2026-09-26 22:38:30,202 INFO M1_linear bootstrap 5000/5000
+2026-09-26 22:38:31,196 INFO M2_C bootstrap 1000/5000
+2026-09-26 22:38:32,204 INFO M2_C bootstrap 2000/5000
+2026-09-26 22:38:33,409 INFO M2_C bootstrap 3000/5000
+2026-09-26 22:38:34,519 INFO M2_C bootstrap 4000/5000
+2026-09-26 22:38:35,533 INFO M2_C bootstrap 5000/5000
+2026-09-26 22:38:36,503 INFO M3_ND bootstrap 1000/5000
+2026-09-26 22:38:37,473 INFO M3_ND bootstrap 2000/5000
+2026-09-26 22:38:38,474 INFO M3_ND bootstrap 3000/5000
+2026-09-26 22:38:39,495 INFO M3_ND bootstrap 4000/5000
+2026-09-26 22:38:40,504 INFO M3_ND bootstrap 5000/5000
+2026-09-26 22:38:41,756 INFO M1_chat bootstrap 1000/5000
+2026-09-26 22:38:42,987 INFO M1_chat bootstrap 2000/5000
+2026-09-26 22:38:44,231 INFO M1_chat bootstrap 3000/5000
+2026-09-26 22:38:45,568 INFO M1_chat bootstrap 4000/5000
+2026-09-26 22:38:46,815 INFO M1_chat bootstrap 5000/5000
+2026-09-26 22:38:48,110 INFO M1_S0_sensitivity bootstrap 1000/5000
+2026-09-26 22:38:49,415 INFO M1_S0_sensitivity bootstrap 2000/5000
+2026-09-26 22:38:50,742 INFO M1_S0_sensitivity bootstrap 3000/5000
+2026-09-26 22:38:52,041 INFO M1_S0_sensitivity bootstrap 4000/5000
+2026-09-26 22:38:53,322 INFO M1_S0_sensitivity bootstrap 5000/5000
+2026-09-26 22:38:54,451 INFO M1_release bootstrap 1000/5000
+2026-09-26 22:38:55,564 INFO M1_release bootstrap 2000/5000
+2026-09-26 22:38:56,678 INFO M1_release bootstrap 3000/5000
+2026-09-26 22:38:57,782 INFO M1_release bootstrap 4000/5000
+2026-09-26 22:38:58,899 INFO M1_release bootstrap 5000/5000
+2026-09-26 22:38:59,855 INFO M2_C_release bootstrap 1000/5000
+2026-09-26 22:39:00,809 INFO M2_C_release bootstrap 2000/5000
+2026-09-26 22:39:01,746 INFO M2_C_release bootstrap 3000/5000
+2026-09-26 22:39:02,742 INFO M2_C_release bootstrap 4000/5000
+2026-09-26 22:39:03,673 INFO M2_C_release bootstrap 5000/5000
+2026-09-26 22:39:04,653 INFO M3_ND_release bootstrap 1000/5000
+2026-09-26 22:39:05,635 INFO M3_ND_release bootstrap 2000/5000
+2026-09-26 22:39:06,585 INFO M3_ND_release bootstrap 3000/5000
+2026-09-26 22:39:07,570 INFO M3_ND_release bootstrap 4000/5000
+2026-09-26 22:39:08,508 INFO M3_ND_release bootstrap 5000/5000
+2026-09-26 22:39:12,318 INFO Contribution bootstrap complete: 80000 rows; models=8
+2026-09-26 22:39:12,375 INFO Question 4 PHASE 2 bootstrap complete; no future forecasting or Loss conversion
+2026-09-26 22:43:35,710 INFO PHASE 2 report and 12 figures complete; awaiting human confirmation
+2026-09-26 22:43:35,712 INFO Question 4 PHASE 2 report complete; no future forecasting or Loss conversion
+2026-09-26 22:45:48,555 INFO Final tiers: [{'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T0', 'n': 321, 'parameter_conflict_n': 1, 'release_date_n': 73}, {'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T1', 'n': 39, 'parameter_conflict_n': 1, 'release_date_n': 39}, {'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T2', 'n': 26, 'parameter_conflict_n': 1, 'release_date_n': 26}, {'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T3', 'n': 22, 'parameter_conflict_n': 1, 'release_date_n': 22}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T0', 'n': 2433, 'parameter_conflict_n': 0, 'release_date_n': 240}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T1', 'n': 5, 'parameter_conflict_n': 0, 'release_date_n': 5}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T2', 'n': 6, 'parameter_conflict_n': 0, 'release_date_n': 6}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T3', 'n': 2, 'parameter_conflict_n': 0, 'release_date_n': 2}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T0', 'n': 1728, 'parameter_conflict_n': 0, 'release_date_n': 129}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T1', 'n': 3, 'parameter_conflict_n': 0, 'release_date_n': 3}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T2', 'n': 1, 'parameter_conflict_n': 0, 'release_date_n': 1}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T3', 'n': 1, 'parameter_conflict_n': 0, 'release_date_n': 1}]
+2026-09-26 22:45:50,521 INFO Question 4 PHASE 2 models complete; no future forecasting or Loss conversion
+2026-09-26 22:46:15,284 INFO M1_linear bootstrap 1000/5000
+2026-09-26 22:46:16,464 INFO M1_linear bootstrap 2000/5000
+2026-09-26 22:46:17,675 INFO M1_linear bootstrap 3000/5000
+2026-09-26 22:46:18,905 INFO M1_linear bootstrap 4000/5000
+2026-09-26 22:46:20,095 INFO M1_linear bootstrap 5000/5000
+2026-09-26 22:46:21,107 INFO M2_C bootstrap 1000/5000
+2026-09-26 22:46:22,166 INFO M2_C bootstrap 2000/5000
+2026-09-26 22:46:23,290 INFO M2_C bootstrap 3000/5000
+2026-09-26 22:46:24,289 INFO M2_C bootstrap 4000/5000
+2026-09-26 22:46:25,608 INFO M2_C bootstrap 5000/5000
+2026-09-26 22:46:26,779 INFO M3_ND bootstrap 1000/5000
+2026-09-26 22:46:27,846 INFO M3_ND bootstrap 2000/5000
+2026-09-26 22:46:28,928 INFO M3_ND bootstrap 3000/5000
+2026-09-26 22:46:29,951 INFO M3_ND bootstrap 4000/5000
+2026-09-26 22:46:31,125 INFO M3_ND bootstrap 5000/5000
+2026-09-26 22:46:32,552 INFO M1_chat bootstrap 1000/5000
+2026-09-26 22:46:34,090 INFO M1_chat bootstrap 2000/5000
+2026-09-26 22:46:35,657 INFO M1_chat bootstrap 3000/5000
+2026-09-26 22:46:37,080 INFO M1_chat bootstrap 4000/5000
+2026-09-26 22:46:38,490 INFO M1_chat bootstrap 5000/5000
+2026-09-26 22:46:39,995 INFO M1_S0_sensitivity bootstrap 1000/5000
+2026-09-26 22:46:41,486 INFO M1_S0_sensitivity bootstrap 2000/5000
+2026-09-26 22:46:42,913 INFO M1_S0_sensitivity bootstrap 3000/5000
+2026-09-26 22:46:44,374 INFO M1_S0_sensitivity bootstrap 4000/5000
+2026-09-26 22:46:45,785 INFO M1_S0_sensitivity bootstrap 5000/5000
+2026-09-26 22:46:46,996 INFO M1_release bootstrap 1000/5000
+2026-09-26 22:46:48,262 INFO M1_release bootstrap 2000/5000
+2026-09-26 22:46:49,437 INFO M1_release bootstrap 3000/5000
+2026-09-26 22:46:50,630 INFO M1_release bootstrap 4000/5000
+2026-09-26 22:46:51,922 INFO M1_release bootstrap 5000/5000
+2026-09-26 22:46:53,005 INFO M2_C_release bootstrap 1000/5000
+2026-09-26 22:46:54,052 INFO M2_C_release bootstrap 2000/5000
+2026-09-26 22:46:55,082 INFO M2_C_release bootstrap 3000/5000
+2026-09-26 22:46:56,201 INFO M2_C_release bootstrap 4000/5000
+2026-09-26 22:46:57,316 INFO M2_C_release bootstrap 5000/5000
+2026-09-26 22:46:58,426 INFO M3_ND_release bootstrap 1000/5000
+2026-09-26 22:46:59,441 INFO M3_ND_release bootstrap 2000/5000
+2026-09-26 22:47:00,620 INFO M3_ND_release bootstrap 3000/5000
+2026-09-26 22:47:01,888 INFO M3_ND_release bootstrap 4000/5000
+2026-09-26 22:47:03,090 INFO M3_ND_release bootstrap 5000/5000
+2026-09-26 22:47:04,400 INFO M1_submission_matched bootstrap 1000/5000
+2026-09-26 22:47:05,589 INFO M1_submission_matched bootstrap 2000/5000
+2026-09-26 22:47:06,798 INFO M1_submission_matched bootstrap 3000/5000
+2026-09-26 22:47:08,442 INFO M1_submission_matched bootstrap 4000/5000
+2026-09-26 22:47:09,884 INFO M1_submission_matched bootstrap 5000/5000
+2026-09-26 22:47:15,000 INFO Contribution bootstrap complete: 90000 rows; models=9
+2026-09-26 22:47:15,075 INFO Question 4 PHASE 2 bootstrap complete; no future forecasting or Loss conversion
+2026-09-26 22:49:29,884 INFO PHASE 2 report and 12 figures complete; awaiting human confirmation
+2026-09-26 22:49:29,885 INFO Question 4 PHASE 2 report complete; no future forecasting or Loss conversion
+2026-09-26 22:52:27,786 INFO M1_linear bootstrap 1000/5000
+2026-09-26 22:52:29,367 INFO M1_linear bootstrap 2000/5000
+2026-09-26 22:52:30,967 INFO M1_linear bootstrap 3000/5000
+2026-09-26 22:52:32,705 INFO M1_linear bootstrap 4000/5000
+2026-09-26 22:52:34,384 INFO M1_linear bootstrap 5000/5000
+2026-09-26 22:52:35,794 INFO M2_C bootstrap 1000/5000
+2026-09-26 22:52:37,264 INFO M2_C bootstrap 2000/5000
+2026-09-26 22:52:38,561 INFO M2_C bootstrap 3000/5000
+2026-09-26 22:52:39,767 INFO M2_C bootstrap 4000/5000
+2026-09-26 22:52:40,957 INFO M2_C bootstrap 5000/5000
+2026-09-26 22:52:42,066 INFO M3_ND bootstrap 1000/5000
+2026-09-26 22:52:43,180 INFO M3_ND bootstrap 2000/5000
+2026-09-26 22:52:44,454 INFO M3_ND bootstrap 3000/5000
+2026-09-26 22:52:45,584 INFO M3_ND bootstrap 4000/5000
+2026-09-26 22:52:46,705 INFO M3_ND bootstrap 5000/5000
+2026-09-26 22:52:48,303 INFO M1_chat bootstrap 1000/5000
+2026-09-26 22:52:50,137 INFO M1_chat bootstrap 2000/5000
+2026-09-26 22:52:51,561 INFO M1_chat bootstrap 3000/5000
+2026-09-26 22:52:53,018 INFO M1_chat bootstrap 4000/5000
+2026-09-26 22:52:54,451 INFO M1_chat bootstrap 5000/5000
+2026-09-26 22:52:55,903 INFO M1_S0_sensitivity bootstrap 1000/5000
+2026-09-26 22:52:57,413 INFO M1_S0_sensitivity bootstrap 2000/5000
+2026-09-26 22:52:58,867 INFO M1_S0_sensitivity bootstrap 3000/5000
+2026-09-26 22:53:00,273 INFO M1_S0_sensitivity bootstrap 4000/5000
+2026-09-26 22:53:01,798 INFO M1_S0_sensitivity bootstrap 5000/5000
+2026-09-26 22:53:03,057 INFO M1_release bootstrap 1000/5000
+2026-09-26 22:53:04,259 INFO M1_release bootstrap 2000/5000
+2026-09-26 22:53:05,540 INFO M1_release bootstrap 3000/5000
+2026-09-26 22:53:06,769 INFO M1_release bootstrap 4000/5000
+2026-09-26 22:53:08,089 INFO M1_release bootstrap 5000/5000
+2026-09-26 22:53:09,177 INFO M2_C_release bootstrap 1000/5000
+2026-09-26 22:53:10,280 INFO M2_C_release bootstrap 2000/5000
+2026-09-26 22:53:11,282 INFO M2_C_release bootstrap 3000/5000
+2026-09-26 22:53:12,329 INFO M2_C_release bootstrap 4000/5000
+2026-09-26 22:53:13,534 INFO M2_C_release bootstrap 5000/5000
+2026-09-26 22:53:14,668 INFO M3_ND_release bootstrap 1000/5000
+2026-09-26 22:53:15,753 INFO M3_ND_release bootstrap 2000/5000
+2026-09-26 22:53:16,792 INFO M3_ND_release bootstrap 3000/5000
+2026-09-26 22:53:17,873 INFO M3_ND_release bootstrap 4000/5000
+2026-09-26 22:53:19,047 INFO M3_ND_release bootstrap 5000/5000
+2026-09-26 22:53:20,547 INFO M1_submission_matched bootstrap 1000/5000
+2026-09-26 22:53:22,341 INFO M1_submission_matched bootstrap 2000/5000
+2026-09-26 22:53:23,867 INFO M1_submission_matched bootstrap 3000/5000
+2026-09-26 22:53:25,128 INFO M1_submission_matched bootstrap 4000/5000
+2026-09-26 22:53:26,475 INFO M1_submission_matched bootstrap 5000/5000
+2026-09-26 22:53:30,925 INFO Contribution bootstrap complete: 90000 rows; models=9
+2026-09-26 22:53:30,987 INFO Question 4 PHASE 2 bootstrap complete; no future forecasting or Loss conversion
+2026-09-26 22:54:21,770 INFO PHASE 2 report and 12 figures complete; awaiting human confirmation
+2026-09-26 22:54:21,771 INFO Question 4 PHASE 2 report complete; no future forecasting or Loss conversion
+2026-09-26 22:56:57,212 INFO Final tiers: [{'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T0', 'n': 321, 'parameter_conflict_n': 1, 'release_date_n': 73}, {'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T1', 'n': 39, 'parameter_conflict_n': 1, 'release_date_n': 39}, {'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T2', 'n': 26, 'parameter_conflict_n': 1, 'release_date_n': 26}, {'sample': 'S0', 'model_type': 'pretrained', 'tier': 'T3', 'n': 22, 'parameter_conflict_n': 1, 'release_date_n': 22}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T0', 'n': 2433, 'parameter_conflict_n': 0, 'release_date_n': 240}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T1', 'n': 5, 'parameter_conflict_n': 0, 'release_date_n': 5}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T2', 'n': 6, 'parameter_conflict_n': 0, 'release_date_n': 6}, {'sample': 'S0', 'model_type': 'chat_finetuned', 'tier': 'T3', 'n': 2, 'parameter_conflict_n': 0, 'release_date_n': 2}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T0', 'n': 1728, 'parameter_conflict_n': 0, 'release_date_n': 129}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T1', 'n': 3, 'parameter_conflict_n': 0, 'release_date_n': 3}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T2', 'n': 1, 'parameter_conflict_n': 0, 'release_date_n': 1}, {'sample': 'S0', 'model_type': 'other_unknown', 'tier': 'T3', 'n': 1, 'parameter_conflict_n': 0, 'release_date_n': 1}]
+2026-09-26 22:56:59,240 INFO Question 4 PHASE 2 models complete; no future forecasting or Loss conversion
+2026-09-26 22:57:53,459 INFO PHASE 2 report and 12 figures complete; awaiting human confirmation
+2026-09-26 22:57:53,460 INFO Question 4 PHASE 2 report complete; no future forecasting or Loss conversion

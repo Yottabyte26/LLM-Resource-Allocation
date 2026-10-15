@@ -1,0 +1,4 @@
+2026-09-26 17:32:48,839 INFO B6: 360 rows; 45 exact numeric ND groups
+2026-09-26 17:32:48,845 INFO B7: 450 rows; 45 exact numeric ND groups
+2026-09-26 17:32:48,865 INFO B8: 1704 rows; 150 exact numeric ND groups
+2026-09-26 17:32:53,350 INFO Diagnosis completed; NEEDS_CONFIRMATION; no fitting. Protected files verified: 2560

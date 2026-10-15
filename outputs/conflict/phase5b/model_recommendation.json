@@ -1,0 +1,19 @@
+{
+  "recommended_delta_for_validation": 0.35,
+  "epsilon": 1e-08,
+  "selection_dataset": "A1",
+  "delta_selection_rule": "largest tested; empirically smallest high-conflict mean and maximum absolute movement",
+  "fixed_high_K_threshold": 0.3332062028689002,
+  "final_recommendation": "B_Q_plus_K",
+  "candidate_activated": false,
+  "reason": "No independently verified improvement in text explanation or external quality accuracy",
+  "model_definition": {
+    "quality": "original Q",
+    "conflict": "original K"
+  },
+  "exponential_penalty_tested": false,
+  "diagnostic_limitations": [
+    "arxiv rank stability substantially lower than pooled A1",
+    "A1 high-conflict candidate/equal-candidate distance increased"
+  ]
+}

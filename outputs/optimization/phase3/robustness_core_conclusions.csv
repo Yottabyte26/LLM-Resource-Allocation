@@ -1,0 +1,8 @@
+﻿conclusion_id,conclusion,robustness,verified_scope,limitation
+A,低预算质量保持Q0,robust,P0/P1主域，三个成本、全部可行官方低预算上下文及已有Q0敏感性,P2理论外推允许不同投资路径；不将P0低预算规律推广到P2-B无界情景
+B,中预算Q=1,moderately_sensitive,P0/P1，C=1e22，三成本五上下文；Q0已有敏感性,Q=1本身超出A1实际质量范围，依赖冻结质量模块；P2_A结果单列核对
+C,高预算主域饱和,robust,P0/P1，C=1e24，三成本五上下文及Q0敏感性,依赖主域上界；扩展域结果不同，P2极端外推也可改变最优N
+D,质量成本份额先升后降且峰值靠近Q饱和,robust,冻结P0主/扩展域30条路径；主域15个峰值,未重做Q0/P1/P2完整路径，不声称在所有配比方案下已验证
+E,长上下文压缩N/D并提高Loss,moderately_sensitive,P0/P1未饱和的可行预算情景,低预算D在下界可不变；高预算主域饱和N/D/Loss相同，消耗与剩余预算改变
+F,经验配比优化改善Loss,highly_sensitive,P1经验可行集内条件性模型收益；低预算真实节点更可信,大尺度lambda来自估计节点且变号，P2_B无界揭示配比模型外推风险
+G,具体转移预算保持稳定,highly_sensitive,数值根括区间精度高；不是模型参数不确定性区间,三类成本和上下文显著移动阈值；早期投资顺序亦可改变

@@ -1,0 +1,34 @@
+2026-09-26 13:57:54,745 INFO Reading A1: real_attachments/A_data_value/slimpajama_quality_signal_sample.jsonl.xz
+2026-09-26 13:57:59,636 INFO A1: 10000 records read
+2026-09-26 13:58:03,320 INFO A1: 20000 records read
+2026-09-26 13:58:06,009 INFO A1: 30000 records read
+2026-09-26 13:58:08,671 INFO A1: 40000 records read
+2026-09-26 13:58:11,459 INFO A1: 50000 records read
+2026-09-26 13:58:13,324 INFO A1 Z complete: 51230 rows x 22; imputed=18; all finite, all [0,1]
+2026-09-26 13:58:13,342 INFO Reading A2: real_attachments/A_data_value/slimpajama_quality_extended/arxiv_part-6777d8857c6e-000486.jsonl.xz
+2026-09-26 13:58:15,290 INFO A2: 10000 records read
+2026-09-26 13:58:17,259 INFO A2 Z complete: 17523 rows x 22; imputed=0; all finite, all [0,1]
+2026-09-26 13:58:17,295 INFO Reading A3: real_attachments/A_data_value/slimpajama_quality_extended/github_part-6777d8857c6e-000275.jsonl.xz
+2026-09-26 13:58:19,005 INFO A3: 10000 records read
+2026-09-26 13:58:21,000 INFO A3: 20000 records read
+2026-09-26 13:58:23,190 INFO A3: 30000 records read
+2026-09-26 13:58:25,131 INFO A3: 40000 records read
+2026-09-26 13:58:27,099 INFO A3: 50000 records read
+2026-09-26 13:58:28,989 INFO A3: 60000 records read
+2026-09-26 13:58:30,812 INFO A3: 70000 records read
+2026-09-26 13:58:32,716 INFO A3: 80000 records read
+2026-09-26 13:58:34,718 INFO A3: 90000 records read
+2026-09-26 13:58:36,564 INFO A3: 100000 records read
+2026-09-26 13:58:38,797 INFO A3: 110000 records read
+2026-09-26 13:58:41,002 INFO A3: 120000 records read
+2026-09-26 13:58:42,916 INFO A3: 130000 records read
+2026-09-26 13:58:44,765 INFO A3: 140000 records read
+2026-09-26 13:58:46,999 INFO A3: 150000 records read
+2026-09-26 13:58:49,115 INFO A3: 160000 records read
+2026-09-26 13:58:51,173 INFO A3: 170000 records read
+2026-09-26 13:58:52,969 INFO A3: 180000 records read
+2026-09-26 13:58:54,762 INFO A3: 190000 records read
+2026-09-26 13:58:56,511 INFO A3: 200000 records read
+2026-09-26 13:59:02,848 INFO A3 Z complete: 203752 rows x 22; imputed=1; all finite, all [0,1]
+2026-09-26 13:59:02,898 INFO Completed: 272505 records retained; 19 imputations; 22 finite features per row
+2026-09-26 13:59:02,898 INFO STOP: script 04 not run; no CRITIC, no Q; waiting for human confirmation

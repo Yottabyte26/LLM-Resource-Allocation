@@ -1,0 +1,91 @@
+# Official 22 indicators. Phase 3 scalarization approved by the user.
+# The raw punctuation field has an observed spelling error; no source is changed.
+schema_version: 1
+metrics:
+  - {name: fineweb_edu, kind: list, direction: positive, scalarization: single_value, expected_length: 1}
+  - {name: dsir_books, kind: scalar, direction: positive}
+  - {name: dsir_wiki, kind: scalar, direction: positive}
+  - {name: dsir_math, kind: scalar, direction: positive}
+  - {name: qurater, kind: list, direction: positive, scalarization: component_winsor_minmax_mean, expected_length: 4}
+  - {name: modernbert_cleanliness, kind: list, direction: positive, scalarization: argmax_scaled, expected_length: 6, divisor: 5.0}
+  - {name: modernbert_readability, kind: list, direction: positive, scalarization: argmax_scaled, expected_length: 6, divisor: 5.0}
+  - {name: modernbert_reasoning, kind: list, direction: positive, scalarization: argmax_scaled, expected_length: 6, divisor: 5.0}
+  - {name: modernbert_professionalism, kind: list, direction: positive, scalarization: argmax_scaled, expected_length: 6, divisor: 5.0}
+  - {name: fluency_en, kind: list, direction: positive, scalarization: argmax_index, expected_length: 2, index_labels: [not_fluent, fluent]}
+  - {name: ad_en, kind: list, direction: positive, scalarization: argmax_index, expected_length: 2, index_labels: [has_ad, no_ad]}
+  - {name: rps_doc_word_count, kind: scalar, direction: moderate}
+  - {name: rps_doc_num_sentences, kind: scalar, direction: moderate}
+  - {name: rps_doc_unigram_entropy, kind: scalar, direction: positive}
+  - {name: rps_doc_frac_unique_words, kind: scalar, direction: positive}
+  - {name: rps_doc_frac_no_alph_words, kind: scalar, direction: negative}
+  - {name: rps_doc_frac_chars_top_2gram, kind: scalar, direction: negative}
+  - {name: rps_doc_frac_chars_top_3gram, kind: scalar, direction: negative}
+  - {name: rps_lines_uppercase_letter_fraction, kind: scalar, direction: negative}
+  - name: rps_lines_ending_with_terminal_punctuation_mark
+    raw_aliases: [rps_lines_ending_with_terminal_punctution_mark]
+    kind: scalar
+    direction: positive
+  - {name: rps_lines_numerical_chars_fraction, kind: scalar, direction: negative}
+  - {name: rps_doc_mean_word_length, kind: scalar, direction: moderate}
+auxiliary_fields: [id, content, sub_path, _source_domain, _source_path]
+inspection:
+  sample_count: 20
+  sum_tolerance: 0.001
+  probability_min_near_one_ratio: 0.99
+  # Statistical diagnostic only: require a stable length >=2 and ALL valid
+  # vectors in [0,1], plus >=99% sums within the strict tolerance above.
+  progress_every: 5000
+vector_diagnosis:
+  batch_size: 8192
+  modernbert_sample_count: 20
+  binary_sample_count: 30
+  qurater_sample_count: 20
+  softmax_sum_tolerance: 1.0e-12
+  # Validation dimensions, not class meanings or approval for scalarization.
+  expected_lengths:
+    fineweb_edu: 1
+    qurater: 4
+    modernbert_cleanliness: 6
+    modernbert_readability: 6
+    modernbert_reasoning: 6
+    modernbert_professionalism: 6
+    fluency_en: 2
+    ad_en: 2
+scalarization:
+  status: USER_CONFIRMED
+  argmax_tie_policy: first_index
+  nonfinite_vector_policy: scalar_nan_keep_record
+  main_modernbert_method: argmax_scaled
+  softmax_expectation_main_result: false
+  qurater:
+    component_names: [Writing Style, Required Expertise, Facts and Trivia, Educational Value]
+    fit_scope: pooled_all_records_A1_A2_A3
+    winsor_lower_quantile: 0.01
+    winsor_upper_quantile: 0.99
+    quantile_method: linear
+    constant_component_value: 0.5
+    scalar_combination: mean_of_four_normalized_components
+profile:
+  progress_every: 5000
+  std_ddof: 1
+  quantile_method: linear
+record_diagnosis:
+  high_missing_rate_threshold: 0.20
+  mode: diagnosis_only_no_cleaning
+preprocessing:
+  fitting_dataset: A1
+  random_state: 2026
+  quantile_method: linear
+  # The earlier 02 pooled fit is historical descriptive/sensitivity output only.
+  historical_pooled_role: pooled descriptive / sensitivity analysis
+  winsor_lower_quantile: 0.01
+  winsor_upper_quantile: 0.99
+  # Continuous RPS ratios are descriptive statistics, not class probabilities.
+  # All remaining continuous scalars (including DSIR/fineweb/RPS) are Winsorized.
+  bounded_scalarization_methods: [argmax_scaled, argmax_index, component_winsor_minmax_mean]
+  moderate_plateau_lower_quantile: 0.10
+  moderate_plateau_upper_quantile: 0.90
+  constant_minmax_value: 0.5
+  high_missing_rate_threshold: 0.20
+  large_clip_rate_threshold: 0.10
+  progress_every: 10000

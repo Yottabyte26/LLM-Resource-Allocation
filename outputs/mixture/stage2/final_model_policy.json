@@ -1,0 +1,10 @@
+{
+  "selected_model": "M1_ElasticNet",
+  "Qp_retained": false,
+  "Kp_retained": false,
+  "reason": "M3 nested RMSE difference=-0.000792262; 1M test RMSE difference=-0.000625345; outer RMSE improved 4/5; three observed scales ranking improved 3/3; conservative retention requires consistent outer-fold and observed-scale improvement",
+  "model_selection_uses_no_estimated_loss": true,
+  "hyperparameters_selected_on": "A4/A5_only",
+  "no_test_calibration": true,
+  "Qp_mapping_assumptions_explicit": true
+}

@@ -1,0 +1,3 @@
+﻿model,gamma_no_offset,gamma_with_offset,gamma_change,gamma_relative_change,delta_B6,interpretation
+MQ1,1.0524307891449187,0.8047071337667688,-0.2477236553781499,-0.23538237187019295,0.08340491848707479,all-Q offset may absorb quality-form misspecification; not proof of a pure source zero-point shift
+MQ2,2.354662307752358,1.931530884206445,-0.42313142354591315,-0.1796994083409833,0.0574592221991835,all-Q offset may absorb quality-form misspecification; not proof of a pure source zero-point shift

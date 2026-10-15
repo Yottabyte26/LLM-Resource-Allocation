@@ -1,0 +1,37 @@
+random_state: 2026
+outer_folds: 5
+inner_folds: 4
+final_selection_folds: 5
+zero_replacement_fraction_of_training_min: 0.5
+rounding_bound_multiplier: 0.5
+simplex_exact_tolerance: 1.0e-10
+ridge_alphas:
+- 0.001
+- 0.01
+- 0.1
+- 1.0
+- 10.0
+- 100.0
+- 1000.0
+- 10000.0
+elastic_alphas:
+- 0.001
+- 0.003
+- 0.01
+- 0.03
+- 0.1
+- 0.3
+- 1.0
+elastic_l1_ratios:
+- 0.1
+- 0.5
+- 0.9
+elastic_max_iter: 30000
+elastic_tolerance: 1.0e-06
+parallel_jobs: 1
+polynomial_interaction_only: true
+primary_response: L_mean
+secondary_response: L_trim
+selection_rule: minimum_nested_oof_RMSE_using_A4_A5_only
+figure_dpi: 160
+stage_stop: M0_M1_M2_validation_only_no_Q_K_or_large_scale_prediction

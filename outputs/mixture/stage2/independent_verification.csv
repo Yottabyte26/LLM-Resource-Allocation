@@ -1,0 +1,163 @@
+﻿check,passed,detail
+all prior frozen files unchanged,True,2351 files
+parameters stayed frozen during extrapolation,True,No calibration; all recorded model hashes unchanged
+M1_ElasticNet saved independent predictor,True,512 actual A4 recipes
+M1_Ridge saved independent predictor,True,512 actual A4 recipes
+M1_ElasticNet test_1M test metrics,True,256 direct uncalibrated predictions
+M1_ElasticNet test_60M test metrics,True,256 direct uncalibrated predictions
+M1_ElasticNet test_1B test metrics,True,64 direct uncalibrated predictions
+M1_Ridge test_1M test metrics,True,256 direct uncalibrated predictions
+M1_Ridge test_60M test metrics,True,256 direct uncalibrated predictions
+M1_Ridge test_1B test metrics,True,64 direct uncalibrated predictions
+M3_Qp test_1M test metrics,True,256 direct uncalibrated predictions
+M3_Qp test_60M test metrics,True,256 direct uncalibrated predictions
+M3_Qp test_1B test metrics,True,64 direct uncalibrated predictions
+M4_Qp_Kp test_1M test metrics,True,256 direct uncalibrated predictions
+M4_Qp_Kp test_60M test metrics,True,256 direct uncalibrated predictions
+M4_Qp_Kp test_1B test metrics,True,64 direct uncalibrated predictions
+M1_ElasticNet test_1M residual diagnosis,True,e=y-p; centered metric diagnostic only
+M1_ElasticNet test_60M residual diagnosis,True,e=y-p; centered metric diagnostic only
+M1_ElasticNet test_1B residual diagnosis,True,e=y-p; centered metric diagnostic only
+M1_Ridge test_1M residual diagnosis,True,e=y-p; centered metric diagnostic only
+M1_Ridge test_60M residual diagnosis,True,e=y-p; centered metric diagnostic only
+M1_Ridge test_1B residual diagnosis,True,e=y-p; centered metric diagnostic only
+five distinct representative baselines,True,"center, median, P10/P50/P90 predicted recipes"
+all single perturbations independent reconstruction,True,2 models x 3 steps x 5 baselines x 17 domains; donor ratios and simplex checked
+all joint deviations independent reconstruction,True,2 x 3 x 5 x 136 pairs; not causal interaction
+all marginal summaries,True,Actual five-baseline mean/median/std/min/max
+M3_Qp all-training boundary,True,All fits restricted to original train recipes
+M3_Qp independent saved predictor,True,No load-time refitting
+M3_Qp original-unit gamma,True,gamma=y_scale*beta/X_scale
+M3_Qp outer1 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_Qp outer1 zero parameter,True,Fit only current outer training fold
+M3_Qp outer1 feature and target scalers,True,No fold leakage in X/y scales
+M3_Qp outer2 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_Qp outer2 zero parameter,True,Fit only current outer training fold
+M3_Qp outer2 feature and target scalers,True,No fold leakage in X/y scales
+M3_Qp outer3 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_Qp outer3 zero parameter,True,Fit only current outer training fold
+M3_Qp outer3 feature and target scalers,True,No fold leakage in X/y scales
+M3_Qp outer4 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_Qp outer4 zero parameter,True,Fit only current outer training fold
+M3_Qp outer4 feature and target scalers,True,No fold leakage in X/y scales
+M3_Qp outer5 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_Qp outer5 zero parameter,True,Fit only current outer training fold
+M3_Qp outer5 feature and target scalers,True,No fold leakage in X/y scales
+M3_Qp OOF reconstruction,True,All 512 heldout predictions independently reconstructed
+M4_Qp_Kp all-training boundary,True,All fits restricted to original train recipes
+M4_Qp_Kp independent saved predictor,True,No load-time refitting
+M4_Qp_Kp original-unit gamma,True,gamma=y_scale*beta/X_scale
+M4_Qp_Kp outer1 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M4_Qp_Kp outer1 zero parameter,True,Fit only current outer training fold
+M4_Qp_Kp outer1 feature and target scalers,True,No fold leakage in X/y scales
+M4_Qp_Kp outer2 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M4_Qp_Kp outer2 zero parameter,True,Fit only current outer training fold
+M4_Qp_Kp outer2 feature and target scalers,True,No fold leakage in X/y scales
+M4_Qp_Kp outer3 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M4_Qp_Kp outer3 zero parameter,True,Fit only current outer training fold
+M4_Qp_Kp outer3 feature and target scalers,True,No fold leakage in X/y scales
+M4_Qp_Kp outer4 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M4_Qp_Kp outer4 zero parameter,True,Fit only current outer training fold
+M4_Qp_Kp outer4 feature and target scalers,True,No fold leakage in X/y scales
+M4_Qp_Kp outer5 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M4_Qp_Kp outer5 zero parameter,True,Fit only current outer training fold
+M4_Qp_Kp outer5 feature and target scalers,True,No fold leakage in X/y scales
+M4_Qp_Kp OOF reconstruction,True,All 512 heldout predictions independently reconstructed
+M3_alternative_mapping all-training boundary,True,All fits restricted to original train recipes
+M3_alternative_mapping independent saved predictor,True,No load-time refitting
+M3_alternative_mapping original-unit gamma,True,gamma=y_scale*beta/X_scale
+M3_alternative_mapping outer1 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_alternative_mapping outer1 zero parameter,True,Fit only current outer training fold
+M3_alternative_mapping outer1 feature and target scalers,True,No fold leakage in X/y scales
+M3_alternative_mapping outer2 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_alternative_mapping outer2 zero parameter,True,Fit only current outer training fold
+M3_alternative_mapping outer2 feature and target scalers,True,No fold leakage in X/y scales
+M3_alternative_mapping outer3 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_alternative_mapping outer3 zero parameter,True,Fit only current outer training fold
+M3_alternative_mapping outer3 feature and target scalers,True,No fold leakage in X/y scales
+M3_alternative_mapping outer4 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_alternative_mapping outer4 zero parameter,True,Fit only current outer training fold
+M3_alternative_mapping outer4 feature and target scalers,True,No fold leakage in X/y scales
+M3_alternative_mapping outer5 training isolation,True,Identical frozen M1 outer holdouts; no heldout fit IDs
+M3_alternative_mapping outer5 zero parameter,True,Fit only current outer training fold
+M3_alternative_mapping outer5 feature and target scalers,True,No fold leakage in X/y scales
+M3_alternative_mapping OOF reconstruction,True,All 512 heldout predictions independently reconstructed
+mapping provenance retained,True,No official inferred mapping invented
+locked domain quality values,True,No Q or CI recomputation
+train_1M descriptors,True,"Original closed shares, not pseudo-mass replaced shares"
+test_1M descriptors,True,"Original closed shares, not pseudo-mass replaced shares"
+test_60M descriptors,True,"Original closed shares, not pseudo-mass replaced shares"
+test_1B descriptors,True,"Original closed shares, not pseudo-mass replaced shares"
+estimated_10B descriptors,True,"Original closed shares, not pseudo-mass replaced shares"
+estimated_70B descriptors,True,"Original closed shares, not pseudo-mass replaced shares"
+arxiv existing K trim,True,n=1419; no K refit
+book existing K trim,True,n=171; no K refit
+c4 existing K trim,True,n=10000; no K refit
+commoncrawl existing K trim,True,n=9640; no K refit
+github existing K trim,True,n=10000; no K refit
+stackexchange existing K trim,True,n=10000; no K refit
+wikipedia existing K trim,True,n=10000; no K refit
+500 reproducible MC draws,True,seed 2026; independent uniform draws within inferred proxy CIs only
+MC repetition 1 gamma and OOF,True,Independent selected-parameter train-only refit; frozen M1 untouched
+MC repetition 1 test_1M,True,Fixed predictor application only
+MC repetition 1 test_60M,True,Fixed predictor application only
+MC repetition 1 test_1B,True,Fixed predictor application only
+MC repetition 250 gamma and OOF,True,Independent selected-parameter train-only refit; frozen M1 untouched
+MC repetition 250 test_1M,True,Fixed predictor application only
+MC repetition 250 test_60M,True,Fixed predictor application only
+MC repetition 250 test_1B,True,Fixed predictor application only
+MC repetition 500 gamma and OOF,True,Independent selected-parameter train-only refit; frozen M1 untouched
+MC repetition 500 test_1M,True,Fixed predictor application only
+MC repetition 500 test_60M,True,Fixed predictor application only
+MC repetition 500 test_1B,True,Fixed predictor application only
+13 validation-domain matrix coverage,True,26 first-order auxiliary fits; 17x13 per model
+metric/the_pile_arxiv_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_arxiv_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_freelaw_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_freelaw_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_pubmed_central_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_pubmed_central_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_wikipedia_en_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_wikipedia_en_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_dm_mathematics_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_dm_mathematics_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_github_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_github_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_stackexchange_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_stackexchange_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_gutenberg_pg_19_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_gutenberg_pg_19_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_pile_cc_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_pile_cc_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_ubuntu_irc_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_ubuntu_irc_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_hackernews_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_hackernews_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_pubmed_abstracts_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_pubmed_abstracts_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_uspto_backgrounds_val_loss M1_ElasticNet perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+metric/the_pile_uspto_backgrounds_val_loss M1_Ridge perturbation matrix,True,All 17 mean effects from five real/derived A4 baselines
+estimated_10B recipe subset,True,"Composition-vector matches, not cross-table index matching"
+estimated_10B M1_ElasticNet matched training indices,True,Estimated Loss is not independent observed holdout
+estimated_10B M1_ElasticNet estimated predictions,True,Independent predictor reconstruction and actual matched table rows
+estimated_10B M1_ElasticNet estimated metrics,True,Negative rank correlation retained with its actual sign
+estimated_10B M1_Ridge matched training indices,True,Estimated Loss is not independent observed holdout
+estimated_10B M1_Ridge estimated predictions,True,Independent predictor reconstruction and actual matched table rows
+estimated_10B M1_Ridge estimated metrics,True,Negative rank correlation retained with its actual sign
+estimated_10B M3_Qp matched training indices,True,Estimated Loss is not independent observed holdout
+estimated_10B M3_Qp estimated predictions,True,Independent predictor reconstruction and actual matched table rows
+estimated_10B M3_Qp estimated metrics,True,Negative rank correlation retained with its actual sign
+estimated_10B matched observed/estimated ranks,True,Real 1M loss also opposes estimated macro ranking; no sorting or alignment correction
+estimated_70B recipe subset,True,"Composition-vector matches, not cross-table index matching"
+estimated_70B M1_ElasticNet matched training indices,True,Estimated Loss is not independent observed holdout
+estimated_70B M1_ElasticNet estimated predictions,True,Independent predictor reconstruction and actual matched table rows
+estimated_70B M1_ElasticNet estimated metrics,True,Negative rank correlation retained with its actual sign
+estimated_70B M1_Ridge matched training indices,True,Estimated Loss is not independent observed holdout
+estimated_70B M1_Ridge estimated predictions,True,Independent predictor reconstruction and actual matched table rows
+estimated_70B M1_Ridge estimated metrics,True,Negative rank correlation retained with its actual sign
+estimated_70B M3_Qp matched training indices,True,Estimated Loss is not independent observed holdout
+estimated_70B M3_Qp estimated predictions,True,Independent predictor reconstruction and actual matched table rows
+estimated_70B M3_Qp estimated metrics,True,Negative rank correlation retained with its actual sign
+estimated_70B matched observed/estimated ranks,True,Real 1M loss also opposes estimated macro ranking; no sorting or alignment correction
+main model and K rule,True,No quadratic main model; no conflict penalty
+all old files still unchanged after verification,True,2351 files

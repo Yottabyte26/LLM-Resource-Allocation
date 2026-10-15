@@ -1,0 +1,23 @@
+{
+  "main_official_P0_rows": 45,
+  "main_official_P0_feasible": 42,
+  "grid_base_count": 41,
+  "grid_with_official_count": 44,
+  "main_typeI_rows": 120,
+  "main_typeII_significant_metric_fits": 89,
+  "main_saturation_budget_min": 2.317099322805874e+22,
+  "main_saturation_budget_max": 1.1667855451392668e+23,
+  "main_quality_share_reversals": 15,
+  "main_P1_loss_improvement_min": 0.13062757866420416,
+  "main_P1_loss_improvement_max": 0.3462213608075766,
+  "high_budget_main_saturated_count": 15,
+  "high_budget_extended_N_or_D_extrapolative_count": 15,
+  "Q0_active_structure_changed_count": 1,
+  "Q0_Loss_change_min": -0.006795682491062216,
+  "Q0_Loss_change_max": 0.012844049990086148,
+  "maximum_optimizer_loss_gap": 2.992202041696146e-10,
+  "full3D_checks_passed": 30,
+  "enumeration_checks_passed": 20,
+  "P2_performed": false,
+  "Question4_started": false
+}

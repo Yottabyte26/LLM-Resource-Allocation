@@ -1,0 +1,30 @@
+{
+  "B1_trajectory_count": 8,
+  "B1_records": 1176,
+  "N_range": [
+    0.070542,
+    11.965825
+  ],
+  "D_range": [
+    0.134,
+    299.893
+  ],
+  "Loss_range": [
+    2.0933,
+    4.7388
+  ],
+  "B1_unique_run_ids": 1176,
+  "B1_run_id_is_trajectory": false,
+  "group_rule": "dataset/source file + exact canonical N_params_B; run_id not assumed to mean model ID",
+  "terminal_D_values": [
+    299.893
+  ],
+  "B1_loss_rebounds": 0,
+  "B1_C_6ND_rounding_consistent_count": 1176,
+  "frozen_file_count": 2478,
+  "B5_absolute_loss_comparability_confirmed": false,
+  "data_sources_used_for_fitting": [
+    "B1"
+  ],
+  "disallowed_B6_B10_ingested": false
+}

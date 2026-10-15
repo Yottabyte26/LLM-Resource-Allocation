@@ -1,0 +1,13 @@
+﻿filename,description
+01_typical_elasticities.png,Main elasticities; outside B6/B7 range is extrapolative
+02_dominant_factor_regions.png,Categorical comparison at real saved recipe baselines
+03_Q01_parameter_equivalence.png,"Exact numerical equivalence versus local approximation, nine main workpoints"
+04_domain_effect_by_scale.png,Scaled effects from Question 1; estimated directions explicitly marked
+05_joint_trend_1M.png,136 pair deviations mirrored; diagonal is not an observed pair
+05_joint_trend_60M.png,136 pair deviations mirrored; diagonal is not an observed pair
+05_joint_trend_1B.png,136 pair deviations mirrored; diagonal is not an observed pair
+05_joint_trend_10B.png,136 pair deviations mirrored; diagonal is not an observed pair
+05_joint_trend_70B.png,136 pair deviations mirrored; diagonal is not an observed pair
+06_B10_estimated_consistency.png,No Q/p observations inferred and no full-model validation claimed
+07_lambda_beyond70B_sensitivity.png,"Hold-last, log continuation, and shrink-to-zero are compared without selection"
+08_derivative_verification.png,Formula checks are not synthetic joint observation data

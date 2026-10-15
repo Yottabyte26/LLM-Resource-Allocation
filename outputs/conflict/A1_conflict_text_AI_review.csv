@@ -1,0 +1,129 @@
+﻿id,domain,Q,K,selection_groups,top_positive_metric,top_negative_metric,annotation_status,inspection_scope,full_content_characters,content_excerpt,preliminary_observation
+BkiUainxK1Thg9qFa8nv,c4,0.4968603895204188,0.46212311987904003,top_K_30;highK_relative_lowQ;global_lowQ_highK,rps_lines_ending_with_terminal_punctuation_mark,fluency_en,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,415,"s red leather sectional sleeper sofa sas.
+sa sas red leather sectional sleeper sofa.
+red leather sectional sleeper sofa.
+red leather sectional sleeper sofa s.
+sa red leather sectional sleeper sofa.
+ll s red leather sectional sleeper sofa.
+s red leather sectional sleeper sofa.
+dian sprgs red leather sectional sleeper sofa.
+red leather sectional sleeper sofa contempary s.
+red leather sectional sleeper sofa lacque.",可见重复的沙发关键词行，每行带句号；句末标点高可以与流畅低共存，体现格式规则与文本意义的差异。
+BkiUbRzxK3xgpdbchQki,github,0.4686559663808045,0.4579980600330077,top_K_30;highK_relative_lowQ;global_lowQ_highK,rps_lines_uppercase_letter_fraction,fluency_en,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,76,<?php $system_configuration_links_sync_and_sounde_settings_enabled = true;?>,全文为 76 字符的 PHP 配置语句；大写比例反向分数高、英语流畅低，体现结构化代码与语言分类的适用性差异。
+BkiUc0nxK6wB9k0iLK8R,github,0.5693156642082657,0.43919328395354507,top_K_30;highK_relative_middleQ,rps_lines_uppercase_letter_fraction,fluency_en,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,47,uglifyjs framework.js -c -m -o framework.min.js,全文仅 47 字符，为压缩 JavaScript 的命令行；英语自然语言流畅分类不宜直接视为代码用途正确性的标签。
+BkiUbXU5jDKDyDF8vuRy,book,0.5833874994559334,0.43778227044218276,top_K_30;highK_relative_middleQ,modernbert_professionalism,fluency_en,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,1217178," 
+Interaction Ritual Chains  
+_________________________
+PRINCETON STUDIES IN CULTURAL SOCIOLOGY
+
+_Editors_
+
+Paul J. DiMaggio
+
+Michèle Lamont
+
+Robert J. Wuthnow
+
+Viviana A. Zelizer
+
+_A list of titles in this series appears at the back of the book._
+Interaction Ritual Chains
+
+* * *
+
+_Randall Collins_
+
+PRINCETON UNIVERSITY PRESS  
+PRINCETON AND OXFORD
+Copyright © 2004 by Princeton University Press  
+Published by Princeton University Press, 41 William Street, Princeton, New Jersey 08540  
+In the United Kingdom: Princeton University Press, 3 Market Place, Woodstock, Oxfordshire OX20 1SY
+
+All Rights Reserved
+
+Second printing, and first paperback printing, 2005  
+Paperback ISBN-13: 978-0-691-12389-9  
+Paperback ISBN-10: 0-691-12389-6
+
+_The Library of Congress has cataloged the cloth edition  
+of this book as follows_
+
+Collins, Randall, 1941–  
+Interaction ritual chains / Randall Collins.  
+p. cm. — (Princeton studies in cultural sociology)  
+Includes bibliographical references and index.  
+ISBN 0-691-09027-0 (alk. paper)  
+1. Social interaction. 2. Emotions—Sociological aspects. I. Title. II. Series.  
+HM1111 .C64 2004  
+302.22—dc21 2004041461
+
+British Library Cataloging-in-Publication Da",开头为社会学书籍标题、出版社及版权材料；专业性高、英语流畅低的判定需要结合长篇结构人工检查。
+BkiUbvjxK6wB9mn49q52,arxiv,0.6373612466896701,0.4112943843148108,highK_relative_highQ,fluency_en,rps_doc_word_count,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,153556,"\section{Introduction }
+The mesonic transition form factors are important ingredients  in the study of weak and electromagnetic decays of mesons. There are many  approaches for evaluating  these nonperturbative quantities,  for instance, Wirbel-Stech-Bauer model~\cite{Wirbel:1985ji}, lattice calculations~\cite{Daniel:1990ah}, vector meson dominance model~\cite{Ametller:1993we,Gao:1999qn}, perturbative QCD  with some nonperturbative inputs~\cite{Lepage:1980fj,Li:1992nu}, QCD sum rules~\cite{Shifman:1978bx,Shifman:1978by} and light-front quark models~(LF QMs)~\cite{Terentev:1976jk,Berestetsky:1977zk,Cheng:1997au,Carbonell:1998rj,Jaus:1999zv}. In this paper, we will calculate the form factors of $V'\to V''$ transition~($V'$ and $V''$ denote vector mesons) within the standard and the covariant light-front approaches.
+
+The standard light-front quark model~(SLF QM) proposed by Terentev and Berestetsky~\cite{Terentev:1976jk,Berestetsky:1977zk} is a relativistic quark model based on the LF formalism~\cite{Dirac:1949cp} and LF quantization of QCD~\cite{Brodsky:1997de}. It provides a conceptually simple and phenomenologically feasible framework for the determination of nonperturbative quanti",开头为带 LaTeX 命令及文献引用的介子跃迁论文；流畅为高端指标而词数效用为低端，提示专业文本与长度平台存在差异。
+BkiUdavxK7FjYAb_7N4b,book,0.605163018421268,0.41005840177837294,highK_relative_highQ,fluency_en,rps_doc_frac_unique_words,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,298126,"
+
+Begin Reading
+
+Table of Contents
+
+Newsletters
+
+Copyright Page
+
+In accordance with the U.S. Copyright Act of 1976, the scanning, uploading, and electronic sharing of any part of this book without the permission of the publisher constitute unlawful piracy and theft of the author's intellectual property. If you would like to use material from the book (other than for review purposes), prior written permission must be obtained by contacting the publisher at permissions@hbgusa.com. Thank you for your support of the author's rights.
+To Allyson, with dearest love
+
+# Prologue
+Of all the fifteen summerhouses, the first one was the best. That's what we all agreed on, for a while, anyway...until we grew wiser, more measured in our joy, more careful with the doling out of praise. Funny, we rarely agreed unanimously on anything, but for years there had been no doubt about the Colleton house. At first glance it had seemed designed—brick, board, and shingle—for the girls of August.
+
+A silly name for four women who, after a decade and a half of never missing an August together, were approaching middle age, fretting over crow's-feet, and reaching for skin cream. It had seemed silly to us even whe",开头包含版权页、目录与小说序章；最低指标为独特词比例，需人工核验长篇叙述与重复词的区别。
+BkiUdOI5qsJBjuAa5ywn,c4,0.7425147885200625,0.3385490043921552,global_highQ_highK,fluency_en,modernbert_reasoning,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,405,"This magnificent halo pendant necklace boasts a delightful combination of emerald and diamonds. An emerald-cut emerald is set in prongs and framed by a glistening diamond halo. Diamond accents adorn the bale to give the emerald pendant an elegant yet stunning look. Crafted in 14k white gold. Choose from different stone qualities (good, better, best and heirloom) and multiple total carat weight options.",全文为流畅的珠宝商品介绍和规格选择；流畅高、推理低可以共存，需人工核验推广性，不能凭流畅认定全面高质。
+BkiUdmg5qYVBXTJ3BsEF,arxiv,0.7361024562299012,0.33451300660154976,global_highQ_highK,fluency_en,rps_lines_uppercase_letter_fraction,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,69774,"\section{Introduction}
+
+
+The formation and evolution of galaxies in the Universe is now being observed to redshifts z $\sim$ 8 \citep[e.g.][]{bou09,ouc09} using photometric imaging to wavelengths $\sim$ 1 \um in search of ""Lyman Break Galaxies"" (LBGs; Steidel et al. 1999).  These observations reveal the rest frame ultraviolet luminosity of star-forming galaxies and allow the measurement of changes in the star formation rate density of the Universe as a function of redshift \citep{mad98}.  (Because such star-forming galaxies are observationally characterised by indicators of young, massive, short-lived stars, we refer to them in the remainder of this paper as ""starburst"" galaxies.)  
+
+Observations of LBGs indicate an increase in the characteristic luminosity of starburst galaxies for 0 $<$ z $\la$ 2, and then a decrease in luminosity for z $\ga$ 2 until the observational limit at z $\sim$ 8 \citep{red09}.  Is this evolution of starburst galaxies determined correctly based on LBGs?  The most uncertain factor in quantifying the luminosities is determining an accurate correction for obscuration by dust, because this obscuration can be extreme in the rest frame ultraviolet.  
+
+
+The impo",开头为带 LaTeX、数学表达式和文献引用的天文学论文；大写比例反向分数低需结合符号/格式核验，不能自动判为正文质量差。
+BkiUd_3xaJJQnK0WJoXz,wikipedia,0.715817749087453,0.26092721018957904,global_lowQ_lowK,fluency_en,modernbert_reasoning,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,398,"(117506) Wildberg ist ein Asteroid des Hauptgürtels, der am 5. Februar 2005 von Rolf Apitzsch am Observatorium Wildberg entdeckt wurde.
+
+Der Asteroid ist nach der Stadt Wildberg im nördlichen Schwarzwald benannt, wo sich seit 2000 die Sternwarte befindet, an welcher der Asteroid entdeckt wurde.
+
+Siehe auch 
+ Liste der Asteroiden
+
+Hauptgürtelasteroid unter 50 km Durchmesser
+Wildberg (Schwarzwald)",可见全文为德语小行星百科条目；流畅高、推理低可体现描述性事实文本与推理维度差异。
+BkiUduvxK7IAEwOJJChw,wikipedia,0.7086495280054315,0.260914919291488,global_lowQ_lowK,ad_en,fluency_en,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,1913,"Ein Patter song (engl. etwa ""Plapper-Lied"") ist ein Lied, das dadurch gekennzeichnet ist, dass möglichst viele Wörter in möglichst kurzer Zeit gesungen werden. Dies wird durch die Musik entsprechend unterstützt, indem jede Gesangssilbe einem eigenen Ton entspricht und das Metrum häufig in Achtel- oder Sechzehntelnoten verläuft. Patter songs haben meist eine komische Wirkung und werden daher auch häufig in komischen Situationen verwendet.
+
+Bereits Komponisten wie Alessandro Scarlatti ließen diese Technik vorausahnen (etwa das Duett Non ti voglio aus Tiberio imperatore d'Oriente, 1702). Gebräuchlich wurden Patter songs jedoch erst ab dem 18. Jahrhundert, als Komponisten Buffo-Soli einführten, darunter Bartolos Arie La vendetta aus Mozarts Le nozze di Figaro, Akt 1, Szene III. Zu den berühmtesten Beispielen zählt sicher auch das Finale der Cavatine Largo al factotum aus  Rossinis Barbier von Sevilla. Weitere Beispiele finden sich in den Werken von Logroscino, Piccinni, Paisiello, Haydn und Donizetti.
+
+Im englischen Sprachraum sind besonders die Patter songs aus Gilbert und Sullivans komischen Opern bekannt, darunter I am the very model of a modern major-general aus Die Piraten von Pen",开头为德语音乐术语解释；无广告高、英语流畅低，提示语言适用范围须与内容用途区分。
+BkiUdOg5qhDBZQieouQK,c4,0.7731226454009631,0.2609128942251577,global_highQ_lowK,fluency_en,modernbert_professionalism,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,1649,"ELIZABETHTOWN – Elizabethtown's Lady Cougars defeated Tar Heel 41-6 Tuesday in Waccamaw Middle School Conference girls basketball action.
+Lainey Hughes and Zoe Smith threw in 2 baskets each in the opening quarter as the Lady Cougars raced to a 12-2 lead. Teammates Iveonna Ward and Brianna Phillips tossed in a basket each in the period, while Kiera Lewis dropped in the Tar Heel basket.
+Hughes canned 2 baskets and a free throw in the Elizabethtown second quarter. Laila Smith popped in 2 baskets as the lead grew to 21-4 at halftime. Harmony Jacobs pumped in a basket for the Lady Panthers.
+Laila Smith blistered the nets with 3 baskets and 2 free throws in the third quarter, and Zoe Smith buried a pair of baskets. Hughes and Mary Frances Sutton hurled in baskets as the lead stretched to 37-6. Len'ya Harrell connected for the final Tar Heel basket.
+La'Tosha Melvin and Zoe Smith scored the final Lady Cougar baskets.
+Laila Smith led the Lady Cougars with 12 points. Hughes racked up 11 points, and Zoe Smith followed with 10 points.
+Coach Chris Davisson's Lady Cougars improved to 6-4 on the season and will host Whiteville Central on February 14th. Tar Heel, now 2-7, will travel to Clarkton S",开头为英语篮球比赛新闻，含比分和球员；流畅高、专业性相对低，可能反映新闻体裁与专业性构念差异。
+BkiUd-U4eIXh7gjUqssm,wikipedia,0.7377339656161352,0.2609114009241767,global_highQ_lowK,fluency_en,modernbert_reasoning,AI辅助复核，非最终人工标注,仅检查开头片段最多1200字符；短文本可能覆盖全文；非正式实验证据,833,"Gajowice (niem. Giegowitz) – wieś sołecka w Polsce, położona w województwie śląskim, w powiecie gliwickim, w gminie Wielowieś.
+
+W latach 1975–1998 wieś administracyjnie należała do województwa katowickiego.
+
+Nazwa 
+Według niemieckiego językoznawcy Heinricha Adamy'ego nazwa miejscowości pochodzi od staropolskiej nazwy ""gaju"" podmokłego, bagnistego lasu. W swoim dziele o nazwach miejscowych na Śląsku wydanym w 1888 roku we Wrocławiu wymienia on jako najstarszą zanotowaną nazwę miejscowości Geiowitz podając jej znaczenie ""Dorf im Busch"" czyli po polsku ""Wieś w zaroślach"".
+
+Informacje ogólne 
+We wsi znajduje się 25 domów, z czego zdecydowana większość to gospodarstwa rolne. Wieś położona jest w oddaleniu od głównej drogi.
+
+Turystyka 
+Przez wieś przebiega szlak turystyczny:
+  - Szlak Zacharzowicki
+
+Przypisy 
+
+Wielowieś (gmina)",开头及可见全文为波兰语村庄百科材料，却有 fluent=1；分类输出本身不是语言/质量真值。

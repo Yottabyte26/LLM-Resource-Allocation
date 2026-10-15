@@ -1,0 +1,45 @@
+{
+  "classical_parameters": {
+    "E": 1.6897975629216038,
+    "A": 0.35398032066343604,
+    "B": 1.2403055835502586,
+    "alpha": 0.3399765818976516,
+    "beta": 0.27987812854408783
+  },
+  "reference_scales": {
+    "N0": 1.0,
+    "D0": 149.99999999999997
+  },
+  "model_parameters": {
+    "S1": {
+      "gamma0": 1.2757163481594538,
+      "u": 0.11049800074987362,
+      "v": 0.16267720921829426
+    },
+    "S2": {
+      "C": 99.99999999999996,
+      "u": 0.16193291041759425,
+      "v": 4.465078941295762e-25,
+      "eta": 0.001703384836033802
+    },
+    "S3": {
+      "C": 0.17064090046126643,
+      "u": 0.161903294252729,
+      "v": 1.2771771651498533e-20
+    }
+  },
+  "fitting_source": "B6_only",
+  "evaluation_sources_not_used_for_fitting": [
+    "B7",
+    "B8"
+  ],
+  "config_sha256": "f98258acbc99c71df2bfd4e17e52cc853071ef9e845d628f70c8c8d3475b114b",
+  "B6_sha256": "c7450ce0d67d8692535fef4709e60e2da60b2c184738bf96df160a4be0a33a7f",
+  "bootstrap_repetitions": 2000,
+  "final_selection_priority": [
+    "S3",
+    "S1",
+    "S2"
+  ],
+  "freeze_status": "candidate_only_pending_validation_and_human_confirmation"
+}

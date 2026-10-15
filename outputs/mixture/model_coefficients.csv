@@ -1,0 +1,337 @@
+﻿response,model,feature,standardized_y_coefficient,selected_nonzero
+L_mean,M1_Ridge,ilr_01,-0.027699767617583023,True
+L_mean,M1_Ridge,ilr_02,-0.14470619360679543,True
+L_mean,M1_Ridge,ilr_03,0.0850616455110541,True
+L_mean,M1_Ridge,ilr_04,0.0921607719958703,True
+L_mean,M1_Ridge,ilr_05,0.21156662748502536,True
+L_mean,M1_Ridge,ilr_06,-3.2480573314953485e-06,True
+L_mean,M1_Ridge,ilr_07,-0.14234944952603762,True
+L_mean,M1_Ridge,ilr_08,0.21411908544620475,True
+L_mean,M1_Ridge,ilr_09,-0.31604103339433615,True
+L_mean,M1_Ridge,ilr_10,0.05116341985253922,True
+L_mean,M1_Ridge,ilr_11,0.11930609367011975,True
+L_mean,M1_Ridge,ilr_12,0.22915985257561516,True
+L_mean,M1_Ridge,ilr_13,-0.0859583072378957,True
+L_mean,M1_Ridge,ilr_14,-0.043648883330050625,True
+L_mean,M1_Ridge,ilr_15,0.040168178298045934,True
+L_mean,M1_Ridge,ilr_16,0.02762685355955796,True
+L_mean,M1_ElasticNet,ilr_01,-0.024991990835943577,True
+L_mean,M1_ElasticNet,ilr_02,-0.1363372658687431,True
+L_mean,M1_ElasticNet,ilr_03,0.07814247458903319,True
+L_mean,M1_ElasticNet,ilr_04,0.08692079396579823,True
+L_mean,M1_ElasticNet,ilr_05,0.20667925304840995,True
+L_mean,M1_ElasticNet,ilr_06,-0.0,False
+L_mean,M1_ElasticNet,ilr_07,-0.1379036687166529,True
+L_mean,M1_ElasticNet,ilr_08,0.20796986447621588,True
+L_mean,M1_ElasticNet,ilr_09,-0.3099089246032411,True
+L_mean,M1_ElasticNet,ilr_10,0.045653283601765134,True
+L_mean,M1_ElasticNet,ilr_11,0.11140714839592403,True
+L_mean,M1_ElasticNet,ilr_12,0.22372622333627942,True
+L_mean,M1_ElasticNet,ilr_13,-0.08260968558517603,True
+L_mean,M1_ElasticNet,ilr_14,-0.04212222498932134,True
+L_mean,M1_ElasticNet,ilr_15,0.036677507760822646,True
+L_mean,M1_ElasticNet,ilr_16,0.023180301795396173,True
+L_mean,M2_ElasticNet,ilr_01,-0.0,False
+L_mean,M2_ElasticNet,ilr_02,-0.04833329603384426,True
+L_mean,M2_ElasticNet,ilr_03,0.0,False
+L_mean,M2_ElasticNet,ilr_04,0.0,False
+L_mean,M2_ElasticNet,ilr_05,0.14423134939007573,True
+L_mean,M2_ElasticNet,ilr_06,-0.0,False
+L_mean,M2_ElasticNet,ilr_07,-0.06255233995115667,True
+L_mean,M2_ElasticNet,ilr_08,0.1163983817780781,True
+L_mean,M2_ElasticNet,ilr_09,-0.23232286149463507,True
+L_mean,M2_ElasticNet,ilr_10,0.0,False
+L_mean,M2_ElasticNet,ilr_11,0.0,False
+L_mean,M2_ElasticNet,ilr_12,0.1531701415172679,True
+L_mean,M2_ElasticNet,ilr_13,-0.0316321404334975,True
+L_mean,M2_ElasticNet,ilr_14,-0.009132388145905,True
+L_mean,M2_ElasticNet,ilr_15,0.0,False
+L_mean,M2_ElasticNet,ilr_16,0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_02,-0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_03,-0.022681616021919666,True
+L_mean,M2_ElasticNet,ilr_01 ilr_04,-0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_05,-0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_06,0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_07,-0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_08,-0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_09,0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_10,-0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_11,0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_12,-0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_13,0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_14,0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_15,0.0,False
+L_mean,M2_ElasticNet,ilr_01 ilr_16,0.0,False
+L_mean,M2_ElasticNet,ilr_02 ilr_03,0.02720728282564235,True
+L_mean,M2_ElasticNet,ilr_02 ilr_04,0.03493817321299894,True
+L_mean,M2_ElasticNet,ilr_02 ilr_05,0.0,False
+L_mean,M2_ElasticNet,ilr_02 ilr_06,0.05038608810490437,True
+L_mean,M2_ElasticNet,ilr_02 ilr_07,-0.0,False
+L_mean,M2_ElasticNet,ilr_02 ilr_08,0.04395893512061947,True
+L_mean,M2_ElasticNet,ilr_02 ilr_09,-0.0024129964720419187,True
+L_mean,M2_ElasticNet,ilr_02 ilr_10,-0.0,False
+L_mean,M2_ElasticNet,ilr_02 ilr_11,0.0,False
+L_mean,M2_ElasticNet,ilr_02 ilr_12,0.0,False
+L_mean,M2_ElasticNet,ilr_02 ilr_13,-0.0,False
+L_mean,M2_ElasticNet,ilr_02 ilr_14,-0.017131024561616033,True
+L_mean,M2_ElasticNet,ilr_02 ilr_15,0.009840097895506867,True
+L_mean,M2_ElasticNet,ilr_02 ilr_16,-0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_04,-0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_05,-0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_06,-0.004615772922349734,True
+L_mean,M2_ElasticNet,ilr_03 ilr_07,0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_08,-0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_09,0.03296989301748166,True
+L_mean,M2_ElasticNet,ilr_03 ilr_10,-0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_11,-0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_12,0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_13,-0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_14,0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_15,0.0,False
+L_mean,M2_ElasticNet,ilr_03 ilr_16,-0.005094185520903776,True
+L_mean,M2_ElasticNet,ilr_04 ilr_05,-0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_06,0.011638830804497836,True
+L_mean,M2_ElasticNet,ilr_04 ilr_07,0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_08,0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_09,0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_10,0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_11,-0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_12,0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_13,0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_14,-0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_15,-0.0,False
+L_mean,M2_ElasticNet,ilr_04 ilr_16,-0.0,False
+L_mean,M2_ElasticNet,ilr_05 ilr_06,0.0,False
+L_mean,M2_ElasticNet,ilr_05 ilr_07,0.0,False
+L_mean,M2_ElasticNet,ilr_05 ilr_08,0.0,False
+L_mean,M2_ElasticNet,ilr_05 ilr_09,0.0,False
+L_mean,M2_ElasticNet,ilr_05 ilr_10,0.0,False
+L_mean,M2_ElasticNet,ilr_05 ilr_11,0.0,False
+L_mean,M2_ElasticNet,ilr_05 ilr_12,0.03436932753116477,True
+L_mean,M2_ElasticNet,ilr_05 ilr_13,0.0,False
+L_mean,M2_ElasticNet,ilr_05 ilr_14,0.009050364317023801,True
+L_mean,M2_ElasticNet,ilr_05 ilr_15,-0.0,False
+L_mean,M2_ElasticNet,ilr_05 ilr_16,-0.0,False
+L_mean,M2_ElasticNet,ilr_06 ilr_07,0.0,False
+L_mean,M2_ElasticNet,ilr_06 ilr_08,0.031333634486271536,True
+L_mean,M2_ElasticNet,ilr_06 ilr_09,-0.0,False
+L_mean,M2_ElasticNet,ilr_06 ilr_10,-0.0,False
+L_mean,M2_ElasticNet,ilr_06 ilr_11,0.0,False
+L_mean,M2_ElasticNet,ilr_06 ilr_12,-0.0,False
+L_mean,M2_ElasticNet,ilr_06 ilr_13,-0.0,False
+L_mean,M2_ElasticNet,ilr_06 ilr_14,-0.0,False
+L_mean,M2_ElasticNet,ilr_06 ilr_15,-0.0,False
+L_mean,M2_ElasticNet,ilr_06 ilr_16,-0.0,False
+L_mean,M2_ElasticNet,ilr_07 ilr_08,0.0,False
+L_mean,M2_ElasticNet,ilr_07 ilr_09,-0.010158238258856646,True
+L_mean,M2_ElasticNet,ilr_07 ilr_10,0.0,False
+L_mean,M2_ElasticNet,ilr_07 ilr_11,0.049044221910917354,True
+L_mean,M2_ElasticNet,ilr_07 ilr_12,0.0,False
+L_mean,M2_ElasticNet,ilr_07 ilr_13,-0.0,False
+L_mean,M2_ElasticNet,ilr_07 ilr_14,-0.0,False
+L_mean,M2_ElasticNet,ilr_07 ilr_15,0.0,False
+L_mean,M2_ElasticNet,ilr_07 ilr_16,-0.0,False
+L_mean,M2_ElasticNet,ilr_08 ilr_09,0.0,False
+L_mean,M2_ElasticNet,ilr_08 ilr_10,-0.0,False
+L_mean,M2_ElasticNet,ilr_08 ilr_11,-0.0,False
+L_mean,M2_ElasticNet,ilr_08 ilr_12,0.0,False
+L_mean,M2_ElasticNet,ilr_08 ilr_13,0.0,False
+L_mean,M2_ElasticNet,ilr_08 ilr_14,0.0,False
+L_mean,M2_ElasticNet,ilr_08 ilr_15,-0.0,False
+L_mean,M2_ElasticNet,ilr_08 ilr_16,-0.010575647762545238,True
+L_mean,M2_ElasticNet,ilr_09 ilr_10,0.0,False
+L_mean,M2_ElasticNet,ilr_09 ilr_11,0.0,False
+L_mean,M2_ElasticNet,ilr_09 ilr_12,0.0,False
+L_mean,M2_ElasticNet,ilr_09 ilr_13,-0.012329091064882803,True
+L_mean,M2_ElasticNet,ilr_09 ilr_14,0.0,False
+L_mean,M2_ElasticNet,ilr_09 ilr_15,0.0,False
+L_mean,M2_ElasticNet,ilr_09 ilr_16,0.0,False
+L_mean,M2_ElasticNet,ilr_10 ilr_11,0.0,False
+L_mean,M2_ElasticNet,ilr_10 ilr_12,-0.0,False
+L_mean,M2_ElasticNet,ilr_10 ilr_13,0.0,False
+L_mean,M2_ElasticNet,ilr_10 ilr_14,-0.0,False
+L_mean,M2_ElasticNet,ilr_10 ilr_15,-0.0,False
+L_mean,M2_ElasticNet,ilr_10 ilr_16,0.0,False
+L_mean,M2_ElasticNet,ilr_11 ilr_12,-0.0,False
+L_mean,M2_ElasticNet,ilr_11 ilr_13,0.0,False
+L_mean,M2_ElasticNet,ilr_11 ilr_14,0.005209163985923619,True
+L_mean,M2_ElasticNet,ilr_11 ilr_15,-0.0,False
+L_mean,M2_ElasticNet,ilr_11 ilr_16,0.0,False
+L_mean,M2_ElasticNet,ilr_12 ilr_13,0.0,False
+L_mean,M2_ElasticNet,ilr_12 ilr_14,0.0,False
+L_mean,M2_ElasticNet,ilr_12 ilr_15,-0.0,False
+L_mean,M2_ElasticNet,ilr_12 ilr_16,0.0,False
+L_mean,M2_ElasticNet,ilr_13 ilr_14,0.0,False
+L_mean,M2_ElasticNet,ilr_13 ilr_15,-0.0,False
+L_mean,M2_ElasticNet,ilr_13 ilr_16,0.0,False
+L_mean,M2_ElasticNet,ilr_14 ilr_15,0.0,False
+L_mean,M2_ElasticNet,ilr_14 ilr_16,0.0,False
+L_mean,M2_ElasticNet,ilr_15 ilr_16,0.0,False
+L_trim,M1_Ridge,ilr_01,-0.019175992219944094,True
+L_trim,M1_Ridge,ilr_02,-0.1575304867895283,True
+L_trim,M1_Ridge,ilr_03,0.10316279164484432,True
+L_trim,M1_Ridge,ilr_04,0.09464295195527687,True
+L_trim,M1_Ridge,ilr_05,0.03517582373037669,True
+L_trim,M1_Ridge,ilr_06,0.027245149624804753,True
+L_trim,M1_Ridge,ilr_07,-0.14013752676923225,True
+L_trim,M1_Ridge,ilr_08,0.258022462781099,True
+L_trim,M1_Ridge,ilr_09,-0.31626598953278157,True
+L_trim,M1_Ridge,ilr_10,0.0723959339228195,True
+L_trim,M1_Ridge,ilr_11,0.16313658491648303,True
+L_trim,M1_Ridge,ilr_12,0.15804097875551557,True
+L_trim,M1_Ridge,ilr_13,-0.09220271502126805,True
+L_trim,M1_Ridge,ilr_14,-0.027252873214028552,True
+L_trim,M1_Ridge,ilr_15,0.08147145999608599,True
+L_trim,M1_Ridge,ilr_16,0.05745607125865845,True
+L_trim,M1_ElasticNet,ilr_01,-0.016649535347658364,True
+L_trim,M1_ElasticNet,ilr_02,-0.14792379371222725,True
+L_trim,M1_ElasticNet,ilr_03,0.09570772369470193,True
+L_trim,M1_ElasticNet,ilr_04,0.08899223708991816,True
+L_trim,M1_ElasticNet,ilr_05,0.03228731542561971,True
+L_trim,M1_ElasticNet,ilr_06,0.02218603256158891,True
+L_trim,M1_ElasticNet,ilr_07,-0.1357090458240849,True
+L_trim,M1_ElasticNet,ilr_08,0.25107843057105506,True
+L_trim,M1_ElasticNet,ilr_09,-0.3101028303717725,True
+L_trim,M1_ElasticNet,ilr_10,0.06657735952045526,True
+L_trim,M1_ElasticNet,ilr_11,0.15455014029205386,True
+L_trim,M1_ElasticNet,ilr_12,0.15324942435978403,True
+L_trim,M1_ElasticNet,ilr_13,-0.08854374919379544,True
+L_trim,M1_ElasticNet,ilr_14,-0.025958556012662795,True
+L_trim,M1_ElasticNet,ilr_15,0.07766977554070749,True
+L_trim,M1_ElasticNet,ilr_16,0.052390617600705985,True
+L_trim,M2_ElasticNet,ilr_01,-0.0010157359141143134,True
+L_trim,M2_ElasticNet,ilr_02,-0.036216462727133615,True
+L_trim,M2_ElasticNet,ilr_03,0.0,False
+L_trim,M2_ElasticNet,ilr_04,0.011782462062701024,True
+L_trim,M2_ElasticNet,ilr_05,0.0,False
+L_trim,M2_ElasticNet,ilr_06,-0.0,False
+L_trim,M2_ElasticNet,ilr_07,-0.04329384016479221,True
+L_trim,M2_ElasticNet,ilr_08,0.12543050924097143,True
+L_trim,M2_ElasticNet,ilr_09,-0.16321849935424707,True
+L_trim,M2_ElasticNet,ilr_10,0.0,False
+L_trim,M2_ElasticNet,ilr_11,0.026653245952671586,True
+L_trim,M2_ElasticNet,ilr_12,0.07454303415967524,True
+L_trim,M2_ElasticNet,ilr_13,-0.03151166787259594,True
+L_trim,M2_ElasticNet,ilr_14,-0.011886652038266783,True
+L_trim,M2_ElasticNet,ilr_15,0.020195382910896585,True
+L_trim,M2_ElasticNet,ilr_16,0.0,False
+L_trim,M2_ElasticNet,ilr_01 ilr_02,-0.008613119992601743,True
+L_trim,M2_ElasticNet,ilr_01 ilr_03,-0.03340073024355809,True
+L_trim,M2_ElasticNet,ilr_01 ilr_04,-0.0,False
+L_trim,M2_ElasticNet,ilr_01 ilr_05,-0.0012469494939899737,True
+L_trim,M2_ElasticNet,ilr_01 ilr_06,0.007856292565236882,True
+L_trim,M2_ElasticNet,ilr_01 ilr_07,-0.0,False
+L_trim,M2_ElasticNet,ilr_01 ilr_08,-0.0,False
+L_trim,M2_ElasticNet,ilr_01 ilr_09,0.0,False
+L_trim,M2_ElasticNet,ilr_01 ilr_10,-0.0,False
+L_trim,M2_ElasticNet,ilr_01 ilr_11,0.010757950389008253,True
+L_trim,M2_ElasticNet,ilr_01 ilr_12,-0.0,False
+L_trim,M2_ElasticNet,ilr_01 ilr_13,0.01306834336079346,True
+L_trim,M2_ElasticNet,ilr_01 ilr_14,0.0,False
+L_trim,M2_ElasticNet,ilr_01 ilr_15,0.003241879460149236,True
+L_trim,M2_ElasticNet,ilr_01 ilr_16,0.0,False
+L_trim,M2_ElasticNet,ilr_02 ilr_03,0.052954727308204885,True
+L_trim,M2_ElasticNet,ilr_02 ilr_04,0.035217094348003034,True
+L_trim,M2_ElasticNet,ilr_02 ilr_05,0.0,False
+L_trim,M2_ElasticNet,ilr_02 ilr_06,0.06913232127289808,True
+L_trim,M2_ElasticNet,ilr_02 ilr_07,-0.0,False
+L_trim,M2_ElasticNet,ilr_02 ilr_08,0.049997494563263495,True
+L_trim,M2_ElasticNet,ilr_02 ilr_09,-0.05448164089562106,True
+L_trim,M2_ElasticNet,ilr_02 ilr_10,-0.0,False
+L_trim,M2_ElasticNet,ilr_02 ilr_11,0.009900227338344907,True
+L_trim,M2_ElasticNet,ilr_02 ilr_12,0.0,False
+L_trim,M2_ElasticNet,ilr_02 ilr_13,-0.0012501597768161579,True
+L_trim,M2_ElasticNet,ilr_02 ilr_14,-0.017185365966842003,True
+L_trim,M2_ElasticNet,ilr_02 ilr_15,0.041419650672119855,True
+L_trim,M2_ElasticNet,ilr_02 ilr_16,-0.0,False
+L_trim,M2_ElasticNet,ilr_03 ilr_04,-0.003917260923530978,True
+L_trim,M2_ElasticNet,ilr_03 ilr_05,0.0,False
+L_trim,M2_ElasticNet,ilr_03 ilr_06,-0.028603002003168503,True
+L_trim,M2_ElasticNet,ilr_03 ilr_07,-0.0,False
+L_trim,M2_ElasticNet,ilr_03 ilr_08,-0.013899546128194749,True
+L_trim,M2_ElasticNet,ilr_03 ilr_09,0.052671379883794264,True
+L_trim,M2_ElasticNet,ilr_03 ilr_10,-0.0,False
+L_trim,M2_ElasticNet,ilr_03 ilr_11,-0.0,False
+L_trim,M2_ElasticNet,ilr_03 ilr_12,0.0,False
+L_trim,M2_ElasticNet,ilr_03 ilr_13,-0.004372562308208861,True
+L_trim,M2_ElasticNet,ilr_03 ilr_14,0.0,False
+L_trim,M2_ElasticNet,ilr_03 ilr_15,0.002191425076397495,True
+L_trim,M2_ElasticNet,ilr_03 ilr_16,-0.023239403182545124,True
+L_trim,M2_ElasticNet,ilr_04 ilr_05,0.0,False
+L_trim,M2_ElasticNet,ilr_04 ilr_06,0.02948717754250622,True
+L_trim,M2_ElasticNet,ilr_04 ilr_07,0.0,False
+L_trim,M2_ElasticNet,ilr_04 ilr_08,0.014606837484716207,True
+L_trim,M2_ElasticNet,ilr_04 ilr_09,-0.0,False
+L_trim,M2_ElasticNet,ilr_04 ilr_10,0.0,False
+L_trim,M2_ElasticNet,ilr_04 ilr_11,-0.0,False
+L_trim,M2_ElasticNet,ilr_04 ilr_12,0.0017293515628284957,True
+L_trim,M2_ElasticNet,ilr_04 ilr_13,-0.0,False
+L_trim,M2_ElasticNet,ilr_04 ilr_14,-0.0,False
+L_trim,M2_ElasticNet,ilr_04 ilr_15,-0.0,False
+L_trim,M2_ElasticNet,ilr_04 ilr_16,-0.0,False
+L_trim,M2_ElasticNet,ilr_05 ilr_06,0.02273936203735022,True
+L_trim,M2_ElasticNet,ilr_05 ilr_07,0.0,False
+L_trim,M2_ElasticNet,ilr_05 ilr_08,0.006199229491746967,True
+L_trim,M2_ElasticNet,ilr_05 ilr_09,0.0,False
+L_trim,M2_ElasticNet,ilr_05 ilr_10,0.0,False
+L_trim,M2_ElasticNet,ilr_05 ilr_11,0.0,False
+L_trim,M2_ElasticNet,ilr_05 ilr_12,0.03010571632008376,True
+L_trim,M2_ElasticNet,ilr_05 ilr_13,0.0,False
+L_trim,M2_ElasticNet,ilr_05 ilr_14,0.015245585807032624,True
+L_trim,M2_ElasticNet,ilr_05 ilr_15,-0.004955275731420787,True
+L_trim,M2_ElasticNet,ilr_05 ilr_16,-0.004845215752278627,True
+L_trim,M2_ElasticNet,ilr_06 ilr_07,0.0,False
+L_trim,M2_ElasticNet,ilr_06 ilr_08,0.04274501549255092,True
+L_trim,M2_ElasticNet,ilr_06 ilr_09,-0.0,False
+L_trim,M2_ElasticNet,ilr_06 ilr_10,-0.0,False
+L_trim,M2_ElasticNet,ilr_06 ilr_11,-0.0,False
+L_trim,M2_ElasticNet,ilr_06 ilr_12,-0.01172184202144612,True
+L_trim,M2_ElasticNet,ilr_06 ilr_13,-0.0006485894228075747,True
+L_trim,M2_ElasticNet,ilr_06 ilr_14,-0.0,False
+L_trim,M2_ElasticNet,ilr_06 ilr_15,-0.009624269293000311,True
+L_trim,M2_ElasticNet,ilr_06 ilr_16,-0.0,False
+L_trim,M2_ElasticNet,ilr_07 ilr_08,0.0,False
+L_trim,M2_ElasticNet,ilr_07 ilr_09,-0.043415564891372944,True
+L_trim,M2_ElasticNet,ilr_07 ilr_10,0.006434359226335756,True
+L_trim,M2_ElasticNet,ilr_07 ilr_11,0.05565292374686041,True
+L_trim,M2_ElasticNet,ilr_07 ilr_12,0.0,False
+L_trim,M2_ElasticNet,ilr_07 ilr_13,-0.0,False
+L_trim,M2_ElasticNet,ilr_07 ilr_14,-0.0,False
+L_trim,M2_ElasticNet,ilr_07 ilr_15,0.0,False
+L_trim,M2_ElasticNet,ilr_07 ilr_16,-0.0,False
+L_trim,M2_ElasticNet,ilr_08 ilr_09,0.02098403909191683,True
+L_trim,M2_ElasticNet,ilr_08 ilr_10,-0.0,False
+L_trim,M2_ElasticNet,ilr_08 ilr_11,-0.0,False
+L_trim,M2_ElasticNet,ilr_08 ilr_12,0.004467430654533614,True
+L_trim,M2_ElasticNet,ilr_08 ilr_13,0.0,False
+L_trim,M2_ElasticNet,ilr_08 ilr_14,0.0,False
+L_trim,M2_ElasticNet,ilr_08 ilr_15,-0.008689366323332892,True
+L_trim,M2_ElasticNet,ilr_08 ilr_16,-0.027119192617934454,True
+L_trim,M2_ElasticNet,ilr_09 ilr_10,0.023948084330261653,True
+L_trim,M2_ElasticNet,ilr_09 ilr_11,0.0,False
+L_trim,M2_ElasticNet,ilr_09 ilr_12,0.0,False
+L_trim,M2_ElasticNet,ilr_09 ilr_13,-0.04148069747959252,True
+L_trim,M2_ElasticNet,ilr_09 ilr_14,0.0,False
+L_trim,M2_ElasticNet,ilr_09 ilr_15,0.0,False
+L_trim,M2_ElasticNet,ilr_09 ilr_16,0.027109982448267192,True
+L_trim,M2_ElasticNet,ilr_10 ilr_11,0.0003811739700166333,True
+L_trim,M2_ElasticNet,ilr_10 ilr_12,-0.012546173420546005,True
+L_trim,M2_ElasticNet,ilr_10 ilr_13,0.0,False
+L_trim,M2_ElasticNet,ilr_10 ilr_14,-0.0,False
+L_trim,M2_ElasticNet,ilr_10 ilr_15,-0.0,False
+L_trim,M2_ElasticNet,ilr_10 ilr_16,0.007120758237649532,True
+L_trim,M2_ElasticNet,ilr_11 ilr_12,-0.008233740861087017,True
+L_trim,M2_ElasticNet,ilr_11 ilr_13,0.010469542354825619,True
+L_trim,M2_ElasticNet,ilr_11 ilr_14,0.012166639350093914,True
+L_trim,M2_ElasticNet,ilr_11 ilr_15,-0.0,False
+L_trim,M2_ElasticNet,ilr_11 ilr_16,-0.0,False
+L_trim,M2_ElasticNet,ilr_12 ilr_13,0.0038397538547733892,True
+L_trim,M2_ElasticNet,ilr_12 ilr_14,0.00915658883318451,True
+L_trim,M2_ElasticNet,ilr_12 ilr_15,-0.0,False
+L_trim,M2_ElasticNet,ilr_12 ilr_16,0.006262106810038498,True
+L_trim,M2_ElasticNet,ilr_13 ilr_14,0.0,False
+L_trim,M2_ElasticNet,ilr_13 ilr_15,-0.0,False
+L_trim,M2_ElasticNet,ilr_13 ilr_16,0.0,False
+L_trim,M2_ElasticNet,ilr_14 ilr_15,0.0,False
+L_trim,M2_ElasticNet,ilr_14 ilr_16,0.0,False
+L_trim,M2_ElasticNet,ilr_15 ilr_16,0.0,False

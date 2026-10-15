@@ -1,0 +1,7 @@
+﻿response,dataset_1,dataset_2,shared_recipe_n,actual_Pearson,actual_Spearman,interpretation
+L_mean,test_1M,test_60M,256,0.9670963309637954,0.9657980945296404,direct observed ordering on matched recipes
+L_mean,test_1M,test_1B,0,,,no shared recipes; direct observed rank stability undefined
+L_mean,test_60M,test_1B,0,,,no shared recipes; direct observed rank stability undefined
+L_trim,test_1M,test_60M,256,0.9841059243916989,0.9823400663767452,direct observed ordering on matched recipes
+L_trim,test_1M,test_1B,0,,,no shared recipes; direct observed rank stability undefined
+L_trim,test_60M,test_1B,0,,,no shared recipes; direct observed rank stability undefined

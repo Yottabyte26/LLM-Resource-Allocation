@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "n_checks": 34894,
+  "prior_files_unchanged": 2717,
+  "bootstrap_slopes_replayed": 10000,
+  "curve_bootstrap_records_verified": 8000,
+  "models_refitted": false
+}

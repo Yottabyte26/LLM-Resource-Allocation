@@ -1,0 +1,35 @@
+﻿model,parameter_1,parameter_2,Pearson,Spearman,n,defined,undefined_reason
+S1,gamma0,gamma0,1.0,1.0,2000,True,
+S1,gamma0,u,-0.5486930556579537,-0.5520689175172293,2000,True,
+S1,gamma0,v,0.01373804922070057,-0.00023867105966776496,2000,True,
+S1,u,gamma0,-0.5486930556579538,-0.5520689175172293,2000,True,
+S1,u,u,1.0,1.0,2000,True,
+S1,u,v,0.12399836172161793,0.11060515865128967,2000,True,
+S1,v,gamma0,0.01373804922070057,-0.00023867105966776496,2000,True,
+S1,v,u,0.12399836172161792,0.11060515865128967,2000,True,
+S1,v,v,1.0,1.0,2000,True,
+S2,C,C,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,C,u,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,C,v,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,C,eta,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,u,C,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,u,u,1.0,1.0,2000,True,
+S2,u,v,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,u,eta,-0.45716372451971216,-0.46699944574986146,2000,True,
+S2,v,C,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,v,u,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,v,v,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,v,eta,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,eta,C,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,eta,u,-0.4571637245197121,-0.46699944574986146,2000,True,
+S2,eta,v,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S2,eta,eta,1.0,1.0,2000,True,
+S3,C,C,1.0,1.0,2000,True,
+S3,C,u,-0.4571761638684734,-0.46707756576939147,2000,True,
+S3,C,v,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S3,u,C,-0.45717616386847326,-0.46707756576939147,2000,True,
+S3,u,u,1.0,1.0,2000,True,
+S3,u,v,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S3,v,C,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S3,v,u,,,2000,False,At least one parameter is numerically constant or fixed at an active bound
+S3,v,v,,,2000,False,At least one parameter is numerically constant or fixed at an active bound

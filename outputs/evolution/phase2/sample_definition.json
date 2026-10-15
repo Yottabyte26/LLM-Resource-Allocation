@@ -1,0 +1,15 @@
+{
+  "primary_origin": "2024-06-08",
+  "primary_end": "2025-03-06",
+  "release_origin": "2021-03-21",
+  "days_per_month": 30.4375,
+  "primary_bounds": [
+    0,
+    8.903490759753593
+  ],
+  "N_units": "billion parameters; natural log",
+  "D_units": "tokens; natural log",
+  "C_units": "observed C4 FLOP; natural log",
+  "dedup": "frozen latest-date cohort; same-date deterministic componentwise medians",
+  "no_frozen_ability_or_scale_imputation": true
+}

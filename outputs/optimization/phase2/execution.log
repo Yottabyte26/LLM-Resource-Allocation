@@ -1,0 +1,153 @@
+2026-09-26 20:36:10,931 INFO NumExpr defaulting to 16 threads.
+2026-09-26 20:36:14,579 INFO P0 main exponential L=2048 complete (44 budgets)
+2026-09-26 20:36:16,976 INFO P0 main exponential L=4096 complete (44 budgets)
+2026-09-26 20:36:19,386 INFO P0 main exponential L=8192 complete (44 budgets)
+2026-09-26 20:36:22,334 INFO P0 main exponential L=32768 complete (44 budgets)
+2026-09-26 20:36:25,033 INFO P0 main exponential L=131072 complete (44 budgets)
+2026-09-26 20:36:27,695 INFO P0 main power L=2048 complete (44 budgets)
+2026-09-26 20:36:30,556 INFO P0 main power L=4096 complete (44 budgets)
+2026-09-26 20:36:33,537 INFO P0 main power L=8192 complete (44 budgets)
+2026-09-26 20:36:35,844 INFO P0 main power L=32768 complete (44 budgets)
+2026-09-26 20:36:38,392 INFO P0 main power L=131072 complete (44 budgets)
+2026-09-26 20:36:41,134 INFO P0 main logarithmic L=2048 complete (44 budgets)
+2026-09-26 20:36:43,731 INFO P0 main logarithmic L=4096 complete (44 budgets)
+2026-09-26 20:36:46,348 INFO P0 main logarithmic L=8192 complete (44 budgets)
+2026-09-26 20:36:49,002 INFO P0 main logarithmic L=32768 complete (44 budgets)
+2026-09-26 20:36:51,282 INFO P0 main logarithmic L=131072 complete (44 budgets)
+2026-09-26 20:36:53,712 INFO P0 extended exponential L=2048 complete (44 budgets)
+2026-09-26 20:36:56,354 INFO P0 extended exponential L=4096 complete (44 budgets)
+2026-09-26 20:36:58,928 INFO P0 extended exponential L=8192 complete (44 budgets)
+2026-09-26 20:37:01,665 INFO P0 extended exponential L=32768 complete (44 budgets)
+2026-09-26 20:37:03,453 INFO P0 extended exponential L=131072 complete (44 budgets)
+2026-09-26 20:37:05,403 INFO P0 extended power L=2048 complete (44 budgets)
+2026-09-26 20:37:07,288 INFO P0 extended power L=4096 complete (44 budgets)
+2026-09-26 20:37:09,320 INFO P0 extended power L=8192 complete (44 budgets)
+2026-09-26 20:37:11,317 INFO P0 extended power L=32768 complete (44 budgets)
+2026-09-26 20:37:13,633 INFO P0 extended power L=131072 complete (44 budgets)
+2026-09-26 20:37:15,849 INFO P0 extended logarithmic L=2048 complete (44 budgets)
+2026-09-26 20:37:18,186 INFO P0 extended logarithmic L=4096 complete (44 budgets)
+2026-09-26 20:37:20,221 INFO P0 extended logarithmic L=8192 complete (44 budgets)
+2026-09-26 20:37:22,405 INFO P0 extended logarithmic L=32768 complete (44 budgets)
+2026-09-26 20:37:24,311 INFO P0 extended logarithmic L=131072 complete (44 budgets)
+2026-09-26 20:37:25,554 INFO P1 official main exponential L=2048 complete
+2026-09-26 20:37:26,923 INFO P1 official main exponential L=4096 complete
+2026-09-26 20:37:28,270 INFO P1 official main exponential L=8192 complete
+2026-09-26 20:37:29,394 INFO P1 official main exponential L=32768 complete
+2026-09-26 20:37:30,554 INFO P1 official main exponential L=131072 complete
+2026-09-26 20:37:31,699 INFO P1 official main power L=2048 complete
+2026-09-26 20:37:33,079 INFO P1 official main power L=4096 complete
+2026-09-26 20:37:34,137 INFO P1 official main power L=8192 complete
+2026-09-26 20:37:35,154 INFO P1 official main power L=32768 complete
+2026-09-26 20:37:36,129 INFO P1 official main power L=131072 complete
+2026-09-26 20:37:37,207 INFO P1 official main logarithmic L=2048 complete
+2026-09-26 20:37:38,487 INFO P1 official main logarithmic L=4096 complete
+2026-09-26 20:37:39,809 INFO P1 official main logarithmic L=8192 complete
+2026-09-26 20:37:41,061 INFO P1 official main logarithmic L=32768 complete
+2026-09-26 20:37:42,075 INFO P1 official main logarithmic L=131072 complete
+2026-09-26 20:37:43,246 INFO P1 official extended exponential L=2048 complete
+2026-09-26 20:37:44,396 INFO P1 official extended exponential L=4096 complete
+2026-09-26 20:37:45,570 INFO P1 official extended exponential L=8192 complete
+2026-09-26 20:37:46,875 INFO P1 official extended exponential L=32768 complete
+2026-09-26 20:37:47,640 INFO P1 official extended exponential L=131072 complete
+2026-09-26 20:37:48,910 INFO P1 official extended power L=2048 complete
+2026-09-26 20:37:50,050 INFO P1 official extended power L=4096 complete
+2026-09-26 20:37:51,236 INFO P1 official extended power L=8192 complete
+2026-09-26 20:37:52,225 INFO P1 official extended power L=32768 complete
+2026-09-26 20:37:52,936 INFO P1 official extended power L=131072 complete
+2026-09-26 20:37:54,084 INFO P1 official extended logarithmic L=2048 complete
+2026-09-26 20:37:55,338 INFO P1 official extended logarithmic L=4096 complete
+2026-09-26 20:37:56,443 INFO P1 official extended logarithmic L=8192 complete
+2026-09-26 20:37:57,318 INFO P1 official extended logarithmic L=32768 complete
+2026-09-26 20:37:57,997 INFO P1 official extended logarithmic L=131072 complete
+2026-09-26 20:38:03,458 INFO Q0 sensitivity 0.6925361864 complete
+2026-09-26 20:38:08,832 INFO Q0 sensitivity 0.7215759820 complete
+2026-09-26 20:38:14,883 INFO Q0 sensitivity 0.7475281056 complete
+2026-09-26 20:38:16,534 INFO Resource solve and independent checks complete; no P2 or Question 4
+2026-09-26 20:39:39,050 INFO NumExpr defaulting to 16 threads.
+2026-09-26 20:39:50,235 INFO Transitions main exponential L=2048 complete; refined 155 budget points
+2026-09-26 20:40:01,123 INFO Transitions main exponential L=4096 complete; refined 155 budget points
+2026-09-26 20:40:11,198 INFO Transitions main exponential L=8192 complete; refined 157 budget points
+2026-09-26 20:40:27,815 INFO Transitions main exponential L=32768 complete; refined 156 budget points
+2026-09-26 20:40:58,081 INFO Transitions main exponential L=131072 complete; refined 156 budget points
+2026-09-26 20:41:09,776 INFO Transitions main power L=2048 complete; refined 150 budget points
+2026-09-26 20:41:19,195 INFO Transitions main power L=4096 complete; refined 145 budget points
+2026-09-26 20:41:28,956 INFO Transitions main power L=8192 complete; refined 145 budget points
+2026-09-26 20:41:38,929 INFO Transitions main power L=32768 complete; refined 148 budget points
+2026-09-26 20:41:59,682 INFO Transitions main power L=131072 complete; refined 143 budget points
+2026-09-26 20:42:15,643 INFO Transitions main logarithmic L=2048 complete; refined 147 budget points
+2026-09-26 20:42:28,521 INFO Transitions main logarithmic L=4096 complete; refined 139 budget points
+2026-09-26 20:42:45,577 INFO Transitions main logarithmic L=8192 complete; refined 140 budget points
+2026-09-26 20:43:00,199 INFO Transitions main logarithmic L=32768 complete; refined 148 budget points
+2026-09-26 20:43:10,403 INFO Transitions main logarithmic L=131072 complete; refined 130 budget points
+2026-09-26 20:43:16,679 INFO Transitions extended exponential L=2048 complete; refined 125 budget points
+2026-09-26 20:43:23,292 INFO Transitions extended exponential L=4096 complete; refined 125 budget points
+2026-09-26 20:43:30,080 INFO Transitions extended exponential L=8192 complete; refined 127 budget points
+2026-09-26 20:43:41,838 INFO Transitions extended exponential L=32768 complete; refined 126 budget points
+2026-09-26 20:44:05,855 INFO Transitions extended exponential L=131072 complete; refined 126 budget points
+2026-09-26 20:44:12,052 INFO Transitions extended power L=2048 complete; refined 120 budget points
+2026-09-26 20:44:18,095 INFO Transitions extended power L=4096 complete; refined 115 budget points
+2026-09-26 20:44:23,708 INFO Transitions extended power L=8192 complete; refined 115 budget points
+2026-09-26 20:44:29,682 INFO Transitions extended power L=32768 complete; refined 118 budget points
+2026-09-26 20:44:45,375 INFO Transitions extended power L=131072 complete; refined 113 budget points
+2026-09-26 20:44:58,974 INFO Transitions extended logarithmic L=2048 complete; refined 118 budget points
+2026-09-26 20:45:09,705 INFO Transitions extended logarithmic L=4096 complete; refined 112 budget points
+2026-09-26 20:45:20,411 INFO Transitions extended logarithmic L=8192 complete; refined 110 budget points
+2026-09-26 20:45:30,012 INFO Transitions extended logarithmic L=32768 complete; refined 115 budget points
+2026-09-26 20:45:35,880 INFO Transitions extended logarithmic L=131072 complete; refined 100 budget points
+2026-09-26 20:46:23,911 INFO NumExpr defaulting to 16 threads.
+2026-09-26 20:46:35,551 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,553 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,557 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,558 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,561 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,562 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,566 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,568 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,572 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,572 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,576 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,576 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,581 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,583 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,587 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,588 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,591 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:46:35,591 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:29,032 INFO NumExpr defaulting to 16 threads.
+2026-09-26 20:49:47,364 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,365 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,368 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,368 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,371 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,371 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,374 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,375 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,378 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,378 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,380 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,381 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,383 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,384 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,386 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,387 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,389 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:49:47,389 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:52:50,436 INFO NumExpr defaulting to 16 threads.
+2026-09-26 20:53:01,509 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,510 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,512 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,512 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,515 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,516 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,519 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,520 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,523 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,523 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,526 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,526 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,528 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,530 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,532 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,533 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,535 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 20:53:01,535 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

@@ -1,0 +1,5 @@
+﻿group,available_n,requested_n,selected_n,definition
+up,51,10,10,saved text material; unchanged uses stated numeric tolerance
+down,18,10,10,saved text material; unchanged uses stated numeric tolerance
+unchanged,10,10,10,saved text material; unchanged uses stated numeric tolerance
+high_conflict_smallest_change,69,10,10,high-conflict smallest absolute changes; not claimed near-zero

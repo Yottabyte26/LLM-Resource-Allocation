@@ -1,0 +1,13 @@
+﻿dataset,kind,path,rows,unique_index_count,index_unique,numeric_columns,nan_count,inf_count,negative_count,provenance
+train_1M,mixture,real_attachments/A_data_value/regmix_tables/train_mixture_1m.csv,512,512,True,17,0,0,0,observed
+train_1M,loss,real_attachments/A_data_value/regmix_tables/train_pile_loss_1m.csv,512,512,True,13,0,0,0,observed
+test_1M,mixture,real_attachments/A_data_value/regmix_tables/test_mixture_1m.csv,256,256,True,17,0,0,0,observed
+test_1M,loss,real_attachments/A_data_value/regmix_tables/test_pile_loss_1m.csv,256,256,True,13,0,0,0,observed
+test_60M,mixture,real_attachments/A_data_value/regmix_tables/test_mixture_60m.csv,256,256,True,17,0,0,0,observed
+test_60M,loss,real_attachments/A_data_value/regmix_tables/test_pile_loss_60m.csv,256,256,True,13,0,0,0,observed
+test_1B,mixture,real_attachments/A_data_value/regmix_tables/test_mixture_1B.csv,64,64,True,17,0,0,0,observed
+test_1B,loss,real_attachments/A_data_value/regmix_tables/test_pile_loss_1B.csv,64,64,True,13,0,0,0,observed
+estimated_10B,mixture,real_attachments/A_data_value/regmix_tables/est_mixture_10b.csv,63,63,True,17,0,0,0,estimated
+estimated_10B,loss,real_attachments/A_data_value/regmix_tables/est_pile_loss_10b.csv,63,63,True,13,0,0,0,estimated
+estimated_70B,mixture,real_attachments/A_data_value/regmix_tables/est_mixture_70b.csv,63,63,True,17,0,0,0,estimated
+estimated_70B,loss,real_attachments/A_data_value/regmix_tables/est_pile_loss_70b.csv,63,63,True,13,0,0,0,estimated

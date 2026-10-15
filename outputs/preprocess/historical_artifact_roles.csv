@@ -1,0 +1,12 @@
+﻿path,role,main_model_parameter
+outputs/profile/domain_indicator_profile.csv,pooled descriptive / sensitivity analysis,False
+outputs/profile/group_record_counts.csv,pooled descriptive / sensitivity analysis,False
+outputs/profile/missing_summary.csv,pooled descriptive / sensitivity analysis,False
+outputs/profile/profile.log,pooled descriptive / sensitivity analysis,False
+outputs/profile/profile_config_snapshot.yaml,pooled descriptive / sensitivity analysis,False
+outputs/profile/profile_input_manifest.csv,pooled descriptive / sensitivity analysis,False
+outputs/profile/quality_indicator_profile.csv,pooled descriptive / sensitivity analysis,False
+outputs/profile/quality_profile_summary.md,pooled descriptive / sensitivity analysis,False
+outputs/profile/scalar_missing_records.csv,pooled descriptive / sensitivity analysis,False
+outputs/profile/scalar_validation.csv,pooled descriptive / sensitivity analysis,False
+outputs/preprocess/qurater_transform_parameters.csv,pooled descriptive / sensitivity analysis,False

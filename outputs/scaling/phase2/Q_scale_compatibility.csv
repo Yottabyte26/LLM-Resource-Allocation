@@ -1,0 +1,22 @@
+﻿domain,Q_domain,dataset,Q_min,Q_max,numeric_range_interpolation,semantic_calibration_confirmed,note
+arxiv,0.7651065297732803,B6,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+arxiv,0.7651065297732803,B7,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+arxiv,0.7651065297732803,B8,0.05,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+c4,0.7639452843183598,B6,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+c4,0.7639452843183598,B7,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+c4,0.7639452843183598,B8,0.05,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+commoncrawl,0.7597307676184978,B6,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+commoncrawl,0.7597307676184978,B7,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+commoncrawl,0.7597307676184978,B8,0.05,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+stackexchange,0.7475281055884827,B6,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+stackexchange,0.7475281055884827,B7,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+stackexchange,0.7475281055884827,B8,0.05,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+wikipedia,0.6812641222241059,B6,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+wikipedia,0.6812641222241059,B7,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+wikipedia,0.6812641222241059,B8,0.05,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+github,0.6489286992466243,B6,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+github,0.6489286992466243,B7,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+github,0.6489286992466243,B8,0.05,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+book,0.5867366961905537,B6,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+book,0.5867366961905537,B7,0.1,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics
+book,0.5867366961905537,B8,0.05,1.0,True,False,Numerical range coverage alone does not establish equivalent quality semantics

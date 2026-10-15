@@ -1,0 +1,13 @@
+﻿metric,fitting_dataset,L,U,direction,constant
+fineweb_edu,A1,0.034469933509826654,3.2404500007629395,positive,False
+dsir_books,A1,-56918.4092252888,-232.54878165960002,positive,False
+dsir_wiki,A1,-60860.8279476777,-228.26818290040012,positive,False
+dsir_math,A1,-45615.732442883906,-227.74308688770012,positive,False
+rps_doc_unigram_entropy,A1,2.1371304051999997,6.325648439699999,positive,False
+rps_doc_frac_unique_words,A1,17.204759645793803,100.0,positive,False
+rps_doc_frac_no_alph_words,A1,16.636897675691845,99.90756177631864,negative,False
+rps_doc_frac_chars_top_2gram,A1,0.0,21.0,negative,False
+rps_doc_frac_chars_top_3gram,A1,0.0,20.63594320725811,negative,False
+rps_lines_uppercase_letter_fraction,A1,1.1270577141703508,52.7577506193827,negative,False
+rps_lines_ending_with_terminal_punctuation_mark,A1,0.4300563580039559,100.0,positive,False
+rps_lines_numerical_chars_fraction,A1,0.0,19.177330331870227,negative,False

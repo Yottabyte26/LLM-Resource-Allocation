@@ -1,0 +1,206 @@
+﻿check,passed,detail
+membership aligned by source row,True,"Diagnostic membership table is grouped; align by source_row, never assume its row order is raw CSV order"
+B1 actual trajectory grouping,True,"8 exact-size trajectories, 147 checkpoints each; run_id is not model ID"
+B1 positive finite raw billion units,True,No 1e9 multiplication for N/D powers
+all prior project files unchanged,True,2478 original and Q1 frozen files
+source restriction,True,No B6-B10 numerical ingestion; primary fit B1 only
+five positive finite main parameters,True,"{'E': 1.6897975629216038, 'A': 0.35398032066343604, 'B': 1.2403055835502586, 'alpha': 0.3399765818976516, 'beta': 0.27987812854408783}"
+main predictions finite positive,True,1176 provided checkpoints
+balanced objective reconstructed,True,Normalized trajectory mass=1/8; raw Loss squared residuals
+equal trajectory total weights,True,No large-checkpoint trajectory dominance
+at least 30 dispersed primary starts,True,"32 independently generated starts, analytic-Jacobian optimization"
+best legal start selected,True,Training objective alone; no validation selection
+M0_N_D fold1 complete holdout,True,Entire heldout trajectory absent from training
+M0_N_D fold1 predictions reconstructed,True,Correct source row order and raw-unit powers
+M0_N_D fold1 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M0_N_D fold1 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M0_N_D fold2 complete holdout,True,Entire heldout trajectory absent from training
+M0_N_D fold2 predictions reconstructed,True,Correct source row order and raw-unit powers
+M0_N_D fold2 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M0_N_D fold2 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M0_N_D fold3 complete holdout,True,Entire heldout trajectory absent from training
+M0_N_D fold3 predictions reconstructed,True,Correct source row order and raw-unit powers
+M0_N_D fold3 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M0_N_D fold3 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M0_N_D fold4 complete holdout,True,Entire heldout trajectory absent from training
+M0_N_D fold4 predictions reconstructed,True,Correct source row order and raw-unit powers
+M0_N_D fold4 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M0_N_D fold4 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M0_N_D fold5 complete holdout,True,Entire heldout trajectory absent from training
+M0_N_D fold5 predictions reconstructed,True,Correct source row order and raw-unit powers
+M0_N_D fold5 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M0_N_D fold5 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M0_N_D fold6 complete holdout,True,Entire heldout trajectory absent from training
+M0_N_D fold6 predictions reconstructed,True,Correct source row order and raw-unit powers
+M0_N_D fold6 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M0_N_D fold6 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M0_N_D fold7 complete holdout,True,Entire heldout trajectory absent from training
+M0_N_D fold7 predictions reconstructed,True,Correct source row order and raw-unit powers
+M0_N_D fold7 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M0_N_D fold7 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M0_N_D fold8 complete holdout,True,Entire heldout trajectory absent from training
+M0_N_D fold8 predictions reconstructed,True,Correct source row order and raw-unit powers
+M0_N_D fold8 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M0_N_D fold8 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M1_N_only fold1 complete holdout,True,Entire heldout trajectory absent from training
+M1_N_only fold1 predictions reconstructed,True,Correct source row order and raw-unit powers
+M1_N_only fold1 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M1_N_only fold1 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M1_N_only fold2 complete holdout,True,Entire heldout trajectory absent from training
+M1_N_only fold2 predictions reconstructed,True,Correct source row order and raw-unit powers
+M1_N_only fold2 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M1_N_only fold2 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M1_N_only fold3 complete holdout,True,Entire heldout trajectory absent from training
+M1_N_only fold3 predictions reconstructed,True,Correct source row order and raw-unit powers
+M1_N_only fold3 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M1_N_only fold3 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M1_N_only fold4 complete holdout,True,Entire heldout trajectory absent from training
+M1_N_only fold4 predictions reconstructed,True,Correct source row order and raw-unit powers
+M1_N_only fold4 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M1_N_only fold4 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M1_N_only fold5 complete holdout,True,Entire heldout trajectory absent from training
+M1_N_only fold5 predictions reconstructed,True,Correct source row order and raw-unit powers
+M1_N_only fold5 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M1_N_only fold5 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M1_N_only fold6 complete holdout,True,Entire heldout trajectory absent from training
+M1_N_only fold6 predictions reconstructed,True,Correct source row order and raw-unit powers
+M1_N_only fold6 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M1_N_only fold6 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M1_N_only fold7 complete holdout,True,Entire heldout trajectory absent from training
+M1_N_only fold7 predictions reconstructed,True,Correct source row order and raw-unit powers
+M1_N_only fold7 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M1_N_only fold7 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M1_N_only fold8 complete holdout,True,Entire heldout trajectory absent from training
+M1_N_only fold8 predictions reconstructed,True,Correct source row order and raw-unit powers
+M1_N_only fold8 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M1_N_only fold8 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M2_D_only fold1 complete holdout,True,Entire heldout trajectory absent from training
+M2_D_only fold1 predictions reconstructed,True,Correct source row order and raw-unit powers
+M2_D_only fold1 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M2_D_only fold1 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M2_D_only fold2 complete holdout,True,Entire heldout trajectory absent from training
+M2_D_only fold2 predictions reconstructed,True,Correct source row order and raw-unit powers
+M2_D_only fold2 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M2_D_only fold2 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M2_D_only fold3 complete holdout,True,Entire heldout trajectory absent from training
+M2_D_only fold3 predictions reconstructed,True,Correct source row order and raw-unit powers
+M2_D_only fold3 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M2_D_only fold3 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M2_D_only fold4 complete holdout,True,Entire heldout trajectory absent from training
+M2_D_only fold4 predictions reconstructed,True,Correct source row order and raw-unit powers
+M2_D_only fold4 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M2_D_only fold4 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M2_D_only fold5 complete holdout,True,Entire heldout trajectory absent from training
+M2_D_only fold5 predictions reconstructed,True,Correct source row order and raw-unit powers
+M2_D_only fold5 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M2_D_only fold5 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M2_D_only fold6 complete holdout,True,Entire heldout trajectory absent from training
+M2_D_only fold6 predictions reconstructed,True,Correct source row order and raw-unit powers
+M2_D_only fold6 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M2_D_only fold6 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M2_D_only fold7 complete holdout,True,Entire heldout trajectory absent from training
+M2_D_only fold7 predictions reconstructed,True,Correct source row order and raw-unit powers
+M2_D_only fold7 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M2_D_only fold7 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M2_D_only fold8 complete holdout,True,Entire heldout trajectory absent from training
+M2_D_only fold8 predictions reconstructed,True,Correct source row order and raw-unit powers
+M2_D_only fold8 metrics,True,"Undefined constant-prediction ranks are blank, never fabricated"
+M2_D_only fold8 initialization isolation,True,No all-B1 or heldout-informed CV warm start
+M0_N_D OOF exact coverage,True,Each checkpoint held out exactly once as a complete trajectory
+M1_N_only OOF exact coverage,True,Each checkpoint held out exactly once as a complete trajectory
+M2_D_only OOF exact coverage,True,Each checkpoint held out exactly once as a complete trajectory
+M0_N_D pooled Group CV metrics,True,"Pooled heldout predictions, identical group folds"
+M1_N_only pooled Group CV metrics,True,"Pooled heldout predictions, identical group folds"
+M2_D_only pooled Group CV metrics,True,"Pooled heldout predictions, identical group folds"
+balanced/unweighted mathematical equivalence,True,All eight checkpoint counts equal; numerical roundoff only
+bootstrap repetition count,True,No ordinary IID row bootstrap
+all bootstrap draws reproducible whole clusters,True,"Fixed seed 2026; eight sampled trajectory IDs per repetition, multiplicities retained"
+E cluster CI reconstruction,True,2000 eligible trajectory-resampled fits
+A cluster CI reconstruction,True,2000 eligible trajectory-resampled fits
+B cluster CI reconstruction,True,2000 eligible trajectory-resampled fits
+alpha cluster CI reconstruction,True,2000 eligible trajectory-resampled fits
+beta cluster CI reconstruction,True,2000 eligible trajectory-resampled fits
+parameter bootstrap correlations,True,Includes alpha-beta and E with every other parameter
+E tail summary,True,"Rare supported tails retained, no parameter draw trimming"
+A tail summary,True,"Rare supported tails retained, no parameter draw trimming"
+B tail summary,True,"Rare supported tails retained, no parameter draw trimming"
+alpha tail summary,True,"Rare supported tails retained, no parameter draw trimming"
+beta tail summary,True,"Rare supported tails retained, no parameter draw trimming"
+all bootstrap predictions and weighted objectives,True,Every converged draw independently reconstructed; whole-cluster multiplicity objective
+bootstrap draw 1 full-B1 predictions,True,Parameters and cached predictions aligned
+bootstrap draw 1001 full-B1 predictions,True,Parameters and cached predictions aligned
+bootstrap draw 2000 full-B1 predictions,True,Parameters and cached predictions aligned
+main parameters frozen before external validation,True,"B2/B3/B4/B5 never calibrate E, exponents or amplitudes"
+B2 direct finite predictions,True,"Frozen B1 raw-power equation, no correction"
+B2 overall all metrics,True,n=1029; source strata preserved
+B2 trajectory B2:N=0.111 metrics,True,n=147; source strata preserved
+B2 trajectory B2:N=0.256 metrics,True,n=147; source strata preserved
+B2 trajectory B2:N=0.59 metrics,True,n=147; source strata preserved
+B2 trajectory B2:N=1.3 metrics,True,n=147; source strata preserved
+B2 trajectory B2:N=13 metrics,True,n=147; source strata preserved
+B2 trajectory B2:N=2.7 metrics,True,n=147; source strata preserved
+B2 trajectory B2:N=6.7 metrics,True,n=147; source strata preserved
+B2 semi-synthetic provenance,True,No semi-synthetic data fitting
+B3 direct finite predictions,True,"Frozen B1 raw-power equation, no correction"
+B3 overall all metrics,True,n=4000; source strata preserved
+B3 trajectory pythia_0.070542B_trajectory metrics,True,n=500; source strata preserved
+B3 trajectory pythia_0.162405B_trajectory metrics,True,n=500; source strata preserved
+B3 trajectory pythia_0.409009B_trajectory metrics,True,n=500; source strata preserved
+B3 trajectory pythia_1.040867B_trajectory metrics,True,n=500; source strata preserved
+B3 trajectory pythia_1.416184B_trajectory metrics,True,n=500; source strata preserved
+B3 trajectory pythia_11.965825B_trajectory metrics,True,n=500; source strata preserved
+B3 trajectory pythia_2.782831B_trajectory metrics,True,n=500; source strata preserved
+B3 trajectory pythia_6.86104B_trajectory metrics,True,n=500; source strata preserved
+B3 interpolation provenance,True,"8x500 interpolation points, not independent observed experiments"
+B4 direct finite predictions,True,"Frozen B1 raw-power equation, no correction"
+B4 overall all metrics,True,n=57; source strata preserved
+B4 family BLOOM metrics,True,n=4; source strata preserved
+B4 family Cerebras-GPT metrics,True,n=7; source strata preserved
+B4 family Falcon metrics,True,n=2; source strata preserved
+B4 family GPT2 metrics,True,n=4; source strata preserved
+B4 family Gemma metrics,True,n=3; source strata preserved
+B4 family LLaMA metrics,True,n=6; source strata preserved
+B4 family Mistral metrics,True,n=1; source strata preserved
+B4 family OPT metrics,True,n=7; source strata preserved
+B4 family Phi metrics,True,n=6; source strata preserved
+B4 family Pythia metrics,True,n=8; source strata preserved
+B4 family Qwen2 metrics,True,n=7; source strata preserved
+B4 family Yi metrics,True,n=2; source strata preserved
+B5 direct finite predictions,True,"Frozen B1 raw-power equation, no correction"
+B5 overall all metrics,True,n=44; source strata preserved
+B5 source Chowdhery et al. 2022 metrics,True,n=3; source strata preserved
+B5 source Hoffmann et al. 2022 metrics,True,n=16; source strata preserved
+B5 source Kaplan et al. 2020 metrics,True,n=9; source strata preserved
+B5 source Scao et al. 2022 metrics,True,n=4; source strata preserved
+B5 source Touvron et al. 2023 metrics,True,n=7; source strata preserved
+B5 source Zhang et al. 2022 metrics,True,n=5; source strata preserved
+B5 family BLOOM metrics,True,n=4; source strata preserved
+B5 family Chinchilla metrics,True,n=9; source strata preserved
+B5 family GPT-2 metrics,True,n=1; source strata preserved
+B5 family GPT-3 metrics,True,n=8; source strata preserved
+B5 family Gopher metrics,True,n=7; source strata preserved
+B5 family LLaMA metrics,True,n=4; source strata preserved
+B5 family LLaMA-2 metrics,True,n=3; source strata preserved
+B5 family OPT metrics,True,n=5; source strata preserved
+B5 family PaLM metrics,True,n=3; source strata preserved
+B5 source_family Chowdhery et al. 2022 / PaLM metrics,True,n=3; source strata preserved
+B5 source_family Hoffmann et al. 2022 / Chinchilla metrics,True,n=9; source strata preserved
+B5 source_family Hoffmann et al. 2022 / Gopher metrics,True,n=7; source strata preserved
+B5 source_family Kaplan et al. 2020 / GPT-2 metrics,True,n=1; source strata preserved
+B5 source_family Kaplan et al. 2020 / GPT-3 metrics,True,n=8; source strata preserved
+B5 source_family Scao et al. 2022 / BLOOM metrics,True,n=4; source strata preserved
+B5 source_family Touvron et al. 2023 / LLaMA metrics,True,n=4; source strata preserved
+B5 source_family Touvron et al. 2023 / LLaMA-2 metrics,True,n=3; source strata preserved
+B5 source_family Zhang et al. 2022 / OPT metrics,True,n=5; source strata preserved
+B5 incomparable absolute errors not core evidence,True,"Missing evaluation dataset, tokenizer and loss_type; primary source-layer ranks"
+terminal-only rank deficiency diagnosed,True,E+B*D0^-beta unidentifiable as separate E/B/beta
+terminal D direction not claimed as data evidence,True,Positivity-imposed monotonicity is distinguished from empirical direction test
+E terminal multistart range,True,Terminal E/B/beta spread disclosed despite almost identical terminal fits
+A terminal multistart range,True,Terminal E/B/beta spread disclosed despite almost identical terminal fits
+B terminal multistart range,True,Terminal E/B/beta spread disclosed despite almost identical terminal fits
+alpha terminal multistart range,True,Terminal E/B/beta spread disclosed despite almost identical terminal fits
+beta terminal multistart range,True,Terminal E/B/beta spread disclosed despite almost identical terminal fits
+B1 residual sign and values,True,provided Loss minus prediction
+required scientific figures saved,True,"Coverage, fit, Group CV, residuals, bootstrap, B3/B4/B5 plots"
+final report exists,True,"Requested method, data trust, identifiability and validation caveats"
+original/Q1 freeze still intact,True,2478 byte-identical project files

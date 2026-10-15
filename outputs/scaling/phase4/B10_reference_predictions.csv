@@ -1,0 +1,130 @@
+﻿family,N_params_B,D_tokens_B,val_loss,is_converged,L0_prediction,residual_prediction_minus_estimated,Q_reference_scenario,p_reference_scenario,Delta_Q,Delta_p,validation_kind
+Ling-flash-base-2.0-20T,100.0,20000.0,1.8412,1,1.8413451361598474,0.00014513615984745876,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+FaXin,100.0,3670.0,1.8882,1,1.8884596905516178,0.00025969055161767507,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+PLaMo-100B,100.0,2000.0,1.9112,1,1.9115516776478934,0.00035167764789334477,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Yi-Large,100.0,3000.0,1.8954,1,1.8956970512653728,0.00029705126537282744,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Hunyuan,100.0,2000.0,1.9112,1,1.9115516776478934,0.00035167764789334477,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Luca 2.0,100.0,2000.0,1.9112,1,1.9115516776478934,0.00035167764789334477,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+xTrimoPGLM -100B,100.0,275.0,2.0206,1,2.0212836170195034,0.0006836170195034796,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+YaLM,100.0,300.0,2.0144,1,2.015088058433751,0.000688058433750971,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+FLM-101B,101.0,311.5,2.0116,1,2.012206156702455,0.0006061567024548964,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+"Solar Open 100B
+",102.0,19700.0,1.841,1,1.8411777126153606,0.00017771261536059235,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Odyssey 102B,102.0,179.7,2.0526,1,2.053354378592548,0.0007543785925481217,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Yuan 2.0,102.6,289.1,2.0164,1,2.0170622363079294,0.0006622363079293869,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+InternLM,104.0,1600.0,1.9197,1,1.9200961545634807,0.00039615456348074396,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Ring-flash-linear-2.0,104.2,1000.0,1.9417,1,1.9421648353438221,0.0004648353438221342,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GLM-4.5-Air,106.0,2603.8,1.8993,1,1.8995814240767568,0.0002814240767567977,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GLM-4.5V,108.0,2013.3,1.909,1,1.9093675883793546,0.00036758837935457755,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Llama 4 Scout,109.0,30000.0,1.8308,1,1.8308865580167342,8.655801673418395e-05,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Telechat2-115B,115.0,10000.0,1.8543,1,1.8545226679670452,0.00022266796704517589,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+gpt-oss-120b,116.8,7047.3,1.8636,1,1.8638433846089084,0.00024338460890849234,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Galactica,120.0,106.0,2.0947,1,2.09558835257787,0.0008883525778697887,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Mistral Large 2,123.0,28861.8,1.8286,1,1.8287493140428548,0.00014931404285478678,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Step-Audio-Chat 130B,130.0,1668.0,1.9126,1,1.912942136198388,0.0003421361983879656,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Step-1,130.0,800.0,1.948,1,1.948443627788377,0.0004436277883770323,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Step-Omni,130.0,2468.0,1.8965,1,1.8967937966995658,0.0002937966995657515,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+BlueLM 130B,130.0,1000.0,1.9364,1,1.9368803838158108,0.00048038381581094747,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GLM-130B,130.0,152.0,2.0607,1,2.0614540616493655,0.0007540616493653118,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DBRX,132.0,12000.0,1.8464,1,1.8466070470204166,0.00020704702041651757,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Pangu Ultra,135.0,13200.0,1.8436,1,1.8437387499480822,0.00013874994808227292,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+MEB,135.0,500.0,1.9739,1,1.974432402446839,0.0005324024468389421,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+BIG-G 137B,137.0,681.2,1.9555,1,1.9560374277066088,0.0005374277066088062,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+LaMDA,137.0,2080.0,1.9021,1,1.9024308417823632,0.0003308417823633114,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+FLAN 137B,137.0,2490.0,1.8949,1,1.8952525214436944,0.00035252144369435356,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Mixtral 8x22B,141.0,2766.0,1.8903,1,1.8905756352345622,0.00027563523456208827,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+dots.llm1,142.0,11328.0,1.8462,1,1.846412069584155,0.00021206958415498356,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GPT-3 175B (davinci),174.6,238.0,2.0185,1,2.019144845794064,0.0006448457940639862,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+MegaScale (175B),175.0,300.0,2.0016,1,2.00227342726778,0.0006734272677801911,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+BlueLM 175B,175.0,1000.0,1.9299,1,1.930377572088689,0.0004775720886891488,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+OPT-IML (175B),175.0,2.0,2.77,1,2.7725387118354408,0.0025387118354407434,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+BlenderBot 3,175.0,1.3,2.9007,1,2.9034412783979633,0.0027412783979632316,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+OPT-175B,175.0,180.0,2.0402,1,2.040900641895195,0.00070064189519492,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+BLUUMI,176.0,38.0,2.1978,1,2.1989366311783973,0.0011366311783973515,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+BLOOMZ-176B,176.0,20.0,2.2857,1,2.287118496242114,0.0014184962421142089,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+XuanYuan 2.0,176.2,366.0,1.9879,1,1.9885263499906842,0.0006263499906842274,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+BLOOM-176B,176.2,379.0,1.9856,1,1.9862154718477067,0.0006154718477067167,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Jurassic-1-Jumbo,178.0,300.0,2.0013,1,2.001921072240374,0.0006210722403738878,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Falcon-180B,180.0,3500.0,1.8765,1,1.8767284886336681,0.00022848863366808914,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+SenseChat,180.0,3601.9,1.8754,1,1.8757175914584805,0.00031759145848053727,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Mi:dm 200B,200.0,1000.0,1.9272,1,1.9276635684076455,0.0004635684076454982,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Amazon Titan,200.0,4000.0,1.8697,1,1.869961988718712,0.0002619887187120806,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+HyperCLOVA 204B,204.0,560.0,1.9584,1,1.9588847909907603,0.00048479099076037535,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+PanGu-α,207.0,41.2,2.1845,1,2.1856352738161378,0.0011352738161378717,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Qwen3-235B-A22B-Thinking (Jul 2025),235.0,36000.0,1.8108,1,1.8109303634487666,0.00013036344876660166,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Qwen3-235B-A22B (Jul 2025),235.0,36000.0,1.8108,1,1.8109303634487666,0.00013036344876660166,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Qwen3-235B-A22B,235.0,36000.0,1.8108,1,1.8109303634487666,0.00013036344876660166,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+K-EXAONE,236.0,11000.0,1.8366,1,1.8367494898434416,0.00014948984344154148,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-V2.5,236.0,1263.6,1.9127,1,1.9130931767648813,0.0003931767648812645,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-Coder-V2 236B,236.0,3191.0,1.8744,1,1.874711399838235,0.0003113998382349159,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-V2 (MoE-236B),236.0,8100.0,1.8448,1,1.844951072731484,0.00015107273148395883,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Yuan 1.0,245.7,180.0,2.0335,1,2.0342378833001336,0.0007378833001334684,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Aramco Metabrain AI,250.0,7000.0,1.8478,1,1.848045289930011,0.000245289930010939,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Llama Nemotron Ultra 253B,253.0,603.0,1.95,1,1.950463636780586,0.0004636367805861408,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+ERNIE 3.0 Titan,260.0,668.0,1.9436,1,1.944126664440101,0.0005266644401009657,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+ST-MoE,269.0,1500.0,1.9024,1,1.9028130967781378,0.0004130967781377226,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Gopher (280B),280.0,300.0,1.9926,1,1.993242905321176,0.0006429053211760571,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+"Ling-Plus (""Bailing"")",290.0,9000.0,1.8381,1,1.8383106360628128,0.00021063606281268576,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+ERNIE-4.5-300B-A47B,300.0,1566.7,1.8986,1,1.8989511648117348,0.0003511648117346944,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+EXAONE 1.0,300.0,942.0,1.9227,1,1.9231645380732296,0.0004645380732295479,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+SB-LM,300.0,1800.0,1.8926,1,1.8929211444225138,0.00032114442251374165,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+MiMo-V2-Flash,309.0,1310.7,1.9062,1,1.906544219041591,0.0003442190415912094,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Grok-1,314.0,6200.0,1.8474,1,1.8476022631036801,0.0002022631036802114,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+AMIE (Articulate Medical Intelligence Explorer),340.0,3598.0,1.8637,1,1.8639786897552584,0.0002786897552584655,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Nemotron-4 340B,340.0,9000.0,1.8354,1,1.8355994817696901,0.00019948176969020182,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+PaLM 2,340.0,3600.0,1.8637,1,1.8639591891403824,0.0002591891403824764,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GLM-4.5,355.0,23100.0,1.8123,1,1.8123931352111855,9.313521118547996e-05,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GLM-4.6,357.0,23000.0,1.8123,1,1.8123919253912775,9.192539127744759e-05,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GLM-4.7,358.0,2057.7,1.884,1,1.8843572495425835,0.0003572495425836486,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Hunyuan-Large,389.0,7000.0,1.8403,1,1.8404857970112856,0.00018579701128551562,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Arcee Trinity Large,398.0,555.3,1.9471,1,1.9475855845370051,0.0004855845370050904,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Llama 4 Maverick,400.0,30000.0,1.8051,1,1.8052250776626597,0.00012507766265978937,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Hermes 3 405B,405.0,0.3,3.4691,1,3.4730556553215823,0.003955655321582263,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Llama 3.1-405B,405.0,15600.0,1.8188,1,1.8189404832941518,0.00014048329415183858,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+MiniMax-M1-80k,456.0,7500.0,1.8359,1,1.8360440716581612,0.00014407165816110457,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+MiniMax-M1-40k,456.0,7500.0,1.8359,1,1.8360440716581612,0.00014407165816110457,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+MiniMax-Text-01,456.0,7200.0,1.837,1,1.837217158855014,0.0002171588550139436,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Qwen3-Coder-480B-A35B,480.0,7500.0,1.8351,1,1.8352807251685526,0.000180725168552609,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Arctic,480.0,133.1,2.0479,1,2.048703919527327,0.0008039195273270572,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Doubao-pro,500.0,8350.0,1.8315,1,1.8316607481271878,0.0001607481271879152,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Microsoft MAI-1 (2024 unreleased),500.0,5.3,2.5084,1,2.5103061669442543,0.0019061669442543838,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+MegaScale (530B),530.0,300.0,1.9824,1,1.9830786318765496,0.0006786318765497068,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+MegaScale (Production),530.0,1226.4,1.9008,1,1.9012212444773158,0.0004212444773157298,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Megatron-Turing NLG 530B,530.0,270.0,1.9899,1,1.9906000976207978,0.0007000976207978127,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+U-PaLM (540B),540.0,1.3,2.8812,1,2.8839807057768834,0.0027807057768831633,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Flan-PaLM 540B,540.0,1.4,2.8576,1,2.86032280381865,0.002722803818649755,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Minerva (540B),540.4,26.0,2.2285,1,2.229797143998978,0.0012971439989781786,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+PaLM (540B),540.4,780.0,1.9234,1,1.9238279129401477,0.0004279129401476567,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+LongCat-Flash,560.0,23000.0,1.8055,1,1.8055814892860254,8.148928602524919e-05,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Hunyuan-TurboS,560.0,16000.0,1.8134,1,1.8135574156963896,0.00015741569638971775,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+SenseChat 5.0,600.0,1835.0,1.8811,1,1.8814142932930464,0.0003142932930464415,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GShard (600B),600.0,1000.0,1.909,1,1.9094500974753035,0.0004500974753034459,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-V3.2-Exp,671.0,943.7,1.9105,1,1.9108831546993454,0.00038315469934535606,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-V3.1-Terminus,671.0,839.0,1.9165,1,1.916985148669034,0.00048514866903381915,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-V3.1,671.0,840.0,1.9165,1,1.9169223272715754,0.0004223272715753179,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-R1 (May 2025),671.0,14800.0,1.8128,1,1.812923851877245,0.00012385187724506252,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-V3 (Mar 2025),671.0,14800.0,1.8128,1,1.812923851877245,0.00012385187724506252,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-R1,671.0,14800.0,1.8128,1,1.812923851877245,0.00012385187724506252,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DeepSeek-V3,671.0,14800.0,1.8128,1,1.812923851877245,0.00012385187724506252,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Pangu Ultra MoE,718.0,717.0,1.9241,1,1.9245774822470558,0.0004774822470559048,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GLM-5,744.0,1532.3,1.886,1,1.8864122225167632,0.00041222251676331645,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Kimi K2 Thinking,1000.0,700.0,1.9214,1,1.9218737708901759,0.00047377089017586194,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Ling-1T,1000.0,20000.0,1.8011,1,1.8011905155721386,9.0515572138683e-05,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Qwen3-Max,1000.0,36000.0,1.7894,1,1.789422040815335,2.2040815334856134e-05,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Kimi K2,1000.0,15500.0,1.8068,1,1.8069273612722248,0.00012736127222479077,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DLRM-2021,1000.0,0.1,4.0812,1,4.086298347957308,0.005098347957307681,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+M6-T,1002.7,111.8,2.054,1,2.0548717264408882,0.0008717264408883985,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Kimi K2.5,1040.0,929.5,1.9059,1,1.9062989564071817,0.00039895640718179415,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+PanGu-Σ,1085.0,329.0,1.967,1,1.967600989209854,0.0006009892098539638,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+MoE-1.1T,1100.0,112.0,2.0528,1,2.0536590202308833,0.0008590202308833561,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GLaM,1200.0,600.0,1.9281,1,1.9285827352768625,0.0004827352768626003,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+QMoE: compressed SwitchTransformer,1571.0,576.0,1.9277,1,1.9281802338786842,0.00048023387868423306,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Switch,1571.0,86.4,2.074,1,2.0748691158619526,0.0008691158619527073,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Wu Dao 2.0,1750.0,4900.0,1.8325,1,1.8327569593057387,0.00025695930573865766,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GPT-4 (Mar 2023),1800.0,5416.7,1.8291,1,1.8293084865611167,0.00020848656111671637,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+GPT-4 (Jun 2023),1800.0,5416.7,1.8291,1,1.8293084865611167,0.00020848656111671637,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Llama 4 Behemoth (preview),2000.0,30000.0,1.7857,1,1.785769215773438,6.921577343788066e-05,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Grok 4,3000.0,27777.8,1.7838,1,1.7838375278613596,3.752786135957642e-05,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+Grok 3,3000.0,19444.4,1.7912,1,1.7912666503329429,6.665033294295242e-05,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+DLRM-2022,3000.0,0.1,4.0707,1,4.075760321513393,0.005060321513392196,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only
+M6-10T,10000.0,0.1,4.0628,1,4.067943155403009,0.005143155403009025,1.0,p_ref,0.0,0.0,estimated_Loss_consistency_of_classical_backbone_only

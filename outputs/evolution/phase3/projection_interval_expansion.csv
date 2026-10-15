@@ -1,0 +1,4 @@
+﻿model_scope,one_step_RMSE,structure_shift,rule,n_hindcast,not_calibrated_95_probability_interval
+F0_pretrained,0.5313308063002506,0.21725968363410186,1.96_times_one_step_RMSE_times_sqrt_h_plus_structure_anchor_shift,8,True
+F1_chat,0.15466707928240755,0.0,1.96_times_one_step_RMSE_times_sqrt_h_plus_structure_anchor_shift,4,True
+F2_overall,0.11751375682950456,0.0,1.96_times_one_step_RMSE_times_sqrt_h_plus_structure_anchor_shift,4,True

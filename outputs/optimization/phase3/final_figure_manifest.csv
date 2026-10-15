@@ -1,0 +1,11 @@
+﻿path,purpose,reused
+outputs/figures/question3_phase2/01_N_star_vs_budget.png,N versus budget,True
+outputs/figures/question3_phase2/02_D_star_vs_budget.png,D versus budget,True
+outputs/figures/question3_phase2/03_Q_star_vs_budget.png,Q versus budget,True
+outputs/figures/question3_phase2/05_cost_shares.png,three cost shares,True
+outputs/figures/question3_phase2/08_five_context_N_star.png,context N,True
+outputs/figures/question3_phase2/09_five_context_D_star.png,context D,True
+outputs/figures/question3_phase2/10_five_context_L_star.png,context Loss,True
+outputs/figures/question3_phase3/01_P0_P1_P2_comparison.png,official P0/P1/P2-A comparison; P2-B has no finite optimum,False
+outputs/figures/question3_phase3/02_simplex_extreme_recipes.png,full 17-domain theoretical simplex extrema,False
+outputs/figures/question3_phase3/03_final_structural_timeline.png,selected interpretable transition timeline,False

@@ -1,0 +1,64 @@
+{
+  "raw_C6_count": 75,
+  "High_count": 7,
+  "Medium_count": 68,
+  "other_count": 0,
+  "selected_candidate": "B2",
+  "selection_rule": "minimum High LOMO RMSE among decreasing fits; Medium never used to select",
+  "candidate_models": {
+    "B0": {
+      "kind": "B0",
+      "coefficients": [
+        -1.0296626905353348,
+        0.12441171191671556
+      ]
+    },
+    "B1": {
+      "kind": "B1",
+      "coefficients": [
+        3.626641805665896,
+        -3.8732421394143692,
+        0.8532641034298205
+      ]
+    },
+    "B2": {
+      "kind": "B2",
+      "x": [
+        2.0933,
+        2.5978
+      ],
+      "y": [
+        -0.7457498320108792,
+        -0.7457498320108792
+      ]
+    }
+  },
+  "selected_model": {
+    "kind": "B2",
+    "x": [
+      2.0933,
+      2.5978
+    ],
+    "y": [
+      -0.7457498320108792,
+      -0.7457498320108792
+    ]
+  },
+  "calibrated_loss_range": [
+    2.0933,
+    2.5978
+  ],
+  "fixed_ability_parameters_source": "outputs/evolution/phase1/ability_transform_parameters.json",
+  "High_families": [
+    "Pythia"
+  ],
+  "CV": "LOMO; Group CV impossible for sole High family",
+  "bootstrap_repetitions": 2000,
+  "Medium_outside_High_loss_range": 39,
+  "selected_fit_is_constant": true,
+  "bridge_valid_for_conversion": false,
+  "bridge_status": "DIAGNOSTIC_ONLY_FLAT_ISOTONIC",
+  "interpretation": "numerical candidate ranking only; if CV fails or fit is constant, no useful predictive bridge is validated; no universal cross-family evidence",
+  "future_forecast_performed": false,
+  "contribution_decomposition_performed": false
+}

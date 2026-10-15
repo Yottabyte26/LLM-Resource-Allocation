@@ -1,0 +1,8 @@
+﻿field,dtype,missing_count,unique_value_count
+model_name,str,0,45
+n_layers,int64,0,18
+n_heads,int64,0,15
+d_model,int64,0,16
+vocab_size,int64,0,12
+max_position_embeddings,int64,0,5
+training_data_TB,float64,0,15

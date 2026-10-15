@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "checks": 566,
+  "frozen_files_checked": 3067,
+  "frozen_files_modified": 0,
+  "figures": 11,
+  "scenario_rows": 90,
+  "main_MC_draws": 240000,
+  "strict_temporal_OOS_claimed": false,
+  "previous_models_refitted": false,
+  "loss_bridge_used": false,
+  "question4_complete": true
+}

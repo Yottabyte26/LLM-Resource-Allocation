@@ -1,0 +1,5 @@
+﻿module,parameters,evidence,support
+L0,"[""E"", ""A"", ""B"", ""alpha"", ""beta""]",Class A,B1 observations; frozen B3/B4/B5 validations with original comparability limits
+Delta_Q,"[""C_Q"", ""u_Q""]",Class B,B6 semisynthetic local calibration; B7 difference validation failed
+M(p),"[""frozen ILR first-order ElasticNet""]",Class C,Question 1 training and true mixture checks at 1M/60M/1B
+lambda_p large N,"[""10B knot"", ""70B knot"", ""segments above 1B""]",Class D,Estimated recipe tables; no observed large-scale reversal

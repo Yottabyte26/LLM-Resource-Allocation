@@ -1,0 +1,13 @@
+﻿figure,caption
+outputs/figures/question3_phase2/01_N_star_vs_budget.png,P0 N_star：主域实线、扩展域虚线；Lctx=2048
+outputs/figures/question3_phase2/02_D_star_vs_budget.png,P0 D_star：主域实线、扩展域虚线；Lctx=2048
+outputs/figures/question3_phase2/03_Q_star_vs_budget.png,P0 Q_star：主域实线、扩展域虚线；Lctx=2048
+outputs/figures/question3_phase2/04_L_star_vs_budget.png,P0 L_star：主域实线、扩展域虚线；Lctx=2048
+outputs/figures/question3_phase2/05_cost_shares.png,预算分母下三类成本与未使用份额
+outputs/figures/question3_phase2/06_shadow_price.png,有限差分影子价格；饱和后的零值不画在对数轴上
+outputs/figures/question3_phase2/07_quality_cost_function_comparison.png,五上下文下三种官方成本的质量投资路径
+outputs/figures/question3_phase2/08_five_context_N_star.png,主域五上下文对照：N_star
+outputs/figures/question3_phase2/09_five_context_D_star.png,主域五上下文对照：D_star
+outputs/figures/question3_phase2/10_five_context_L_star.png,主域五上下文对照：L_star
+outputs/figures/question3_phase2/11_P0_vs_P1_improvement.png,P1相对P0的模型Loss改善，非新观测实验收益
+outputs/figures/question3_phase2/12_structural_transitions.png,2048上下文硬转移与显著软断点示意；软线不是额外独立物理相变

@@ -1,0 +1,4 @@
+﻿family,g_formula,gamma,lambda_Q,gamma_unit,marginal_formula,cost_at_Q0_per_token,cost_at_Q1_per_token,endpoint_finite,shape
+exponential,γ exp(λ_Q Q),10000000.0,6.0,FLOPs/token,D × γ λ_Q exp(λ_Q Q),0.0,3245323383.005492,True,凸
+power,γ Q^λ_Q,5000000000.0,4.0,FLOPs/token,D × γ λ_Q Q^(λ_Q-1),0.0,3595409497.1368,True,凸
+logarithmic,γ ln(1+λ_Q Q),2000000000.0,10.0,FLOPs/token,D × γ λ_Q/(1+λ_Q Q),0.0,568049738.787438,True,凹，边际成本递减

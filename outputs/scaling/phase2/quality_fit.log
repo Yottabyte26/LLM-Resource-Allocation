@@ -1,0 +1,53 @@
+2026-09-26 17:52:04,849 INFO B6 MQ1 gamma=1.05243078914 offset=0 RMSE=0.1169731
+2026-09-26 17:52:04,864 INFO B6 MQ2 gamma=2.35466230775 offset=0 RMSE=0.102931353
+2026-09-26 17:52:04,882 INFO B6 MQ1_offset gamma=0.804707133767 offset=0.0834049184871 RMSE=0.0974644312
+2026-09-26 17:52:04,898 INFO B6 MQ2_offset gamma=1.93153088421 offset=0.0574592221992 RMSE=0.0951030383
+2026-09-26 17:52:04,898 INFO Starting five-fold exact ND GroupKFold
+2026-09-26 17:52:06,319 INFO Starting 2000 ND-block bootstraps for four prescribed variants
+2026-09-26 17:52:12,563 INFO ND block bootstrap 100/2000; 400 model fits
+2026-09-26 17:52:18,908 INFO ND block bootstrap 200/2000; 800 model fits
+2026-09-26 17:52:25,239 INFO ND block bootstrap 300/2000; 1200 model fits
+2026-09-26 17:52:31,778 INFO ND block bootstrap 400/2000; 1600 model fits
+2026-09-26 17:52:38,542 INFO ND block bootstrap 500/2000; 2000 model fits
+2026-09-26 17:52:44,987 INFO ND block bootstrap 600/2000; 2400 model fits
+2026-09-26 17:52:51,421 INFO ND block bootstrap 700/2000; 2800 model fits
+2026-09-26 17:52:57,883 INFO ND block bootstrap 800/2000; 3200 model fits
+2026-09-26 17:53:04,345 INFO ND block bootstrap 900/2000; 3600 model fits
+2026-09-26 17:53:10,863 INFO ND block bootstrap 1000/2000; 4000 model fits
+2026-09-26 17:53:17,278 INFO ND block bootstrap 1100/2000; 4400 model fits
+2026-09-26 17:53:23,656 INFO ND block bootstrap 1200/2000; 4800 model fits
+2026-09-26 17:53:30,114 INFO ND block bootstrap 1300/2000; 5200 model fits
+2026-09-26 17:53:36,578 INFO ND block bootstrap 1400/2000; 5600 model fits
+2026-09-26 17:53:43,104 INFO ND block bootstrap 1500/2000; 6000 model fits
+2026-09-26 17:53:49,532 INFO ND block bootstrap 1600/2000; 6400 model fits
+2026-09-26 17:53:56,012 INFO ND block bootstrap 1700/2000; 6800 model fits
+2026-09-26 17:54:02,471 INFO ND block bootstrap 1800/2000; 7200 model fits
+2026-09-26 17:54:08,980 INFO ND block bootstrap 1900/2000; 7600 model fits
+2026-09-26 17:54:15,494 INFO ND block bootstrap 2000/2000; 8000 model fits
+2026-09-26 17:54:16,283 ERROR Quality pipeline failed; no downstream stage permitted
+Traceback (most recent call last):
+  File "D:\code\F4.0\scripts\13_fit_quality_scaling.py", line 167, in <module>
+    try:main()
+        ~~~~^^
+  File "D:\code\F4.0\scripts\13_fit_quality_scaling.py", line 100, in main
+    diagnostics,pressure,masks8=stress_test(b8,b6,p,predictions['B8'],keys6,keys7,OUT)
+                                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\F4.0\src\scaling\quality_analysis.py", line 235, in stress_test
+    performance.append(evaluate(t['L'][mask],yp,dataset='B8',subset=name,model=m,
+                       ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                role='incompatible_semisynthetic_stress_test'))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\F4.0\src\scaling\quality_analysis.py", line 16, in evaluate
+    return dict(**labels, **metrics(y,pred))
+                            ~~~~~~~^^^^^^^^
+  File "D:\code\F4.0\src\scaling\classical.py", line 95, in metrics
+    y=np.asarray(y);p=np.asarray(p);e=y-p;defined=len(y)>1 and np.ptp(y)>0 and np.ptp(p)>0
+                                      ~^~
+ValueError: operands could not be broadcast together with shapes (1480,) (1704,) 
+2026-09-26 17:56:44,977 INFO B6 MQ1 gamma=1.05243078914 offset=0 RMSE=0.1169731
+2026-09-26 17:56:44,992 INFO B6 MQ2 gamma=2.35466230775 offset=0 RMSE=0.102931353
+2026-09-26 17:56:45,010 INFO B6 MQ1_offset gamma=0.804707133767 offset=0.0834049184871 RMSE=0.0974644312
+2026-09-26 17:56:45,027 INFO B6 MQ2_offset gamma=1.93153088421 offset=0.0574592221992 RMSE=0.0951030383
+2026-09-26 17:56:45,028 INFO Starting five-fold exact ND GroupKFold
+2026-09-26 17:56:46,682 INFO Reused completed 2000 paired ND-block bootstraps; unchanged fitted parameters and configuration
+2026-09-26 17:56:53,227 INFO Phase 2B completed; 2584 protected files unchanged; awaiting human confirmation; no p/K/B9/B10 used

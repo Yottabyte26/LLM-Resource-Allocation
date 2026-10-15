@@ -1,0 +1,34 @@
+{
+  "phase": "Question 4 PHASE 2",
+  "main_model": "M1_linear",
+  "bootstrap_replicates_per_model": 5000,
+  "figures": 12,
+  "frozen_ability_refitted": false,
+  "previous_questions_modified": false,
+  "bridge_refitted": false,
+  "loss_conversion_performed": false,
+  "future_prediction_performed": false,
+  "final_frontier_fitted": false,
+  "causal_conclusion": false,
+  "waiting_for_human_confirmation": true,
+  "readiness": {
+    "main_M1_models": 66,
+    "restricted_M2_M3_models": 21,
+    "conditional_time_association_HC3_positive_and_significant": true,
+    "robust_general_non_scale_advance_established": false,
+    "organization_cluster_time_p": 0.09380521379942368,
+    "S0_time_p": 0.6303078166703182,
+    "phase3_started": false,
+    "future_prediction_performed": false,
+    "loss_bridge_used": false,
+    "phase3_readiness": "conditional descriptive benchmark frontier sensitivity only after human confirmation; no reliable 12/24 month extrapolation established",
+    "blockers": [
+      "ten submission cohorts, several singleton months",
+      "snapshot evaluation versus actual historical frontier",
+      "sample/organization dependence of time trend",
+      "small complete-scale sample with only two late-window models",
+      "Release changes ordering and endpoints",
+      "frozen Loss bridge unusable"
+    ]
+  }
+}

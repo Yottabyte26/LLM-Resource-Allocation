@@ -1,0 +1,97 @@
+2026-09-26 21:44:33,610 ERROR Question 4 PHASE 1 stopped on an error; frozen files unchanged
+Traceback (most recent call last):
+  File "D:\code\F4.0\scripts\20_build_evolution_ability_bridge.py", line 39, in <module>
+    try:main()
+        ~~~~^^
+  File "D:\code\F4.0\scripts\20_build_evolution_ability_bridge.py", line 24, in main
+    data=inspect_sources(PROJECT_ROOT,cfg);models=epoch_join(canonical_models(data,PROJECT_ROOT,cfg),data,PROJECT_ROOT,cfg)
+  File "D:\code\F4.0\src\evolution\metadata.py", line 33, in inspect_sources
+    if not all(r['equal'] for r in checks):raise ValueError('C1/C2 core changed: inspect consistency table before computing ability')
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: C1/C2 core changed: inspect consistency table before computing ability
+2026-09-26 21:46:28,696 ERROR Question 4 PHASE 1 stopped on an error; frozen files unchanged
+Traceback (most recent call last):
+  File "D:\code\F4.0\scripts\20_build_evolution_ability_bridge.py", line 39, in <module>
+    try:main()
+        ~~~~^^
+  File "D:\code\F4.0\scripts\20_build_evolution_ability_bridge.py", line 25, in main
+    construct_ability(PROJECT_ROOT,cfg,models,data)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\code\F4.0\src\evolution\ability.py", line 135, in construct_ability
+    models=models.merge(aux,on='name_key',how='left',validate='one_to_one')
+  File "D:\Python\Anaconda\Lib\site-packages\pandas\core\frame.py", line 12902, in merge
+    return merge(
+        self,
+    ...<10 lines>...
+        validate=validate,
+    )
+  File "D:\Python\Anaconda\Lib\site-packages\pandas\core\reshape\merge.py", line 385, in merge
+    op = _MergeOperation(
+        left_df,
+    ...<10 lines>...
+        validate=validate,
+    )
+  File "D:\Python\Anaconda\Lib\site-packages\pandas\core\reshape\merge.py", line 1037, in __init__
+    self._validate_validate_kwd(validate)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\Python\Anaconda\Lib\site-packages\pandas\core\reshape\merge.py", line 2000, in _validate_validate_kwd
+    raise MergeError(
+    ...<2 lines>...
+    )
+pandas.errors.MergeError: Merge keys are not unique in left dataset; not a one-to-one merge
+Duplicates in left:
+                     name_key
+deepmount00/llama-3.1-8b-ita
+       quazim0t0/odb-14b-sce ...
+2026-09-26 21:48:09,587 INFO Ability complete: {'raw_C1_C2_records': 4576, 'unique_models': 4497, 'duplicate_extra_records': 79, 'S0': 4497, 'S1': 422, 'S2': 0, 'benchmark_complete_records': 4576, 'model_type_counts': {'chat_finetuned': 2438, 'other_unknown': 1735, 'pretrained': 324}, 'S1_type_counts': {'chat_finetuned': 229, 'other_unknown': 127, 'pretrained': 66}, 'C4_matched': 76, 'C4_parameter_conflicts': 1, 'time_lag_n': 442, 'time_lag_median': 104.5, 'time_lag_P10': 5.0, 'time_lag_P90': 496.90000000000003, 'negative_submission_release_lag': 21, 'joint_N_D_compute': 25, 'contribution_candidates': 23, 'contribution_pretrained': 20, 'pca_accepted': True, 'PC1_explained_variance': 0.734348424647114, 'C3_year_min': 2019, 'C3_year_max': 2025, 'C3_has_full_dates': False, 'historical_C3_not_pooled': True, 'no_scale_interpolation': True}
+2026-09-26 21:48:09,591 INFO Question 4 PHASE 1 ability completed; no forecast or contribution decomposition
+2026-09-26 21:50:10,204 INFO C8 traversed 300/1863 directories
+2026-09-26 21:50:11,662 INFO C8 traversed 600/1863 directories
+2026-09-26 21:50:13,013 INFO C8 traversed 900/1863 directories
+2026-09-26 21:50:14,321 INFO C8 traversed 1200/1863 directories
+2026-09-26 21:50:15,538 INFO C8 traversed 1500/1863 directories
+2026-09-26 21:50:16,650 INFO C8 traversed 1800/1863 directories
+2026-09-26 21:50:25,160 INFO C8 complete: {'directories': 1863, 'JSON_files': 1958, 'JSON_parse_success': 1954, 'JSON_parse_failures': 4, 'directories_no_usable_JSON': 3, 'no_usable_directories': ['FINGU-AI_Chocolatine-Fusion-14B', 'Intel_neural-chat-7b-v3-3', 'L-RAGE_3_PRYMMAL-ECE-7B-SLERP-V1'], 'selected_models': 1860, 'six_complete_models': 1854, 'exact_matches': 1857, 'match_status_counts': {'exact': 1857, 'unmatched': 2, 'ambiguous': 1}, 'valid_six_complete_matched_models': 1851, 'leaf_score_records': 74343, 'subtask_keys': 40, 'fuzzy_matches_automatically_accepted': 0, 'MMLU_category_detail_available': False, 'raw_vs_normalized_scores_separated': True, 'normalization_source': 'https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/normalization'}
+2026-09-26 21:50:25,400 INFO Question 4 PHASE 1 C8 completed; no forecast or contribution decomposition
+2026-09-26 21:52:22,305 INFO Bridge selected B2; validation: [{'candidate': 'B0', 'evaluation': 'High_LOMO_CV', 'n': 7, 'RMSE': 0.0519036485063514, 'MAE': 0.04132910855671533, 'R2': -1.27906107462818, 'Pearson': -0.6228779400812261, 'Spearman': -0.7142857142857144, 'bias': -0.010086687007764605, 'decreasing_full': False, 'decreasing_folds': 1.0, 'folds': 7.0, 'CV_method': 'Leave-One-Model-Out; only one High family; no out-of-family test', 'outside_High_loss_range': nan}, {'candidate': 'B0', 'evaluation': 'Medium_external', 'n': 68, 'RMSE': 0.798717542139185, 'MAE': 0.646584899588599, 'R2': -1.9918352128658743, 'Pearson': -0.5440373500650788, 'Spearman': -0.5415088220440758, 'bias': -0.6361961988533893, 'decreasing_full': False, 'decreasing_folds': nan, 'folds': nan, 'CV_method': nan, 'outside_High_loss_range': 39.0}, {'candidate': 'B1', 'evaluation': 'High_LOMO_CV', 'n': 7, 'RMSE': 0.05096942405458055, 'MAE': 0.035352777638890776, 'R2': -1.1977568465846358, 'Pearson': -0.6310286374666352, 'Spearman': -0.5357142857142858, 'bias': -0.01335854501264, 'decreasing_full': False, 'decreasing_folds': 1.0, 'folds': 7.0, 'CV_method': 'Leave-One-Model-Out; only one High family; no out-of-family test', 'outside_High_loss_range': nan}, {'candidate': 'B1', 'evaluation': 'Medium_external', 'n': 68, 'RMSE': 0.7257968046890542, 'MAE': 0.587307719414368, 'R2': -1.4704799146406429, 'Pearson': -0.04219702000352683, 'Spearman': 0.11479359279777926, 'bias': -0.5495754243757958, 'decreasing_full': False, 'decreasing_folds': nan, 'folds': nan, 'CV_method': nan, 'outside_High_loss_range': 39.0}, {'candidate': 'B2', 'evaluation': 'High_LOMO_CV', 'n': 7, 'RMSE': 0.04572820824987502, 'MAE': 0.03249887965383291, 'R2': -0.7690029583415341, 'Pearson': -0.9723420922134687, 'Spearman': -1.0, 'bias': -0.0024885294959563486, 'decreasing_full': True, 'decreasing_folds': 7.0, 'folds': 7.0, 'CV_method': 'Leave-One-Model-Out; only one High family; no out-of-family test', 'outside_High_loss_range': nan}, {'candidate': 'B2', 'evaluation': 'Medium_external', 'n': 68, 'RMSE': 0.7712815858172627, 'MAE': 0.6232630557560165, 'R2': -1.7898262041301978, 'Pearson': nan, 'Spearman': nan, 'bias': -0.617774274391207, 'decreasing_full': True, 'decreasing_folds': nan, 'folds': nan, 'CV_method': nan, 'outside_High_loss_range': 39.0}]
+2026-09-26 21:52:22,308 INFO Question 4 PHASE 1 bridge completed; no forecast or contribution decomposition
+2026-09-26 21:56:06,647 INFO Ability complete: {'raw_C1_C2_records': 4576, 'unique_models': 4497, 'duplicate_extra_records': 79, 'S0': 4497, 'S1': 422, 'S2': 0, 'benchmark_complete_records': 4576, 'model_type_counts': {'chat_finetuned': 2438, 'other_unknown': 1735, 'pretrained': 324}, 'S1_type_counts': {'chat_finetuned': 229, 'other_unknown': 127, 'pretrained': 66}, 'C4_matched': 76, 'C4_parameter_conflicts': 1, 'time_lag_n': 442, 'time_lag_median': 104.5, 'time_lag_P10': 5.0, 'time_lag_P90': 496.90000000000003, 'negative_submission_release_lag': 21, 'joint_N_D_compute': 25, 'contribution_candidates': 23, 'contribution_pretrained': 20, 'pca_accepted': True, 'PC1_explained_variance': 0.734348424647114, 'C3_year_min': 2019, 'C3_year_max': 2025, 'C3_has_full_dates': False, 'historical_C3_not_pooled': True, 'no_scale_interpolation': True}
+2026-09-26 21:56:06,657 INFO Question 4 PHASE 1 ability completed; no forecast or contribution decomposition
+2026-09-26 22:02:03,052 INFO Bridge selected B2; validation: [{'candidate': 'B0', 'evaluation': 'High_LOMO_CV', 'n': 7, 'RMSE': 0.0519036485063514, 'MAE': 0.04132910855671533, 'R2': -1.27906107462818, 'Pearson': -0.6228779400812261, 'Spearman': -0.7142857142857144, 'bias': -0.010086687007764605, 'decreasing_full': False, 'decreasing_folds': 1.0, 'folds': 7.0, 'CV_method': 'Leave-One-Model-Out; only one High family; no out-of-family test', 'outside_High_loss_range': nan}, {'candidate': 'B0', 'evaluation': 'Medium_external', 'n': 68, 'RMSE': 0.798717542139185, 'MAE': 0.646584899588599, 'R2': -1.9918352128658743, 'Pearson': -0.5440373500650788, 'Spearman': -0.5415088220440758, 'bias': -0.6361961988533893, 'decreasing_full': False, 'decreasing_folds': nan, 'folds': nan, 'CV_method': nan, 'outside_High_loss_range': 39.0}, {'candidate': 'B1', 'evaluation': 'High_LOMO_CV', 'n': 7, 'RMSE': 0.05096942405458055, 'MAE': 0.035352777638890776, 'R2': -1.1977568465846358, 'Pearson': -0.6310286374666352, 'Spearman': -0.5357142857142858, 'bias': -0.01335854501264, 'decreasing_full': False, 'decreasing_folds': 1.0, 'folds': 7.0, 'CV_method': 'Leave-One-Model-Out; only one High family; no out-of-family test', 'outside_High_loss_range': nan}, {'candidate': 'B1', 'evaluation': 'Medium_external', 'n': 68, 'RMSE': 0.7257968046890542, 'MAE': 0.587307719414368, 'R2': -1.4704799146406429, 'Pearson': -0.04219702000352683, 'Spearman': 0.11479359279777926, 'bias': -0.5495754243757958, 'decreasing_full': False, 'decreasing_folds': nan, 'folds': nan, 'CV_method': nan, 'outside_High_loss_range': 39.0}, {'candidate': 'B2', 'evaluation': 'High_LOMO_CV', 'n': 7, 'RMSE': 0.04572820824987502, 'MAE': 0.03249887965383291, 'R2': -0.7690029583415341, 'Pearson': -0.9723420922134687, 'Spearman': -1.0, 'bias': -0.0024885294959563486, 'decreasing_full': True, 'decreasing_folds': 7.0, 'folds': 7.0, 'CV_method': 'Leave-One-Model-Out; only one High family; no out-of-family test', 'outside_High_loss_range': nan}, {'candidate': 'B2', 'evaluation': 'Medium_external', 'n': 68, 'RMSE': 0.7712815858172627, 'MAE': 0.6232630557560165, 'R2': -1.7898262041301978, 'Pearson': nan, 'Spearman': nan, 'bias': -0.617774274391207, 'decreasing_full': True, 'decreasing_folds': nan, 'folds': nan, 'CV_method': nan, 'outside_High_loss_range': 39.0}]
+2026-09-26 22:02:03,055 INFO Question 4 PHASE 1 bridge completed; no forecast or contribution decomposition
+2026-09-26 22:04:44,311 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:44,312 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:44,314 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:44,314 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:44,316 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:44,316 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:44,508 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:44,509 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:44,512 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:44,513 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:04:47,764 INFO Question 4 PHASE 1 report complete; awaiting human confirmation
+2026-09-26 22:04:47,768 INFO Question 4 PHASE 1 report completed; no forecast or contribution decomposition
+2026-09-26 22:10:22,274 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:22,276 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:22,278 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:22,279 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:22,280 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:22,282 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:22,476 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:22,477 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:22,479 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:22,480 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:10:26,280 INFO Question 4 PHASE 1 report complete; awaiting human confirmation
+2026-09-26 22:10:26,283 INFO Question 4 PHASE 1 report completed; no forecast or contribution decomposition
+2026-09-26 22:15:34,877 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:34,879 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:34,880 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:34,881 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:34,882 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:34,883 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:35,090 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:35,091 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:35,093 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:35,094 INFO Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-09-26 22:15:38,840 INFO Question 4 PHASE 1 report complete; awaiting human confirmation
+2026-09-26 22:15:38,843 INFO Question 4 PHASE 1 report completed; no forecast or contribution decomposition

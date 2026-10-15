@@ -1,0 +1,36 @@
+{
+  "raw_C1_C2_records": 4576,
+  "unique_models": 4497,
+  "duplicate_extra_records": 79,
+  "S0": 4497,
+  "S1": 422,
+  "S2": 0,
+  "benchmark_complete_records": 4576,
+  "model_type_counts": {
+    "chat_finetuned": 2438,
+    "other_unknown": 1735,
+    "pretrained": 324
+  },
+  "S1_type_counts": {
+    "chat_finetuned": 229,
+    "other_unknown": 127,
+    "pretrained": 66
+  },
+  "C4_matched": 76,
+  "C4_parameter_conflicts": 1,
+  "time_lag_n": 442,
+  "time_lag_median": 104.5,
+  "time_lag_P10": 5.0,
+  "time_lag_P90": 496.90000000000003,
+  "negative_submission_release_lag": 21,
+  "joint_N_D_compute": 25,
+  "contribution_candidates": 23,
+  "contribution_pretrained": 20,
+  "pca_accepted": true,
+  "PC1_explained_variance": 0.734348424647114,
+  "C3_year_min": 2019,
+  "C3_year_max": 2025,
+  "C3_has_full_dates": false,
+  "historical_C3_not_pooled": true,
+  "no_scale_interpolation": true
+}

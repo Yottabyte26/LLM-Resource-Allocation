@@ -1,0 +1,6 @@
+﻿model,n,beta_N,tau,sample,meaning
+M1_linear,66,0.18234132855440494,0.04261159622836258,S1_pretrained_T0,descriptive conditional time trend; not a causal post-training effect
+M1_chat,229,0.27250624992475475,0.02959232170592478,S1_chat_finetuned_T0,descriptive conditional time trend; not a causal post-training effect
+M1_S0_sensitivity,321,0.11733592674505322,0.0023037290306836596,S0_pretrained_T0,descriptive conditional time trend; not a causal post-training effect
+M1_same_T3,21,0.1933558241550358,0.03685445911391741,S1_pretrained_T3,descriptive conditional time trend; not a causal post-training effect
+M1_drop_largest_organization,49,0.11084583946679318,0.01539672994530054,S1_pretrained_T0,descriptive conditional time trend; not a causal post-training effect

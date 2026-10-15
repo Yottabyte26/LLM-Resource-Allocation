@@ -1,0 +1,20 @@
+{
+  "base_date": "2025-03-13",
+  "S1_count": 422,
+  "main_scenarios": 24,
+  "mechanism_rows": 72,
+  "monte_carlo_repetitions": 10000,
+  "stored_main_mc_rows": 240000,
+  "compute_bootstrap_repetitions": 5000,
+  "frozen_M2_bootstrap_repetitions": 5000,
+  "beta_tau_pairing_preserved": true,
+  "negative_tau_retained": true,
+  "negative_growth_retained": true,
+  "operational_A_z_upper": 1.123254834129397,
+  "operational_A_z_lower": -0.9171489147772814,
+  "scale_model_refitted": false,
+  "ability_transform_refitted": false,
+  "loss_bridge_used": false,
+  "uncertainty_coverage": "conditional parameter/data percentiles; independent blocks assumption; overlapping windows; no full future-world distribution",
+  "risk_expansion": "1.96 * max available conditional one-step RMSE within scope * sqrt(h) + pretrained C8 anchor shift; uncalibrated stress envelope"
+}

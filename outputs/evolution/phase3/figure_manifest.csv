@@ -1,0 +1,12 @@
+﻿file,purpose
+outputs/figures/question4_phase3/01_frontier_projection_fan.png,"Frozen historical 90-day series, current count-selected180-day anchor, raw parameter fan and separate risk envelope"
+outputs/figures/question4_phase3/02_compute_slowdown_effect.png,Compute slowdown paired scenarios; unclipped A_z
+outputs/figures/question4_phase3/03_future_increment_decomposition.png,Signed point increments; not historical absolute shares
+outputs/figures/question4_phase3/04_scenario_matrix_12m.png,24 assumptions across two horizons; full numeric intervals in CSV
+outputs/figures/question4_phase3/05_scenario_matrix_24m.png,24 assumptions across two horizons; full numeric intervals in CSV
+outputs/figures/question4_phase3/06_compute_frontier_history_projection.png,"Only dated unique C4 accepted open-weight pretrained mappings, no future compute data"
+outputs/figures/question4_phase3/07_hindcast_observed_predicted.png,"Four forecasts per scope, not strictly temporal OOS; frozen M2 future-model warning"
+outputs/figures/question4_phase3/08_pretrained_chat_overall_comparison.png,Chat/all Benchmark-only; no compute mechanism or RLHF attribution
+outputs/figures/question4_phase3/09_submission_release_sensitivity.png,Same anchor coefficient sensitivity and separately pooled Release anchor
+outputs/figures/question4_phase3/10_non_scale_compensation.png,"Range comparison only, horizon-invariant required rate"
+outputs/figures/question4_phase3/11_C8_anchor_structure_sensitivity.png,Known high imbalance removal and missing-C8 selection caveat

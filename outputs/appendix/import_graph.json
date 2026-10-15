@@ -1,0 +1,1663 @@
+[
+  {
+    "caller": "scripts/01b_inspect_vector_semantics.py",
+    "source": "src/quality/io.py",
+    "line": 27,
+    "names": [
+      "discover_quality_files",
+      "infer_source_domain",
+      "iter_jsonl",
+      "resolve_metric_value",
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/01b_inspect_vector_semantics.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 28,
+    "names": [
+      "correlation_tables",
+      "distribution",
+      "json_cell",
+      "stable_softmax",
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/01_inspect_quality_fields.py",
+    "source": "src/quality/io.py",
+    "line": 25,
+    "names": [
+      "discover_quality_files",
+      "iter_jsonl",
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/02c_diagnose_records.py",
+    "source": "src/quality/io.py",
+    "line": 24,
+    "names": [
+      "discover_quality_files",
+      "infer_source_domain",
+      "iter_jsonl",
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/02c_diagnose_records.py",
+    "source": "src/quality/record_diagnostics.py",
+    "line": 25,
+    "names": [
+      "compare_record_pair",
+      "raw_record_diagnostics"
+    ]
+  },
+  {
+    "caller": "scripts/02c_diagnose_records.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 26,
+    "names": [
+      "json_cell",
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/02_profile_quality_data.py",
+    "source": "src/quality/io.py",
+    "line": 21,
+    "names": [
+      "discover_quality_files",
+      "infer_source_domain",
+      "iter_jsonl",
+      "resolve_metric_value",
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/02_profile_quality_data.py",
+    "source": "src/quality/profiling.py",
+    "line": 22,
+    "names": [
+      "profile_matrix"
+    ]
+  },
+  {
+    "caller": "scripts/02_profile_quality_data.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 23,
+    "names": [
+      "json_cell",
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/02_profile_quality_data.py",
+    "source": "src/quality/vector_transform.py",
+    "line": 24,
+    "names": [
+      "fit_qurater_parameters",
+      "scalarize_record",
+      "transform_qurater"
+    ]
+  },
+  {
+    "caller": "scripts/03_build_quality_features.py",
+    "source": "src/quality/io.py",
+    "line": 18,
+    "names": [
+      "discover_quality_files",
+      "infer_source_domain",
+      "iter_jsonl",
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/03_build_quality_features.py",
+    "source": "src/quality/preprocess.py",
+    "line": 19,
+    "names": [
+      "apply_preprocessing",
+      "fit_preprocessing_model",
+      "parameter_tables",
+      "validate_config"
+    ]
+  },
+  {
+    "caller": "scripts/03_build_quality_features.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 20,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/03_build_quality_features.py",
+    "source": "src/quality/vector_transform.py",
+    "line": 21,
+    "names": [
+      "scalarize_record"
+    ]
+  },
+  {
+    "caller": "scripts/03_verify_quality_features.py",
+    "source": "src/quality/io.py",
+    "line": 19,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/04a_diagnose_critic_weights.py",
+    "source": "src/quality/critic.py",
+    "line": 17,
+    "names": [
+      "critic_weights",
+      "weight_entropy"
+    ]
+  },
+  {
+    "caller": "scripts/04a_diagnose_critic_weights.py",
+    "source": "src/quality/io.py",
+    "line": 18,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/04a_diagnose_critic_weights.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 19,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/04b_record_text_review.py",
+    "source": "src/quality/reporting.py",
+    "line": 13,
+    "names": [
+      "read_table"
+    ]
+  },
+  {
+    "caller": "scripts/04b_record_text_review.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 14,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/04b_verify_quality_score.py",
+    "source": "src/quality/io.py",
+    "line": 17,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/04b_verify_quality_score.py",
+    "source": "src/quality/reporting.py",
+    "line": 18,
+    "names": [
+      "read_table"
+    ]
+  },
+  {
+    "caller": "scripts/04_build_quality_score.py",
+    "source": "src/quality/aggregate.py",
+    "line": 22,
+    "names": [
+      "compare_distributions",
+      "domain_summary",
+      "score_profile"
+    ]
+  },
+  {
+    "caller": "scripts/04_build_quality_score.py",
+    "source": "src/quality/io.py",
+    "line": 23,
+    "names": [
+      "discover_quality_files",
+      "iter_jsonl",
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/04_build_quality_score.py",
+    "source": "src/quality/plotting.py",
+    "line": 24,
+    "names": [
+      "make_quality_figures"
+    ]
+  },
+  {
+    "caller": "scripts/04_build_quality_score.py",
+    "source": "src/quality/reporting.py",
+    "line": 25,
+    "names": [
+      "read_table",
+      "write_final_report"
+    ]
+  },
+  {
+    "caller": "scripts/04_build_quality_score.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 26,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/05_analyze_quality_conflict.py",
+    "source": "src/quality/conflict.py",
+    "line": 19,
+    "names": [
+      "conflict_indices",
+      "fit_conflict_thresholds",
+      "conflict_profile",
+      "pair_conflict_summary",
+      "deviation_driver_summary"
+    ]
+  },
+  {
+    "caller": "scripts/05_analyze_quality_conflict.py",
+    "source": "src/quality/conflict_plotting.py",
+    "line": 21,
+    "names": [
+      "make_conflict_figures"
+    ]
+  },
+  {
+    "caller": "scripts/05_analyze_quality_conflict.py",
+    "source": "src/quality/io.py",
+    "line": 22,
+    "names": [
+      "iter_jsonl",
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/05_analyze_quality_conflict.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 23,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/05_verify_quality_conflict.py",
+    "source": "src/quality/io.py",
+    "line": 14,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/05_verify_quality_conflict.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 15,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/06_validate_robust_reaggregation.py",
+    "source": "src/quality/robust_reaggregation.py",
+    "line": 17,
+    "names": [
+      "reaggregate"
+    ]
+  },
+  {
+    "caller": "scripts/06_validate_robust_reaggregation.py",
+    "source": "src/quality/io.py",
+    "line": 18,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/06_validate_robust_reaggregation.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 19,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/06_verify_robust_reaggregation.py",
+    "source": "src/quality/io.py",
+    "line": 15,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/06_verify_robust_reaggregation.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 16,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/07_inspect_mixture_loss_data.py",
+    "source": "src/mixture/io.py",
+    "line": 13,
+    "names": [
+      "load_datasets",
+      "signatures"
+    ]
+  },
+  {
+    "caller": "scripts/07_inspect_mixture_loss_data.py",
+    "source": "src/quality/io.py",
+    "line": 14,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/07_inspect_mixture_loss_data.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 15,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/08_model_mixture_loss.py",
+    "source": "src/mixture/io.py",
+    "line": 20,
+    "names": [
+      "load_datasets",
+      "signatures"
+    ]
+  },
+  {
+    "caller": "scripts/08_model_mixture_loss.py",
+    "source": "src/mixture/composition.py",
+    "line": 21,
+    "names": [
+      "ILRTransformer"
+    ]
+  },
+  {
+    "caller": "scripts/08_model_mixture_loss.py",
+    "source": "src/mixture/modeling.py",
+    "line": 22,
+    "names": [
+      "MODELS",
+      "scores",
+      "group_folds",
+      "tune"
+    ]
+  },
+  {
+    "caller": "scripts/08_model_mixture_loss.py",
+    "source": "src/quality/io.py",
+    "line": 23,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/08_model_mixture_loss.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 24,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/08_verify_mixture_models.py",
+    "source": "src/mixture/io.py",
+    "line": 14,
+    "names": [
+      "load_datasets",
+      "signatures"
+    ]
+  },
+  {
+    "caller": "scripts/08_verify_mixture_models.py",
+    "source": "src/quality/io.py",
+    "line": 15,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/08_verify_mixture_models.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 16,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/09_analyze_mixture_effects.py",
+    "source": "src/mixture/io.py",
+    "line": 25,
+    "names": [
+      "load_datasets",
+      "signatures"
+    ]
+  },
+  {
+    "caller": "scripts/09_analyze_mixture_effects.py",
+    "source": "src/mixture/composition.py",
+    "line": 26,
+    "names": [
+      "ILRTransformer"
+    ]
+  },
+  {
+    "caller": "scripts/09_analyze_mixture_effects.py",
+    "source": "src/mixture/modeling.py",
+    "line": 27,
+    "names": [
+      "scores",
+      "group_folds",
+      "tune"
+    ]
+  },
+  {
+    "caller": "scripts/09_analyze_mixture_effects.py",
+    "source": "src/mixture/effects.py",
+    "line": 28,
+    "names": [
+      "baselines",
+      "analyze",
+      "perturb",
+      "direction",
+      "summary"
+    ]
+  },
+  {
+    "caller": "scripts/09_analyze_mixture_effects.py",
+    "source": "src/mixture/augmented.py",
+    "line": 29,
+    "names": [
+      "tune",
+      "candidate",
+      "metadata",
+      "checked"
+    ]
+  },
+  {
+    "caller": "scripts/09_analyze_mixture_effects.py",
+    "source": "src/quality/io.py",
+    "line": 30,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/09_analyze_mixture_effects.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 31,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/09_verify_mixture_analysis.py",
+    "source": "src/mixture/io.py",
+    "line": 14,
+    "names": [
+      "load_datasets",
+      "signatures"
+    ]
+  },
+  {
+    "caller": "scripts/09_verify_mixture_analysis.py",
+    "source": "src/mixture/augmented.py",
+    "line": 15,
+    "names": [
+      "candidate",
+      "metadata"
+    ]
+  },
+  {
+    "caller": "scripts/09_verify_mixture_analysis.py",
+    "source": "src/quality/io.py",
+    "line": 16,
+    "names": [
+      "sha256_file"
+    ]
+  },
+  {
+    "caller": "scripts/09_verify_mixture_analysis.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 17,
+    "names": [
+      "write_rows"
+    ]
+  },
+  {
+    "caller": "scripts/10_diagnose_scaling_data.py",
+    "source": "src/scaling/io.py",
+    "line": 15,
+    "names": [
+      "input_paths",
+      "load_csv",
+      "diagnosis",
+      "csv_rows",
+      "write_csv",
+      "write_json",
+      "sha256",
+      "size_key"
+    ]
+  },
+  {
+    "caller": "scripts/11_fit_classical_scaling.py",
+    "source": "src/scaling/io.py",
+    "line": 26,
+    "names": [
+      "input_paths",
+      "load_csv",
+      "combine_trajectories",
+      "write_csv",
+      "write_json",
+      "sha256",
+      "csv_rows"
+    ]
+  },
+  {
+    "caller": "scripts/11_fit_classical_scaling.py",
+    "source": "src/scaling/classical.py",
+    "line": 27,
+    "names": [
+      "fit",
+      "weights",
+      "predict",
+      "metrics",
+      "PARAMETERS"
+    ]
+  },
+  {
+    "caller": "scripts/11_fit_classical_scaling.py",
+    "source": "src/scaling/bootstrap.py",
+    "line": 28,
+    "names": [
+      "initialize",
+      "repetition"
+    ]
+  },
+  {
+    "caller": "scripts/11_fit_classical_scaling.py",
+    "source": "scripts/10_diagnose_scaling_data.py",
+    "line": 30,
+    "names": []
+  },
+  {
+    "caller": "scripts/11_verify_classical_scaling.py",
+    "source": "src/scaling/io.py",
+    "line": 15,
+    "names": [
+      "sha256",
+      "write_csv"
+    ]
+  },
+  {
+    "caller": "scripts/12_diagnose_quality_scaling.py",
+    "source": "src/scaling/io.py",
+    "line": 24,
+    "names": [
+      "csv_rows",
+      "sha256",
+      "write_csv",
+      "write_json"
+    ]
+  },
+  {
+    "caller": "scripts/12_diagnose_quality_scaling.py",
+    "source": "src/scaling/classical.py",
+    "line": 25,
+    "names": [
+      "predict",
+      "metrics"
+    ]
+  },
+  {
+    "caller": "scripts/13_fit_quality_scaling.py",
+    "source": "src/scaling/io.py",
+    "line": 17,
+    "names": [
+      "csv_rows",
+      "sha256",
+      "write_csv",
+      "write_json"
+    ]
+  },
+  {
+    "caller": "scripts/13_fit_quality_scaling.py",
+    "source": "src/scaling/quality_extension.py",
+    "line": 18,
+    "names": [
+      "read_parameters",
+      "read_data",
+      "predict_quality",
+      "fit_quality",
+      "MODELS"
+    ]
+  },
+  {
+    "caller": "scripts/13_fit_quality_scaling.py",
+    "source": "src/scaling/quality_analysis.py",
+    "line": 19,
+    "names": [
+      "cross_validate",
+      "q_level_cv",
+      "layer_fit",
+      "bootstrap",
+      "difference_table",
+      "monotonicity_details",
+      "stress_test",
+      "evaluate"
+    ]
+  },
+  {
+    "caller": "scripts/13_fit_quality_scaling.py",
+    "source": "src/scaling/quality_reporting.py",
+    "line": 193,
+    "names": [
+      "make_figures",
+      "make_report"
+    ]
+  },
+  {
+    "caller": "scripts/14_fit_scale_dependent_quality.py",
+    "source": "src/scaling/io.py",
+    "line": 20,
+    "names": [
+      "csv_rows",
+      "write_csv",
+      "write_json",
+      "sha256"
+    ]
+  },
+  {
+    "caller": "scripts/14_fit_scale_dependent_quality.py",
+    "source": "src/scaling/quality_extension.py",
+    "line": 21,
+    "names": [
+      "read_parameters",
+      "read_data",
+      "group_reference"
+    ]
+  },
+  {
+    "caller": "scripts/14_fit_scale_dependent_quality.py",
+    "source": "src/scaling/classical.py",
+    "line": 22,
+    "names": [
+      "predict"
+    ]
+  },
+  {
+    "caller": "scripts/14_fit_scale_dependent_quality.py",
+    "source": "src/scaling/scale_quality.py",
+    "line": 23,
+    "names": [
+      "centers",
+      "fit_scale",
+      "predict_scale",
+      "PARAMETERS"
+    ]
+  },
+  {
+    "caller": "scripts/14_fit_scale_dependent_quality.py",
+    "source": "src/scaling/scale_quality_analysis.py",
+    "line": 24,
+    "names": [
+      "group_cv",
+      "q_level_cv",
+      "bootstrap_models",
+      "evaluate",
+      "sensitivity_surfaces"
+    ]
+  },
+  {
+    "caller": "scripts/14_fit_scale_dependent_quality.py",
+    "source": "src/scaling/quality_analysis.py",
+    "line": 166,
+    "names": [
+      "stress_test"
+    ]
+  },
+  {
+    "caller": "scripts/14_fit_scale_dependent_quality.py",
+    "source": "src/scaling/scale_quality_reporting.py",
+    "line": 184,
+    "names": [
+      "figures",
+      "report"
+    ]
+  },
+  {
+    "caller": "scripts/14_verify_scale_dependent_quality.py",
+    "source": "src/scaling/scale_quality.py",
+    "line": 165,
+    "names": [
+      "PARAMETERS",
+      "encoded",
+      "components",
+      "response_jacobian"
+    ]
+  },
+  {
+    "caller": "scripts/15_calibrate_mixture_scaling.py",
+    "source": "src/scaling/io.py",
+    "line": 19,
+    "names": [
+      "sha256",
+      "write_csv",
+      "write_json"
+    ]
+  },
+  {
+    "caller": "scripts/15_calibrate_mixture_scaling.py",
+    "source": "src/scaling/quality_extension.py",
+    "line": 20,
+    "names": [
+      "read_parameters"
+    ]
+  },
+  {
+    "caller": "scripts/15_calibrate_mixture_scaling.py",
+    "source": "src/scaling/mixture_transfer.py",
+    "line": 21,
+    "names": [
+      "SCALES",
+      "frozen_metadata",
+      "read_frozen_recipes",
+      "transfer",
+      "bootstrap_transfers",
+      "fit_curve",
+      "curve_root",
+      "empirical_lambda",
+      "predict_recipe",
+      "predict_ilr",
+      "ModularScaling"
+    ]
+  },
+  {
+    "caller": "scripts/15_calibrate_mixture_scaling.py",
+    "source": "src/scaling/mixture_transfer_reporting.py",
+    "line": 270,
+    "names": [
+      "build_report",
+      "plot_results"
+    ]
+  },
+  {
+    "caller": "scripts/15_calibrate_mixture_scaling.py",
+    "source": "src/scaling/mixture_transfer_reporting.py",
+    "line": 322,
+    "names": [
+      "plot_results",
+      "build_report"
+    ]
+  },
+  {
+    "caller": "scripts/15_verify_mixture_scaling.py",
+    "source": "src/scaling/mixture_transfer.py",
+    "line": 20,
+    "names": [
+      "SCALES",
+      "frozen_metadata",
+      "predict_ilr",
+      "predict_recipe",
+      "inverse_ilr",
+      "ModularScaling"
+    ]
+  },
+  {
+    "caller": "scripts/15_verify_mixture_scaling.py",
+    "source": "src/scaling/io.py",
+    "line": 22,
+    "names": [
+      "write_csv",
+      "write_json"
+    ]
+  },
+  {
+    "caller": "scripts/16_analyze_generalized_scaling.py",
+    "source": "src/scaling/io.py",
+    "line": 18,
+    "names": [
+      "sha256",
+      "write_csv",
+      "write_json",
+      "csv_rows"
+    ]
+  },
+  {
+    "caller": "scripts/16_analyze_generalized_scaling.py",
+    "source": "src/scaling/quality_extension.py",
+    "line": 19,
+    "names": [
+      "read_parameters"
+    ]
+  },
+  {
+    "caller": "scripts/16_analyze_generalized_scaling.py",
+    "source": "src/scaling/mixture_transfer.py",
+    "line": 20,
+    "names": [
+      "frozen_metadata",
+      "predict_recipe",
+      "predict_ilr"
+    ]
+  },
+  {
+    "caller": "scripts/16_analyze_generalized_scaling.py",
+    "source": "src/scaling/marginal_analysis.py",
+    "line": 21,
+    "names": [
+      "FrozenGeneralizedScaling",
+      "finite_difference"
+    ]
+  },
+  {
+    "caller": "scripts/16_analyze_generalized_scaling.py",
+    "source": "src/scaling/marginal_reporting.py",
+    "line": 394,
+    "names": [
+      "plot_analysis",
+      "build_final_report"
+    ]
+  },
+  {
+    "caller": "scripts/16_analyze_generalized_scaling.py",
+    "source": "src/scaling/marginal_reporting.py",
+    "line": 414,
+    "names": [
+      "build_final_report"
+    ]
+  },
+  {
+    "caller": "scripts/16_verify_generalized_scaling.py",
+    "source": "src/scaling/marginal_analysis.py",
+    "line": 221,
+    "names": [
+      "FrozenGeneralizedScaling"
+    ]
+  },
+  {
+    "caller": "scripts/17_setup_compute_optimization.py",
+    "source": "src/optimization/setup.py",
+    "line": 66,
+    "names": [
+      "run"
+    ]
+  },
+  {
+    "caller": "scripts/17_verify_compute_setup.py",
+    "source": "src/optimization/costs.py",
+    "line": 135,
+    "names": [
+      "quality_increment_per_token",
+      "marginal_quality_per_token",
+      "cost_components"
+    ]
+  },
+  {
+    "caller": "scripts/18_optimize_compute_resources.py",
+    "source": "src/optimization/resource_solver.py",
+    "line": 53,
+    "names": [
+      "run_solve"
+    ]
+  },
+  {
+    "caller": "scripts/18_optimize_compute_resources.py",
+    "source": "src/optimization/transitions.py",
+    "line": 56,
+    "names": [
+      "run_diagnose"
+    ]
+  },
+  {
+    "caller": "scripts/18_optimize_compute_resources.py",
+    "source": "src/optimization/resource_reporting.py",
+    "line": 59,
+    "names": [
+      "run_report"
+    ]
+  },
+  {
+    "caller": "scripts/18_verify_compute_optimization.py",
+    "source": "src/optimization/resource_solver.py",
+    "line": 120,
+    "names": [
+      "load",
+      "ResourceProblem"
+    ]
+  },
+  {
+    "caller": "scripts/19_finalize_compute_optimization.py",
+    "source": "src/optimization/simplex_sensitivity.py",
+    "line": 11,
+    "names": [
+      "simplex_search",
+      "official_comparison"
+    ]
+  },
+  {
+    "caller": "scripts/19_finalize_compute_optimization.py",
+    "source": "src/optimization/final_reporting.py",
+    "line": 27,
+    "names": [
+      "finalize"
+    ]
+  },
+  {
+    "caller": "scripts/19_verify_final_optimization.py",
+    "source": "src/scaling/mixture_transfer.py",
+    "line": 13,
+    "names": [
+      "frozen_metadata",
+      "predict_recipe",
+      "predict_ilr"
+    ]
+  },
+  {
+    "caller": "scripts/20_build_evolution_ability_bridge.py",
+    "source": "src/evolution/metadata.py",
+    "line": 11,
+    "names": [
+      "inspect_sources",
+      "canonical_models",
+      "epoch_join"
+    ]
+  },
+  {
+    "caller": "scripts/20_build_evolution_ability_bridge.py",
+    "source": "src/evolution/ability.py",
+    "line": 23,
+    "names": [
+      "construct_ability"
+    ]
+  },
+  {
+    "caller": "scripts/20_build_evolution_ability_bridge.py",
+    "source": "src/evolution/detailed.py",
+    "line": 27,
+    "names": [
+      "analyze_details"
+    ]
+  },
+  {
+    "caller": "scripts/20_build_evolution_ability_bridge.py",
+    "source": "src/evolution/bridge.py",
+    "line": 30,
+    "names": [
+      "analyze_bridge"
+    ]
+  },
+  {
+    "caller": "scripts/20_build_evolution_ability_bridge.py",
+    "source": "src/evolution/reporting.py",
+    "line": 33,
+    "names": [
+      "finalize"
+    ]
+  },
+  {
+    "caller": "scripts/21_build_evolution_contribution.py",
+    "source": "src/evolution/contribution_analysis.py",
+    "line": 12,
+    "names": [
+      "prepare",
+      "fit_models",
+      "run_decomposition",
+      "model_data"
+    ]
+  },
+  {
+    "caller": "scripts/21_build_evolution_contribution.py",
+    "source": "src/evolution/contribution_regression.py",
+    "line": 13,
+    "names": [
+      "design"
+    ]
+  },
+  {
+    "caller": "scripts/21_build_evolution_contribution.py",
+    "source": "src/evolution/contribution_reporting.py",
+    "line": 52,
+    "names": [
+      "finalize"
+    ]
+  },
+  {
+    "caller": "scripts/22_build_evolution_projection.py",
+    "source": "src/evolution/projection_data.py",
+    "line": 10,
+    "names": [
+      "load_frozen",
+      "build_anchors",
+      "benchmark_series",
+      "compute_candidates",
+      "estimate_growth",
+      "c3_direction"
+    ]
+  },
+  {
+    "caller": "scripts/22_build_evolution_projection.py",
+    "source": "src/evolution/projection_models.py",
+    "line": 25,
+    "names": [
+      "build_hindcast_and_trends"
+    ]
+  },
+  {
+    "caller": "scripts/22_build_evolution_projection.py",
+    "source": "src/evolution/projection_models.py",
+    "line": 28,
+    "names": [
+      "build_projections"
+    ]
+  },
+  {
+    "caller": "scripts/22_build_evolution_projection.py",
+    "source": "src/evolution/projection_reporting.py",
+    "line": 31,
+    "names": [
+      "build_report_and_figures"
+    ]
+  },
+  {
+    "caller": "src/evolution/ability.py",
+    "source": "src/evolution/common.py",
+    "line": 8,
+    "names": [
+      "csv",
+      "dump",
+      "corr",
+      "normalized_name",
+      "table"
+    ]
+  },
+  {
+    "caller": "src/evolution/bridge.py",
+    "source": "src/evolution/ability.py",
+    "line": 7,
+    "names": [
+      "transform"
+    ]
+  },
+  {
+    "caller": "src/evolution/bridge.py",
+    "source": "src/evolution/common.py",
+    "line": 8,
+    "names": [
+      "csv",
+      "dump",
+      "corr"
+    ]
+  },
+  {
+    "caller": "src/evolution/contribution_analysis.py",
+    "source": "src/evolution/common.py",
+    "line": 9,
+    "names": [
+      "csv",
+      "table"
+    ]
+  },
+  {
+    "caller": "src/evolution/contribution_analysis.py",
+    "source": "src/evolution/contribution_regression.py",
+    "line": 10,
+    "names": [
+      "fit_regression",
+      "diagnostics",
+      "contribution",
+      "bootstrap",
+      "bootstrap_summary",
+      "design"
+    ]
+  },
+  {
+    "caller": "src/evolution/contribution_regression.py",
+    "source": "src/evolution/common.py",
+    "line": 11,
+    "names": [
+      "corr"
+    ]
+  },
+  {
+    "caller": "src/evolution/contribution_reporting.py",
+    "source": "src/evolution/common.py",
+    "line": 12,
+    "names": [
+      "csv",
+      "table"
+    ]
+  },
+  {
+    "caller": "src/evolution/contribution_reporting.py",
+    "source": "src/evolution/contribution_analysis.py",
+    "line": 13,
+    "names": [
+      "input_manifest",
+      "write_json"
+    ]
+  },
+  {
+    "caller": "src/evolution/detailed.py",
+    "source": "src/evolution/common.py",
+    "line": 8,
+    "names": [
+      "csv",
+      "dump",
+      "corr",
+      "normalized_name"
+    ]
+  },
+  {
+    "caller": "src/evolution/detailed.py",
+    "source": "src/evolution/ability.py",
+    "line": 185,
+    "names": [
+      "transform"
+    ]
+  },
+  {
+    "caller": "src/evolution/metadata.py",
+    "source": "src/evolution/common.py",
+    "line": 8,
+    "names": [
+      "FILES",
+      "csv",
+      "dump",
+      "normalized_name",
+      "table"
+    ]
+  },
+  {
+    "caller": "src/evolution/projection_data.py",
+    "source": "src/evolution/common.py",
+    "line": 9,
+    "names": [
+      "csv"
+    ]
+  },
+  {
+    "caller": "src/evolution/projection_data.py",
+    "source": "src/evolution/contribution_analysis.py",
+    "line": 10,
+    "names": [
+      "write_json"
+    ]
+  },
+  {
+    "caller": "src/evolution/projection_models.py",
+    "source": "src/evolution/common.py",
+    "line": 7,
+    "names": [
+      "csv"
+    ]
+  },
+  {
+    "caller": "src/evolution/projection_models.py",
+    "source": "src/evolution/contribution_analysis.py",
+    "line": 8,
+    "names": [
+      "write_json"
+    ]
+  },
+  {
+    "caller": "src/evolution/projection_models.py",
+    "source": "src/evolution/projection_data.py",
+    "line": 9,
+    "names": [
+      "SCOPES",
+      "select_scope",
+      "frontier_stats",
+      "select_compute_window",
+      "compute_grid",
+      "rolling_compute",
+      "slope"
+    ]
+  },
+  {
+    "caller": "src/evolution/projection_reporting.py",
+    "source": "src/evolution/common.py",
+    "line": 9,
+    "names": [
+      "csv",
+      "table"
+    ]
+  },
+  {
+    "caller": "src/evolution/projection_reporting.py",
+    "source": "src/evolution/projection_models.py",
+    "line": 10,
+    "names": [
+      "read_csv",
+      "frozen_m2"
+    ]
+  },
+  {
+    "caller": "src/evolution/reporting.py",
+    "source": "src/evolution/common.py",
+    "line": 8,
+    "names": [
+      "FILES",
+      "csv",
+      "dump",
+      "table"
+    ]
+  },
+  {
+    "caller": "src/evolution/reporting.py",
+    "source": "src/evolution/detailed.py",
+    "line": 192,
+    "names": [
+      "refresh_weak_tail"
+    ]
+  },
+  {
+    "caller": "src/mixture/augmented.py",
+    "source": "src/mixture/composition.py",
+    "line": 10,
+    "names": [
+      "ILRTransformer"
+    ]
+  },
+  {
+    "caller": "src/mixture/effects.py",
+    "source": "src/mixture/composition.py",
+    "line": 5,
+    "names": [
+      "ILRTransformer"
+    ]
+  },
+  {
+    "caller": "src/mixture/modeling.py",
+    "source": "src/mixture/composition.py",
+    "line": 12,
+    "names": [
+      "ILRTransformer"
+    ]
+  },
+  {
+    "caller": "src/mixture/modeling.py",
+    "source": "src/mixture/io.py",
+    "line": 29,
+    "names": [
+      "signatures"
+    ]
+  },
+  {
+    "caller": "src/optimization/final_reporting.py",
+    "source": "src/optimization/resource_solver.py",
+    "line": 9,
+    "names": [
+      "csv",
+      "load"
+    ]
+  },
+  {
+    "caller": "src/optimization/final_reporting.py",
+    "source": "src/optimization/simplex_sensitivity.py",
+    "line": 327,
+    "names": [
+      "recipe_summary",
+      "support_calibration",
+      "evidence_level"
+    ]
+  },
+  {
+    "caller": "src/optimization/resource_reporting.py",
+    "source": "src/optimization/resource_solver.py",
+    "line": 8,
+    "names": [
+      "load",
+      "csv",
+      "ResourceProblem"
+    ]
+  },
+  {
+    "caller": "src/optimization/resource_reporting.py",
+    "source": "src/optimization/transitions.py",
+    "line": 108,
+    "names": [
+      "complete_feasibility_boundary_events"
+    ]
+  },
+  {
+    "caller": "src/optimization/resource_solver.py",
+    "source": "src/scaling/marginal_analysis.py",
+    "line": 10,
+    "names": [
+      "FrozenGeneralizedScaling"
+    ]
+  },
+  {
+    "caller": "src/optimization/resource_solver.py",
+    "source": "src/optimization/costs.py",
+    "line": 11,
+    "names": [
+      "quality_increment_per_token",
+      "marginal_quality_per_token"
+    ]
+  },
+  {
+    "caller": "src/optimization/setup.py",
+    "source": "src/optimization/costs.py",
+    "line": 15,
+    "names": [
+      "cost_components",
+      "quality_increment_per_token",
+      "marginal_quality_per_token"
+    ]
+  },
+  {
+    "caller": "src/optimization/setup.py",
+    "source": "src/scaling/mixture_transfer.py",
+    "line": 188,
+    "names": [
+      "frozen_metadata",
+      "predict_ilr"
+    ]
+  },
+  {
+    "caller": "src/optimization/setup.py",
+    "source": "src/scaling/mixture_transfer.py",
+    "line": 312,
+    "names": [
+      "predict_ilr"
+    ]
+  },
+  {
+    "caller": "src/optimization/simplex_sensitivity.py",
+    "source": "src/scaling/mixture_transfer.py",
+    "line": 11,
+    "names": [
+      "frozen_metadata",
+      "predict_recipe"
+    ]
+  },
+  {
+    "caller": "src/optimization/simplex_sensitivity.py",
+    "source": "src/optimization/resource_solver.py",
+    "line": 12,
+    "names": [
+      "csv",
+      "load",
+      "ResourceProblem"
+    ]
+  },
+  {
+    "caller": "src/optimization/transitions.py",
+    "source": "src/optimization/resource_solver.py",
+    "line": 9,
+    "names": [
+      "load",
+      "ResourceProblem",
+      "csv"
+    ]
+  },
+  {
+    "caller": "src/quality/preprocess.py",
+    "source": "src/quality/normalize.py",
+    "line": 9,
+    "names": [
+      "minmax_transform",
+      "moderate_utility_transform"
+    ]
+  },
+  {
+    "caller": "src/quality/preprocess.py",
+    "source": "src/quality/vector_transform.py",
+    "line": 10,
+    "names": [
+      "fit_qurater_parameters",
+      "transform_qurater"
+    ]
+  },
+  {
+    "caller": "src/quality/record_diagnostics.py",
+    "source": "src/quality/io.py",
+    "line": 12,
+    "names": [
+      "resolve_metric_value"
+    ]
+  },
+  {
+    "caller": "src/quality/record_diagnostics.py",
+    "source": "src/quality/vector_transform.py",
+    "line": 13,
+    "names": [
+      "parse_vector"
+    ]
+  },
+  {
+    "caller": "src/quality/vector_transform.py",
+    "source": "src/quality/io.py",
+    "line": 13,
+    "names": [
+      "resolve_metric_value"
+    ]
+  },
+  {
+    "caller": "src/quality/vector_transform.py",
+    "source": "src/quality/vector_diagnostics.py",
+    "line": 14,
+    "names": [
+      "stable_softmax"
+    ]
+  },
+  {
+    "caller": "src/scaling/bootstrap.py",
+    "source": "src/scaling/classical.py",
+    "line": 5,
+    "names": [
+      "weights",
+      "fit",
+      "predict",
+      "metrics"
+    ]
+  },
+  {
+    "caller": "src/scaling/marginal_analysis.py",
+    "source": "src/scaling/mixture_transfer.py",
+    "line": 9,
+    "names": [
+      "predict_recipe"
+    ]
+  },
+  {
+    "caller": "src/scaling/marginal_reporting.py",
+    "source": "src/scaling/mixture_transfer_reporting.py",
+    "line": 10,
+    "names": [
+      "markdown_table"
+    ]
+  },
+  {
+    "caller": "src/scaling/marginal_reporting.py",
+    "source": "src/scaling/io.py",
+    "line": 11,
+    "names": [
+      "write_csv"
+    ]
+  },
+  {
+    "caller": "src/scaling/mixture_transfer_reporting.py",
+    "source": "src/scaling/mixture_transfer.py",
+    "line": 10,
+    "names": [
+      "SCALES",
+      "p2_value"
+    ]
+  },
+  {
+    "caller": "src/scaling/mixture_transfer_reporting.py",
+    "source": "src/scaling/io.py",
+    "line": 11,
+    "names": [
+      "write_csv"
+    ]
+  },
+  {
+    "caller": "src/scaling/quality_analysis.py",
+    "source": "src/scaling/quality_extension.py",
+    "line": 9,
+    "names": [
+      "MODELS",
+      "fit_quality",
+      "predict_quality",
+      "subset",
+      "group_reference"
+    ]
+  },
+  {
+    "caller": "src/scaling/quality_analysis.py",
+    "source": "src/scaling/classical.py",
+    "line": 10,
+    "names": [
+      "metrics"
+    ]
+  },
+  {
+    "caller": "src/scaling/quality_analysis.py",
+    "source": "src/scaling/io.py",
+    "line": 11,
+    "names": [
+      "write_csv",
+      "write_json"
+    ]
+  },
+  {
+    "caller": "src/scaling/quality_extension.py",
+    "source": "src/scaling/io.py",
+    "line": 7,
+    "names": [
+      "csv_rows"
+    ]
+  },
+  {
+    "caller": "src/scaling/quality_reporting.py",
+    "source": "src/scaling/quality_extension.py",
+    "line": 7,
+    "names": [
+      "predict_quality",
+      "group_reference",
+      "subset"
+    ]
+  },
+  {
+    "caller": "src/scaling/quality_reporting.py",
+    "source": "src/scaling/io.py",
+    "line": 76,
+    "names": [
+      "csv_rows"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_analysis.py",
+    "source": "src/scaling/quality_extension.py",
+    "line": 10,
+    "names": [
+      "subset",
+      "group_reference"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_analysis.py",
+    "source": "src/scaling/scale_quality.py",
+    "line": 11,
+    "names": [
+      "PARAMETERS",
+      "fit_scale",
+      "predict_scale",
+      "marginal_quality"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_analysis.py",
+    "source": "src/scaling/classical.py",
+    "line": 12,
+    "names": [
+      "predict",
+      "metrics"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_analysis.py",
+    "source": "src/scaling/io.py",
+    "line": 13,
+    "names": [
+      "write_csv",
+      "csv_rows"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_analysis.py",
+    "source": "src/scaling/io.py",
+    "line": 146,
+    "names": [
+      "write_json"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_reporting.py",
+    "source": "src/scaling/quality_extension.py",
+    "line": 7,
+    "names": [
+      "subset",
+      "group_reference"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_reporting.py",
+    "source": "src/scaling/scale_quality.py",
+    "line": 8,
+    "names": [
+      "predict_scale"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_reporting.py",
+    "source": "src/scaling/quality_reporting.py",
+    "line": 9,
+    "names": [
+      "save",
+      "obs_pred",
+      "table"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_reporting.py",
+    "source": "src/scaling/io.py",
+    "line": 63,
+    "names": [
+      "csv_rows"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_reporting.py",
+    "source": "src/scaling/scale_quality.py",
+    "line": 116,
+    "names": [
+      "marginal_quality"
+    ]
+  },
+  {
+    "caller": "src/scaling/scale_quality_reporting.py",
+    "source": "src/scaling/io.py",
+    "line": 192,
+    "names": [
+      "csv_rows",
+      "write_csv"
+    ]
+  }
+]

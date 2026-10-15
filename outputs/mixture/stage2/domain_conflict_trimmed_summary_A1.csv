@@ -1,0 +1,8 @@
+﻿domain,n,K_domain,trim_fraction_per_tail,source
+arxiv,1419,0.2501384075066497,0.1,outputs/conflict/A1_sample_conflict.csv
+book,171,0.3828573193539707,0.1,outputs/conflict/A1_sample_conflict.csv
+c4,10000,0.2611608998588862,0.1,outputs/conflict/A1_sample_conflict.csv
+commoncrawl,9640,0.23740181674481325,0.1,outputs/conflict/A1_sample_conflict.csv
+github,10000,0.30036724209976723,0.1,outputs/conflict/A1_sample_conflict.csv
+stackexchange,10000,0.22331005095345322,0.1,outputs/conflict/A1_sample_conflict.csv
+wikipedia,10000,0.282345656093632,0.1,outputs/conflict/A1_sample_conflict.csv

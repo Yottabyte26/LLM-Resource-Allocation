@@ -1,0 +1,4 @@
+﻿dataset,n_ND_groups,negative_groups,positive_groups,fully_nonincreasing_groups,fully_strictly_decreasing_groups,violation_groups,adjacent_pairs,increasing_adjacent_pairs,violation_pair_rate,negative_groups_rate,positive_groups_rate,fully_nonincreasing_groups_rate,violation_groups_rate
+B6,45,45,0,2,2,43,315,80,0.25396825396825395,1.0,0.0,0.044444444444444446,0.9555555555555556
+B7,45,45,0,1,1,44,405,102,0.2518518518518518,1.0,0.0,0.022222222222222223,0.9777777777777777
+B8,150,0,150,0,0,150,1554,1311,0.8436293436293436,0.0,1.0,0.0,1.0

@@ -1,0 +1,28 @@
+{
+  "source_files": [
+    {
+      "path": "configs/scaling_quality_phase2C.yaml",
+      "sha256": "f98258acbc99c71df2bfd4e17e52cc853071ef9e845d628f70c8c8d3475b114b"
+    },
+    {
+      "path": "scripts/14_fit_scale_dependent_quality.py",
+      "sha256": "0eb15e0d65d81a22ddc1819fdd4bcae17690064aa01d5591fc67a582c5dcf5a5"
+    },
+    {
+      "path": "scripts/14_verify_scale_dependent_quality.py",
+      "sha256": "74ec71354607f87672c0fa51fb8d0eff2897cf48837d17a3dcd0f18b9baa2efa"
+    },
+    {
+      "path": "src/scaling/scale_quality.py",
+      "sha256": "b92e8c89470eac359a95d8dfa331b16223d43a8b9e5b1f0db168ea6b8cb24cf2"
+    },
+    {
+      "path": "src/scaling/scale_quality_analysis.py",
+      "sha256": "46f845fdeae3d441997d853b121fa351e40477416fe31f085749554ff3d91b38"
+    },
+    {
+      "path": "src/scaling/scale_quality_reporting.py",
+      "sha256": "0c59949b82cdac2f2289d27f3fa556e6bec362fcce2c2dc1abeacd4ddf7d143c"
+    }
+  ]
+}

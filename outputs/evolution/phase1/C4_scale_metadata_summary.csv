@@ -1,0 +1,8 @@
+﻿scope,field,n,available,missing_rate
+all_C4,Parameters,3523,2297,0.3479988646040307
+all_C4,Training compute (FLOP),3523,1390,0.6054499006528526
+all_C4,Training dataset size (total),3523,1424,0.595799034913426
+all_C4,Publication date,3523,3500,0.006528526823729776
+all_C4,Open model weights?,3523,2653,0.24694862333238718
+all_C4,Organization,3523,3435,0.024978711325574793
+all_C4,N_compute_dataset_numeric_joint,3523,850,

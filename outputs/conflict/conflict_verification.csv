@@ -1,0 +1,324 @@
+﻿check,passed,detail
+A1: original Q/Z/metadata/every record,True,n=51230; exact CSV value equality
+A1: full numerical K/K_equal/V/Delta_Q,True,max_abs_error=0.0
+A1: fsum K row 1,True,0.2742709292147046
+A1: fsum K row 998,True,0.1879961977983293
+A1: fsum K row 1995,True,0.2339739497529798
+A1: fsum K row 2992,True,0.32938536808308183
+A1: fsum K row 3989,True,0.20786565769371174
+A1: fsum K row 4986,True,0.23189141301155208
+A1: fsum K row 5983,True,0.2708378402030149
+A1: fsum K row 6980,True,0.21068229224155952
+A1: fsum K row 7977,True,0.19147331076139315
+A1: fsum K row 8974,True,0.29132500720739707
+A1: fsum K row 9971,True,0.3398325248770739
+A1: fsum K row 10968,True,0.43697651617847094
+A1: fsum K row 11965,True,0.26090185353700707
+A1: fsum K row 12962,True,0.1573251618523902
+A1: fsum K row 13959,True,0.20845185588273382
+A1: fsum K row 14956,True,0.236718044089497
+A1: fsum K row 15953,True,0.33509700826735717
+A1: fsum K row 16950,True,0.22424326792332586
+A1: fsum K row 17947,True,0.2394342892936425
+A1: fsum K row 18944,True,0.26144569968471526
+A1: fsum K row 19941,True,0.22863340946286623
+A1: fsum K row 20938,True,0.11773622116904334
+A1: fsum K row 21935,True,0.2564085652903014
+A1: fsum K row 22932,True,0.2611402477825548
+A1: fsum K row 23929,True,0.29861570580943225
+A1: fsum K row 24926,True,0.3476422723933235
+A1: fsum K row 25923,True,0.27844943807819816
+A1: fsum K row 26920,True,0.35739648083376224
+A1: fsum K row 27917,True,0.2875524094273006
+A1: fsum K row 28914,True,0.21292104182847071
+A1: fsum K row 29911,True,0.31019861796828097
+A1: fsum K row 30908,True,0.33616368868209734
+A1: fsum K row 31905,True,0.26948330939059933
+A1: fsum K row 32902,True,0.18180469165267585
+A1: fsum K row 33899,True,0.20921412065585718
+A1: fsum K row 34896,True,0.297209563687758
+A1: fsum K row 35893,True,0.22715615877271736
+A1: fsum K row 36890,True,0.20508352516108444
+A1: fsum K row 37887,True,0.2970732341323793
+A1: fsum K row 38884,True,0.27607071830273705
+A1: fsum K row 39881,True,0.25112895306461785
+A1: fsum K row 40878,True,0.2335941832397262
+A1: fsum K row 41875,True,0.24345555647134073
+A1: fsum K row 42872,True,0.3573752641538862
+A1: fsum K row 43869,True,0.3065680061020007
+A1: fsum K row 44866,True,0.28907927485122564
+A1: fsum K row 45863,True,0.31151512066567677
+A1: fsum K row 46860,True,0.23078485411865
+A1: fsum K row 47857,True,0.3036233358548519
+A1: fsum K row 48854,True,0.26939307055922174
+A1: fsum K row 49851,True,0.393150503044059
+A1: fsum K row 50848,True,0.3288295495836687
+A2: original Q/Z/metadata/every record,True,n=17523; exact CSV value equality
+A2: full numerical K/K_equal/V/Delta_Q,True,max_abs_error=0.0
+A2: fsum K row 1,True,0.2742709292147046
+A2: fsum K row 998,True,0.1879961977983293
+A2: fsum K row 1995,True,0.3382587697135671
+A2: fsum K row 2992,True,0.20589984361145341
+A2: fsum K row 3989,True,0.18427120885940906
+A2: fsum K row 4986,True,0.2329218133792929
+A2: fsum K row 5983,True,0.19469353175764556
+A2: fsum K row 6980,True,0.336000879196071
+A2: fsum K row 7977,True,0.2758375935692505
+A2: fsum K row 8974,True,0.260808916784179
+A2: fsum K row 9971,True,0.30015449385266924
+A2: fsum K row 10968,True,0.20406216872323313
+A2: fsum K row 11965,True,0.2251083629675983
+A2: fsum K row 12962,True,0.20388914367655958
+A2: fsum K row 13959,True,0.29796718820921764
+A2: fsum K row 14956,True,0.211482244977104
+A2: fsum K row 15953,True,0.2932387413390587
+A2: fsum K row 16950,True,0.22459094269073762
+A3: original Q/Z/metadata/every record,True,n=203752; exact CSV value equality
+A3: full numerical K/K_equal/V/Delta_Q,True,max_abs_error=0.0
+A3: fsum K row 1,True,0.3123845068946666
+A3: fsum K row 998,True,0.3181948107802452
+A3: fsum K row 1995,True,0.33726458223401073
+A3: fsum K row 2992,True,0.289839421867456
+A3: fsum K row 3989,True,0.31748962173579093
+A3: fsum K row 4986,True,0.33394948625884213
+A3: fsum K row 5983,True,0.41661584854545264
+A3: fsum K row 6980,True,0.24117831012108784
+A3: fsum K row 7977,True,0.2831242509996812
+A3: fsum K row 8974,True,0.3258968536597034
+A3: fsum K row 9971,True,0.2865799630652988
+A3: fsum K row 10968,True,0.28935288152843236
+A3: fsum K row 11965,True,0.2718144390994625
+A3: fsum K row 12962,True,0.29400426135238544
+A3: fsum K row 13959,True,0.290332978805458
+A3: fsum K row 14956,True,0.269733307447275
+A3: fsum K row 15953,True,0.3381970592784361
+A3: fsum K row 16950,True,0.4165005919653687
+A3: fsum K row 17947,True,0.25806851221599536
+A3: fsum K row 18944,True,0.3136658952338625
+A3: fsum K row 19941,True,0.37098437326030625
+A3: fsum K row 20938,True,0.3421481241879748
+A3: fsum K row 21935,True,0.3192261107742909
+A3: fsum K row 22932,True,0.22821478278036425
+A3: fsum K row 23929,True,0.27238415683875006
+A3: fsum K row 24926,True,0.2811062382781746
+A3: fsum K row 25923,True,0.311486970096199
+A3: fsum K row 26920,True,0.2901880544859729
+A3: fsum K row 27917,True,0.2678938769433197
+A3: fsum K row 28914,True,0.30697044049778144
+A3: fsum K row 29911,True,0.2890146426435089
+A3: fsum K row 30908,True,0.31394350902982704
+A3: fsum K row 31905,True,0.3148438219839505
+A3: fsum K row 32902,True,0.29271906412518983
+A3: fsum K row 33899,True,0.3622903768841328
+A3: fsum K row 34896,True,0.2731041270283891
+A3: fsum K row 35893,True,0.3003569144662527
+A3: fsum K row 36890,True,0.3231123281145799
+A3: fsum K row 37887,True,0.306864981944208
+A3: fsum K row 38884,True,0.3221408201003247
+A3: fsum K row 39881,True,0.27704281158637095
+A3: fsum K row 40878,True,0.2547266084003642
+A3: fsum K row 41875,True,0.3129562350939498
+A3: fsum K row 42872,True,0.24753863035479565
+A3: fsum K row 43869,True,0.319381260391565
+A3: fsum K row 44866,True,0.26263189695119527
+A3: fsum K row 45863,True,0.2607060628340988
+A3: fsum K row 46860,True,0.32160473164558795
+A3: fsum K row 47857,True,0.28313874043506765
+A3: fsum K row 48854,True,0.3227751109577588
+A3: fsum K row 49851,True,0.2744793232493057
+A3: fsum K row 50848,True,0.23979348670301429
+A3: fsum K row 51845,True,0.35147735683223036
+A3: fsum K row 52842,True,0.3233409794596232
+A3: fsum K row 53839,True,0.3333262701480427
+A3: fsum K row 54836,True,0.27753473149068697
+A3: fsum K row 55833,True,0.29319997146298776
+A3: fsum K row 56830,True,0.2796581753390927
+A3: fsum K row 57827,True,0.40712245836505034
+A3: fsum K row 58824,True,0.2890078248288578
+A3: fsum K row 59821,True,0.26250054428687436
+A3: fsum K row 60818,True,0.3299989257729807
+A3: fsum K row 61815,True,0.2448872229246763
+A3: fsum K row 62812,True,0.45335232733626846
+A3: fsum K row 63809,True,0.264105851120793
+A3: fsum K row 64806,True,0.3584306075555873
+A3: fsum K row 65803,True,0.2661136640024766
+A3: fsum K row 66800,True,0.2829983261658852
+A3: fsum K row 67797,True,0.34651958489814366
+A3: fsum K row 68794,True,0.28605919294342746
+A3: fsum K row 69791,True,0.23956559418398915
+A3: fsum K row 70788,True,0.2883420224320214
+A3: fsum K row 71785,True,0.2947481227749806
+A3: fsum K row 72782,True,0.309747377855983
+A3: fsum K row 73779,True,0.3294551286446727
+A3: fsum K row 74776,True,0.3270750846854851
+A3: fsum K row 75773,True,0.27781929742066847
+A3: fsum K row 76770,True,0.3235621210786396
+A3: fsum K row 77767,True,0.2344073956860749
+A3: fsum K row 78764,True,0.3154557283467012
+A3: fsum K row 79761,True,0.2674819606430715
+A3: fsum K row 80758,True,0.2824811248382541
+A3: fsum K row 81755,True,0.30225136713257234
+A3: fsum K row 82752,True,0.4257887920042839
+A3: fsum K row 83749,True,0.3049530233679663
+A3: fsum K row 84746,True,0.3371688327636821
+A3: fsum K row 85743,True,0.2858942543569179
+A3: fsum K row 86740,True,0.3127986302426856
+A3: fsum K row 87737,True,0.2907257083797181
+A3: fsum K row 88734,True,0.36648445838845234
+A3: fsum K row 89731,True,0.32214687552656507
+A3: fsum K row 90728,True,0.2744135623017426
+A3: fsum K row 91725,True,0.3287970173038533
+A3: fsum K row 92722,True,0.35865761637468996
+A3: fsum K row 93719,True,0.25602801441015427
+A3: fsum K row 94716,True,0.29823544032326393
+A3: fsum K row 95713,True,0.253403818907762
+A3: fsum K row 96710,True,0.3543539201417922
+A3: fsum K row 97707,True,0.36917335095865506
+A3: fsum K row 98704,True,0.29189804477109105
+A3: fsum K row 99701,True,0.28449191669416196
+A3: fsum K row 100698,True,0.35089570495288847
+A3: fsum K row 101695,True,0.25569942625442876
+A3: fsum K row 102692,True,0.15455456424649003
+A3: fsum K row 103689,True,0.2628042151460325
+A3: fsum K row 104686,True,0.36159268215313306
+A3: fsum K row 105683,True,0.23466904842052097
+A3: fsum K row 106680,True,0.31173362391725046
+A3: fsum K row 107677,True,0.31604553701465077
+A3: fsum K row 108674,True,0.2814559098496597
+A3: fsum K row 109671,True,0.3303716298958471
+A3: fsum K row 110668,True,0.25807986713451364
+A3: fsum K row 111665,True,0.28188611084198373
+A3: fsum K row 112662,True,0.24236612035399188
+A3: fsum K row 113659,True,0.29351165562486603
+A3: fsum K row 114656,True,0.2477454621180789
+A3: fsum K row 115653,True,0.2748719774392168
+A3: fsum K row 116650,True,0.29042788403958847
+A3: fsum K row 117647,True,0.3010515072054013
+A3: fsum K row 118644,True,0.23073635003515416
+A3: fsum K row 119641,True,0.2724010032993647
+A3: fsum K row 120638,True,0.31704520278988785
+A3: fsum K row 121635,True,0.2930512889318457
+A3: fsum K row 122632,True,0.2888378381241816
+A3: fsum K row 123629,True,0.17526807299578123
+A3: fsum K row 124626,True,0.307084594847698
+A3: fsum K row 125623,True,0.3141691752871421
+A3: fsum K row 126620,True,0.38796211193643526
+A3: fsum K row 127617,True,0.22984557525584598
+A3: fsum K row 128614,True,0.3174275172157828
+A3: fsum K row 129611,True,0.24860526051779555
+A3: fsum K row 130608,True,0.3000043883786745
+A3: fsum K row 131605,True,0.3383455186850987
+A3: fsum K row 132602,True,0.2547642390225877
+A3: fsum K row 133599,True,0.3824230782858276
+A3: fsum K row 134596,True,0.3338642301587912
+A3: fsum K row 135593,True,0.2601320331818937
+A3: fsum K row 136590,True,0.27282137291128344
+A3: fsum K row 137587,True,0.22922402304512568
+A3: fsum K row 138584,True,0.31447582298980203
+A3: fsum K row 139581,True,0.21493166421032342
+A3: fsum K row 140578,True,0.36855806181592177
+A3: fsum K row 141575,True,0.20416891962813144
+A3: fsum K row 142572,True,0.22992911793712717
+A3: fsum K row 143569,True,0.3158305272220806
+A3: fsum K row 144566,True,0.2864283435408794
+A3: fsum K row 145563,True,0.2560266403490533
+A3: fsum K row 146560,True,0.29406392527968367
+A3: fsum K row 147557,True,0.3300991571619053
+A3: fsum K row 148554,True,0.3461249247446786
+A3: fsum K row 149551,True,0.31986127773753753
+A3: fsum K row 150548,True,0.31124906918334605
+A3: fsum K row 151545,True,0.2998798031679298
+A3: fsum K row 152542,True,0.30218705686181535
+A3: fsum K row 153539,True,0.2811975745872538
+A3: fsum K row 154536,True,0.2685216168831537
+A3: fsum K row 155533,True,0.3193810104508623
+A3: fsum K row 156530,True,0.28831099361391954
+A3: fsum K row 157527,True,0.3671832860053694
+A3: fsum K row 158524,True,0.30524568537639246
+A3: fsum K row 159521,True,0.2926155742004935
+A3: fsum K row 160518,True,0.40894929652666073
+A3: fsum K row 161515,True,0.3751455690480192
+A3: fsum K row 162512,True,0.37950610709892707
+A3: fsum K row 163509,True,0.3686878597710572
+A3: fsum K row 164506,True,0.28544654767220307
+A3: fsum K row 165503,True,0.29201897928637227
+A3: fsum K row 166500,True,0.28921316633444605
+A3: fsum K row 167497,True,0.2973528267509793
+A3: fsum K row 168494,True,0.24343721500960905
+A3: fsum K row 169491,True,0.29361017198863515
+A3: fsum K row 170488,True,0.3288917179551781
+A3: fsum K row 171485,True,0.2342105016793811
+A3: fsum K row 172482,True,0.21186209841326256
+A3: fsum K row 173479,True,0.25656774954690287
+A3: fsum K row 174476,True,0.27410777066519704
+A3: fsum K row 175473,True,0.23612946568477475
+A3: fsum K row 176470,True,0.26515819074348057
+A3: fsum K row 177467,True,0.29614036308866304
+A3: fsum K row 178464,True,0.22727561265492546
+A3: fsum K row 179461,True,0.32020565600059
+A3: fsum K row 180458,True,0.3198027145733881
+A3: fsum K row 181455,True,0.21389114738916662
+A3: fsum K row 182452,True,0.3412474348119715
+A3: fsum K row 183449,True,0.28612896228730667
+A3: fsum K row 184446,True,0.31750933602889797
+A3: fsum K row 185443,True,0.2625212796331797
+A3: fsum K row 186440,True,0.3370789465762277
+A3: fsum K row 187437,True,0.3383526475067767
+A3: fsum K row 188434,True,0.2656497273667878
+A3: fsum K row 189431,True,0.3256862591555482
+A3: fsum K row 190428,True,0.3519878288238187
+A3: fsum K row 191425,True,0.37072885318605303
+A3: fsum K row 192422,True,0.3230296143174549
+A3: fsum K row 193419,True,0.30476806819808094
+A3: fsum K row 194416,True,0.30194391804746246
+A3: fsum K row 195413,True,0.23327984413812627
+A3: fsum K row 196410,True,0.23307408733155557
+A3: fsum K row 197407,True,0.28585122454922796
+A3: fsum K row 198404,True,0.17752334069282522
+A3: fsum K row 199401,True,0.32350438978829255
+A3: fsum K row 200398,True,0.25022875716671794
+A3: fsum K row 201395,True,0.4387900160731844
+A3: fsum K row 202392,True,0.31567100161334266
+A3: fsum K row 203389,True,0.32160580944894634
+A1 empirical thresholds,True,"{""P50"": 0.2609275815627393, ""P75"": 0.3004141057102772, ""P90"": 0.3332062028689002, ""P95"": 0.35398114388039664, ""P99"": 0.3920225405341556}"
+A1: fixed A1 conflict flags,True,"high=5123,extreme=2562"
+A2: fixed A1 conflict flags,True,"high=2885,extreme=1201"
+A3: fixed A1 conflict flags,True,"high=47064,extreme=25730"
+domain book,True,n=171
+domain github,True,n=10000
+domain arxiv,True,n=1419
+domain c4,True,n=10000
+domain wikipedia,True,n=10000
+domain commoncrawl,True,n=9640
+domain stackexchange,True,n=10000
+231 pairs A1/all/full,True,n=51230; exact differences and independent correlation matrices
+231 pairs A1/arxiv/full,True,n=1419; exact differences and independent correlation matrices
+231 pairs A1/book/full,True,n=171; exact differences and independent correlation matrices
+231 pairs A1/c4/full,True,n=10000; exact differences and independent correlation matrices
+231 pairs A1/commoncrawl/full,True,n=9640; exact differences and independent correlation matrices
+231 pairs A1/github/full,True,n=10000; exact differences and independent correlation matrices
+231 pairs A1/stackexchange/full,True,n=10000; exact differences and independent correlation matrices
+231 pairs A1/wikipedia/full,True,n=10000; exact differences and independent correlation matrices
+231 pairs A2/arxiv/full,True,n=17523; exact differences and independent correlation matrices
+231 pairs A2/arxiv/nonoverlap,True,n=16104; exact differences and independent correlation matrices
+231 pairs A3/github/full,True,n=203752; exact differences and independent correlation matrices
+231 pairs A3/github/nonoverlap,True,n=193752; exact differences and independent correlation matrices
+constant-correlation handling,True,0 new-stage pair rows repaired for roundoff-induced undefined correlation; no difference/weight/Q changes
+tied driver fractional counts,True,12 scopes reconcile to high-conflict n
+extension A2/full,True,KS/Wasserstein/Cliff via independent U identity
+extension A2/nonoverlap,True,KS/Wasserstein/Cliff via independent U identity
+extension A3/full,True,KS/Wasserstein/Cliff via independent U identity
+extension A3/nonoverlap,True,KS/Wasserstein/Cliff via independent U identity
+Q/K and K/Delta correlations,True,independent scipy full A1 check
+selected text material,True,79 unique full-content records; CSV parser field limit raised for long original texts
+text selection top_K_30,True,All A1; largest K
+text selection highK_relative_lowQ,True,K>A1P90; Q<=highK Q P33=0.5498055098597562
+text selection highK_relative_middleQ,True,K>A1P90; 0.5498055098597562<Q<=highK Q P67=0.60210251003734
+text selection highK_relative_highQ,True,K>A1P90; Q>highK Q P67=0.60210251003734; NOT globally high Q
+text selection global_highQ_lowK,True,"A1 Q median=0.7301786313275413; low K<=P50, high K>P90; middle K excluded"
+text selection global_highQ_highK,True,"A1 Q median=0.7301786313275413; low K<=P50, high K>P90; middle K excluded"
+text selection global_lowQ_lowK,True,"A1 Q median=0.7301786313275413; low K<=P50, high K>P90; middle K excluded"
+text selection global_lowQ_highK,True,"A1 Q median=0.7301786313275413; low K<=P50, high K>P90; middle K excluded"
+all frozen/original file hashes,True,2141 unchanged files
+nine real figures,True,all PNG files exist and nonempty
+no Q-star/lambda output,True,diagnosis stage stop respected

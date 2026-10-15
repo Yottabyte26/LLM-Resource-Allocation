@@ -1,0 +1,97 @@
+{
+  "official": {
+    "training_coefficient": 6.0,
+    "eta": 0.0002,
+    "budgets_FLOPs": [
+      1e+19,
+      1e+22,
+      1e+24
+    ],
+    "budget_status": "official_recommendation_not_mandatory",
+    "quality_costs": {
+      "exponential": {
+        "gamma": 10000000.0,
+        "lambda": 6.0,
+        "source_paragraph_index_zero_based": 79,
+        "gamma_unit": "FLOPs/token (dimensionally implied by official total budget)"
+      },
+      "power": {
+        "gamma": 5000000000.0,
+        "lambda": 4.0,
+        "source_paragraph_index_zero_based": 80,
+        "gamma_unit": "FLOPs/token (dimensionally implied by official total budget)"
+      },
+      "logarithmic": {
+        "gamma": 2000000000.0,
+        "lambda": 10.0,
+        "source_paragraph_index_zero_based": 81,
+        "gamma_unit": "FLOPs/token (dimensionally implied by official total budget)"
+      }
+    }
+  },
+  "baseline": {
+    "primary": "Q0_B",
+    "Q0": 0.7280227164978084,
+    "proxy_mass": 0.48424183676177507,
+    "alternative": 0.6925361864057543,
+    "proxy_range_envelope": [
+      0.6512576874986107,
+      0.7376318233356024
+    ],
+    "envelope_is_confidence_interval": false,
+    "A1_sample_count": 51230,
+    "A1_sample_Q_range": [
+      0.30649962546558407,
+      0.9511217995313428
+    ],
+    "A1_domain_Q_range": [
+      0.5867366961905537,
+      0.7651065297732803
+    ],
+    "choice_status": "recommended_conditional_on_frozen_proxy_mapping_not_direct_measurement"
+  },
+  "main_bounds": {
+    "N_min_B": 0.070542,
+    "N_max_B": 11.965825,
+    "D_min_B": 10.0,
+    "D_max_B": 299.893,
+    "Q_min": 0.7280227164978084,
+    "Q_max": 1.0
+  },
+  "mixture": {
+    "source_counts": {
+      "test_1B": 64,
+      "test_1M": 256,
+      "test_60M": 256,
+      "train_1M": 512
+    },
+    "source_records": 1088,
+    "unique_candidates": 832
+  },
+  "frozen_objective_source": "outputs/scaling/phase4/generalized_scaling_final.json",
+  "official_contexts": [
+    2048,
+    4096,
+    8192,
+    32768,
+    131072
+  ],
+  "config": {
+    "random_state": 2026,
+    "budget_log_grid_count": 41,
+    "budget_extension_decades_per_side": 1,
+    "baseline_primary": "Q0_B",
+    "mixture_primary_modes": [
+      "P0",
+      "P1"
+    ],
+    "mixture_empirical_signature_decimal_places": 12,
+    "main_bounds": "intersection_B1_and_frozen_B6_numeric_support",
+    "quality_cost_primary": null,
+    "perform_optimization": false,
+    "perform_structural_shift_detection": false
+  },
+  "optimization_performed": false,
+  "shift_detection_performed": false,
+  "unit_checks_passed": 12
+}

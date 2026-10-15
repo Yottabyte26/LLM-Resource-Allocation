@@ -1,0 +1,6 @@
+﻿L_ctx,support_count,support_fraction,scenario_type,evidence_source,attention_to_training_ratio
+2048,18,0.4,short,real_attachments/C_efficiency_evolution/model_architecture_metadata.csv,0.06826666666666667
+4096,8,0.17777777777777778,medium_median,real_attachments/C_efficiency_evolution/model_architecture_metadata.csv,0.13653333333333334
+8192,7,0.15555555555555556,observed_frequent,real_attachments/C_efficiency_evolution/model_architecture_metadata.csv,0.2730666666666667
+32768,11,0.24444444444444444,observed_frequent,real_attachments/C_efficiency_evolution/model_architecture_metadata.csv,1.0922666666666667
+131072,1,0.022222222222222223,long,real_attachments/C_efficiency_evolution/model_architecture_metadata.csv,4.369066666666667

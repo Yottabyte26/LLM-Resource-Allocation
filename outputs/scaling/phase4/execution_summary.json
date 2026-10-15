@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "n_frozen_files": 2756,
+  "n_grid_points": 216,
+  "n_derivative_checks": 720,
+  "all_derivative_checks_passed": true,
+  "n_training_recipe_equivalence_points": 12288,
+  "model_refit": false,
+  "original_A_parsed": false,
+  "B9_role": "metadata_anchor",
+  "B10_role": "estimated_classical_consistency",
+  "joint_external_test_fabricated": false,
+  "question3_started": false
+}

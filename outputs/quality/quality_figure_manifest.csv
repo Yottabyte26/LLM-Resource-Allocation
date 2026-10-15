@@ -1,0 +1,12 @@
+﻿figure,path
+01_critic_weights.png,outputs/figures/question1_part1/01_critic_weights.png
+02_A1_domain_quality_ci.png,outputs/figures/question1_part1/02_A1_domain_quality_ci.png
+03_A1_domain_Q_boxplots.png,outputs/figures/question1_part1/03_A1_domain_Q_boxplots.png
+04_arxiv_sample_full.png,outputs/figures/question1_part1/04_arxiv_sample_full.png
+05_github_sample_full.png,outputs/figures/question1_part1/05_github_sample_full.png
+06_nonoverlap_comparison.png,outputs/figures/question1_part1/06_nonoverlap_comparison.png
+07_critic_vs_equal.png,outputs/figures/question1_part1/07_critic_vs_equal.png
+08_pearson_vs_spearman_Q.png,outputs/figures/question1_part1/08_pearson_vs_spearman_Q.png
+09_A1_indicator_missingness.png,outputs/figures/question1_part1/09_A1_indicator_missingness.png
+10_indicator_correlation.png,outputs/figures/question1_part1/10_indicator_correlation.png
+11_A1_mean_trimmed_mean.png,outputs/figures/question1_part1/11_A1_mean_trimmed_mean.png

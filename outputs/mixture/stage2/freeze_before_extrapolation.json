@@ -1,0 +1,17 @@
+{
+  "selected_model": "M1_ElasticNet",
+  "model_files": {
+    "outputs\\mixture\\stage2\\models\\M3_alternative_mapping.joblib": "58794cbc1ce5d9136df20cbfbce22215de237a179dfaf765790acfd3204e3c41",
+    "outputs\\mixture\\stage2\\models\\M3_alternative_mapping.json": "5feafbc009a1c92076800c1d21306a4733dc57d891a4a350c5a5071f4651a6f9",
+    "outputs\\mixture\\stage2\\models\\M3_alternative_mapping_outer.json": "bc214c6dc441548326a0d0228ef19abba7dabdac3ed1aaeea2fc63113734bf96",
+    "outputs\\mixture\\stage2\\models\\M3_Qp.joblib": "bc6eda7e31528465bb21ea8862565c268206c7d7bcc442e920c803dec4e8cbde",
+    "outputs\\mixture\\stage2\\models\\M3_Qp.json": "7b1ff211a468fb4dd9d1fc7a2a51d93ffa71830c9e41c3f89b17e137fc25ae9f",
+    "outputs\\mixture\\stage2\\models\\M3_Qp_outer.json": "9a8786cd0297ca08db133ea955336dddc15caa46466714b58562e4faf0418b5f",
+    "outputs\\mixture\\stage2\\models\\M4_Qp_Kp.joblib": "eaa3dcc855ebd99603c608d56a72f142b9232eb299bd4750955920e1ce456d7e",
+    "outputs\\mixture\\stage2\\models\\M4_Qp_Kp.json": "a9e4619f21fc6508f31884fbef0c5ac28056b8d096ac7fbb6e2420d5ecc3f8db",
+    "outputs\\mixture\\stage2\\models\\M4_Qp_Kp_outer.json": "112bfb708b1beb248e6fb3d7c466e51465ef3022572ccdcf08e6114e02d74c40",
+    "outputs\\mixture\\models\\L_mean_M1_ElasticNet.joblib": "1432d5caa34de1b05a96fe643d993ad536943d4da2e02cbb7e5d6ce1e415f26f",
+    "outputs\\mixture\\models\\L_mean_M1_Ridge.joblib": "80566ca22fe164dd8767bea46bb9b1438aaf552f740a82519af6755dbccedd0e"
+  },
+  "estimated_loss_used_for_selection": false
+}

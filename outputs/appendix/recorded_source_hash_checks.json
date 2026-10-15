@@ -1,0 +1,359 @@
+[
+  {
+    "evidence_file": "outputs/evolution/phase1/implementation_manifest.csv",
+    "source_file": "scripts/20_build_evolution_ability_bridge.py",
+    "recorded_sha256": "874a7b2056639911c794c14c05ad49d18b14aceb099b479a57be7ff8b2b3a83e",
+    "current_sha256": "874a7b2056639911c794c14c05ad49d18b14aceb099b479a57be7ff8b2b3a83e",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase1/implementation_manifest.csv",
+    "source_file": "scripts/20_verify_evolution_phase1.py",
+    "recorded_sha256": "5bf3bf78b484c959e41c7d009a912dba63875542a950bb8cb380d623c8a2d9a0",
+    "current_sha256": "5bf3bf78b484c959e41c7d009a912dba63875542a950bb8cb380d623c8a2d9a0",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase1/implementation_manifest.csv",
+    "source_file": "src/evolution/__init__.py",
+    "recorded_sha256": "ead0a926a1fa3d93b5e2a447fb2413f0aa17df7e69c1977d4b710aeb19bd87ea",
+    "current_sha256": "ead0a926a1fa3d93b5e2a447fb2413f0aa17df7e69c1977d4b710aeb19bd87ea",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase1/implementation_manifest.csv",
+    "source_file": "src/evolution/ability.py",
+    "recorded_sha256": "d805060adbcc1ef6534c13fdc2c1040914929843e9eb4458f9eb97fd44ba940e",
+    "current_sha256": "d805060adbcc1ef6534c13fdc2c1040914929843e9eb4458f9eb97fd44ba940e",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase1/implementation_manifest.csv",
+    "source_file": "src/evolution/bridge.py",
+    "recorded_sha256": "920248506ea7588f08aefaf33fccf0209f0ae8b6922f380230f3691d0a473e94",
+    "current_sha256": "920248506ea7588f08aefaf33fccf0209f0ae8b6922f380230f3691d0a473e94",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase1/implementation_manifest.csv",
+    "source_file": "src/evolution/common.py",
+    "recorded_sha256": "2a37dd21f5fb1bb14cb087231ac7cd232ebcb425da10dffee747472cd0305390",
+    "current_sha256": "2a37dd21f5fb1bb14cb087231ac7cd232ebcb425da10dffee747472cd0305390",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase1/implementation_manifest.csv",
+    "source_file": "src/evolution/detailed.py",
+    "recorded_sha256": "e5ff030526a8070896c9f6e1cd77ae83f2c032429dabecc2ec492d724eeb9812",
+    "current_sha256": "e5ff030526a8070896c9f6e1cd77ae83f2c032429dabecc2ec492d724eeb9812",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase1/implementation_manifest.csv",
+    "source_file": "src/evolution/metadata.py",
+    "recorded_sha256": "70526a77707dd9acddfc82baae5eb030b659ae596174e49067f65be000f7f775",
+    "current_sha256": "70526a77707dd9acddfc82baae5eb030b659ae596174e49067f65be000f7f775",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase1/implementation_manifest.csv",
+    "source_file": "src/evolution/reporting.py",
+    "recorded_sha256": "646a41cc79f1917026eda44f5dceda70cb209050ebbc30fd066589d4cdcc1566",
+    "current_sha256": "646a41cc79f1917026eda44f5dceda70cb209050ebbc30fd066589d4cdcc1566",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase2/implementation_manifest.csv",
+    "source_file": "scripts/21_build_evolution_contribution.py",
+    "recorded_sha256": "1f1270fff6b80fad06d7443df0cb496f5c4412450489c197c051b09cd451c860",
+    "current_sha256": "1f1270fff6b80fad06d7443df0cb496f5c4412450489c197c051b09cd451c860",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase2/implementation_manifest.csv",
+    "source_file": "scripts/21_verify_evolution_contribution.py",
+    "recorded_sha256": "811483172ecb0978f4e84a1630a198da068946b96f2bb9125f647e63785c6301",
+    "current_sha256": "811483172ecb0978f4e84a1630a198da068946b96f2bb9125f647e63785c6301",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase2/implementation_manifest.csv",
+    "source_file": "src/evolution/contribution_analysis.py",
+    "recorded_sha256": "808c531cd4b444d25b143ab00de0c588fba856b27de8cb41b3d4c13d91d03021",
+    "current_sha256": "808c531cd4b444d25b143ab00de0c588fba856b27de8cb41b3d4c13d91d03021",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase2/implementation_manifest.csv",
+    "source_file": "src/evolution/contribution_regression.py",
+    "recorded_sha256": "d718c3c0f367a69124312c6a3ca2b6e663ff3242529e397a68d4c8910c4f9c57",
+    "current_sha256": "d718c3c0f367a69124312c6a3ca2b6e663ff3242529e397a68d4c8910c4f9c57",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase2/implementation_manifest.csv",
+    "source_file": "src/evolution/contribution_reporting.py",
+    "recorded_sha256": "d426550514b154a4a575185411bc86c1a2b5e19edf0c88f040066c6706f178d3",
+    "current_sha256": "d426550514b154a4a575185411bc86c1a2b5e19edf0c88f040066c6706f178d3",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase3/implementation_manifest.csv",
+    "source_file": "scripts/22_build_evolution_projection.py",
+    "recorded_sha256": "95a118997fd28644cac291f3bd6ada1df248dfae87656d05d05318e423f47794",
+    "current_sha256": "95a118997fd28644cac291f3bd6ada1df248dfae87656d05d05318e423f47794",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase3/implementation_manifest.csv",
+    "source_file": "scripts/22_verify_evolution_projection.py",
+    "recorded_sha256": "4b5510c55ee4fa918fab716f9ad34c78cff53c629df16bb9077b4ac23ed9d39b",
+    "current_sha256": "4b5510c55ee4fa918fab716f9ad34c78cff53c629df16bb9077b4ac23ed9d39b",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase3/implementation_manifest.csv",
+    "source_file": "src/evolution/projection_data.py",
+    "recorded_sha256": "5d312bf1436207656ea5f40c4c11561d269d3c70fc6be14e63ad879ee0c00724",
+    "current_sha256": "5d312bf1436207656ea5f40c4c11561d269d3c70fc6be14e63ad879ee0c00724",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase3/implementation_manifest.csv",
+    "source_file": "src/evolution/projection_models.py",
+    "recorded_sha256": "a0ecd2478807f29c0be593726d0d3d0570a90a95305b7602f2fcb0d165e522ce",
+    "current_sha256": "a0ecd2478807f29c0be593726d0d3d0570a90a95305b7602f2fcb0d165e522ce",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/evolution/phase3/implementation_manifest.csv",
+    "source_file": "src/evolution/projection_reporting.py",
+    "recorded_sha256": "a08ab1495f1f0efa7283ee4936f07e958b0316441c08521aee31ab8eca7ac5f8",
+    "current_sha256": "a08ab1495f1f0efa7283ee4936f07e958b0316441c08521aee31ab8eca7ac5f8",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase1/implementation_manifest.csv",
+    "source_file": "scripts/17_setup_compute_optimization.py",
+    "recorded_sha256": "f65da0ce8b405e1bb3b127ccb0cda113723bea3afd7730eaa85971c05b9ec81c",
+    "current_sha256": "f65da0ce8b405e1bb3b127ccb0cda113723bea3afd7730eaa85971c05b9ec81c",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase1/implementation_manifest.csv",
+    "source_file": "scripts/17_verify_compute_setup.py",
+    "recorded_sha256": "b60409bff9334bcdcb49d2f364838a82ba5d3287c9c0b173b0530233f2e75e88",
+    "current_sha256": "b60409bff9334bcdcb49d2f364838a82ba5d3287c9c0b173b0530233f2e75e88",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase1/implementation_manifest.csv",
+    "source_file": "src/optimization/__init__.py",
+    "recorded_sha256": "ec77f485fc8180f14db19a16f37a4ef96beef200d48bb0bbb5c2591566c876e1",
+    "current_sha256": "ec77f485fc8180f14db19a16f37a4ef96beef200d48bb0bbb5c2591566c876e1",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase1/implementation_manifest.csv",
+    "source_file": "src/optimization/costs.py",
+    "recorded_sha256": "4c3dec225003ef38669191374434ac98a54bf96516c101c13eee23fb10e80c83",
+    "current_sha256": "4c3dec225003ef38669191374434ac98a54bf96516c101c13eee23fb10e80c83",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase1/implementation_manifest.csv",
+    "source_file": "src/optimization/setup.py",
+    "recorded_sha256": "ee33f193ded31d801d5289a382d94ab0afd7f3f38625a17a61c7d14e6a58999d",
+    "current_sha256": "ee33f193ded31d801d5289a382d94ab0afd7f3f38625a17a61c7d14e6a58999d",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase2/implementation_manifest.csv",
+    "source_file": "scripts/18_optimize_compute_resources.py",
+    "recorded_sha256": "0d394232cd03ed76984d26fbe9d0799f5f9761fe90da054fe4ffca66b4092a01",
+    "current_sha256": "0d394232cd03ed76984d26fbe9d0799f5f9761fe90da054fe4ffca66b4092a01",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase2/implementation_manifest.csv",
+    "source_file": "scripts/18_verify_compute_optimization.py",
+    "recorded_sha256": "7f86eaadc1f6079f113cc7a4a55d6738bf73e139e66b6cdc6afa2b80aa836d40",
+    "current_sha256": "7f86eaadc1f6079f113cc7a4a55d6738bf73e139e66b6cdc6afa2b80aa836d40",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase2/implementation_manifest.csv",
+    "source_file": "src/optimization/resource_solver.py",
+    "recorded_sha256": "90b19be4a3b3f8be8732868ad8f350628b7b90064106e31c7af29eab68ae33d3",
+    "current_sha256": "90b19be4a3b3f8be8732868ad8f350628b7b90064106e31c7af29eab68ae33d3",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase2/implementation_manifest.csv",
+    "source_file": "src/optimization/transitions.py",
+    "recorded_sha256": "a541498e3c0c3a88b718eabdb28372a06ad77b9c51ad7fc3d6b35a73dd9de915",
+    "current_sha256": "a541498e3c0c3a88b718eabdb28372a06ad77b9c51ad7fc3d6b35a73dd9de915",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase2/implementation_manifest.csv",
+    "source_file": "src/optimization/resource_reporting.py",
+    "recorded_sha256": "1cbb50c407b95cafd73bd3b5a73f4efd7f9c6acdd929de0f61ba8d79a346b3fc",
+    "current_sha256": "1cbb50c407b95cafd73bd3b5a73f4efd7f9c6acdd929de0f61ba8d79a346b3fc",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase3/implementation_manifest.csv",
+    "source_file": "src/optimization/simplex_sensitivity.py",
+    "recorded_sha256": "701f7ecfab2d7714f560090a18aaec201b51e7fe8c89a875997247be1d1530d2",
+    "current_sha256": "701f7ecfab2d7714f560090a18aaec201b51e7fe8c89a875997247be1d1530d2",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase3/implementation_manifest.csv",
+    "source_file": "src/optimization/final_reporting.py",
+    "recorded_sha256": "bffe465e85077839ec0b82d6bc13c404e50bb6650ceccc6f604e35b7cce705ec",
+    "current_sha256": "bffe465e85077839ec0b82d6bc13c404e50bb6650ceccc6f604e35b7cce705ec",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase3/implementation_manifest.csv",
+    "source_file": "scripts/19_finalize_compute_optimization.py",
+    "recorded_sha256": "5f0d8c5968290c6b338cf149ec9ac070b661e593b7c388eae48737460c473a7f",
+    "current_sha256": "5f0d8c5968290c6b338cf149ec9ac070b661e593b7c388eae48737460c473a7f",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/optimization/phase3/implementation_manifest.csv",
+    "source_file": "scripts/19_verify_final_optimization.py",
+    "recorded_sha256": "08937ba4aa6cfd48308e14ef094895a3c0e0ae8336c1387a4d66efb4f5cfb3cc",
+    "current_sha256": "08937ba4aa6cfd48308e14ef094895a3c0e0ae8336c1387a4d66efb4f5cfb3cc",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2/phase2B_implementation_manifest.json",
+    "source_file": "src/scaling/quality_extension.py",
+    "recorded_sha256": "0d894fe88282af2097053bebf4bdde23eb3419a89f28560e5bde80f2082642ae",
+    "current_sha256": "0d894fe88282af2097053bebf4bdde23eb3419a89f28560e5bde80f2082642ae",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2/phase2B_implementation_manifest.json",
+    "source_file": "src/scaling/quality_analysis.py",
+    "recorded_sha256": "0457af5be38efc2ba5f052a8a8ba1b06c8afc9d2fd96900a8632cd4e4613d33e",
+    "current_sha256": "0457af5be38efc2ba5f052a8a8ba1b06c8afc9d2fd96900a8632cd4e4613d33e",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2/phase2B_implementation_manifest.json",
+    "source_file": "src/scaling/quality_reporting.py",
+    "recorded_sha256": "53757aa84869f34a267214763dc419245a6dc66f0d81761a47bf731c31987960",
+    "current_sha256": "53757aa84869f34a267214763dc419245a6dc66f0d81761a47bf731c31987960",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2/phase2B_implementation_manifest.json",
+    "source_file": "scripts/13_fit_quality_scaling.py",
+    "recorded_sha256": "540ec786a2263488e2d47f76d86e27b3c4e423e36cc810f5c0060993ede8da7f",
+    "current_sha256": "540ec786a2263488e2d47f76d86e27b3c4e423e36cc810f5c0060993ede8da7f",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2/phase2B_implementation_manifest.json",
+    "source_file": "scripts/13_verify_quality_scaling.py",
+    "recorded_sha256": "1b258d6ea9bf062543f2eb8561f4c27fdd9e30f73e43b959847a9c3dcd25a424",
+    "current_sha256": "1b258d6ea9bf062543f2eb8561f4c27fdd9e30f73e43b959847a9c3dcd25a424",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2C/implementation_manifest.json",
+    "source_file": "scripts/14_fit_scale_dependent_quality.py",
+    "recorded_sha256": "0eb15e0d65d81a22ddc1819fdd4bcae17690064aa01d5591fc67a582c5dcf5a5",
+    "current_sha256": "0eb15e0d65d81a22ddc1819fdd4bcae17690064aa01d5591fc67a582c5dcf5a5",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2C/implementation_manifest.json",
+    "source_file": "scripts/14_verify_scale_dependent_quality.py",
+    "recorded_sha256": "74ec71354607f87672c0fa51fb8d0eff2897cf48837d17a3dcd0f18b9baa2efa",
+    "current_sha256": "74ec71354607f87672c0fa51fb8d0eff2897cf48837d17a3dcd0f18b9baa2efa",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2C/implementation_manifest.json",
+    "source_file": "src/scaling/scale_quality.py",
+    "recorded_sha256": "b92e8c89470eac359a95d8dfa331b16223d43a8b9e5b1f0db168ea6b8cb24cf2",
+    "current_sha256": "b92e8c89470eac359a95d8dfa331b16223d43a8b9e5b1f0db168ea6b8cb24cf2",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2C/implementation_manifest.json",
+    "source_file": "src/scaling/scale_quality_analysis.py",
+    "recorded_sha256": "46f845fdeae3d441997d853b121fa351e40477416fe31f085749554ff3d91b38",
+    "current_sha256": "46f845fdeae3d441997d853b121fa351e40477416fe31f085749554ff3d91b38",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase2C/implementation_manifest.json",
+    "source_file": "src/scaling/scale_quality_reporting.py",
+    "recorded_sha256": "0c59949b82cdac2f2289d27f3fa556e6bec362fcce2c2dc1abeacd4ddf7d143c",
+    "current_sha256": "0c59949b82cdac2f2289d27f3fa556e6bec362fcce2c2dc1abeacd4ddf7d143c",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase3/implementation_manifest.json",
+    "source_file": "scripts/15_calibrate_mixture_scaling.py",
+    "recorded_sha256": "009f3a1a532dee48cad2de22c2b4ab665b1988c90e6809b80b61f53214a08d46",
+    "current_sha256": "009f3a1a532dee48cad2de22c2b4ab665b1988c90e6809b80b61f53214a08d46",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase3/implementation_manifest.json",
+    "source_file": "scripts/15_verify_mixture_scaling.py",
+    "recorded_sha256": "7e8ee6cf553328aab1a360ce46701be6705bcbb26be87faea6fe2f4000197e6e",
+    "current_sha256": "7e8ee6cf553328aab1a360ce46701be6705bcbb26be87faea6fe2f4000197e6e",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase3/implementation_manifest.json",
+    "source_file": "src/scaling/mixture_transfer.py",
+    "recorded_sha256": "31e81427c704899d0022e4566690eb18075b1ff8e357674ba2e433ca0e7db574",
+    "current_sha256": "31e81427c704899d0022e4566690eb18075b1ff8e357674ba2e433ca0e7db574",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase3/implementation_manifest.json",
+    "source_file": "src/scaling/mixture_transfer_reporting.py",
+    "recorded_sha256": "629ca48b0f35e1e9f3cbeaa7ab8c2c3d632361518bd3ff3f94a5a157eba16f42",
+    "current_sha256": "629ca48b0f35e1e9f3cbeaa7ab8c2c3d632361518bd3ff3f94a5a157eba16f42",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase4/implementation_manifest.json",
+    "source_file": "scripts/16_analyze_generalized_scaling.py",
+    "recorded_sha256": "6888f356934a38e124c92c5b1086e0e49a2f0901ea2411e9d8314d93e53bb097",
+    "current_sha256": "6888f356934a38e124c92c5b1086e0e49a2f0901ea2411e9d8314d93e53bb097",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase4/implementation_manifest.json",
+    "source_file": "scripts/16_verify_generalized_scaling.py",
+    "recorded_sha256": "89877fffdb17411b4597c6891410804f58b9a7a56fb3bf0af494859dc1f8dd91",
+    "current_sha256": "89877fffdb17411b4597c6891410804f58b9a7a56fb3bf0af494859dc1f8dd91",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase4/implementation_manifest.json",
+    "source_file": "src/scaling/marginal_analysis.py",
+    "recorded_sha256": "b72194b6f62780d5ca1a1d9c0fdb3199be755d0a51f9fa989d3360756de2e041",
+    "current_sha256": "b72194b6f62780d5ca1a1d9c0fdb3199be755d0a51f9fa989d3360756de2e041",
+    "match": true
+  },
+  {
+    "evidence_file": "outputs/scaling/phase4/implementation_manifest.json",
+    "source_file": "src/scaling/marginal_reporting.py",
+    "recorded_sha256": "57dd3ea1a1ea489f17abadf5a1f28bf45b5623d8c8ebdf07cb4b7226722dc118",
+    "current_sha256": "57dd3ea1a1ea489f17abadf5a1f28bf45b5623d8c8ebdf07cb4b7226722dc118",
+    "match": true
+  }
+]

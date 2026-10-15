@@ -1,0 +1,6 @@
+﻿candidate,Q0,definition,source,mapping_needed,uncertainty,recommended
+Q0_A,0.7215759819654717,A1全部样本Q的双侧各10%截尾均值,outputs/quality/A1_sample_quality.csv,False,按域抽样结构；非真实训练语料token权重,False
+Q0_B,0.7280227164978084,冻结p_ref点乘冻结17→7代理映射Q_domain,outputs/mixture/stage2/domain_quality_conflict_mapping.csv,True,"依赖代理映射的配比权重48.4241836762%; 替代映射=0.69253618640575432; 未识别域范围包络=[0.65125768749861068,0.7376318233356024]，不是统计CI",True
+Q0_C,0.7475281055884827,七领域Q_domain中位数（等域敏感性）,outputs/quality/domain_quality_summary_A1.csv,False,忽略p_ref权重；仅敏感性,False
+Q0_B_alternative,0.6925361864057543,冻结替代映射下p_ref加权质量,outputs/mixture/stage2/alternative_domain_quality_mapping.csv,True,代理映射结构敏感性，非独立观测,False
+Q0_B_direct_only,0.7118360080520624,仅直接/近直接映射，按覆盖质量质量归一化,outputs/mixture/stage2/domain_quality_conflict_mapping.csv,True,覆盖配比权重51.5758163238%，不是完整p_ref基线,False

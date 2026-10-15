@@ -1,0 +1,14 @@
+# PHASE 4A diagnostic criteria only; PHASE 3 configuration is untouched.
+fitting_dataset: A1
+std_ddof: 1
+main_correlation: pearson
+sensitivity_correlation: spearman
+spearman_tie_method: average
+weight_sum_tolerance: 1.0e-12
+high_weight_threshold: 0.10
+equal_weight_multiplier: 2.0
+low_weight_threshold: 0.01
+# Descriptive flags on Z in [0,1], not fitted thresholds or weight corrections.
+low_std_threshold: 0.01
+low_unique_value_count_threshold: 6
+constant_indicator_policy: stop_do_not_invent_correlations

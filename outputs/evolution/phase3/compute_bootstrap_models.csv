@@ -1,0 +1,98 @@
+﻿epoch_row,C4_Model,matched_Models,matched_count,compute_FLOP,lnC,date,C4_open_weights,C4_Domain,C4_Task,Organization,compute_notes,compute_method,valid,scope,exclusion
+905,Qwen2.5-72B,"[""Qwen/Qwen2.5-72B""]",1,7.8e+24,57.31616596555264,2024-09-19,Yes,Language,"Language modeling/generation,Question answering,Quantitative reasoning",Alibaba,"Training dataset size was 18 trillion
+
+6ND = 6 * 72.7 billion parameters * 18 trillion tokens = 7.8e24",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+912,Qwen2.5-3B,"[""Qwen/Qwen2.5-3B""]",1,3.3372e+23,54.164589270908834,2024-09-19,Yes,Language,"Language modeling/generation,Question answering,Quantitative reasoning",Alibaba,"Training dataset size was 18 trillion
+
+6 FLOP/parameter/token * 3090000000 parameters * 18000000000000 tokens = 3.3372e+23 FLOP",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+913,Qwen2.5-7B,"[""Qwen/Qwen2.5-7B""]",1,8.2188e+23,55.065881351872775,2024-09-19,Yes,Language,"Language modeling/generation,Question answering,Quantitative reasoning",Alibaba,"Training dataset size was 18 trillion
+
+6ND = 6 * 7.61 billion parameters * 18 trillion tokens = 8.2188e+23",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+914,Qwen2.5-1.5B,"[""Qwen/Qwen2.5-1.5B""]",1,1.6632e+23,53.468200596424715,2024-09-19,Yes,Language,"Language modeling/generation,Question answering,Quantitative reasoning",Alibaba,"Training dataset size was 18 trillion
+
+6ND = 6 * 1.54B billion parameters * 18 trillion tokens = 1.6632e+23",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+915,Qwen2.5-14B,"[""Qwen/Qwen2.5-14B"", ""braindao/Qwen2.5-14B""]",2,1.58760000000001e+24,55.724265673783876,2024-09-19,Yes,Language,"Language modeling/generation,Question answering,Quantitative reasoning",Alibaba,"Training dataset size was 18 trillion
+
+6ND = 6 * 14.7 billion parameters * 18 trillion tokens = 1.59e24",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+938,Qwen2.5-32B,"[""Qwen/Qwen2.5-32B""]",1,3.51e+24,56.51765826933487,2024-09-17,Yes,Language,"Language modeling/generation,Question answering,Quantitative reasoning",Alibaba,6 FLOP / parameter / token * 32.5B parameters * 18 trillion tokens = 3.51 × 10^24 FLOP,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1129,SmolLM-1.7B,"[""HuggingFaceTB/SmolLM-1.7B""]",1,1.03e+22,50.68643084811055,2024-07-16,Yes,Language,"Chat,Question answering,Language modeling/generation",,"""Therefore, we decided to train the 1.7B model on 1 trillion tokens"" (https://huggingface.co/blog/smollm#experiments). The model doesn't have any CNNs or RNNs (https://huggingface.co/blog/smollm#hyperparameters-choice), so I will approximate it to be dense. Then assuming the model saw 1 trillion tokens during training, the 6ND approximation yields
+Training compute
+= # of active parameters / forward pass * # of tokens * 6 FLOPs / token
+= 1.71e9 parameters * 1e12 tokens * 6 FLOPs / token
+~= 1.03e22 FLOPS
+
+""We also instruction tuned the models using publicly available permissive instruction datasets. We trained all three models for one epoch on the permissive subset of the WebInstructSub dataset, combined with StarCoder2-Self-OSS-Instruct. Following this, we performed DPO (Direct Preference Optimization) for one epoch: using HelpSteer for the 135M and 1.7B models... We followed the training parameters from the Zephyr-Gemma recipe in the alignment handbook, but adjusted the SFT (Supervised Fine-Tuning) learning rate to 3e-4"" (https://huggingface.co/blog/smollm#evaluation).",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1201,Qwen2-72B,"[""Qwen/Qwen2-72B""]",1,3.02e+24,56.36729906324388,2024-06-07,Yes,Language,"Chat,Language modeling/generation,Question answering",Alibaba,"72 billion params, 7 trillion tokens
+
+6 * 72 billion * 7 trillion ~= 3.02e24",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1202,Qwen2-7B,"[""Qwen/Qwen2-7B""]",1,2.9400000000001e+23,54.03786672021368,2024-06-07,Yes,Language,"Chat,Language modeling/generation,Question answering",Alibaba,"7 billion params, 7 trillion tokens
+
+6 FLOP * 7 billion * 7 trillion ~= 2.94e23 FLOP",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1203,Qwen2-57B-A14B,"[""Qwen/Qwen2-57B-A14B""]",1,3.7800000000001e+23,54.28918114849457,2024-06-07,Yes,Language,"Chat,Language modeling/generation,Question answering",Alibaba,"""For MoE models, 57B-A14B denotes that the model has 57B parameters in total and for each token 14B parameters are active"" (page 5)
+
+C ~= 6 FLOP * 14e9 * 4.5e12 = 3.78e23",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1204,Qwen2-1.5B,"[""Qwen/Qwen2-1.5B""]",1,6.3e+22,52.497421679266495,2024-06-07,Yes,Language,"Chat,Language modeling/generation,Question answering",Alibaba,6 FLOP / parameter / token * 1.5 * 10^9  parameters * 7 * 10^12 tokens = 6.3e+22 FLOP,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1205,Qwen2-0.5B,"[""Qwen/Qwen2-0.5B""]",1,3.6e+22,51.93780589133107,2024-06-07,Yes,Language,"Chat,Language modeling/generation,Question answering",Alibaba,6 FLOP/parameter/token * 500000000 parameters * 12000000000000 tokens = 3.6e+22 FLOP,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1273,Yi-1.5-34B,"[""01-ai/Yi-1.5-34B""]",1,7.344e+23,54.95334079218124,2024-05-13,Yes,Language,"Chat,Language modeling/generation,Translation,Code generation",01.AI,6 FLOP / parameter / token * 34*10^9 parameters * 3.6*10^12 tokens = 7.344e+23 FLOP,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1274,Yi-1.5-9B,"[""01-ai/Yi-1.5-9B""]",1,1.90728e+23,53.605135282180946,2024-05-13,Yes,Language,"Language modeling/generation,Question answering,Chat",01.AI,6 FLOP / parameter / token * 8.83*10^9 parameters * 3.6*10^12 tokens = 1.90728e+23 FLOP,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1508,Qwen1.5-7B,"[""Qwen/Qwen1.5-7B""]",1,1.68e+23,53.478250932278215,2024-02-04,Yes,Language,"Chat,Language modeling/generation,Quantitative reasoning,Code generation,Translation",Alibaba,6 FLOP / parameter / token * 7*10^9 parameters * 4*10^12 tokens =  1.68e+23 FLOP,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1509,Qwen1.5-14B,"[""Qwen/Qwen1.5-14B""]",1,3.36e+23,54.17139811283816,2024-02-04,Yes,Language,"Chat,Language modeling/generation,Quantitative reasoning,Code generation,Translation",Alibaba,6 FLOP / parameter / token * 14*10^9 parameters * 4*10^12 tokens =  3.36e+23 FLOP,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1594,Phi-2,"[""microsoft/phi-2""]",1,2.27e+22,51.476651877362315,2023-12-12,Yes,Language,"Language generation,Code generation",Microsoft,"2.7B params, trained on 1.4T tokens
+
+2.7 billion * 1.4 trillion * 6 = 2.27e22
+
+96*14 A100-days
+
+14 * 96 * 312 trillion * 24 * 3600 * 0.3 = 1.09e22","Operation counting,Hardware",True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1689,Yi-34B,"[""01-ai/Yi-34B""]",1,6.1e+23,54.767745910042315,2023-11-02,Yes,Language,"Chat,Language modeling/generation,Translation,Code generation",01.AI,"""The dataset we use contains Chinese & English only. We used approximately 3T tokens"" sounds like this means it was trained on 3T tokens, not necessarily that the dataset contains 3T tokens?
+
+If so, 34b * 3T * 6 = 6.1e23",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1741,Phi-1,"[""microsoft/phi-1""]",1,3.3234195e+20,47.25269608263378,2023-10-02,Yes,Language,"Language modeling/generation,Code generation",Microsoft Research,"6ND = 6 *1.3*10^9 parameters * 51 * 10^9 tokens = 3.978e+20
+
+312000000000000 FLOP/s * 8 GPUs *103 hours *3600 sec / hour *0.3 [assumed utilization] = 2.7765504e+20
+
+geometric mean sqrt(2.7765504e+20*3.978e+20) = 3.3234195e+20
+","Operation counting,Hardware",True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1749,StableLM-3B-4E1T,"[""stabilityai/stablelm-3b-4e1t""]",1,6.21e+22,52.48303294181439,2023-09-29,Yes,Language,Language generation,Stability AI,"""StableLM-3B-4E1T was trained on the Stability AI cluster across 256 NVIDIA A100 40GB GPUs (AWS P4d instances). Training began on August 23, 2023, and took approximately 30 days to complete.""
+
+256 * 30 * 24* 3600 * 312 trillion * 0.3 utilization (assumption) = 6.21e22
+
+6ND = 6*2795443200*1000000000000*4 epochs = 6.7090637e+22",Hardware,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1903,RedPajama-INCITE-7B-Base,"[""togethercomputer/RedPajama-INCITE-7B-Base""]",1,4.1e+22,52.06785901957927,2023-06-06,Yes,Language,Chat,Together,"Trained over 1.001 trillion tokens.
+6.9b * 1 trillion * 6 = 4.1e22
+
+",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1952,MPT-7B,"[""mosaicml/mpt-7b""]",1,4.2000000000000004e+22,52.09195657115833,2023-05-05,Yes,Language,"Language modeling/generation,Question answering",MosaicML,"""As shown in Table 3, nearly all of the training budget was spent on the base MPT-7B model, which took ~9.5 days to train on 440xA100-40GB GPUs, and cost ~$200k.""",Hardware,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1963,Falcon-7B,"[""tiiuae/falcon-7b""]",1,6.3e+22,52.497421679266495,2023-04-24,Yes,Language,"Language modeling/generation,Question answering",Technology Innovation Institute,"6ND = 6 * 7B * 1.5T = 6.3e22
+""Falcon-7B is a 7B parameters causal decoder-only model built by TII and trained on 1,500B tokens of RefinedWeb enhanced with curated corpora. It is made available under the Apache 2.0 license.""
+
+Table 1 from https://arxiv.org/pdf/2311.16867 Falcon paper
+
+730 petaflop-days * 1e15 * 24 * 3600 = 6.3072e+22 FLOPs","Operation counting,Reported",True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1990,Pythia-12b,"[""EleutherAI/pythia-12b""]",1,2.1590000000001e+22,51.42651719740172,2023-04-03,Yes,Language,"Language modeling/generation,Question answering","EleutherAI,Booz Allen Hamilton, McLean,University of Cambridge,Indraprastha Institute of Information Technology
+Delhi,Stability AI,datasaur.ai,University of Amsterdam",https://www.wolframalpha.com/input?i=6+FLOP+*+12+billion+*+299892736000,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1991,Pythia-2.8b,"[""EleutherAI/pythia-2.8b""]",1,5.038000000001e+21,49.97129613080558,2023-04-03,Yes,Language,"Language modeling/generation,Question answering","EleutherAI,Booz Allen Hamilton, McLean,University of Cambridge,Indraprastha Institute of Information Technology
+Delhi,Stability AI,datasaur.ai,University of Amsterdam",https://www.wolframalpha.com/input?i=6+FLOP+*+2.8+billion+*+299892736000,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1992,Pythia-6.9b,"[""EleutherAI/pythia-6.9b""]",1,1.2420000000001e+22,50.873595029380375,2023-04-03,Yes,Language,"Language modeling/generation,Question answering","EleutherAI,Booz Allen Hamilton, McLean,University of Cambridge,Indraprastha Institute of Information Technology
+Delhi,Stability AI,datasaur.ai,University of Amsterdam",https://www.wolframalpha.com/input?i=6+FLOP+*+6.9+billion+*+299892736000,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1993,Pythia-160m,"[""EleutherAI/pythia-160m""]",1,2.87900000001e+20,47.109144871514424,2023-04-03,Yes,Language,"Language modeling/generation,Question answering","EleutherAI,Booz Allen Hamilton, McLean,University of Cambridge,Indraprastha Institute of Information Technology
+Delhi,Stability AI,datasaur.ai,University of Amsterdam","https://www.wolframalpha.com/input?i=6+FLOP+*+160+million+*+299892736000
+
+Table 5 gives confirmation:
+1030 GPU-hours * 3600 sec/hr * 3.12e14 FLOP/sec * 0.3 (utilization assumption) = 3.5e20","Operation counting,Hardware",True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1994,Pythia-1b,"[""EleutherAI/pythia-1b""]",1,1.799000000001e+21,48.94151790784391,2023-04-03,Yes,Language,"Language modeling/generation,Question answering","EleutherAI,Booz Allen Hamilton, McLean,University of Cambridge,Indraprastha Institute of Information Technology
+Delhi,Stability AI,datasaur.ai,University of Amsterdam",https://www.wolframalpha.com/input?i=6+FLOP+*+1+billion+*+299892736000,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1995,Pythia-1.4b,"[""EleutherAI/pythia-1.4b""]",1,2.5190000000001e+21,49.27814895024547,2023-04-03,Yes,Language,"Language modeling/generation,Question answering","EleutherAI,Booz Allen Hamilton, McLean,University of Cambridge,Indraprastha Institute of Information Technology
+Delhi,Stability AI,datasaur.ai,University of Amsterdam",https://www.wolframalpha.com/input?i=6+FLOP+*+1.4+billion+*+299892736000,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+1997,Pythia-410m,"[""EleutherAI/pythia-410m""]",1,7.37700000001e+20,48.050068911784436,2023-04-03,Yes,Language,"Language modeling/generation,Question answering","EleutherAI,Booz Allen Hamilton, McLean,University of Cambridge,Indraprastha Institute of Information Technology
+Delhi,Stability AI,datasaur.ai,University of Amsterdam",https://www.wolframalpha.com/input?i=6+FLOP+*+410+million+*+299892736000,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+2019,Falcon-40B,"[""tiiuae/falcon-40b""]",1,2.4e+23,53.83492587621695,2023-03-15,Yes,Language,"Language modeling,Language modeling/generation,Question answering",Technology Innovation Institute,"C = 6ND = 6 * 40B * 1000B = 2.4e+23 FLOP (assuming one epoch)
+
+Table 1 from https://arxiv.org/pdf/2311.16867 Falcon paper
+
+2,800 petaflop-days * 1e15 * 24 * 3600 = 2.4192e+23 FLOPs","Operation counting,Reported",True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+2036,gpt-sw3-40b,"[""AI-Sweden-Models/gpt-sw3-40b""]",1,7.68e+22,52.695491593028585,2023-03-01,Yes,Language,"Language modeling/generation,Chat",AI Sweden,"aproximation 6ND = 6*320E9*40e9 = 7.68e22
+""GPT-SW3 has been trained on a dataset containing 320B tokens in Swedish, Norwegian, Danish, Icelandic, English, and programming code.""",Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+2043,LLaMA-65B,"[""huggyllama/llama-65b""]",1,5.5e+23,54.66420523110148,2023-02-24,Yes,Language,"Language modeling,Code generation",Meta AI,1.4e12 tokens * 6.52e10 parameters * 6 FLOP/token/parameter = 5.5e23 FLOP,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+2232,OPT-30B,"[""facebook/opt-30b""]",1,5.4000000000001e+22,52.343270999439255,2022-06-21,Yes,Language,"Language modeling,Chat,Language modeling/generation,Question answering",Meta AI,https://www.wolframalpha.com/input?i=6+FLOP+*+30+billion+*+300+billion,Operation counting,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,
+2304,GPT-NeoX-20B,"[""EleutherAI/gpt-neox-20b""]",1,9.31627008e+22,52.88863438845412,2022-02-09,Yes,Language,Language modeling/generation,EleutherAI,Trained for 3 months on 96 A100s (according to correspondence with author). Let's say 0.4 utilization rate.,Hardware,True,C4 exact accepted mappings to frozen S1 pretrained; no broad-name inference,

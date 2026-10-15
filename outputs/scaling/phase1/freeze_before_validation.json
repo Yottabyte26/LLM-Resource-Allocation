@@ -1,0 +1,27 @@
+{
+  "fit_datasets": [
+    "B1"
+  ],
+  "validation_datasets": [
+    "B2",
+    "B3",
+    "B4",
+    "B5"
+  ],
+  "parameters_used_for_validation": {
+    "E": 1.6897975629216038,
+    "A": 0.35398032066343604,
+    "B": 1.2403055835502586,
+    "alpha": 0.3399765818976516,
+    "beta": 0.27987812854408783
+  },
+  "files": {
+    "outputs/scaling/phase1/main_model.json": "60687a9974c2f50fd27208da78591ac48e066a34e822ebc59fe96638a07de85c",
+    "outputs/scaling/phase1/baseline_models.json": "9ba39473412f5a9647a57679b6b9388bd3838004c9400c8e65231d1d100c035e",
+    "outputs/scaling/phase1/unweighted_model.json": "23f57ccfb7a3343112286f7b3b91815ffbe209dbd841e5f7cb0476d746ef6dd6",
+    "outputs/scaling/phase1/group_cv_models.json": "01f745276ca920728f95d80ef57f59169d033e532af81f713458096a630274a2",
+    "outputs/scaling/phase1/terminal_only_model.json": "980bef5e7ac7331400621af21cf9cec8ef93bee9d81d7c7fc79fa035d6fa933f",
+    "configs/scaling_phase1.yaml": "13f136e53491f1914c77ce0ac240a03feb7d4eb9a8b18d3d0ddcb346a98c81a0"
+  },
+  "validation_used_for_parameter_selection": false
+}

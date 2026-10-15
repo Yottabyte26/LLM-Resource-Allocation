@@ -1,0 +1,27 @@
+{
+  "directories": 1863,
+  "JSON_files": 1958,
+  "JSON_parse_success": 1954,
+  "JSON_parse_failures": 4,
+  "directories_no_usable_JSON": 3,
+  "no_usable_directories": [
+    "FINGU-AI_Chocolatine-Fusion-14B",
+    "Intel_neural-chat-7b-v3-3",
+    "L-RAGE_3_PRYMMAL-ECE-7B-SLERP-V1"
+  ],
+  "selected_models": 1860,
+  "six_complete_models": 1854,
+  "exact_matches": 1857,
+  "match_status_counts": {
+    "exact": 1857,
+    "unmatched": 2,
+    "ambiguous": 1
+  },
+  "valid_six_complete_matched_models": 1851,
+  "leaf_score_records": 74343,
+  "subtask_keys": 40,
+  "fuzzy_matches_automatically_accepted": 0,
+  "MMLU_category_detail_available": false,
+  "raw_vs_normalized_scores_separated": true,
+  "normalization_source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/normalization"
+}

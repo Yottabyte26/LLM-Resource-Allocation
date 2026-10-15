@@ -1,0 +1,5 @@
+﻿component_index,component_name,fit_scope,total_count,valid_count,missing_count,P01,P99,min_before,max_before,min_after_winsorization,max_after_winsorization,L,U,clipped_lower_count,clipped_upper_count,constant_component,constant_component_value,quantile_method
+0,Writing Style,pooled_all_records_A1_A2_A3,272505,272505,0,-5.3046875,4.5546875,-7.74609375,9.4921875,-5.3046875,4.5546875,-5.3046875,4.5546875,2719,2718,False,0.5,linear
+1,Required Expertise,pooled_all_records_A1_A2_A3,272505,272505,0,-3.908203125,9.0,-8.375,11.578125,-3.908203125,9.0,-3.908203125,9.0,2718,2725,False,0.5,linear
+2,Facts and Trivia,pooled_all_records_A1_A2_A3,272505,272505,0,-4.296875,4.09765625,-6.73828125,7.78125,-4.296875,4.09765625,-4.296875,4.09765625,2705,2722,False,0.5,linear
+3,Educational Value,pooled_all_records_A1_A2_A3,272505,272505,0,-4.12890625,7.9296875,-7.828125,12.8203125,-4.12890625,7.9296875,-4.12890625,7.9296875,2721,2720,False,0.5,linear

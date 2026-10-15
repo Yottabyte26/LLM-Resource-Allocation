@@ -1,0 +1,11 @@
+{
+  "checks": 141269,
+  "passed": 141269,
+  "failed": 0,
+  "frozen_files_checked": 3009,
+  "frozen_files_changed": [],
+  "contribution_model_bootstrap_draws": 45000,
+  "endpoint_bootstrap_records": 90000,
+  "future_prediction_performed": false,
+  "Loss_conversion_performed": false
+}

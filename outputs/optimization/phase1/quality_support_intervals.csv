@@ -1,0 +1,4 @@
+﻿Q_lower,Q_upper,within_A1_sample_range,within_A1_domain_range,within_B6_numeric_range,direct_joint_quality_validation,notes
+0.7280227164978084,0.7651065297732803,True,True,True,False,数值区间覆盖不等于直接实验质量或联合N-D-Q-p验证
+0.7651065297732803,0.9511217995313428,True,False,True,False,数值区间覆盖不等于直接实验质量或联合N-D-Q-p验证
+0.9511217995313428,1.0,False,False,True,False,数值区间覆盖不等于直接实验质量或联合N-D-Q-p验证

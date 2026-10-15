@@ -1,0 +1,12 @@
+{
+  "primary_response": "L_mean",
+  "recommended_model": "M1_Ridge",
+  "selection_rule": "minimum_nested_oof_RMSE_using_A4_A5_only",
+  "training_dataset": "train_1M",
+  "test_used_for_selection": false,
+  "Q_or_K_used": false,
+  "estimated_loss_used": false,
+  "phase": "stage1_candidates_pending_human_confirmation",
+  "recommended_model_role": "numerical_nested_CV_benchmark_not_final_main_model",
+  "interpretable_main_candidate": "M1_ElasticNet"
+}

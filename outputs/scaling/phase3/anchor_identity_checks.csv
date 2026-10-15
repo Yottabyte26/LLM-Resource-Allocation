@@ -1,0 +1,6 @@
+﻿N_params_B,D_tokens_B,Q,L0,Delta_Q,Delta_p,L_gen,difference,role
+0.001,150.0,1.0,5.700959412449298,-0.0,0.0,5.700959412449298,0.0,algebraic_anchor_check_only_no_observed_joint_Loss
+0.06,150.0,1.0,2.9161833296700994,-0.0,0.0,2.9161833296700994,0.0,algebraic_anchor_check_only_no_observed_joint_Loss
+1.0,150.0,1.0,2.3489103009415437,-0.0,0.0,2.3489103009415437,0.0,algebraic_anchor_check_only_no_observed_joint_Loss
+10.0,150.0,1.0,2.1567389290644066,-0.0,-0.0,2.1567389290644066,0.0,algebraic_anchor_check_only_no_observed_joint_Loss
+70.0,150.0,1.0,2.0784304643945672,-0.0,-0.0,2.0784304643945672,0.0,algebraic_anchor_check_only_no_observed_joint_Loss

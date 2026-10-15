@@ -1,0 +1,6 @@
+﻿path
+outputs/figures/question1_part3/stage1/01_train_zero_rates.png
+outputs/figures/question1_part3/stage1/02_nested_CV_comparison.png
+outputs/figures/question1_part3/stage1/03_L_mean_predicted_vs_observed.png
+outputs/figures/question1_part3/stage1/03_L_trim_predicted_vs_observed.png
+outputs/figures/question1_part3/stage1/04_scale_absolute_vs_rank.png

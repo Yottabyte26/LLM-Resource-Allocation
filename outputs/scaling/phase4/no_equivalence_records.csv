@@ -1,0 +1,8 @@
+﻿recipe_index,N_params_B,D_tokens_B,Q,Q_label,M_p,DeltaM,extrapolative,Q_new,root_policy,N_max_B,Gain_N,local_approx_gain,n_stationary_points,n_search_segments,objective_at_start,objective_at_max,status,N_eq_B,equivalent_parameter_gain,equivalent_parameter_gain_pct,local_approx_gain_pct,local_minus_exact_pct_points,local_relative_error,equation_residual,root_bracket_low_B,root_bracket_high_B
+84,1.0,150.0,0.5867366961905537,domain_min,4.811608813719994,-0.5330479624511835,False,0.6867366961905537,first_root_above_N,10000.0,-0.004140465572811003,,,,,,no_local_equivalence,,,,,,,,,
+84,1.0,150.0,0.7475281055884827,domain_median,4.811608813719994,-0.5330479624511835,False,0.8475281055884827,first_root_above_N,10000.0,-0.01083168582365826,,,,,,no_local_equivalence,,,,,,,,,
+323,1.0,150.0,0.7475281055884827,domain_median,4.830371942256365,-0.5142848339148127,False,0.8475281055884827,first_root_above_N,10000.0,-0.005931331479894664,,,,,,no_local_equivalence,,,,,,,,,
+84,1.0,150.0,0.7651065297732803,domain_max,4.811608813719994,-0.5330479624511835,False,0.8651065297732803,first_root_above_N,10000.0,-0.011473832540818157,,,,,,no_local_equivalence,,,,,,,,,
+323,1.0,150.0,0.7651065297732803,domain_max,4.830371942256365,-0.5142848339148127,False,0.8651065297732803,first_root_above_N,10000.0,-0.006573478197054561,,,,,,no_local_equivalence,,,,,,,,,
+84,1.0,150.0,0.7,Q_0.7,4.811608813719994,-0.5330479624511835,False,0.7999999999999999,first_root_above_N,10000.0,-0.00901680356914511,,,,,,no_local_equivalence,,,,,,,,,
+323,1.0,150.0,0.7,Q_0.7,4.830371942256365,-0.5142848339148127,False,0.7999999999999999,first_root_above_N,10000.0,-0.004116449225381513,,,,,,no_local_equivalence,,,,,,,,,

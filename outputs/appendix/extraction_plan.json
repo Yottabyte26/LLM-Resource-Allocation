@@ -1,0 +1,456 @@
+{
+  "1": {
+    "main_files": [
+      "src/quality/io.py",
+      "src/quality/normalize.py",
+      "src/quality/vector_diagnostics.py",
+      "src/quality/vector_transform.py",
+      "src/quality/preprocess.py",
+      "scripts/03_build_quality_features.py",
+      "src/quality/critic.py",
+      "scripts/04a_diagnose_critic_weights.py",
+      "src/quality/aggregate.py",
+      "src/quality/plotting.py",
+      "src/quality/reporting.py",
+      "scripts/04_build_quality_score.py",
+      "src/quality/conflict.py",
+      "src/quality/conflict_plotting.py",
+      "scripts/05_analyze_quality_conflict.py",
+      "src/mixture/io.py",
+      "src/mixture/composition.py",
+      "src/mixture/modeling.py",
+      "scripts/08_model_mixture_loss.py",
+      "src/mixture/effects.py",
+      "src/mixture/augmented.py",
+      "scripts/09_analyze_mixture_effects.py"
+    ],
+    "full_source_files": [
+      "src/quality/io.py",
+      "src/quality/normalize.py",
+      "src/quality/vector_diagnostics.py",
+      "src/quality/vector_transform.py",
+      "src/quality/preprocess.py",
+      "scripts/03_build_quality_features.py",
+      "src/quality/critic.py",
+      "scripts/04a_diagnose_critic_weights.py",
+      "src/quality/aggregate.py",
+      "src/quality/plotting.py",
+      "src/quality/reporting.py",
+      "scripts/04_build_quality_score.py",
+      "src/quality/conflict.py",
+      "src/quality/conflict_plotting.py",
+      "scripts/05_analyze_quality_conflict.py",
+      "src/mixture/io.py",
+      "src/mixture/composition.py",
+      "src/mixture/modeling.py",
+      "scripts/08_model_mixture_loss.py",
+      "src/mixture/effects.py",
+      "src/mixture/augmented.py",
+      "scripts/09_analyze_mixture_effects.py",
+      "src/quality/profiling.py",
+      "scripts/02_profile_quality_data.py",
+      "src/quality/record_diagnostics.py",
+      "scripts/02c_diagnose_records.py",
+      "scripts/07_inspect_mixture_loss_data.py",
+      "scripts/03_verify_quality_features.py",
+      "scripts/04b_verify_quality_score.py",
+      "scripts/04b_record_text_review.py",
+      "scripts/05_verify_quality_conflict.py",
+      "scripts/08_verify_mixture_models.py",
+      "scripts/09_verify_mixture_analysis.py",
+      "src/quality/__init__.py",
+      "src/mixture/__init__.py"
+    ],
+    "entries": [
+      "scripts/03_build_quality_features.py",
+      "scripts/04a_diagnose_critic_weights.py",
+      "scripts/04_build_quality_score.py",
+      "scripts/05_analyze_quality_conflict.py",
+      "scripts/08_model_mixture_loss.py",
+      "scripts/09_analyze_mixture_effects.py"
+    ],
+    "compact_symbols": {
+      "src/quality/io.py": [
+        "infer_source_domain",
+        "resolve_metric_value",
+        "discover_quality_files",
+        "iter_jsonl"
+      ],
+      "src/quality/vector_transform.py": [
+        "parse_vector",
+        "scalarize_record",
+        "fit_qurater_parameters",
+        "transform_qurater"
+      ],
+      "src/quality/preprocess.py": [
+        "impute_matrix",
+        "fit_preprocessing_model",
+        "apply_preprocessing"
+      ],
+      "src/quality/normalize.py": [
+        "moderate_utility_transform",
+        "minmax_transform"
+      ],
+      "src/quality/critic.py": [
+        "critic_weights"
+      ],
+      "src/quality/aggregate.py": [
+        "finite_scores",
+        "score_profile",
+        "bootstrap_trimmed_mean",
+        "domain_summary",
+        "compare_distributions"
+      ],
+      "scripts/03_build_quality_features.py": [
+        "read_dataset"
+      ],
+      "scripts/04_build_quality_score.py": [
+        "load_weights",
+        "score_dataset"
+      ],
+      "src/quality/conflict.py": [
+        "conflict_indices",
+        "fit_conflict_thresholds"
+      ],
+      "src/mixture/io.py": [
+        "read_table",
+        "load_datasets",
+        "signatures"
+      ],
+      "src/mixture/composition.py": [
+        "ILRTransformer"
+      ],
+      "src/mixture/modeling.py": [
+        "scores",
+        "group_folds",
+        "candidate",
+        "tune"
+      ],
+      "scripts/08_model_mixture_loss.py": [
+        "metadata",
+        "fit_checked"
+      ],
+      "src/mixture/effects.py": [
+        "perturb",
+        "direction",
+        "summary",
+        "baselines",
+        "analyze"
+      ],
+      "scripts/09_analyze_mixture_effects.py": [
+        "scale_diagnostics",
+        "extrapolation"
+      ]
+    }
+  },
+  "2": {
+    "main_files": [
+      "src/scaling/io.py",
+      "src/scaling/classical.py",
+      "src/scaling/bootstrap.py",
+      "scripts/10_diagnose_scaling_data.py",
+      "scripts/11_fit_classical_scaling.py",
+      "src/scaling/quality_extension.py",
+      "src/scaling/scale_quality.py",
+      "src/scaling/scale_quality_analysis.py",
+      "src/scaling/quality_analysis.py",
+      "src/scaling/quality_reporting.py",
+      "src/scaling/scale_quality_reporting.py",
+      "scripts/14_fit_scale_dependent_quality.py",
+      "src/scaling/mixture_transfer.py",
+      "src/scaling/mixture_transfer_reporting.py",
+      "scripts/15_calibrate_mixture_scaling.py",
+      "src/scaling/marginal_analysis.py",
+      "src/scaling/marginal_reporting.py",
+      "scripts/16_analyze_generalized_scaling.py"
+    ],
+    "full_source_files": [
+      "src/scaling/io.py",
+      "src/scaling/classical.py",
+      "src/scaling/bootstrap.py",
+      "scripts/10_diagnose_scaling_data.py",
+      "scripts/11_fit_classical_scaling.py",
+      "src/scaling/quality_extension.py",
+      "src/scaling/scale_quality.py",
+      "src/scaling/scale_quality_analysis.py",
+      "src/scaling/quality_analysis.py",
+      "src/scaling/quality_reporting.py",
+      "src/scaling/scale_quality_reporting.py",
+      "scripts/14_fit_scale_dependent_quality.py",
+      "src/scaling/mixture_transfer.py",
+      "src/scaling/mixture_transfer_reporting.py",
+      "scripts/15_calibrate_mixture_scaling.py",
+      "src/scaling/marginal_analysis.py",
+      "src/scaling/marginal_reporting.py",
+      "scripts/16_analyze_generalized_scaling.py",
+      "scripts/11_verify_classical_scaling.py",
+      "scripts/14_verify_scale_dependent_quality.py",
+      "scripts/15_verify_mixture_scaling.py",
+      "scripts/16_verify_generalized_scaling.py",
+      "src/scaling/__init__.py"
+    ],
+    "entries": [
+      "scripts/11_fit_classical_scaling.py",
+      "scripts/14_fit_scale_dependent_quality.py",
+      "scripts/15_calibrate_mixture_scaling.py",
+      "scripts/16_analyze_generalized_scaling.py"
+    ],
+    "compact_symbols": {
+      "src/scaling/io.py": [
+        "load_csv",
+        "combine_trajectories"
+      ],
+      "src/scaling/classical.py": [
+        "weights",
+        "predict",
+        "prediction_jacobian",
+        "initial_values",
+        "fit",
+        "metrics"
+      ],
+      "src/scaling/bootstrap.py": [
+        "initialize",
+        "repetition"
+      ],
+      "scripts/11_fit_classical_scaling.py": [
+        "fit_and_cv",
+        "cluster_bootstrap",
+        "validate"
+      ],
+      "src/scaling/quality_extension.py": [
+        "read_parameters",
+        "read_data",
+        "subset",
+        "group_reference"
+      ],
+      "src/scaling/quality_analysis.py": [
+        "stress_test"
+      ],
+      "src/scaling/scale_quality.py": [
+        "centers",
+        "components",
+        "physical",
+        "encoded",
+        "response_jacobian",
+        "predict_scale",
+        "initial_parameters",
+        "fit_scale"
+      ],
+      "src/scaling/scale_quality_analysis.py": [
+        "evaluate",
+        "group_cv",
+        "q_level_cv",
+        "initialize_worker",
+        "bootstrap_worker",
+        "resampling_jobs",
+        "bootstrap_models"
+      ],
+      "scripts/14_fit_scale_dependent_quality.py": [
+        "basics"
+      ],
+      "src/scaling/mixture_transfer.py": [
+        "frozen_metadata",
+        "predict_ilr",
+        "predict_recipe",
+        "read_frozen_recipes",
+        "transfer",
+        "bootstrap_transfers",
+        "empirical_lambda"
+      ],
+      "src/scaling/marginal_analysis.py": [
+        "FrozenGeneralizedScaling",
+        "finite_difference"
+      ],
+      "scripts/16_analyze_generalized_scaling.py": [
+        "frozen_model",
+        "large_validation",
+        "lambda_sensitivity"
+      ]
+    }
+  },
+  "3": {
+    "main_files": [
+      "src/optimization/costs.py",
+      "src/scaling/mixture_transfer.py",
+      "src/optimization/setup.py",
+      "scripts/17_setup_compute_optimization.py",
+      "src/scaling/marginal_analysis.py",
+      "src/optimization/resource_solver.py",
+      "src/optimization/transitions.py",
+      "src/optimization/resource_reporting.py",
+      "scripts/18_optimize_compute_resources.py",
+      "src/optimization/simplex_sensitivity.py",
+      "src/optimization/final_reporting.py",
+      "scripts/19_finalize_compute_optimization.py"
+    ],
+    "full_source_files": [
+      "src/optimization/costs.py",
+      "src/scaling/mixture_transfer.py",
+      "src/optimization/setup.py",
+      "scripts/17_setup_compute_optimization.py",
+      "src/scaling/marginal_analysis.py",
+      "src/optimization/resource_solver.py",
+      "src/optimization/transitions.py",
+      "src/optimization/resource_reporting.py",
+      "scripts/18_optimize_compute_resources.py",
+      "src/optimization/simplex_sensitivity.py",
+      "src/optimization/final_reporting.py",
+      "scripts/19_finalize_compute_optimization.py",
+      "scripts/17_verify_compute_setup.py",
+      "scripts/18_verify_compute_optimization.py",
+      "scripts/19_verify_final_optimization.py",
+      "src/optimization/__init__.py",
+      "src/scaling/__init__.py"
+    ],
+    "entries": [
+      "scripts/17_setup_compute_optimization.py",
+      "scripts/18_optimize_compute_resources.py",
+      "scripts/19_finalize_compute_optimization.py"
+    ],
+    "compact_symbols": {
+      "src/optimization/costs.py": [
+        "_validate_quality",
+        "quality_increment_per_token",
+        "marginal_quality_per_token",
+        "cost_components"
+      ],
+      "src/scaling/marginal_analysis.py": [
+        "FrozenGeneralizedScaling"
+      ],
+      "src/optimization/setup.py": [
+        "decision_domains",
+        "mixture_sets",
+        "budget_scenarios"
+      ],
+      "src/optimization/resource_solver.py": [
+        "load",
+        "lambda_zero",
+        "ResourceProblem",
+        "three_dimensional_checks",
+        "run_solve"
+      ],
+      "src/optimization/simplex_sensitivity.py": [
+        "log_contrast",
+        "exact_extreme",
+        "simplex_search",
+        "evidence_level",
+        "official_comparison"
+      ],
+      "src/optimization/transitions.py": [
+        "bisect_status",
+        "soft_fit",
+        "run_diagnose"
+      ]
+    }
+  },
+  "4": {
+    "main_files": [
+      "src/evolution/common.py",
+      "src/evolution/metadata.py",
+      "src/evolution/ability.py",
+      "src/evolution/detailed.py",
+      "src/evolution/bridge.py",
+      "src/evolution/reporting.py",
+      "scripts/20_build_evolution_ability_bridge.py",
+      "src/evolution/contribution_regression.py",
+      "src/evolution/contribution_analysis.py",
+      "src/evolution/contribution_reporting.py",
+      "scripts/21_build_evolution_contribution.py",
+      "src/evolution/projection_data.py",
+      "src/evolution/projection_models.py",
+      "src/evolution/projection_reporting.py",
+      "scripts/22_build_evolution_projection.py"
+    ],
+    "full_source_files": [
+      "src/evolution/common.py",
+      "src/evolution/metadata.py",
+      "src/evolution/ability.py",
+      "src/evolution/detailed.py",
+      "src/evolution/bridge.py",
+      "src/evolution/reporting.py",
+      "scripts/20_build_evolution_ability_bridge.py",
+      "src/evolution/contribution_regression.py",
+      "src/evolution/contribution_analysis.py",
+      "src/evolution/contribution_reporting.py",
+      "scripts/21_build_evolution_contribution.py",
+      "src/evolution/projection_data.py",
+      "src/evolution/projection_models.py",
+      "src/evolution/projection_reporting.py",
+      "scripts/22_build_evolution_projection.py",
+      "scripts/20_verify_evolution_phase1.py",
+      "scripts/21_verify_evolution_contribution.py",
+      "scripts/22_verify_evolution_projection.py",
+      "src/evolution/__init__.py"
+    ],
+    "entries": [
+      "scripts/20_build_evolution_ability_bridge.py",
+      "scripts/21_build_evolution_contribution.py",
+      "scripts/22_build_evolution_projection.py"
+    ],
+    "compact_symbols": {
+      "src/evolution/common.py": [
+        "normalized_name"
+      ],
+      "src/evolution/metadata.py": [
+        "canonical_models",
+        "epoch_join"
+      ],
+      "src/evolution/ability.py": [
+        "transform",
+        "construct_ability"
+      ],
+      "src/evolution/detailed.py": [
+        "value",
+        "normalize_score",
+        "extract",
+        "analyze_details"
+      ],
+      "src/evolution/bridge.py": [
+        "fit_candidate",
+        "predict",
+        "metrics",
+        "decreasing",
+        "analyze_bridge"
+      ],
+      "src/evolution/contribution_regression.py": [
+        "design",
+        "accuracy",
+        "fit_regression",
+        "diagnostics",
+        "shapley",
+        "endpoints",
+        "contribution",
+        "bootstrap"
+      ],
+      "src/evolution/contribution_analysis.py": [
+        "prepare",
+        "model_data",
+        "fit_models",
+        "make_technology_tables",
+        "run_decomposition"
+      ],
+      "src/evolution/projection_data.py": [
+        "load_frozen",
+        "select_scope",
+        "frontier_stats",
+        "build_anchors",
+        "benchmark_series",
+        "compute_candidates",
+        "select_compute_window",
+        "compute_grid",
+        "rolling_compute",
+        "slope",
+        "estimate_growth",
+        "c3_direction"
+      ],
+      "src/evolution/projection_models.py": [
+        "frozen_m2",
+        "linear_fit",
+        "build_hindcast_and_trends",
+        "quantiles",
+        "level",
+        "build_projections"
+      ]
+    }
+  }
+}

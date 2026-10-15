@@ -1,0 +1,42 @@
+{
+  "name": "A4_ILR_center",
+  "domain_order": [
+    "train_the_pile_arxiv",
+    "train_the_pile_freelaw",
+    "train_the_pile_nih_exporter",
+    "train_the_pile_pubmed_central",
+    "train_the_pile_wikipedia_en",
+    "train_the_pile_dm_mathematics",
+    "train_the_pile_github",
+    "train_the_pile_philpapers",
+    "train_the_pile_stackexchange",
+    "train_the_pile_enron_emails",
+    "train_the_pile_gutenberg_pg_19",
+    "train_the_pile_pile_cc",
+    "train_the_pile_ubuntu_irc",
+    "train_the_pile_europarl",
+    "train_the_pile_hackernews",
+    "train_the_pile_pubmed_abstracts",
+    "train_the_pile_uspto_backgrounds"
+  ],
+  "p_ref": [
+    0.0989891524996455,
+    0.0817597904604225,
+    0.0165471547704851,
+    0.1186088402819622,
+    0.0645283862369382,
+    0.0341921318871416,
+    0.0921006683082549,
+    0.015646744264272,
+    0.0873107754543668,
+    0.0107252264313286,
+    0.0514500922305248,
+    0.1213790885084938,
+    0.0303980069859158,
+    0.0243593947958153,
+    0.02228772921544,
+    0.0583335889309736,
+    0.0713832287380184
+  ],
+  "M_ref": 5.344656776171178
+}

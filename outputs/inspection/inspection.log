@@ -1,0 +1,85 @@
+2026-09-26 12:38:58,726 INFO Reading A1: real_attachments/A_data_value/slimpajama_quality_signal_sample.jsonl.xz (103349792 compressed bytes)
+2026-09-26 12:39:02,241 INFO A1: 5000 decoded records
+2026-09-26 12:39:03,340 INFO A1: 10000 decoded records
+2026-09-26 12:39:04,781 INFO A1: 15000 decoded records
+2026-09-26 12:39:06,313 INFO A1: 20000 decoded records
+2026-09-26 12:39:07,598 INFO A1: 25000 decoded records
+2026-09-26 12:39:08,845 INFO A1: 30000 decoded records
+2026-09-26 12:39:09,992 INFO A1: 35000 decoded records
+2026-09-26 12:39:11,093 INFO A1: 40000 decoded records
+2026-09-26 12:39:12,326 INFO A1: 45000 decoded records
+2026-09-26 12:39:13,557 INFO A1: 50000 decoded records
+2026-09-26 12:39:13,943 INFO A1 fineweb_edu: length=1 valid=51230 missing_rate=0.000000 sum_near_1=0.001834862385321101 probability=False
+2026-09-26 12:39:13,951 INFO A1 qurater: length=4 valid=51230 missing_rate=0.000000 sum_near_1=7.807925043919578e-05 probability=False
+2026-09-26 12:39:13,965 INFO A1 modernbert_cleanliness: length=6 valid=51230 missing_rate=0.000000 sum_near_1=3.903962521959789e-05 probability=False
+2026-09-26 12:39:13,977 INFO A1 modernbert_readability: length=6 valid=51230 missing_rate=0.000000 sum_near_1=0.00019519812609798947 probability=False
+2026-09-26 12:39:13,990 INFO A1 modernbert_reasoning: length=6 valid=51217 missing_rate=0.000000 sum_near_1=0.0006443173165160005 probability=False
+2026-09-26 12:39:14,002 INFO A1 modernbert_professionalism: length=6 valid=51225 missing_rate=0.000000 sum_near_1=0.0001171303074670571 probability=False
+2026-09-26 12:39:14,007 INFO A1 fluency_en: length=2 valid=51230 missing_rate=0.000000 sum_near_1=0.0001756783134881905 probability=False
+2026-09-26 12:39:14,013 INFO A1 ad_en: length=2 valid=51230 missing_rate=0.000000 sum_near_1=0.00011711887565879367 probability=False
+2026-09-26 12:39:14,013 INFO Completed A1: 51230 records; observed domains={'arxiv': 1419, 'book': 171, 'c4': 10000, 'commoncrawl': 9640, 'github': 10000, 'stackexchange': 10000, 'wikipedia': 10000}
+2026-09-26 12:39:14,015 INFO Reading A2: real_attachments/A_data_value/slimpajama_quality_extended/arxiv_part-6777d8857c6e-000486.jsonl.xz (3652724 compressed bytes)
+2026-09-26 12:39:14,852 INFO A2: 5000 decoded records
+2026-09-26 12:39:15,695 INFO A2: 10000 decoded records
+2026-09-26 12:39:16,597 INFO A2: 15000 decoded records
+2026-09-26 12:39:17,026 INFO A2 fineweb_edu: length=1 valid=17523 missing_rate=0.000000 sum_near_1=0.0003994749757461622 probability=False
+2026-09-26 12:39:17,031 INFO A2 qurater: length=4 valid=17523 missing_rate=0.000000 sum_near_1=0.0 probability=False
+2026-09-26 12:39:17,036 INFO A2 modernbert_cleanliness: length=6 valid=17523 missing_rate=0.000000 sum_near_1=0.0 probability=False
+2026-09-26 12:39:17,043 INFO A2 modernbert_readability: length=6 valid=17523 missing_rate=0.000000 sum_near_1=0.0 probability=False
+2026-09-26 12:39:17,049 INFO A2 modernbert_reasoning: length=6 valid=17523 missing_rate=0.000000 sum_near_1=0.0 probability=False
+2026-09-26 12:39:17,055 INFO A2 modernbert_professionalism: length=6 valid=17523 missing_rate=0.000000 sum_near_1=0.0 probability=False
+2026-09-26 12:39:17,058 INFO A2 fluency_en: length=2 valid=17523 missing_rate=0.000000 sum_near_1=0.0 probability=False
+2026-09-26 12:39:17,061 INFO A2 ad_en: length=2 valid=17523 missing_rate=0.000000 sum_near_1=0.0 probability=False
+2026-09-26 12:39:17,061 INFO Completed A2: 17523 records; observed domains={'<absent_or_null>': 17523}
+2026-09-26 12:39:17,062 INFO Reading A3: real_attachments/A_data_value/slimpajama_quality_extended/github_part-6777d8857c6e-000275.jsonl.xz (37618172 compressed bytes)
+2026-09-26 12:39:17,922 INFO A3: 5000 decoded records
+2026-09-26 12:39:18,745 INFO A3: 10000 decoded records
+2026-09-26 12:39:19,549 INFO A3: 15000 decoded records
+2026-09-26 12:39:20,416 INFO A3: 20000 decoded records
+2026-09-26 12:39:21,245 INFO A3: 25000 decoded records
+2026-09-26 12:39:22,074 INFO A3: 30000 decoded records
+2026-09-26 12:39:22,900 INFO A3: 35000 decoded records
+2026-09-26 12:39:23,737 INFO A3: 40000 decoded records
+2026-09-26 12:39:24,573 INFO A3: 45000 decoded records
+2026-09-26 12:39:25,381 INFO A3: 50000 decoded records
+2026-09-26 12:39:26,230 INFO A3: 55000 decoded records
+2026-09-26 12:39:27,028 INFO A3: 60000 decoded records
+2026-09-26 12:39:27,959 INFO A3: 65000 decoded records
+2026-09-26 12:39:28,818 INFO A3: 70000 decoded records
+2026-09-26 12:39:29,648 INFO A3: 75000 decoded records
+2026-09-26 12:39:30,555 INFO A3: 80000 decoded records
+2026-09-26 12:39:31,412 INFO A3: 85000 decoded records
+2026-09-26 12:39:32,369 INFO A3: 90000 decoded records
+2026-09-26 12:39:33,320 INFO A3: 95000 decoded records
+2026-09-26 12:39:34,185 INFO A3: 100000 decoded records
+2026-09-26 12:39:35,063 INFO A3: 105000 decoded records
+2026-09-26 12:39:35,859 INFO A3: 110000 decoded records
+2026-09-26 12:39:36,721 INFO A3: 115000 decoded records
+2026-09-26 12:39:37,594 INFO A3: 120000 decoded records
+2026-09-26 12:39:38,414 INFO A3: 125000 decoded records
+2026-09-26 12:39:39,272 INFO A3: 130000 decoded records
+2026-09-26 12:39:40,088 INFO A3: 135000 decoded records
+2026-09-26 12:39:40,952 INFO A3: 140000 decoded records
+2026-09-26 12:39:41,779 INFO A3: 145000 decoded records
+2026-09-26 12:39:42,717 INFO A3: 150000 decoded records
+2026-09-26 12:39:43,525 INFO A3: 155000 decoded records
+2026-09-26 12:39:44,357 INFO A3: 160000 decoded records
+2026-09-26 12:39:45,230 INFO A3: 165000 decoded records
+2026-09-26 12:39:46,046 INFO A3: 170000 decoded records
+2026-09-26 12:39:46,860 INFO A3: 175000 decoded records
+2026-09-26 12:39:47,703 INFO A3: 180000 decoded records
+2026-09-26 12:39:48,527 INFO A3: 185000 decoded records
+2026-09-26 12:39:49,400 INFO A3: 190000 decoded records
+2026-09-26 12:39:50,205 INFO A3: 195000 decoded records
+2026-09-26 12:39:51,022 INFO A3: 200000 decoded records
+2026-09-26 12:39:51,671 INFO A3 fineweb_edu: length=1 valid=203752 missing_rate=0.000000 sum_near_1=0.0020367898229219834 probability=False
+2026-09-26 12:39:51,708 INFO A3 qurater: length=4 valid=203752 missing_rate=0.000000 sum_near_1=0.00017668538222937689 probability=False
+2026-09-26 12:39:51,764 INFO A3 modernbert_cleanliness: length=6 valid=203752 missing_rate=0.000000 sum_near_1=0.00016686952766107818 probability=False
+2026-09-26 12:39:51,815 INFO A3 modernbert_readability: length=6 valid=203752 missing_rate=0.000000 sum_near_1=0.00045152931014174095 probability=False
+2026-09-26 12:39:51,864 INFO A3 modernbert_reasoning: length=6 valid=203752 missing_rate=0.000000 sum_near_1=0.0007607287290431505 probability=False
+2026-09-26 12:39:51,913 INFO A3 modernbert_professionalism: length=6 valid=203751 missing_rate=0.000000 sum_near_1=9.815902744035612e-05 probability=False
+2026-09-26 12:39:51,934 INFO A3 fluency_en: length=2 valid=203752 missing_rate=0.000000 sum_near_1=9.815854568298715e-06 probability=False
+2026-09-26 12:39:51,953 INFO A3 ad_en: length=2 valid=203752 missing_rate=0.000000 sum_near_1=0.00022576465507087047 probability=False
+2026-09-26 12:39:51,954 INFO Completed A3: 203752 records; observed domains={'<absent_or_null>': 203752}
+2026-09-26 12:39:51,966 INFO Inspection outputs written to D:\code\F4.0\outputs\inspection
+2026-09-26 12:39:51,966 INFO STOP: vector meaning/class order must be confirmed before any later stage.

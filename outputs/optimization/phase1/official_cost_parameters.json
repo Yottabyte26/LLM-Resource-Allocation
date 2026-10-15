@@ -1,0 +1,30 @@
+{
+  "training_coefficient": 6.0,
+  "eta": 0.0002,
+  "budgets_FLOPs": [
+    1e+19,
+    1e+22,
+    1e+24
+  ],
+  "budget_status": "official_recommendation_not_mandatory",
+  "quality_costs": {
+    "exponential": {
+      "gamma": 10000000.0,
+      "lambda": 6.0,
+      "source_paragraph_index_zero_based": 79,
+      "gamma_unit": "FLOPs/token (dimensionally implied by official total budget)"
+    },
+    "power": {
+      "gamma": 5000000000.0,
+      "lambda": 4.0,
+      "source_paragraph_index_zero_based": 80,
+      "gamma_unit": "FLOPs/token (dimensionally implied by official total budget)"
+    },
+    "logarithmic": {
+      "gamma": 2000000000.0,
+      "lambda": 10.0,
+      "source_paragraph_index_zero_based": 81,
+      "gamma_unit": "FLOPs/token (dimensionally implied by official total budget)"
+    }
+  }
+}

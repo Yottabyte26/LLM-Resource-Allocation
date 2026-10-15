@@ -1,0 +1,9 @@
+{
+  "typeI_rows": 195,
+  "typeII_significant_metrics": 176,
+  "typeII_rows": 180,
+  "quality_share_reversal_scenarios": 30,
+  "main_grid_points": 44,
+  "P2_performed": false,
+  "feasibility_boundary_release_rows": 30
+}

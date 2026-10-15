@@ -1,0 +1,7 @@
+2026-09-26 15:51:51,519 INFO train_1M: n=512, sum=[0.996000,1.003000], zero cells=45.13%, index bijection valid
+2026-09-26 15:51:51,543 INFO test_1M: n=256, sum=[0.997000,1.003000], zero cells=42.99%, index bijection valid
+2026-09-26 15:51:51,568 INFO test_60M: n=256, sum=[0.997000,1.003000], zero cells=42.99%, index bijection valid
+2026-09-26 15:51:51,586 INFO test_1B: n=64, sum=[0.998000,1.002000], zero cells=33.09%, index bijection valid
+2026-09-26 15:51:51,603 INFO estimated_10B: n=63, sum=[0.998000,1.002000], zero cells=45.47%, index bijection valid
+2026-09-26 15:51:51,620 INFO estimated_70B: n=63, sum=[0.998000,1.002000], zero cells=45.47%, index bijection valid
+2026-09-26 15:51:51,679 INFO COMPLETED diagnosis: 12 parsed files, all index/schema checks passed; no model fitted

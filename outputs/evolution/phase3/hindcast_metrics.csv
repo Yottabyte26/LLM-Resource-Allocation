@@ -1,0 +1,5 @@
+﻿model_scope,method,n,MAE,RMSE,coverage,nominal_interval,frozen_future_coefficient_origins,strict_temporal_out_of_sample,ability_calibration_uses_full_period,independent_calibration_not_available
+F0_pretrained,Benchmark_linear,4,0.4361400339883297,0.5313308063002506,0.75,0.95,0,False,True,True
+F0_pretrained,mechanism_C0_T2_frozen,4,0.2545536942647551,0.3638458776450743,0.5,0.95,2,False,True,True
+F1_chat,Benchmark_linear,4,0.15258891794360396,0.15466707928240755,1.0,0.95,0,False,True,True
+F2_overall,Benchmark_linear,4,0.11425321869642519,0.11751375682950456,1.0,0.95,0,False,True,True

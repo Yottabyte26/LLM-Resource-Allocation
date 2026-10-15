@@ -1,0 +1,9 @@
+﻿Year,Source,n,unique_models,median_N_B,P90_N_B,ability_used_in_projection,historical_scores_not_pooled
+2019,Historical (papers/reports),1,1,1.5,1.5,False,True
+2020,Historical (papers/reports),1,1,175.0,175.0,False,True
+2021,Historical (papers/reports),2,2,4.35,5.67,False,True
+2022,Historical (papers/reports),7,7,30.0,175.4,False,True
+2023,Historical (papers/reports),13,13,12.0,45.36000000000001,False,True
+2024,Historical (papers/reports),2,2,4.5,6.5,False,True
+2024,Open LLM Leaderboard,2671,2603,8.03,27.227,False,True
+2025,Open LLM Leaderboard,1902,1891,8.03,14.766,False,True

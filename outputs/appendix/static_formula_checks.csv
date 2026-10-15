@@ -1,0 +1,11 @@
+﻿check,source_file,original_code,passed
+Q1 CRITIC ddof=1,src/quality/critic.py,"values.std(axis=0, ddof=1)",True
+Q1 CRITIC information,src/quality/critic.py,information = sigma * conflict,True
+Q1 score weighted mean,scripts/04_build_quality_score.py,values @ weights,True
+Q1 K weighted absolute deviation,src/quality/conflict.py,k=np.abs(deviation)@w,True
+Q1 fold-fitted Helmert ILR,src/mixture/composition.py,helmert,True
+Q2 local quality,src/scaling/marginal_analysis.py,dq=q['C_Q']*(N/q['N0_B'])**(-q['u_Q'])*(-np.log(Q)),True
+Q2 ln N piecewise interpolation,src/scaling/marginal_analysis.py,"np.interp(np.log(x),np.log(self.Ns),self.lambdas)",True
+Q3 reduced D_B,src/optimization/resource_solver.py,"d=np.minimum(self.dmax,self.b/c)",True
+Q3 D_min constraint,src/optimization/resource_solver.py,self.b/self.dlo,True
+Q4 signed two-factor Shapley,src/evolution/contribution_regression.py,ds=.5*(f10-f00+f11-f01);dt=.5*(f01-f00+f11-f10),True

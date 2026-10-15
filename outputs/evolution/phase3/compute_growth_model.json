@@ -1,0 +1,19 @@
+{
+  "base_date": "2025-03-13",
+  "compute_recent_start": "2022-03-13",
+  "window_months": 36,
+  "recent_unique_models": 34,
+  "context_models": 35,
+  "source_unique_models": 37,
+  "main_growth": 0.12212221451804983,
+  "main_frontier": "P90",
+  "method": "TheilSen",
+  "last_frontier": 56.91691211744376,
+  "last_frontier_date": "2025-03-13",
+  "latest_compute_release": "2024-09-19",
+  "compute_staleness_days": 175,
+  "observed_lnC_max": 57.31616596555264,
+  "observed_lnC_IQR": 2.7787050932843442,
+  "model_bootstrap_accounts_overlapping_windows": true,
+  "universe_selection": "strict accepted S1 pretrained→C4; not representative of all world compute"
+}

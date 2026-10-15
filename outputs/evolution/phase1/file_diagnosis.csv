@@ -1,0 +1,8 @@
+﻿dataset,file,rows,columns,exact_duplicate_rows,duplicated_model_rows
+C1,leaderboard_cleaned.csv,4576,12,0,79
+C2,leaderboard_enhanced.csv,4576,15,0,79
+C3,leaderboard_extended_timeseries.csv,4599,11,0,79
+C4,epoch_all_ai_models.csv,3523,57,0,5
+C5,loss_benchmark_bridge.csv,43,13,0,0
+C6,loss_benchmark_bridge_expanded.csv,75,13,0,0
+C7,model_architecture_metadata.csv,45,7,0,0

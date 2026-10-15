@@ -1,0 +1,9 @@
+﻿response,model,parameters,training_RMSE,training_R2,nested_OOF_RMSE,n_model_features,n_nonzero_coefficients
+L_mean,M0,{},0.32447530463246893,0.0,0.3253979530621669,0,0
+L_mean,M1_Ridge,"{""regressor__regression__alpha"": 10.0}",0.2722150294153349,0.296181138013906,0.2805223236887755,16,16
+L_mean,M1_ElasticNet,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.27235036450198225,0.29548113945334764,0.28125225433881995,16,15
+L_mean,M2_ElasticNet,"{""regressor__regression__alpha"": 0.1, ""regressor__regression__l1_ratio"": 0.5}",0.2730699567007165,0.2917533234918873,0.28840633131345467,136,28
+L_trim,M0,{},0.30679475377065163,0.0,0.3074856479935812,0,0
+L_trim,M1_Ridge,"{""regressor__regression__alpha"": 10.0}",0.2649654403973341,0.25409656529388014,0.2728046409045482,16,16
+L_trim,M1_ElasticNet,"{""regressor__regression__alpha"": 0.03, ""regressor__regression__l1_ratio"": 0.1}",0.2650986429359068,0.25334642063426194,0.2728915577448897,16,16
+L_trim,M2_ElasticNet,"{""regressor__regression__alpha"": 0.3, ""regressor__regression__l1_ratio"": 0.1}",0.2585606164363113,0.28972113619585793,0.2807062751327537,136,66

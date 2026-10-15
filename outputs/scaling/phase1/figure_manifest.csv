@@ -1,0 +1,15 @@
+﻿path
+outputs/figures/question2_phase1/01_B1_N_D_coverage.png
+outputs/figures/question2_phase1/02_B1_Loss_D_trajectories.png
+outputs/figures/question2_phase1/03_B1_observed_predicted.png
+outputs/figures/question2_phase1/04_group_CV_observed_predicted.png
+outputs/figures/question2_phase1/05_residual_structure.png
+outputs/figures/question2_phase1/06_residual_structure.png
+outputs/figures/question2_phase1/07_residual_structure.png
+outputs/figures/question2_phase1/08_residual_structure.png
+outputs/figures/question2_phase1/09_residual_histogram.png
+outputs/figures/question2_phase1/10_parameter_bootstrap.png
+outputs/figures/question2_phase1/11_B3_interpolated_trajectory_validation.png
+outputs/figures/question2_phase1/12_B2_auxiliary_validation.png
+outputs/figures/question2_phase1/13_B4_cross_family_validation.png
+outputs/figures/question2_phase1/14_B5_literature_comparison.png

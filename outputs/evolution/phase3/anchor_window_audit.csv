@@ -1,0 +1,6 @@
+﻿model_scope,window_days,n,minimum_met
+F0_pretrained,90,4,False
+F0_pretrained,120,7,False
+F0_pretrained,180,18,False
+F1_chat,90,102,True
+F2_overall,90,204,True

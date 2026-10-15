@@ -1,0 +1,23 @@
+2026-09-26 15:11:25,350 INFO Snapshot protected part 1 artifacts and raw attachment hashes
+2026-09-26 15:11:47,252 INFO Read locked A1 scores: 51230 records
+2026-09-26 15:11:48,101 INFO Read locked A2 scores: 17523 records
+2026-09-26 15:11:48,390 INFO Read locked A3 scores: 203752 records
+2026-09-26 15:11:51,998 INFO Write A1 conflict output
+2026-09-26 15:11:53,659 INFO Write A2 conflict output
+2026-09-26 15:11:54,210 INFO Write A3 conflict output
+2026-09-26 15:12:01,416 INFO Pair/driver diagnostics A1 all full n=51230
+2026-09-26 15:12:02,183 INFO Pair/driver diagnostics A1 arxiv full n=1419
+2026-09-26 15:12:02,230 INFO Pair/driver diagnostics A1 book full n=171
+2026-09-26 15:12:02,270 INFO Pair/driver diagnostics A1 c4 full n=10000
+2026-09-26 15:12:02,430 INFO Pair/driver diagnostics A1 commoncrawl full n=9640
+2026-09-26 15:12:02,552 INFO Pair/driver diagnostics A1 github full n=10000
+2026-09-26 15:12:02,733 INFO Pair/driver diagnostics A1 stackexchange full n=10000
+2026-09-26 15:12:02,843 INFO Pair/driver diagnostics A1 wikipedia full n=10000
+2026-09-26 15:12:02,985 INFO Pair/driver diagnostics A2 arxiv full n=17523
+2026-09-26 15:12:03,280 INFO Pair/driver diagnostics A2 arxiv nonoverlap n=16104
+2026-09-26 15:12:03,548 INFO Pair/driver diagnostics A3 github full n=203752
+2026-09-26 15:12:07,248 INFO Pair/driver diagnostics A3 github nonoverlap n=193752
+2026-09-26 15:12:12,391 INFO Recover selected A1 text records by one streaming pass
+2026-09-26 15:12:21,052 INFO Generate nine diagnostic figures
+2026-09-26 15:12:24,413 INFO Verify all protected files remain byte-for-byte unchanged
+2026-09-26 15:12:27,302 INFO COMPLETED conflict diagnosis stage 1; no Q_star/lambda; locked files unchanged: 2141

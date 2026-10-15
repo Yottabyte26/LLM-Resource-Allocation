@@ -1,0 +1,42 @@
+2026-09-26 19:20:09,728 INFO Phase 3 starts; 2717 prior files protected; no original A4-A15 parsing
+2026-09-26 19:20:09,945 INFO 1M lambda=0.939055148219 Pearson=0.526487 n=256
+2026-09-26 19:20:09,948 INFO 60M lambda=0.689748076859 Pearson=0.490627 n=256
+2026-09-26 19:20:09,951 INFO 1B lambda=0.29032088631 Pearson=0.681197 n=64
+2026-09-26 19:20:09,954 INFO 10B lambda=-0.311043797648 Pearson=-0.525356 n=63
+2026-09-26 19:20:09,957 INFO 70B lambda=-0.372725901284 Pearson=-0.580932 n=63
+2026-09-26 19:20:10,796 INFO Scale bootstrap A_real_only P1 250/2000
+2026-09-26 19:20:10,826 INFO Scale bootstrap A_real_only P1 500/2000
+2026-09-26 19:20:10,856 INFO Scale bootstrap A_real_only P1 750/2000
+2026-09-26 19:20:10,884 INFO Scale bootstrap A_real_only P1 1000/2000
+2026-09-26 19:20:10,913 INFO Scale bootstrap A_real_only P1 1250/2000
+2026-09-26 19:20:10,941 INFO Scale bootstrap A_real_only P1 1500/2000
+2026-09-26 19:20:10,969 INFO Scale bootstrap A_real_only P1 1750/2000
+2026-09-26 19:20:10,996 INFO Scale bootstrap A_real_only P1 2000/2000
+2026-09-26 19:20:12,541 INFO Scale bootstrap A_real_only P2 250/2000
+2026-09-26 19:20:13,933 INFO Scale bootstrap A_real_only P2 500/2000
+2026-09-26 19:20:15,434 INFO Scale bootstrap A_real_only P2 750/2000
+2026-09-26 19:20:16,979 INFO Scale bootstrap A_real_only P2 1000/2000
+2026-09-26 19:20:18,345 INFO Scale bootstrap A_real_only P2 1250/2000
+2026-09-26 19:20:19,827 INFO Scale bootstrap A_real_only P2 1500/2000
+2026-09-26 19:20:21,302 INFO Scale bootstrap A_real_only P2 1750/2000
+2026-09-26 19:20:22,675 INFO Scale bootstrap A_real_only P2 2000/2000
+2026-09-26 19:20:22,704 INFO Scale bootstrap B_with_estimated P1 250/2000
+2026-09-26 19:20:22,733 INFO Scale bootstrap B_with_estimated P1 500/2000
+2026-09-26 19:20:22,763 INFO Scale bootstrap B_with_estimated P1 750/2000
+2026-09-26 19:20:22,791 INFO Scale bootstrap B_with_estimated P1 1000/2000
+2026-09-26 19:20:22,819 INFO Scale bootstrap B_with_estimated P1 1250/2000
+2026-09-26 19:20:22,850 INFO Scale bootstrap B_with_estimated P1 1500/2000
+2026-09-26 19:20:22,878 INFO Scale bootstrap B_with_estimated P1 1750/2000
+2026-09-26 19:20:22,905 INFO Scale bootstrap B_with_estimated P1 2000/2000
+2026-09-26 19:20:24,881 INFO Scale bootstrap B_with_estimated P2 250/2000
+2026-09-26 19:20:26,767 INFO Scale bootstrap B_with_estimated P2 500/2000
+2026-09-26 19:20:28,704 INFO Scale bootstrap B_with_estimated P2 750/2000
+2026-09-26 19:20:30,738 INFO Scale bootstrap B_with_estimated P2 1000/2000
+2026-09-26 19:20:32,606 INFO Scale bootstrap B_with_estimated P2 1250/2000
+2026-09-26 19:20:34,503 INFO Scale bootstrap B_with_estimated P2 1500/2000
+2026-09-26 19:20:36,259 INFO Scale bootstrap B_with_estimated P2 1750/2000
+2026-09-26 19:20:38,067 INFO Scale bootstrap B_with_estimated P2 2000/2000
+2026-09-26 19:20:43,888 INFO Phase 3 completed normally; prior 2717 files unchanged; stopped before next stage
+2026-09-26 19:24:44,711 INFO Artifact refresh completed normally; saved fits/bootstrap retained; prior files unchanged
+2026-09-26 19:26:31,025 INFO Artifact refresh completed normally; saved fits/bootstrap retained; prior files unchanged
+2026-09-26 19:28:10,457 INFO Artifact refresh completed normally; saved fits/bootstrap retained; prior files unchanged

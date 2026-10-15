@@ -1,0 +1,9 @@
+{
+  "checks": 25895,
+  "passed": 25895,
+  "failed": 0,
+  "frozen_files_checked": 2963,
+  "frozen_files_changed": [],
+  "future_forecast_performed": false,
+  "contribution_decomposition_performed": false
+}

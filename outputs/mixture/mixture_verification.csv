@@ -1,0 +1,140 @@
+﻿check,passed,detail
+train_1M response count,True,512
+test_1M response count,True,256
+test_60M response count,True,256
+test_1B response count,True,64
+estimated_10B response count,True,63
+estimated_70B response count,True,63
+all 13-domain response aggregates,True,1214 actual recipes; no missing subset means
+A4-only zero parameter,True,closed A4 minimum positive; estimated/test data excluded
+ILR orthonormal basis,True,"HHt=I, H1=0, shape16x17"
+train_1M ILR coordinates,True,"n=512,16 dimensions, geometric-mean formula"
+train_1M replacement simplex,True,"fixed training parameter, positive closure"
+test_1M ILR coordinates,True,"n=256,16 dimensions, geometric-mean formula"
+test_1M replacement simplex,True,"fixed training parameter, positive closure"
+test_60M ILR coordinates,True,"n=256,16 dimensions, geometric-mean formula"
+test_60M replacement simplex,True,"fixed training parameter, positive closure"
+test_1B ILR coordinates,True,"n=64,16 dimensions, geometric-mean formula"
+test_1B replacement simplex,True,"fixed training parameter, positive closure"
+L_mean/M0 training IDs,True,only A4/A5 indices; no test or estimated labels
+L_mean/M0/test_1M predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M0/test_60M predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M0/test_1B predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M1_Ridge training IDs,True,only A4/A5 indices; no test or estimated labels
+L_mean/M1_Ridge/test_1M predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M1_Ridge/test_60M predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M1_Ridge/test_1B predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M1_ElasticNet training IDs,True,only A4/A5 indices; no test or estimated labels
+L_mean/M1_ElasticNet/test_1M predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M1_ElasticNet/test_60M predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M1_ElasticNet/test_1B predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M2_ElasticNet training IDs,True,only A4/A5 indices; no test or estimated labels
+L_mean/M2_ElasticNet/test_1M predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M2_ElasticNet/test_60M predictions,True,independent formula plus persisted joblib; no model fit
+L_mean/M2_ElasticNet/test_1B predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M0 training IDs,True,only A4/A5 indices; no test or estimated labels
+L_trim/M0/test_1M predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M0/test_60M predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M0/test_1B predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M1_Ridge training IDs,True,only A4/A5 indices; no test or estimated labels
+L_trim/M1_Ridge/test_1M predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M1_Ridge/test_60M predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M1_Ridge/test_1B predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M1_ElasticNet training IDs,True,only A4/A5 indices; no test or estimated labels
+L_trim/M1_ElasticNet/test_1M predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M1_ElasticNet/test_60M predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M1_ElasticNet/test_1B predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M2_ElasticNet training IDs,True,only A4/A5 indices; no test or estimated labels
+L_trim/M2_ElasticNet/test_1M predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M2_ElasticNet/test_60M predictions,True,independent formula plus persisted joblib; no model fit
+L_trim/M2_ElasticNet/test_1B predictions,True,independent formula plus persisted joblib; no model fit
+all direct test metrics,True,24 model/target/scale views reconstructed
+L_mean/M0/fold1 fit scope,True,"train=409,hold=103; disjoint"
+L_mean/M0/fold2 fit scope,True,"train=409,hold=103; disjoint"
+L_mean/M0/fold3 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M0/fold4 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M0/fold5 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M0 nested OOF,True,all held predictions reconstructed from outer-fold fit parameters
+L_mean/M1_Ridge/fold1 fit scope,True,"train=409,hold=103; disjoint"
+L_mean/M1_Ridge/fold1 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_Ridge/fold2 fit scope,True,"train=409,hold=103; disjoint"
+L_mean/M1_Ridge/fold2 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_Ridge/fold3 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M1_Ridge/fold3 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_Ridge/fold4 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M1_Ridge/fold4 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_Ridge/fold5 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M1_Ridge/fold5 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_Ridge nested OOF,True,all held predictions reconstructed from outer-fold fit parameters
+L_mean/M1_ElasticNet/fold1 fit scope,True,"train=409,hold=103; disjoint"
+L_mean/M1_ElasticNet/fold1 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_ElasticNet/fold2 fit scope,True,"train=409,hold=103; disjoint"
+L_mean/M1_ElasticNet/fold2 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_ElasticNet/fold3 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M1_ElasticNet/fold3 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_ElasticNet/fold4 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M1_ElasticNet/fold4 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_ElasticNet/fold5 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M1_ElasticNet/fold5 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M1_ElasticNet nested OOF,True,all held predictions reconstructed from outer-fold fit parameters
+L_mean/M2_ElasticNet/fold1 fit scope,True,"train=409,hold=103; disjoint"
+L_mean/M2_ElasticNet/fold1 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M2_ElasticNet/fold2 fit scope,True,"train=409,hold=103; disjoint"
+L_mean/M2_ElasticNet/fold2 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M2_ElasticNet/fold3 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M2_ElasticNet/fold3 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M2_ElasticNet/fold4 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M2_ElasticNet/fold4 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M2_ElasticNet/fold5 fit scope,True,"train=410,hold=102; disjoint"
+L_mean/M2_ElasticNet/fold5 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_mean/M2_ElasticNet nested OOF,True,all held predictions reconstructed from outer-fold fit parameters
+L_trim/M0/fold1 fit scope,True,"train=409,hold=103; disjoint"
+L_trim/M0/fold2 fit scope,True,"train=409,hold=103; disjoint"
+L_trim/M0/fold3 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M0/fold4 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M0/fold5 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M0 nested OOF,True,all held predictions reconstructed from outer-fold fit parameters
+L_trim/M1_Ridge/fold1 fit scope,True,"train=409,hold=103; disjoint"
+L_trim/M1_Ridge/fold1 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_Ridge/fold2 fit scope,True,"train=409,hold=103; disjoint"
+L_trim/M1_Ridge/fold2 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_Ridge/fold3 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M1_Ridge/fold3 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_Ridge/fold4 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M1_Ridge/fold4 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_Ridge/fold5 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M1_Ridge/fold5 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_Ridge nested OOF,True,all held predictions reconstructed from outer-fold fit parameters
+L_trim/M1_ElasticNet/fold1 fit scope,True,"train=409,hold=103; disjoint"
+L_trim/M1_ElasticNet/fold1 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_ElasticNet/fold2 fit scope,True,"train=409,hold=103; disjoint"
+L_trim/M1_ElasticNet/fold2 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_ElasticNet/fold3 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M1_ElasticNet/fold3 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_ElasticNet/fold4 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M1_ElasticNet/fold4 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_ElasticNet/fold5 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M1_ElasticNet/fold5 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M1_ElasticNet nested OOF,True,all held predictions reconstructed from outer-fold fit parameters
+L_trim/M2_ElasticNet/fold1 fit scope,True,"train=409,hold=103; disjoint"
+L_trim/M2_ElasticNet/fold1 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M2_ElasticNet/fold2 fit scope,True,"train=409,hold=103; disjoint"
+L_trim/M2_ElasticNet/fold2 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M2_ElasticNet/fold3 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M2_ElasticNet/fold3 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M2_ElasticNet/fold4 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M2_ElasticNet/fold4 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M2_ElasticNet/fold5 fit scope,True,"train=410,hold=102; disjoint"
+L_trim/M2_ElasticNet/fold5 training-only transforms,True,"current fold zero replacement, X mean and y mean use training subset only"
+L_trim/M2_ElasticNet nested OOF,True,all held predictions reconstructed from outer-fold fit parameters
+inner CV leakage audit,True,no outer held-out recipe is in inner CV fitting/selection population
+train-only model selection,True,nested OOF RMSE only
+L_mean/test_1M/test_60M shared compositions,True,"match recipe vectors, not reused indices"
+L_mean/test_1M/test_1B shared compositions,True,"match recipe vectors, not reused indices"
+L_mean/test_60M/test_1B shared compositions,True,"match recipe vectors, not reused indices"
+L_trim/test_1M/test_60M shared compositions,True,"match recipe vectors, not reused indices"
+L_trim/test_1M/test_1B shared compositions,True,"match recipe vectors, not reused indices"
+L_trim/test_60M/test_1B shared compositions,True,"match recipe vectors, not reused indices"
+no large-scale prediction,True,"10B/70B diagnostic responses only, no final extrapolation"
+frozen file hashes,True,2239 originals/prior outputs/code unchanged
+original CSV manifest,True,all twelve official CSV files unchanged

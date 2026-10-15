@@ -1,0 +1,19 @@
+{
+  "source_url": "https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater/blob/main/README.md",
+  "inspected_url": "https://huggingface.co/datasets/opendatalab/SlimPajama-Meta-rater/blob/main/README.md",
+  "observed_revision": "1b31bb3",
+  "retrieved_date": "2026-09-26",
+  "local_confirmation": false,
+  "attachment_class_order_confirmation": false,
+  "note": "Local PDF/DOCX/README/source manifest do not specify class index mappings. The upstream README provides the following definitions. Per user requirement, attachment-level class order remains unconfirmed; these are cited metadata observations, not active transforms.",
+  "fields": {
+    "modernbert_cleanliness": {"upstream_representation": "logits", "upstream_index_labels": [0,1,2,3,4,5]},
+    "modernbert_readability": {"upstream_representation": "logits", "upstream_index_labels": [0,1,2,3,4,5]},
+    "modernbert_reasoning": {"upstream_representation": "logits", "upstream_index_labels": [0,1,2,3,4,5]},
+    "modernbert_professionalism": {"upstream_representation": "logits", "upstream_index_labels": [0,1,2,3,4,5]},
+    "fluency_en": {"upstream_representation": "logits", "upstream_index_labels": ["not_fluent", "fluent"]},
+    "ad_en": {"upstream_representation": "logits", "upstream_index_labels": ["has_ad", "no_ad"]},
+    "qurater": {"upstream_representation": "four distinct scores", "upstream_index_labels": ["Writing Style", "Required Expertise", "Facts and Trivia", "Educational Value"], "same_scale_and_direction_confirmed": false},
+    "fineweb_edu": {"upstream_representation": "single score in a list", "upstream_index_labels": null}
+  }
+}

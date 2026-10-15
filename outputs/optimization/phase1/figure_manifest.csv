@@ -1,0 +1,7 @@
+﻿figure,caption
+outputs/figures/question3_phase1/01_C7_context_distribution.png,C7实测上下文经验分布
+outputs/figures/question3_phase1/02_C7_context_frequency.png,C7实际离散窗口频数
+outputs/figures/question3_phase1/03_quality_cost_functions.png,Official incremental quality costs，不是最优结果
+outputs/figures/question3_phase1/04_marginal_quality_costs.png,Official marginal quality costs，不是最优结果
+outputs/figures/question3_phase1/05_budget_scenarios.png,官方三档与研究预算网格
+outputs/figures/question3_phase1/06_N_D_evidence_support.png,数据范围对照；B4/B5可比性有限，B9非Loss验证

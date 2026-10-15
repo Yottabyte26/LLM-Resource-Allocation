@@ -1,0 +1,109 @@
+{
+  "M0_N_D": {
+    "model": "M0_N_D",
+    "parameters": {
+      "E": 1.6897975629216038,
+      "A": 0.35398032066343604,
+      "B": 1.2403055835502586,
+      "alpha": 0.3399765818976516,
+      "beta": 0.27987812854408783
+    },
+    "objective": 2.146110436357507e-08,
+    "successful": true,
+    "status": 1,
+    "nfev": 12,
+    "optimality": 6.103090540996323e-14,
+    "chosen_start": 31,
+    "active_bounds": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "jacobian_singular_values": [
+      1.8290383964848747,
+      0.3729551062109299,
+      0.29672551542895753,
+      0.06825580900271334,
+      0.03244255035697148
+    ],
+    "jacobian_rank": 5,
+    "jacobian_condition_number": 56.37776242495184,
+    "log_parameters": [
+      0.5246087365066667,
+      -1.0385139587398446,
+      0.21535778760298674,
+      -1.0788785405156567,
+      -1.273401025763613
+    ],
+    "n_positive_weight_rows": 1176,
+    "n_starts": 32
+  },
+  "M1_N_only": {
+    "model": "M1_N_only",
+    "parameters": {
+      "E": 2.0695710751687457,
+      "A": 0.3539803206598623,
+      "alpha": 0.33997658190034974
+    },
+    "objective": 0.06262895700263965,
+    "successful": true,
+    "status": 1,
+    "nfev": 25,
+    "optimality": 7.451805259811158e-13,
+    "chosen_start": 1,
+    "active_bounds": [
+      0,
+      0,
+      0
+    ],
+    "jacobian_singular_values": [
+      2.1136076279513785,
+      0.3747444368862794,
+      0.032568280136149964
+    ],
+    "jacobian_rank": 3,
+    "jacobian_condition_number": 64.89773543814884,
+    "log_parameters": [
+      0.7273413757428986,
+      -1.0385139587499406,
+      -1.0788785405077204
+    ],
+    "n_positive_weight_rows": 1176,
+    "n_starts": 32
+  },
+  "M2_D_only": {
+    "model": "M2_D_only",
+    "parameters": {
+      "E": 2.097061181636941,
+      "B": 1.2403055835462213,
+      "beta": 0.27987812854557265
+    },
+    "objective": 0.05437766451330294,
+    "successful": true,
+    "status": 1,
+    "nfev": 11,
+    "optimality": 1.9977059123573705e-13,
+    "chosen_start": 23,
+    "active_bounds": [
+      0,
+      0,
+      0
+    ],
+    "jacobian_singular_values": [
+      2.1683707120155216,
+      0.2968842187679195,
+      0.06932192500896368
+    ],
+    "jacobian_rank": 3,
+    "jacobian_condition_number": 31.279724441223177,
+    "log_parameters": [
+      0.7405369272867105,
+      0.2153577875997318,
+      -1.273401025758308
+    ],
+    "n_positive_weight_rows": 1176,
+    "n_starts": 32
+  }
+}

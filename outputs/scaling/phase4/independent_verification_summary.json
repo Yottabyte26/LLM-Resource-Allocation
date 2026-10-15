@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "n_checks": 108239,
+  "prior_files_unchanged": 2756,
+  "all_representative_equivalence_roots_checked": 216,
+  "training_recipe_points_checked": 12288,
+  "models_refitted": false
+}

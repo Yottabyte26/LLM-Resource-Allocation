@@ -1,0 +1,7 @@
+﻿filename,description
+01_mixture_transfer_by_scale.png,Observed and estimated lambda with paired recipe Bootstrap intervals
+02_lambda_scale_functions.png,P1/P2 Fits A/B; Fit A beyond 1B marked as extrapolation
+03_lambda_bootstrap_distributions.png,No source model refit; paired draws within shared recipe sets
+04_centered_recipe_calibration.png,"All 702 saved recipe points, with no change to their Loss or prediction"
+05_conditional_crossing_bootstrap.png,"Crossing of fitted lambda functions, not an identified physical transition"
+06_scale_fit_validation.png,Saturated P2 Fit A and unavailable two-point leave-scale-out fit disclosed

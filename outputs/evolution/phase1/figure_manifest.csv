@@ -1,0 +1,13 @@
+﻿file,title
+outputs/figures/question4_phase1/01_benchmark_distributions.png,Six benchmark distributions
+outputs/figures/question4_phase1/02_benchmark_correlations.png,S1 task Pearson heatmap
+outputs/figures/question4_phase1/03_ability_index_comparison.png,Equal robust index versus official Average
+outputs/figures/question4_phase1/04_ability_index_comparison.png,Equal robust index versus PCA sensitivity
+outputs/figures/question4_phase1/05_C8_ability_vs_tail.png,C8 same-run ability and bottom20 tail
+outputs/figures/question4_phase1/06_C8_imbalance_distribution.png,C8 imbalance and difficulty-adjusted sensitivity
+outputs/figures/question4_phase1/07_monthly_ability_quantiles.png,Monthly S1 P50/P90/P95
+outputs/figures/question4_phase1/08_model_type_ability_trends.png,Pretrained versus chat-finetuned monthly description
+outputs/figures/question4_phase1/09_scale_vs_ability.png,Leaderboard parameters (B) versus A_z
+outputs/figures/question4_phase1/10_scale_vs_ability.png,Matched training compute (FLOPs) versus A_z
+outputs/figures/question4_phase1/11_loss_vs_ability_bridge.png,Bridge stratified by comparability
+outputs/figures/question4_phase1/12_bridge_observed_vs_predicted.png,Failed predictive validation remains visible
